@@ -8,38 +8,22 @@
         <script src="jquery-2.1.0.min.js"></script>
 
         <script type="text/javascript">
-            var counter = 0;
-
-            function toggleElement()
-            {
-				$('h1').hide('slow');
-				$('h1').eq(counter % $('h1').size()).show('slow');
-                counter++;
-                setTimeout('toggleElement()', 600);
-            }
-
 			$( document ).ready(function() {
 				$( "#quit" ).click(function( event ) {
 					alert( "You wanna quit now, don't you?" );
 					event.preventDefault();
 					Qt.quit();
 				});
-
-                toggleElement();
 			});
         </script>
     </head>
     <body>
         <a id="quit">X</a>
 
-        <a id="next" href="next.html">Next</a>
+		This is next
 		<br/>
 		<br/>
 		<br/>
-
-        <h1> Hello </h1>
-        <h1> HTML5 </h1>
-        <h1> World </h1>
-
+        <a id="prev" href="index.html">Prev</a>
     </body>
 </html>
