@@ -4,7 +4,7 @@
     <title>hats</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
     <link rel="stylesheet" type="text/css" href="open.css">
-     
+
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery-ui.min.js"></script>
     <script type="text/javascript" src="code.js"></script>
@@ -83,8 +83,7 @@
 //Creating the init function so I don't use the $(document).ready function all the time
 //also, when i do changes to variables will be usuable withing the scope, because I'm having problems
 //working with them outside the function
-
-   $(init);
+    $(init);
 
     function init(){
 
@@ -117,7 +116,12 @@
         $("<div>"+k+"</div>").attr("id", "daPants"+k).appendTo("#numbers5");
        };
 
-//Hiding every element that I've created in the body 
+//creating the divs for tries after the user has guessed
+      for (var k = 1; k <= 5; k++){
+        $("<div>"+"</div>").attr("id", "guessMe"+k).appendTo("#test"+k);
+       };
+
+//Hiding every element that I've created in the body
       for(var i = 1; i <= 9; i++){
         $("#shirts"+ i).hide();
         $("#shirts"+i+"_transparent").hide();
@@ -140,17 +144,18 @@
 
       for(var i = 1; i <= 5; i++){
         $("#test"+i).hide();
+        $("#guessMe"+i).hide();
+        $("#word"+i).hide();
         $("#numbers"+i).hide();
       };
 
       $("#popUp").hide();
       $("#score").hide();
-      $("#zbor").hide();
 
 
-//creating a for loop so i decide to show random elements that are hiden. 
+//creating a for loop so i decide to show random elements that are hiden.
 //Making them draggable and droppable at the same time while the loop is checking
-//need to ask why i had to use '-1' at the array so the droppable objects are shown in order 
+//need to ask why i had to use '-1' at the array so the droppable objects are shown in order
 
 //-----------------------------shirt---------------------------------------------------
 //shirt
@@ -162,12 +167,12 @@
         });
 
         $("#shirts"+shirt[i]).draggable({
-        containment: "#container",
+//        containment: "#container",
           stack: "#dashirts",
           revert: true,
-          cursor: "move" 
+          cursor: "move"
         }).animate({
-          top: "750px",
+          top: "550px",
           left: dacopy[i]+"px"
         },2000);
 
@@ -198,12 +203,12 @@
         });
 
         $("#shoes"+shoes[i]).draggable({
-        containment: "#container",
+//        containment: "#container",
           stack: "#shoes",
           revert: true,
-          cursor: "move" 
+          cursor: "move"
         }).animate({
-            top: "650px",
+            top: "450px",
             left: dacopy[i]+"px"
         },2000);
 
@@ -234,12 +239,12 @@
         });
 
         $("#sox"+sox[i]).draggable({
-        containment: "#container",
+//        containment: "#container",
           stack: "#sox",
           revert: true,
-          cursor: "move" 
+          cursor: "move"
         }).animate({
-            top: "500px",
+            top: "350px",
             left: dacopy[i]+"px"
         },2000);
 
@@ -270,12 +275,12 @@
         });
 
         $("#hats"+hats[i]).draggable({
-        containment: "#container",
+//        containment: "#container",
           stack: "#hats",
           revert: true,
-          cursor: "move" 
+          cursor: "move"
         }).animate({
-            top: "350px",
+            top: "250px",
             left: dacopy[i]+"px"
         },2000);
 
@@ -306,12 +311,12 @@
         });
 
         $("#pants"+pants[i]).draggable({
-        containment: "#container",
+//        containment: "#container",
           stack: "#pants",
           revert: true,
-          cursor: "move" 
+          cursor: "move"
         }).animate({
-            top: "200px",
+            top: "150px",
             left: dacopy[i]+"px"
         },2000);
 
@@ -378,13 +383,13 @@
               $("#numbers1").hide(50);
               trueShirt = 1;
               checkAllGuess();
-              $("#test1").text(shirtNumberss[0]).unbind();
+              $("#guessMe1").show().text(shirtNumberss[0]).unbind();
             };
           }
         });
 
 //if the person put the correct number into the box then make the draggable disabled
-//also show the pop up message 
+//also show the pop up message
 
         if(checkShirt == shirtNumberss[0]){
           $("#test1").droppable({
@@ -392,11 +397,9 @@
             drop: function(ev, ui){
               trueShirt = 1;
               checkAllGuess();
-              $("#zbor").show().text(shirtNumberss[0]);
-              $("#popUp").fadeIn(1500);
+              $("#guessMe1").show().text(shirtNumberss[0]);
               $(this).droppable("disable");
               $("#numbers1").hide();
-              $("#score").show();
               ui.draggable.draggable({
                 revert: false,
               }).unbind().position({
@@ -432,19 +435,19 @@
               $("#numbers2").hide(50);
               trueShoes = 1;
               checkAllGuess();
-              $("#test2").text(shoesNumber[0]).unbind();
+              $("#guessMe2").show().text(shoesNumber[0]).unbind();
             };
           }
         });
 //if the person put the correct number into the box then make the draggable disabled
-//also show the pop up message 
+//also show the pop up message
         if(checkShoes == shoesNumber[0]){
           $("#test2").droppable({
             accept: "#daShoes"+i,
             drop: function(ev, ui){
               trueShoes = 1;
               checkAllGuess();
-              $("#zbor").show().text(shoesNumber[0]);
+              $("#guessMe2").show().text(shoesNumber[0]);
               $(this).droppable("disable");
               $("#numbers2").hide();
               ui.draggable.draggable({
@@ -483,19 +486,19 @@
               $("#numbers3").hide(50);
               trueSox = 1;
               checkAllGuess();
-              $("#test3").text(soxNumber[0]).unbind();
+              $("#guessMe3").show().text(soxNumber[0]).unbind();
             };
           }
         });
 //if the person put the correct number into the box then make the draggable disabled
-//also show the pop up message 
+//also show the pop up message
         if(checkSox == soxNumber[0]){
           $("#test3").droppable({
             accept: "#daSox" + i,
             drop: function(ev, ui){
               trueSox = 1;
               checkAllGuess();
-              $("#zbor").show().text(shoesNumber[0]);
+              $("#guessMe3").show().text(shoesNumber[0]);
               $(this).droppable("disable");
               $("#numbers3").hide();
               ui.draggable.draggable({
@@ -534,19 +537,19 @@
               $("#numbers4").hide(50);
               trueHats = 1;
               checkAllGuess();
-              $("#test4").text(hatsNumber[0]).unbind();
+              $("#guessMe4").show().text(hatsNumber[0]).unbind();
             };
           }
         });
 //if the person put the correct number into the box then make the draggable disabled
-//also show the pop up message 
+//also show the pop up message
         if(checkHats == hatsNumber[0]){
           $("#test4").droppable({
             accept: "#daHats" + i,
             drop: function(ev, ui){
               trueHats = 1;
               checkAllGuess();
-              $("#zbor").show().text(hatsNumber[0]);
+              $("#guessMe4").show().text(hatsNumber[0]);
               $(this).droppable("disable");
               $("#numbers4").hide();
               ui.draggable.draggable({
@@ -585,19 +588,19 @@
               $("#numbers5").hide(50);
               truePants= 1;
               checkAllGuess();
-              $("#test5").text(pantsNumber[0]).unbind();
+              $("#guessMe5").show().text(pantsNumber[0]).unbind();
             };
           }
         });
 //if the person put the correct number into the box then make the draggable disabled
-//also show the pop up message 
+//also show the pop up message
         if(checkPants == pantsNumber[0]){
           $("#test5").droppable({
             accept: "#daPants" + i,
             drop: function(ev, ui){
               truePants = 1;
               checkAllGuess();
-              $("#zbor").show().text(pantsNumber[0]);
+              $("#guessMe5").show().text(pantsNumber[0]);
               $(this).droppable("disable");
               $("#numbers5").hide();
               ui.draggable.draggable({
@@ -626,7 +629,6 @@
               $("#pants_transparent").hide();
               $("#pants").hide();
 
-              $("#checkingCount").text("Wohoo It worked");
               $("#popUp").show();
           };
       };
@@ -676,17 +678,14 @@ function reloadPage() {
         <div id="numbers5"> </div>
 
         <div id="popUp">
-          <button div="nazad">Назад</button>
-          <button div="reset" onclick="reloadPage()">Играј Повторно</button>
-          <button div="continue">Продолжи</button>
+          <button div="nazad">?????</button>
+          <button div="reset" onclick="reloadpage()">????? ????????</button>
+          <button div="continue">????????</button>
         </div>
         <div id="score">
-          <p id="stars">You won a star!</p>
-          <div id="starMe"></div>
+          <p id="stars">you won a star!</p>
+          <div id="starme"></div>
         </div>
-        <div id="checkingCount">oh noo still not working</div>
       </div>
         </body>
 </html>
-
-
