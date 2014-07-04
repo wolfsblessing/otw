@@ -1106,6 +1106,47 @@ button{
 #pants8.correct{background: url("images/pants8_star.png");}
 #pants9.correct{background: url("images/pants9_star.png");}
 
+#howMany {
+        position: absolute;
+        width: 300px;
+        top: 0px;
+        left: 500px;
+}
+
+#shirtNumGuess {
+        position: absolute;
+        width: 300px;
+        top: 0px;
+        left: 500px;
+}
+
+#shoesNumGuess {
+        position: absolute;
+        width: 300px;
+        top: 100px;
+        left: 500px;
+}
+
+#soxNumGuess {
+        position: absolute;
+        width: 300px;
+        top: 200px;
+        left: 500px;
+}
+
+#hatNumGuess {
+        position: absolute;
+        width: 300px;
+        top: 300px;
+        left: 500px;
+}
+
+#pantsNumGuess {
+        position: absolute;
+        width: 300px;
+        top: 400px;
+        left: 500px;
+}
 
 /*================test================*/
 #test1 {
@@ -1255,7 +1296,7 @@ button{
         width: 50px;
         height: 50px;
         background: red;
-        top: 310px;
+        top: 320px;
         left: 500px;
 
         border-radius: 10px;
@@ -1264,7 +1305,7 @@ button{
 
 #numbers4 {
         position: absolute;
-        top: 320px;
+        top: 330px;
         left: 550px;
         width: 210px;
         height: 40px;
