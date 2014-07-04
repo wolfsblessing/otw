@@ -151,6 +151,12 @@
 
       $("#popUp").hide();
       $("#score").hide();
+      $("#howMany").hide();
+      $("#shirtNumGuess").hide();
+      $("#shoesNumGuess").hide();
+      $("#soxNumGuess").hide();
+      $("#hatNumGuess").hide();
+      $("#pantsNumGuess").hide();
 
 
 //creating a for loop so i decide to show random elements that are hiden.
@@ -346,7 +352,18 @@
               (pantsCounter == pantsNumber[0]) ){
           for(var i = 1; i <=5; i++){
             $("#test"+i ).fadeIn(3000);
+//            $("#howMany").fadeIn(3000);
             $("#numbers"+i ).fadeIn(3000);
+            $("#shirtNumGuess").fadeIn(3000);
+            $("#shoesNumGuess").fadeIn(3000);
+            $("#soxNumGuess").fadeIn(3000);
+            $("#hatNumGuess").fadeIn(3000);
+            $("#pantsNumGuess").fadeIn(3000);
+
+
+
+
+
           };
 
           for(var i = 1; i <=4; i++){
@@ -628,8 +645,13 @@
               $("#hats").hide();
               $("#pants_transparent").hide();
               $("#pants").hide();
+              $("#shirtNumGuess").hide();
+              $("#shoesNumGuess").hide();
+              $("#soxNumGuess").hide();
+              $("#hatNumGuess").hide();
+              $("#pantsNumGuess").hide();
 
-              $("#popUp").show();
+              $("#popUp").fadeIn(3000);
           };
       };
 
@@ -662,23 +684,30 @@ function reloadPage() {
         <div id="pants_transparent"></div>
         <div id="pants"></div>
 
+        <div id="howMany">?????? ????? ?? ?????? ??? ?? ?????????</div>
+
+        <div id="shirtNumGuess">????? ?????? ????</div>
         <div id="test1"> </div>
         <div id="numbers1"> </div>
 
+        <div id="shoesNumGuess">?????? ????? ????? ????</div>
         <div id="test2"> </div>
         <div id="numbers2"> </div>
 
+        <div id="soxNumGuess">?????? ????? ?????? ????</div>
         <div id="test3"> </div>
         <div id="numbers3"> </div>
 
+        <div id="hatNumGuess">?????? ????? ???? ????</div>
         <div id="test4"> </div>
         <div id="numbers4"> </div>
 
+        <div id="pantsNumGuess">?????? ????? ????????? ????</div>
         <div id="test5"> </div>
         <div id="numbers5"> </div>
 
         <div id="popUp">
-          <button div="back">Nazad</button>
+          <button div="back">?????</button>
           <button div="reset" onclick="reloadPage()">????? ????????</button>
           <button div="continue">????????</button>
         </div>
