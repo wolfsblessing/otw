@@ -2,13 +2,13 @@
 greaterThan(QT_MAJOR_VERSION, 4):QT += widgets webkitwidgets
 
 CONFIG(debug, debug|release) { 
-        TARGET = SironaViewer.debug
+        TARGET = otw.debug
 	OBJECTS_DIR = tmp/debug
 	RCC_DIR = tmp/debug/rcc
 }
 
 CONFIG(release, debug|release) { 
-        TARGET = SironaViewer
+        TARGET = otw
 	OBJECTS_DIR = tmp/release
 	RCC_DIR = tmp/release/rcc
 	QT -= testlib
