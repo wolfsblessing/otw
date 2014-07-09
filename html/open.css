@@ -1393,6 +1393,7 @@ button{
         margin-top: -100px;
         margin-left: 50px;
         float: left;
+        border-radius: 10px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4, #guessMe5{
@@ -1406,10 +1407,11 @@ button{
 }
 
 #score {
-        margin: 10px 0px 0px 285px;
+        position: absolute;
+        top: 350px;
+        left: 100px;
         width: 170px;
         height: 60px;
-        float: left;
 }
 
 #stars{
