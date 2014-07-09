@@ -8,8 +8,8 @@ int main(int argc, char *argv[])
     Html5ApplicationViewer viewer;
     viewer.setOrientation(Html5ApplicationViewer::ScreenOrientationAuto);
     viewer.showExpanded();
-//    viewer.loadFile(QLatin1String("../html/index.html"));
-    viewer.loadFile(QLatin1String("../html/closet.html"));
+    viewer.loadFile(QLatin1String("../html/index.html"));
+//    viewer.loadFile(QLatin1String("../html/closet.html"));
 
     viewer.setGeometry( 50, 50, 1000, 800 );
 
