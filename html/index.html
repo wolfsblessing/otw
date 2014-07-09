@@ -4,136 +4,31 @@
         <title>A jQuery Drag-and-Drop Number Cards Game</title>
         <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
         <link rel="stylesheet" type="text/css" href="open.css">
-     
+
         <script type="text/javascript" src="jquery.min.js"></script>
         <script type="text/javascript" src="jquery-ui.min.js"></script>
-        <script type="text/javascript" src="code.js"></script>
+        <script type="text/javascript" src="index.js"></script>
      </head>
 
       <script type="text/javascript">
-
-//Hiding all the objectst that are not needed on the landing page
-//Show the Welcome page
-        $(document).ready(function(){
-          $("#front_page").hide();
-          $("#front_page").fadeIn(4000);
-          $("#second").hide();
-          $("#third").hide();
-          $("#second_slide").hide();
-          $("#fifth").hide();
-          $("#chose").hide();
-          $(".defferred").hide();
-          $("#1").hide();
-          $("#2").hide();
-          $("#it_is_girl").hide();
-          $("#it_is_boy").hide();
-          $("#third_slide").hide();
-          $("#myForm").hide();
-        });
-
-//showing only the logo and what is this thing all about
-        $(document).ready(function(){
-          $("#welcome").click(function(){
-            $("#front_page").hide();
-            $("#welcome").hide();
-            $("#second").show(1000);
-            $("#third").show(1000);
-            $("#second_slide").show(1000);
-          });
-        });
-
-//giving an option to chose between a girl and boy
-       $(document).ready(function(){
-          $("#second_slide").click(function(){
-            $("#second").hide(1000);
-            $("#third").hide(1000);
-            $("#second_slide").hide(1000);
-            $("#chose").show(1000);
-            $("#1").show(1000);
-            $("#2").show(1000);
-          });
-        });
-
-//When hover wiggle the image. The second image is to make stop after it wiggled.(remove)
-
-//the girl
-        $(document).ready(function(){
-          $('#1').hover(function(){
-          if(!$(this).hasClass('animated')){
-            $(this).addClass('animated');
-            $(this).stop().effect('shake', {direction: "up", times: 3, distance:3}, 200);
-          }
-          }, function(){
-        $(this).removeClass('animated');
-          });
-        });
-
-        $(document).ready(function(){
-          $('#2').hover(function(){
-          if(!$(this).hasClass('animated')){
-            $(this).addClass('animated');
-            $(this).stop().effect('shake', {direction: "up", times: 3, distance:3}, 200);
-          }
-          }, function(){
-        $(this).removeClass('animated');
-          });
-        });
-
-//Clicking on one of the images will hide the other one 
-//the girl
-var showTheForm = 1;
-        $(document).ready(function(){
-          $("#1").click(function(){
-            shakeMe = 2;
-            $("#2").hide(2000);
-            $("#1").unbind();
-//if this image was clicked once, don't show the form again
-            if(showTheForm == 1){
-              $("#myForm").show();
-              $("#it_is_girl").show();
-              showTheForm = 2;
-            }
-          });
-        });
-        
-//the boy
-        $(document).ready(function(){
-          $("#2").click(function(){
-            $("#1").hide(2000);
-            $("#2").unbind();
-//if this image was clicked once, don't show the form again
-            if(showTheForm == 1){
-              $("#myForm").show();
-              $("#it_is_boy").show();
-              showTheForm = 2;
-            }
-          });
-        });
-
-//            $("#it_is_boy").text("Heeeeeeeyyyy");
-//The script for storing the users name into a variable
         var TestVar = "";
           function readText (form) {
               TestVar =form.inputbox.value;
                 $("#chose").hide();
                 $("#it_is_boy").hide();
                 $("#it_is_girl").hide();
-                $("#myForm").toggle();
+                $("#myForm").hide();
+                $("#avatarName").text(TestVar).fadeIn("slow");
+                $("#goToCloset").fadeIn("slow");
             };
-
-        $(document).ready(function(){
-          $("#beko").click(function(){
-          });
-        });
-
       </script>
-    <body> 
+    <body>
       <div id="center_me">
         <h1 id="front_page">Добро дојдовте</h1>
         <button id="welcome">Продолжи</button>
         <h1 id="second">Учиме математика со</h1>
         <h1 id="third">"Отворете ги прозорците"</h1>
-        <button id="second_slide">Sledno</button>
+        <button id="second_slide">Следно</button>
         <h1 id="fifth">Креирање на профил</h1>
         <h1 id="chose">Избери Девојче или Момче</h1>
         <div class="deffered_block">
@@ -142,12 +37,13 @@ var showTheForm = 1;
           <div id="it_is_girl">Избравте Девојче</div>
           <div id="it_is_boy">Избравте Момче</div>
         </div>
-      <form id="myForm" name="myform" acttion="" method="GET">
-        Внеси го името: <BR>
-      <input type="text" name="inputbox" value=""><P>
-      <input type="button" id ="button1" Value="Внеси" onClick="readText(this.form)">
-      </form>
+        <form id="myForm" name="myform" acttion="" method="GET">
+          Внеси го името: <BR>
+          <input type="text" name="inputbox" value="">
+          <input type="button" id ="button1" Value="Внеси" onClick="readText(this.form)">
+        </form>
+        <div id="avatarName">hello</div>
       </div>
-      <div id="some"></div>
+      <button id="goToCloset" onclick="window.location.href='closet.html'">Следна Страница </button>
     </body>
 </html>
