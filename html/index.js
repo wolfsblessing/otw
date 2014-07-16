@@ -1,7 +1,24 @@
 ﻿(function() {
 
+    var alphabet = ["A", "Б", "В", "Г", "Д", "Ѓ", "Е", "Ж",
+        "З", "Ѕ", "И", "Ј", "К", "Л", "Љ", "М",
+        "Н", "Њ", "О", "П", "Р", "С", "Т", "Ќ",
+        "У", "Ф", "Х", "Ц", "Ч", "Џ", "Ш"
+    ];
+
+    var myAlphPosition = 0;
 
     function init() {
+        //creating the new divs and adding an attribute, also asigning a letter from the Alphabet array.
+        for (var k = 0; k <= 30; k++) {
+            $("<li>" + alphabet[k] + "</li>").attr("id", "alphDrag" + k).appendTo("#theAlphaDrag");
+        };
+
+        for (var k = 0; k <= 30; k++) {
+            $("#alphDrag" + k).hide();
+        };
+
+
         //Hiding all the objectst that are not needed on the landing page
         //Show the Welcome page
         $("#front_page").hide();
@@ -19,6 +36,7 @@
         $("#third_slide").hide();
         $("#myForm").hide();
         $("#avatarName").hide();
+        $("#theAlphaDrop").hide();
         $("#goToCloset").hide();
 
         //showing only the logo and what is this thing all about
@@ -71,7 +89,39 @@
             $(this).removeClass('animated');
         });
 
-        //Clicking on one of the images will hide the other one 
+        //making the alphabet show up and making them draggable, also the div where to be dropped
+        function showMyAlph() {
+            for (var i = 0; i <= 30; i++) {
+                $("#alphDrag" + i).fadeIn().draggable({
+                    cursor: "move",
+                    revert: true
+                });
+                $("#theAlphaDrop").fadeIn().droppable({
+                    accept: "#theAlphaDrag > li",
+                    drop: function(ev, ui) {
+                        myAlphPosition = myAlphPosition + 20;
+                        ui.draggable.addClass("correct");
+                        ui.draggable.draggable({
+                            cursor: "default",
+                            revert: false
+                        }).unbind().css({
+                            position: "absolute",
+                            top: "5px",
+                            left: myAlphPosition + "px",
+                            float: "left",
+                            color: "#aeaeae",
+                        }).appendTo("#theAlphaDrop");
+                        // .position({
+                        //     my: "left center",
+                        //     at: "left + 180",
+                        //     of: $("#theAlphaDrop"),
+                        // });
+                    }
+                });
+            };
+        };
+
+        //Clicking on one of the images will hide the other one
         //the girl
         var showTheForm = 1;
         $("#1").click(function() {
@@ -80,8 +130,10 @@
             $("#1").unbind();
             //if this image was clicked once, don't show the form again
             if (showTheForm == 1) {
-                $("#myForm").show();
-                $("#it_is_girl").show();
+                $("#it_is_girl").fadeIn(2000);
+
+                showMyAlph();
+                $("#goToCloset").fadeIn(2000);
                 showTheForm = 2;
             }
         });
@@ -92,8 +144,10 @@
             $("#2").unbind();
             //if this image was clicked once, don't show the form again
             if (showTheForm == 1) {
-                $("#myForm").show();
                 $("#it_is_boy").show();
+
+                showMyAlph();
+                $("#goToCloset").fadeIn(2000);
                 showTheForm = 2;
             }
         });
