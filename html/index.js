@@ -93,29 +93,17 @@
         function showMyAlph() {
             for (var i = 0; i <= 30; i++) {
                 $("#alphDrag" + i).fadeIn().draggable({
-                    cursor: "move",
-                    revert: true
+                    revert: true,
                 });
                 $("#theAlphaDrop").fadeIn().droppable({
                     accept: "#theAlphaDrag > li",
                     drop: function(ev, ui) {
                         myAlphPosition = myAlphPosition + 20;
-                        ui.draggable.addClass("correct");
-                        ui.draggable.draggable({
-                            cursor: "default",
-                            revert: false
-                        }).unbind().css({
-                            position: "absolute",
-                            top: "5px",
-                            left: myAlphPosition + "px",
-                            float: "left",
-                            color: "#aeaeae",
-                        }).appendTo("#theAlphaDrop");
-                        // .position({
-                        //     my: "left center",
-                        //     at: "left + 180",
-                        //     of: $("#theAlphaDrop"),
-                        // });
+                        //Here i find the div and then use the remove method to remove the div id to the <li> so i can reuse the same dragged letter
+                        //again, because if I don't remove the ID then there is no letter to drag anymore after the drop. And After it's dropped
+                        //I use the text of the <li> to append to the droppable
+                        $(this).find("#alphDrag" + i).remove();
+                        $("<li></li>").text(ui.draggable.text()).appendTo(this);
                     }
                 });
             };
@@ -128,7 +116,7 @@
             shakeMe = 2;
             $("#2").hide(2000);
             $("#1").unbind();
-            //if this image was clicked once, don't show the form again
+            //if this image was clicked once
             if (showTheForm == 1) {
                 $("#it_is_girl").fadeIn(2000);
 
