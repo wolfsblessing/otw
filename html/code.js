@@ -80,7 +80,7 @@
     var trueHats = 0;
 
     //There are 7 pants that need to appear randomly. Array and then random the elements
-    var pants = [1, 2, 3, 4, 5, 6, 7, 9];
+    var pants = [1, 2, 3, 4, 5, 6, 7];
     pants.sort(function() {
         return Math.random() - .3
     });
