@@ -99,7 +99,7 @@
                     accept: "#theAlphaDrag > li",
                     drop: function(ev, ui) {
                         myAlphPosition = myAlphPosition + 20;
-                        //Here i find the div and then use the remove method to remove the div id to the <li> so i can reuse the same dragged letter
+                        //Here i find the div and then use the remove method to remove the div id to the <li> so i can reuse the same dragged letter 
                         //again, because if I don't remove the ID then there is no letter to drag anymore after the drop. And After it's dropped
                         //I use the text of the <li> to append to the droppable
                         $(this).find("#alphDrag" + i).remove();
@@ -109,14 +109,14 @@
             };
         };
 
-        //Clicking on one of the images will hide the other one
+        //Clicking on one of the images will hide the other one 
         //the girl
         var showTheForm = 1;
         $("#1").click(function() {
             shakeMe = 2;
             $("#2").hide(2000);
             $("#1").unbind();
-            //if this image was clicked once
+            //if this image was clicked once 
             if (showTheForm == 1) {
                 $("#it_is_girl").fadeIn(2000);
 

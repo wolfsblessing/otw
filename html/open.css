@@ -1,292 +1,292 @@
 html {
-        margin: 0;
-        padding: 0;
-        width: 100%;
-        height: 100%;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
 }
 
 body {
-        width: 100%;
-        margin: 0 auto;
-        padding: 0px;
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
 }
 
 #center_me {
-        position: absolute;
-        top: 50px;
-        left: 100px;
-        margin: 0 auto;
-        padding: 0;
-        width: 550px;
-        height: 550px;
-        border: 1px solid #333;
-        border-radius: 10px;
-        box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+	height: 550px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
 }
 
 #theName {
-        margin: 10px;
-        font-weight: bold;
-        color: rgba(0, 0, 0, 0.5);
+	margin: 10px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.5);
 }
 
 h1 {
-        text-align: center;
+	text-align: center;
 }
 
 #front_page {
-        margin: 0 auto;
-        padding-top: 40%;
-        padding-left: 0%;
+	margin: 0 auto;
+	padding-top: 40%;
+	padding-left: 0%;
 }
 
 button{
-        margin: 0 auto;
-        margin-top: 10%;
-        margin-left: 42%;
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-left: 42%;
 }
 
 #button1 {
-        position: absolute;
-        top: 250px;
-        left: 182px;
-        margin: 0 auto;
+	position: absolute;
+	top: 250px;
+	left: 182px;
+	margin: 0 auto;
 }
 
 .image1 {
-        float: left;
-        margin-top: 30px;
-        margin-left: 30px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
 }
 
 .image2 {
-        float: right;
-        margin-top: 30px;
-        margin-right: 30px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
 }
 
 #it_is_boy {
-        padding-top: 50px;
-        float: right;
-        width: 160px;
-        margin: 0px 0px 20px 0px;
+	padding-top: 50px;
+	float: right;
+	width: 160px;
+	margin: 0px 0px 20px 0px;
 /*margin-left: 150px;*/
-}
+} 
 
 #it_is_girl {
-        margin-left: 180px;
-        padding-top: 60px;
-        width: 160px;
+	margin-left: 180px;
+	padding-top: 60px;
+	width: 160px;
 }
 
 #theAlphaDrag {
-        position: absolute;
-        top: 390px;
-        left: 10px;
+	position: absolute;
+	top: 390px;
+	left: 10px;
 }
 
 #theAlphaDrag li {
-        float: left;
-        margin-left: 3px;
-        margin-right: 3px;
-        list-style-type: none;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	list-style-type: none;
 
-        cursor: pointer;
+	cursor: pointer;
 }
 
 /*the dropped letters */
 #theAlphaDrop li{
-        cursor: default;
-        float: left;
-        margin-left: 3px;
-        margin-right: 3px;
-        list-style-type: none;
+	cursor: default;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	list-style-type: none;
 }
 
 #theAlphaDrop {
-        position: absolute;
-        top: 320px;
-        left: 120px;
+	position: absolute;
+	top: 320px;
+	left: 120px;
 
-        width: 300px;
-        height:  30px;
+	width: 300px;
+	height:  30px;
 
-        border: 2px solid rgba(51, 51, 51, 0.2);
-        border-radius: 10px;
-        padding: 8px 0px 0px 10px;
+	border: 2px solid rgba(51, 51, 51, 0.2);
+	border-radius: 10px;
+	padding: 8px 0px 0px 10px;
 }
 
 #myForm {
-        margin-top: 30px;
-        margin-left: 180px;
+	margin-top: 30px;
+	margin-left: 180px;
 }
 
 #goToCloset {
-        position: absolute;
-        top: 510px;
-        left: 325px;
-        min-width: 120px;
-        margin: 0px 0px 0px 0px;
-        padding: 0;
+	position: absolute;
+	top: 510px;
+	left: 325px;
+	min-width: 120px;
+	margin: 0px 0px 0px 0px;
+	padding: 0;
 }
 
 
 /*================closet.html page=============*/
 #container {
-        position: absolute;
-        top: 10px;
-        left: 100px;
-        width: 450px;
-        height: 520px;
-        margin: 0 auto;
-        border: 2px solid #333;
-        border-radius: 10px;
-        box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 450px;
+	height: 520px;
+	margin: 0 auto;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
 }
 
 #dashirts {
-        position: relative;
-        width: 480px;
-        height: 110px;
-        top: -110px;
-        margin: 0px;
-        padding: 0px;
+	position: relative;
+	width: 480px;
+	height: 110px;
+	top: -110px;
+	margin: 0px;
+	padding: 0px;
 
 }
 /*================================================*/
 
 #shirts1{
-        background:url("images/bluza1.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza1.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts1:hover{
-        background:url("images/bluza1_hover.png") no-repeat;
+	background:url("images/bluza1_hover.png") no-repeat;
 }
 
 #shirts1:active{
-        background:url("images/bluza1_active.png") no-repeat;
+	background:url("images/bluza1_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts2{
-        background:url("images/bluza2.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza2.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts2:hover{
-        background:url("images/bluza2_hover.png") no-repeat;
+	background:url("images/bluza2_hover.png") no-repeat;
 }
 
 #shirts2:active{
-        background:url("images/bluza2_active.png") no-repeat;
+	background:url("images/bluza2_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts3{
-        background:url("images/bluza3.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza3.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts3:hover{
-        background:url("images/bluza3_hover.png") no-repeat;
+	background:url("images/bluza3_hover.png") no-repeat;
 }
 
 #shirts3:active{
-        background:url("images/bluza3_active.png") no-repeat;
+	background:url("images/bluza3_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts4{
-        background:url("images/bluza4.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza4.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts4:hover{
-        background:url("images/bluza4_hover.png") no-repeat;
+	background:url("images/bluza4_hover.png") no-repeat;
 }
 
 #shirts4:active{
-        background:url("images/bluza4_active.png") no-repeat;
+	background:url("images/bluza4_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts5{
-        background:url("images/bluza5.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza5.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts5:hover{
-        background:url("images/bluza5_hover.png") no-repeat;
+	background:url("images/bluza5_hover.png") no-repeat;
 }
 
 #shirts5:active{
-        background:url("images/bluza5_active.png") no-repeat;
+	background:url("images/bluza5_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts6{
-        background:url("images/bluza6.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza6.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts6:hover{
-        background:url("images/bluza6_hover.png") no-repeat;
+	background:url("images/bluza6_hover.png") no-repeat;
 }
 
 #shirts6:active{
-        background:url("images/bluza6_active.png") no-repeat;
+	background:url("images/bluza6_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts7{
-        background:url("images/bluza7.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza7.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts7:hover{
-        background:url("images/bluza7_hover.png") no-repeat;
+	background:url("images/bluza7_hover.png") no-repeat;
 }
 
 #shirts7:active{
-        background:url("images/bluza7_active.png") no-repeat;
+	background:url("images/bluza7_active.png") no-repeat;
 }
 
 /*================================================*/
 
 #shirts8{
-        background:url("images/bluza8.png") no-repeat;
-        width: 104px;
-        height: 100px;
-        float: left;
+	background:url("images/bluza8.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	float: left;
 }
 
 #shirts8:hover{
-        background:url("images/bluza8_hover.png") no-repeat;
+	background:url("images/bluza8_hover.png") no-repeat;
 }
 
 #shirts8:active{
-        background:url("images/bluza8_active.png") no-repeat;
+	background:url("images/bluza8_active.png") no-repeat;
 }
 
 /*================================================*/
@@ -302,239 +302,239 @@ button{
 /*================================================*/
 
 #trans_shirts {
-        width: 480px;
-        height: 110px;
-        margin: 0px;
-        padding: 0px;
+	width: 480px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
 
 }
 
 #shirts1_transparent{
-        background-image:url("images/bluza1_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts2_transparent{
-        background-image:url("images/bluza2_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts3_transparent {
-        background-image:url("images/bluza3_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts4_transparent{
-        background-image:url("images/bluza4_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts5_transparent{
-        background-image:url("images/bluza5_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts6_transparent{
-        background-image:url("images/bluza6_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts7_transparent{
-        background-image:url("images/bluza7_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shirts8_transparent{
-        background-image:url("images/bluza8_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/bluza8_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 /*================shoes================*/
 
 #shoes_transparent{
-        position: absolute;
-        width: 430px;
-        height: 110px;
-        top: 100px;
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 100px;
 }
 
 #shoes{
-        position: absolute;
-        width: 430px;
-        height: 110px;
-        top: 100px;
-        margin: 0px;
-        padding: 0px;
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 100px;
+	margin: 0px;
+	padding: 0px;
 
 }
 
 #shoes1{
-        background-image:url("images/cevli1.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes1:hover{
-        background-image:url("images/cevli1_hover.png");
+	background-image:url("images/cevli1_hover.png");
 }
 
 #shoes1:active{
-        background-image:url("images/cevli1_active.png");
+	background-image:url("images/cevli1_active.png");
 }
 
 #shoes1_transparent{
-        background-image:url("images/cevli1_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes2{
-        background-image:url("images/cevli2.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes2:hover{
-        background-image:url("images/cevli2_hover.png");
+	background-image:url("images/cevli2_hover.png");
 }
 
 #shoes2:active{
-        background-image:url("images/cevli2_active.png");
+	background-image:url("images/cevli2_active.png");
 }
 
 #shoes2_transparent{
-        background-image:url("images/cevli2_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes3{
-        background-image:url("images/cevli3.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes3:hover{
-        background-image:url("images/cevli3_hover.png");
+	background-image:url("images/cevli3_hover.png");
 }
 
 #shoes3:active{
-        background-image:url("images/cevli3_active.png");
+	background-image:url("images/cevli3_active.png");
 }
 
 #shoes3_transparent{
-        background-image:url("images/cevli3_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes4{
-        background-image:url("images/cevli4.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes4:hover{
-        background-image:url("images/cevli4_hover.png");
+	background-image:url("images/cevli4_hover.png");
 }
 
 #shoes4:active{
-        background-image:url("images/cevli4_active.png");
+	background-image:url("images/cevli4_active.png");
 }
 
 #shoes4_transparent{
-        background-image:url("images/cevli4_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes5{
-        background-image:url("images/cevli5.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes5:hover{
-        background-image:url("images/cevli5_hover.png");
+	background-image:url("images/cevli5_hover.png");
 }
 
 #shoes5:active{
-        background-image:url("images/cevli5_active.png");
+	background-image:url("images/cevli5_active.png");
 }
 
 #shoes5_transparent{
-        background-image:url("images/cevli5_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes6{
-        background-image:url("images/cevli6.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes6:hover{
-        background-image:url("images/cevli6_hover.png");
+	background-image:url("images/cevli6_hover.png");
 }
 
 #shoes6:active{
-        background-image:url("images/cevli6_active.png");
+	background-image:url("images/cevli6_active.png");
 }
 
 #shoes6_transparent{
-        background-image:url("images/cevli6_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes7{
-        background-image:url("images/cevli7.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli7.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes7:hover{
-        background-image:url("images/cevli7_hover.png");
+	background-image:url("images/cevli7_hover.png");
 }
 
 #shoes7:active{
-        background-image:url("images/cevli7_active.png");
+	background-image:url("images/cevli7_active.png");
 }
 
 #shoes7_transparent{
-        background-image:url("images/cevli7_transparent.png");
-        float: left;
-        width: 104px;
-        height: 100px;
+	background-image:url("images/cevli7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
 }
 
 #shoes1.correct{background: url("images/cevli1_star.png");}
@@ -548,181 +548,181 @@ button{
 
 /*===============sox===============*/
 #sox_transparent{
-        position: absolute;
-        width: 430px;
-        height: 78px;
-        top: 210px;
+	position: absolute;
+	width: 430px;
+	height: 78px;
+	top: 210px;
 }
 
 #sox{
-        position: absolute;
-        width: 430px;
-        height: 78px;
-        top: 210px;
-        margin: 0px;
-        padding: 0px;
+	position: absolute;
+	width: 430px;
+	height: 78px;
+	top: 210px;
+	margin: 0px;
+	padding: 0px;
 
 }
 
 #sox1{
-        background-image:url("images/corapi1.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi1.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox1:hover{
-        background-image:url("images/corapi1_hover.png");
+	background-image:url("images/corapi1_hover.png");
 }
 
 #sox1:active{
-        background-image:url("images/corapi1_active.png");
+	background-image:url("images/corapi1_active.png");
 
 }
 
 #sox1_transparent{
-        background-image:url("images/corapi1_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox2{
-        background-image:url("images/corapi2.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi2.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox2:hover{
-        background-image:url("images/corapi2_hover.png");
+	background-image:url("images/corapi2_hover.png");
 }
 
 #sox2:active{
-        background-image:url("images/corapi2_active.png");
+	background-image:url("images/corapi2_active.png");
 
 }
 
 #sox2_transparent{
-        background-image:url("images/corapi2_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox3{
-        background-image:url("images/corapi3.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi3.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox3:hover{
-        background-image:url("images/corapi3_hover.png");
+	background-image:url("images/corapi3_hover.png");
 }
 
 #sox3:active{
-        background-image:url("images/corapi3_active.png");
+	background-image:url("images/corapi3_active.png");
 
 }
 
 #sox3_transparent{
-        background-image:url("images/corapi3_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox4{
-        background-image:url("images/corapi4.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi4.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox4:hover{
-        background-image:url("images/corapi4_hover.png");
+	background-image:url("images/corapi4_hover.png");
 }
 
 #sox4:active{
-        background-image:url("images/corapi4_active.png");
+	background-image:url("images/corapi4_active.png");
 
 }
 
 #sox4_transparent{
-        background-image:url("images/corapi4_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox5{
-        background-image:url("images/corapi5.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi5.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox5:hover{
-        background-image:url("images/corapi5_hover.png");
+	background-image:url("images/corapi5_hover.png");
 }
 
 #sox5:active{
-        background-image:url("images/corapi5_active.png");
+	background-image:url("images/corapi5_active.png");
 
 }
 
 #sox5_transparent{
-        background-image:url("images/corapi5_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox6{
-        background-image:url("images/corapi6.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi6.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox6:hover{
-        background-image:url("images/corapi6_hover.png");
+	background-image:url("images/corapi6_hover.png");
 }
 
 #sox6:active{
-        background-image:url("images/corapi6_active.png");
+	background-image:url("images/corapi6_active.png");
 
 }
 
 #sox6_transparent{
-        background-image:url("images/corapi6_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox7{
-        background-image:url("images/corapi7.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi7.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox7:hover{
-        background-image:url("images/corapi7_hover.png");
+	background-image:url("images/corapi7_hover.png");
 }
 
 #sox7:active{
-        background-image:url("images/corapi7_active.png");
+	background-image:url("images/corapi7_active.png");
 
 }
 
 #sox7_transparent{
-        background-image:url("images/corapi7_transparent.png");
-        float: left;
-        width: 104px;
-        height: 78px;
+	background-image:url("images/corapi7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 78px;
 }
 
 #sox1.correct{background: url("images/corapi1_star.png");}
@@ -737,230 +737,230 @@ button{
 /*================hats=================================*/
 
 #hats_transparent{
-        position: absolute;
-        width: 430px;
-        height: 69px;
-        top: 300px;
-        margin: 0px;
-        padding: 0px;
+	position: absolute;
+	width: 430px;
+	height: 69px;
+	top: 300px;
+	margin: 0px;
+	padding: 0px;
 
 }
 
 #hats{
-        position: absolute;
-        width: 430px;
-        height: 69px;
-        top: 300px;
-        margin: 0px;
-        padding: 0px;
+	position: absolute;
+	width: 430px;
+	height: 69px;
+	top: 300px;
+	margin: 0px;
+	padding: 0px;
 
 }
 
 #hats1{
-        background-image:url("images/hat1.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat1.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats1:hover{
-        background-image:url("images/hat1_hover.png");
+	background-image:url("images/hat1_hover.png");
 }
 
 #hats1:active{
-        background-image:url("images/hat1_active.png");
+	background-image:url("images/hat1_active.png");
 
 }
 
 #hats1_transparent{
-        background-image:url("images/hat1_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats2{
-        background-image:url("images/hat2.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat2.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats2:hover{
-        background-image:url("images/hat2_hover.png");
+	background-image:url("images/hat2_hover.png");
 }
 
 #hats2:active{
-        background-image:url("images/hat2_active.png");
+	background-image:url("images/hat2_active.png");
 
 }
 
 #hats2_transparent{
-        background-image:url("images/hat2_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats3{
-        background-image:url("images/hat3.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat3.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats3:hover{
-        background-image:url("images/hat3_hover.png");
+	background-image:url("images/hat3_hover.png");
 }
 
 #hats3:active{
-        background-image:url("images/hat3_active.png");
+	background-image:url("images/hat3_active.png");
 
 }
 
 #hats3_transparent{
-        background-image:url("images/hat3_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats4{
-        background-image:url("images/hat4.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat4.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats4:hover{
-        background-image:url("images/hat4_hover.png");
+	background-image:url("images/hat4_hover.png");
 }
 
 #hats4:active{
-        background-image:url("images/hat4_active.png");
+	background-image:url("images/hat4_active.png");
 
 }
 
 #hats4_transparent{
-        background-image:url("images/hat4_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats5{
-        background-image:url("images/hat5.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat5.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats5:hover{
-        background-image:url("images/hat5_hover.png");
+	background-image:url("images/hat5_hover.png");
 }
 
 #hats5:active{
-        background-image:url("images/hat5_active.png");
+	background-image:url("images/hat5_active.png");
 
 }
 
 #hats5_transparent{
-        background-image:url("images/hat5_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats6{
-        background-image:url("images/hat6.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat6.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats6:hover{
-        background-image:url("images/hat6_hover.png");
+	background-image:url("images/hat6_hover.png");
 }
 
 #hats6:active{
-        background-image:url("images/hat6_active.png");
+	background-image:url("images/hat6_active.png");
 
 }
 
 #hats6_transparent{
-        background-image:url("images/hat6_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats7{
-        background-image:url("images/hat7.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat7.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats7:hover{
-        background-image:url("images/hat7_hover.png");
+	background-image:url("images/hat7_hover.png");
 }
 
 #hats7:active{
-        background-image:url("images/hat7_active.png");
+	background-image:url("images/hat7_active.png");
 
 }
 
 #hats7_transparent{
-        background-image:url("images/hat7_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats8{
-        background-image:url("images/hat8.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat8.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats8:hover{
-        background-image:url("images/hat8_hover.png");
+	background-image:url("images/hat8_hover.png");
 }
 
 #hats8:active{
-        background-image:url("images/hat8_active.png");
+	background-image:url("images/hat8_active.png");
 
 }
 
 #hats8_transparent{
-        background-image:url("images/hat8_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat8_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats9{
-        background-image:url("images/hat9.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat9.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats9:hover{
-        background-image:url("images/hat9_hover.png");
+	background-image:url("images/hat9_hover.png");
 }
 
 #hats9:active{
-        background-image:url("images/hat9_active.png");
+	background-image:url("images/hat9_active.png");
 
 }
 
 #hats9_transparent{
-        background-image:url("images/hat9_transparent.png");
-        float: left;
-        width: 104px;
-        height: 69px;
+	background-image:url("images/hat9_transparent.png");
+	float: left;
+	width: 104px;
+	height: 69px;
 }
 
 #hats1.correct{background: url("images/hat1_star.png");}
@@ -976,184 +976,184 @@ button{
 /*===================pants==============================*/
 
 #pants_transparent{
-        position: absolute;
-        width: 430px;
-        height: 94px;
-        top: 400px;
-        margin: 0px;
-        padding: 0px;
+	position: absolute;
+	width: 430px;
+	height: 94px;
+	top: 400px;
+	margin: 0px;
+	padding: 0px;
 
 }
 
 #pants{
-        position: absolute;
-        width: 550px;
-        height: 94px;
-        margin: 0px;
-        padding: 0px;
-        top: 400px;
+	position: absolute;
+	width: 550px;
+	height: 94px;
+	margin: 0px;
+	padding: 0px;
+	top: 400px;
 
 }
 
 #pants1{
-        background-image:url("images/pants1.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants1.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants1:hover{
-        background-image:url("images/pants1_hover.png");
+	background-image:url("images/pants1_hover.png");
 }
 
 #pants1:active{
-        background-image:url("images/pants1_active.png");
+	background-image:url("images/pants1_active.png");
 
 }
 
 #pants1_transparent{
-        background-image:url("images/pants1_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants2{
-        background-image:url("images/pants2.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants2.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants2:hover{
-        background-image:url("images/pants2_hover.png");
+	background-image:url("images/pants2_hover.png");
 }
 
 #pants2:active{
-        background-image:url("images/pants2_active.png");
+	background-image:url("images/pants2_active.png");
 
 }
 
 #pants2_transparent{
-        background-image:url("images/pants2_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants3{
-        background-image:url("images/pants3.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants3.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants3:hover{
-        background-image:url("images/pants3_hover.png");
+	background-image:url("images/pants3_hover.png");
 }
 
 #pants3:active{
-        background-image:url("images/pants3_active.png");
+	background-image:url("images/pants3_active.png");
 
 }
 
 #pants3_transparent{
-        background-image:url("images/pants3_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants4{
-        background-image:url("images/pants4.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants4.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants4:hover{
-        background-image:url("images/pants4_hover.png");
+	background-image:url("images/pants4_hover.png");
 }
 
 #pants4:active{
-        background-image:url("images/pants4_active.png");
+	background-image:url("images/pants4_active.png");
 
 }
 
 #pants4_transparent{
-        background-image:url("images/pants4_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants5{
-        background-image:url("images/pants5.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants5.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants5:hover{
-        background-image:url("images/pants5_hover.png");
+	background-image:url("images/pants5_hover.png");
 }
 
 #pants5:active{
-        background-image:url("images/pants5_active.png");
+	background-image:url("images/pants5_active.png");
 
 }
 
 #pants5_transparent{
-        background-image:url("images/pants5_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants6{
-        background-image:url("images/pants6.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants6.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants6:hover{
-        background-image:url("images/pants6_hover.png");
+	background-image:url("images/pants6_hover.png");
 }
 
 #pants1:active{
-        background-image:url("images/pants1_active.png");
+	background-image:url("images/pants1_active.png");
 
 }
 
 #pants6_transparent{
-        background-image:url("images/pants6_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants7{
-        background-image:url("images/pants7.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants7.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants7:hover{
-        background-image:url("images/pants7_hover.png");
+	background-image:url("images/pants7_hover.png");
 }
 
 #pants7:active{
-        background-image:url("images/pants7_active.png");
+	background-image:url("images/pants7_active.png");
 
 }
 
 #pants7_transparent{
-        background-image:url("images/pants7_transparent.png");
-        float: left;
-        width: 104px;
-        height: 94px;
+	background-image:url("images/pants7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 94px;
 }
 
 #pants1.correct{background: url("images/pants1_star.png");}
@@ -1167,467 +1167,465 @@ button{
 #pants9.correct{background: url("images/pants9_star.png");}
 
 #howMany {
-        position: absolute;
-        width: 300px;
-        top: 0px;
-        left: 500px;
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
 }
 
 #shirtNumGuess {
-        position: absolute;
-        width: 300px;
-        top: 0px;
-        left: 500px;
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
 }
 
 #shoesNumGuess {
-        position: absolute;
-        width: 300px;
-        top: 100px;
-        left: 500px;
+	position: absolute;
+	width: 300px;
+	top: 100px;
+	left: 500px;
 }
 
 #soxNumGuess {
-        position: absolute;
-        width: 300px;
-        top: 200px;
-        left: 500px;
+	position: absolute;
+	width: 300px;
+	top: 200px;
+	left: 500px;
 }
 
 #hatNumGuess {
-        position: absolute;
-        width: 300px;
-        top: 300px;
-        left: 500px;
+	position: absolute;
+	width: 300px;
+	top: 300px;
+	left: 500px;
 }
 
 #pantsNumGuess {
-        position: absolute;
-        width: 300px;
-        top: 400px;
-        left: 500px;
+	position: absolute;
+	width: 300px;
+	top: 400px;
+	left: 500px;
 }
 
 /*================test================*/
 #test1 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background: red;
-        top: 20px;
-        left: 500px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 20px;
+	left: 500px;
 
-        border-radius: 10px;
-        border: 2px solid #333;
+	border-radius: 10px;
+	border: 2px solid #333;
 }
 
 #numbers1 {
-        position: absolute;
-        top: 30px;
-        left: 550px;
-        width: 210px;
-        height: 40px;
+	position: absolute;
+	top: 30px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
 }
 
 #daShirts1, #daShirts2, #daShirts3, #daShirts4 {
-        width: 30px;
-        height: 30px;
-        background:yellow;
-        border-radius: 10px;
-        border: 2px solid #333;
-        margin-left: 15px;
-        float: left;
+	width: 30px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	float: left;
 }
 
 
-#daShirts1:hover, #daShirts2:hover,
+#daShirts1:hover, #daShirts2:hover, 
 #daShirts3:hover, #daShirts4:hover {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #CC91B2;
+	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
-#daShirts1:active, #daShirts2:active,
+#daShirts1:active, #daShirts2:active, 
 #daShirts3:active, #daShirts4:active {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #BFC8DB;
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test2 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background: red;
-        top: 120px;
-        left: 500px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 120px;
+	left: 500px;
 
-        border-radius: 10px;
-        border: 2px solid #333;
+	border-radius: 10px;
+	border: 2px solid #333;
 }
 
 #numbers2 {
-        position: absolute;
-        top: 130px;
-        left: 550px;
-        width: 210px;
-        height: 40px;
+	position: absolute;
+	top: 130px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
 }
 
 #daShoes1, #daShoes2, #daShoes3, #daShoes4 {
-        width: 30px;
-        height: 30px;
-        background:yellow;
-        border-radius: 10px;
-        border: 2px solid #333;
-        margin-left: 15px;
-        float: left;
+	width: 30px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	float: left;
 }
 
 
-#daShoes1:hover, #daShoes2:hover,
+#daShoes1:hover, #daShoes2:hover, 
 #daShoes3:hover, #daShoes4:hover {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #CC91B2;
+	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
-#daShoes1:active, #daShoes2:active,
+#daShoes1:active, #daShoes2:active, 
 #daShoes3:active, #daShoes4:active {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #BFC8DB;
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test3 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background: red;
-        top: 220px;
-        left: 500px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 220px;
+	left: 500px;
 
-        border-radius: 10px;
-        border: 2px solid #333;
+	border-radius: 10px;
+	border: 2px solid #333;
 }
 
 #numbers3 {
-        position: absolute;
-        top: 230px;
-        left: 550px;
-        width: 210px;
-        height: 40px;
+	position: absolute;
+	top: 230px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
 }
 
 #daSox1, #daSox2, #daSox3, #daSox4 {
-        width: 30px;
-        height: 30px;
-        background:yellow;
-        border-radius: 10px;
-        border: 2px solid #333;
-        margin-left: 15px;
-        float: left;
+	width: 30px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	float: left;
 }
 
-#daSox1:hover, #daSox2:hover,
+#daSox1:hover, #daSox2:hover, 
 #daSox3:hover, #daSox4:hover {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #CC91B2;
+	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
-#daSox1:active, #daSox2:active,
+#daSox1:active, #daSox2:active, 
 #daSox3:active, #daSox4:active {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #BFC8DB;
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test4 {
-        position: absolute;
-        width: 50px;
-        height: 50px;
-        background: red;
-        top: 320px;
-        left: 500px;
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 320px;
+	left: 500px;
 
-        border-radius: 10px;
-        border: 2px solid #333;
+	border-radius: 10px;
+	border: 2px solid #333;
 }
 
 #numbers4 {
-        position: absolute;
-        top: 330px;
-        left: 550px;
-        width: 210px;
-        height: 40px;
+	position: absolute;
+	top: 330px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
 }
 
 
 #daHats1, #daHats2, #daHats3, #daHats4 {
-        width: 30px;
-        height: 30px;
-        background:yellow;
-        border-radius: 10px;
-        border: 2px solid #333;
-        margin-left: 15px;
-        float: left;
+	width: 30px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	float: left;
 }
 
-#daHats:hover, #daHats2:hover,
+#daHats:hover, #daHats2:hover, 
 #daHats3:hover, #daHats4:hover {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #CC91B2;
+	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
-#daHats1:active, #daHats2:active,
+#daHats1:active, #daHats2:active, 
 #daHats3:active, #daHats4:active {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #BFC8DB;
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test5 {
-        position: absolute;
-        top: 420px;
-        left: 500px;
-        width: 50px;
-        height: 50px;
-        background: red;
+	position: absolute;
+	top: 420px;
+	left: 500px;
+	width: 50px;
+	height: 50px;
+	background: red;
 
-        border-radius: 10px;
-        border: 2px solid #333;
+	border-radius: 10px;
+	border: 2px solid #333;
 }
 
 #numbers5 {
-        position: absolute;
-        top: 430px;
-        left: 550px;
-        width: 210px;
-        height: 40px;
+	position: absolute;
+	top: 430px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
 }
 
 
 #daPants1, #daPants2, #daPants3, #daPants4 {
-        width: 30px;
-        height: 30px;
-        background:yellow;
-        border-radius: 10px;
-        border: 2px solid #333;
-        margin-left: 15px;
-        float: left;
+	width: 30px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	float: left;
 }
 
-#daPants:hover, #daPants2:hover,
+#daPants:hover, #daPants2:hover, 
 #daPants3:hover, #daPants4:hover {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #CC91B2;
+	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
-#daPants1:active, #daPants2:active,
+#daPants1:active, #daPants2:active, 
 #daPants3:active, #daPants4:active {
-        width: 30px;
-        height: 30px;
+	width: 30px;
+	height: 30px;
 
-        box-shadow: 0px 0px 2px 2px #BFC8DB;
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #popUp{
-        background: gray;
-        width: 300px;
-        height: 300px;
-        margin-top: -100px;
-        margin-left: 50px;
-        float: left;
-        border-radius: 10px;
+	background: gray;
+	width: 300px;
+	height: 300px;
+	margin-top: -100px;	
+	margin-left: 50px;
+	float: left;
+	border-radius: 10px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4, #guessMe5{
-        width: 30px;
-        height: 30px;
-        margin-left: 8px;
-        margin-top: 8px;
-        background:yellow;
-        border-radius: 10px;
-        border: 2px solid #333;
+	width: 30px;
+	height: 30px;
+	margin-left: 8px;
+	margin-top: 8px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
 }
 
 #score {
-        position: absolute;
-        top: 350px;
-        left: 100px;
-        width: 170px;
-        height: 60px;
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	width: 170px;
+	height: 60px;
 }
 
 #stars{
-        float: left;
+	float: left;
 }
 
 #starMe{
-        background-image:url("images/star.png");
-        width: 58px;
-        height: 56px;
-        float: right;
+	background-image:url("images/star.png");
+	width: 58px;
+	height: 56px;
+	float: right;
 }
 
 #wholeRoom {
-        position: absolute;
-        top: 10px;
-        left: 100px;
-        width: 500px;
-        height: 500px;
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 500px;
+	height: 500px;
 
-        border: 2px solid #000;
-        border-radius: 10px;
+	border: 2px solid #000;
+	border-radius: 10px;
 
-        box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
 }
 
 #theCloset {
-        position: absolute;
-        top: 10px;
-        left: 380px;
-        width: 100px;
-        height: 65px;
+	position: absolute;
+	top: 10px;
+	left: 380px;
+	width: 100px;
+	height: 65px;
 
-        border: 2px solid #333;
-        border-radius: 10px;
-        box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 
-        text-align: center;
+	text-align: center;
 
-        padding-top: 35px;
+	padding-top: 35px;
 }
 
 #theCloset:hover{
-        background: #eaeaea;
+	background: #eaeaea;
 }
 
 #theCloset:active{
-        background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: #aeaeae;
+   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 }
 
 
 #theToys{
-        position: absolute;
-        top: 10px;
-        left: 10px;
-        width: 100px;
-        height: 65px;
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	width: 100px;
+	height: 65px;
 
-        border: 2px solid #333;
-        border-radius: 10px;
+	border: 2px solid #333;
+	border-radius: 10px;
 
-        box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 
-        text-align: center;
-        padding-top: 35px;
+	text-align: center;
+	padding-top: 35px;
 }
 
 #theToys:hover{
-        background: #eaeaea;
+	background: #eaeaea;
 }
 
 #theToys:active{
-        background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: #aeaeae;
+   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 }
 
 
 #theBooks{
-        position: absolute;
-        top: 200px;
-        left: 200px;
-        width: 100px;
-        height: 65px;
+	position: absolute;
+	top: 200px;
+	left: 200px;
+	width: 100px;
+	height: 65px;
 
-        border: 2px solid #333;
-        border-radius: 10px;
+	border: 2px solid #333;
+	border-radius: 10px;
 
-        box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 
-        text-align: center;
-        padding-top: 35px;
+	text-align: center;
+	padding-top: 35px;
 }
 
 #theBooks:hover{
-        background: #eaeaea;
+	background: #eaeaea;
 }
 
 #theBooks:active{
-        background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: #aeaeae;
+   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 }
 
 
 #theBed{
-        position: absolute;
-        top: 380px;
-        left: 10px;
-        width: 100px;
-        height: 65px;
+	position: absolute;
+	top: 380px;
+	left: 10px;
+	width: 100px;
+	height: 65px;
 
-        border: 2px solid #333;
-        border-radius: 10px;
+	border: 2px solid #333;
+	border-radius: 10px;
 
-        box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 
-        text-align: center;
-        padding-top: 35px;
+	text-align: center;
+	padding-top: 35px;
 }
 
 #theBed:hover{
-        background: #eaeaea;
+	background: #eaeaea;
 }
 
 #theBed:active{
-        background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: #aeaeae;
+   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 }
 
 
 #theWorkingTable{
-        position: absolute;
-        top: 380px;
-        left: 380px;
-        width: 100px;
-        height: 65px;
+	position: absolute;
+	top: 380px;
+	left: 380px;
+	width: 100px;
+	height: 65px;
 
-        border: 2px solid #333;
-        border-radius: 10px;
+	border: 2px solid #333;
+	border-radius: 10px;
 
-        box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 
-        text-align: center;
-        padding-top: 35px;
+	text-align: center;
+	padding-top: 35px;
 }
 
 #theWorkingTable:hover{
-        background: #eaeaea;
+	background: #eaeaea;
 }
 
 #theWorkingTable:active{
-        background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: #aeaeae;
+   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 }
 
-
-
-
+/*================books.html page=============*/
 
