@@ -1,210 +1,215 @@
 html {
-	margin: 0;
-	padding: 0;
-	width: 100%;
-	height: 100%;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        height: 100%;
 }
 
 body {
-	width: 100%;
-	margin: 0 auto;
-	padding: 0px;
+        width: 100%;
+        margin: 0 auto;
+        padding: 0px;
 }
 
 /*================books.html page=============*/
 #container {
-	position: absolute;
-	top: 10px;
-	left: 100px;
-	width: 450px;
-	height: 520px;
-	margin: 0 auto;
-	border: 2px solid #333;
-	border-radius: 10px;
-	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+        position: absolute;
+        top: 10px;
+        left: 100px;
+        width: 450px;
+        height: 520px;
+        margin: 0 auto;
+        border: 2px solid #333;
+        border-radius: 10px;
+        box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
 }
 
 /*====================Blue Books============================*/
-	
+
 #b_books{
-	position: relative;
-	width: 480px;
-	height: 110px;
-	top: -110px;
-	margin: 0px;
-	padding: 0px;
+        position: absolute;
+        width: 480px;
+        height: 110px;
+        top: 10px;
+        left: 10px;
+        margin: 0px;
+        padding: 0px;
 
 }
 
 
 #b_books_transparent{
-	width: 480px;
-	height: 110px;
-	margin: 0px;
-	padding: 0px;
+        position: absolute;
+        top: 10px;
+        left: 10px;
+        width: 480px;
+        height: 110px;
+        margin: 0px;
+        padding: 0px;
+        color:red;
 
 }
 /*================================================*/
 
 #b_books1{
-	background-image:url("images/b_book1.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book1.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books1:hover{
-	background-image:url("images/b_book1_hover.png");
+        background-image:url("images/b_book1_hover.png");
 }
 
 #b_books1:active{
-	background-image:url("images/b_book1_active.png");
+        background-image:url("images/b_book1_active.png");
 
 }
 
 #b_books1_transparent{
-	background-image:url("images/b_book1_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book1_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books2 {
-	background-image:url("images/b_book2.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book2.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books2:hover{
-	background-image:url("images/b_book2_hover.png");
+        background-image:url("images/b_book2_hover.png");
 }
 
 #b_books2:active{
-	background-image:url("images/b_book2_active.png");
+        background-image:url("images/b_book2_active.png");
 
 }
 
 #b_books2_transparent{
-	background-image:url("images/b_book2_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book2_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books3{
-	background-image:url("images/b_book3.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book3.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books3:hover{
-	background-image:url("images/b_book3_hover.png");
+        background-image:url("images/b_book3_hover.png");
 }
 
 #b_books3:active{
-	background-image:url("images/b_book3_active.png");
+        background-image:url("images/b_book3_active.png");
 
 }
 
 #b_books3_transparent{
-	background-image:url("images/b_book3_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book3_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books4{
-	background-image:url("images/b_book4.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book4.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books4:hover{
-	background-image:url("images/b_book4_hover.png");
+        background-image:url("images/b_book4_hover.png");
 }
 
 #b_books4:active{
-	background-image:url("images/b_book4_active.png");
+        background-image:url("images/b_book4_active.png");
 
 }
 
 #b_books4_transparent{
-	background-image:url("images/b_book4_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book4_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books5{
-	background-image:url("images/b_book5.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book5.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books5:hover{
-	background-image:url("images/b_book5_hover.png");
+        background-image:url("images/b_book5_hover.png");
 }
 
 #b_books5:active{
-	background-image:url("images/b_book5_active.png");
+        background-image:url("images/b_book5_active.png");
 
 }
 
 #b_books5_transparent{
-	background-image:url("images/b_book5_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book5_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books6{
-	background-image:url("images/b_book6.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book6.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books6:hover{
-	background-image:url("images/b_book6_hover.png");
+        background-image:url("images/b_book6_hover.png");
 }
 
 #b_books6:active{
-	background-image:url("images/b_book6_active.png");
+        background-image:url("images/b_book6_active.png");
 
 }
 
 #b_books6_transparent{
-	background-image:url("images/b_book6_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book6_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books7{
-	background-image:url("images/b_book7.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book7.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books7:hover{
-	background-image:url("images/b_book7_hover.png");
+        background-image:url("images/b_book7_hover.png");
 }
 
 #b_books7:active{
-	background-image:url("images/b_book7_active.png");
+        background-image:url("images/b_book7_active.png");
 
 }
 
 #b_books7_transparent{
-	background-image:url("images/b_book7_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/b_book7_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #b_books1.correct{background: url("images/b_book1_star.png");}
@@ -218,181 +223,182 @@ body {
 
 /*=====================Green Books===========================*/
 #g_books_transparent{
-	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 100px;
+        position: absolute;
+        width: 430px;
+        height: 110px;
+        top: 130px;
+        padding-left: 10px;
 }
 
 #g_books{
-	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 100px;
-	margin: 0px;
-	padding: 0px;
+        position: absolute;
+        width: 430px;
+        height: 110px;
+        top: 130px;
+        margin: 0px;
+        padding-left: 10px;
 
-}	
+}
 
 #g_books1{
-	background-image:url("images/g_book1.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book1.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books1:hover{
-	background-image:url("images/g_book1_hover.png");
+        background-image:url("images/g_book1_hover.png");
 }
 
 #g_books1:active{
-	background-image:url("images/g_book1_active.png");
+        background-image:url("images/g_book1_active.png");
 
 }
 
 #g_books1_transparent{
-	background-image:url("images/g_book1_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book1_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books2 {
-	background-image:url("images/g_book2.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book2.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books2:hover{
-	background-image:url("images/g_book2_hover.png");
+        background-image:url("images/g_book2_hover.png");
 }
 
 #g_books2:active{
-	background-image:url("images/g_book2_active.png");
+        background-image:url("images/g_book2_active.png");
 
 }
 
 #g_books2_transparent{
-	background-image:url("images/g_book2_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book2_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books3{
-	background-image:url("images/g_book3.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book3.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books3:hover{
-	background-image:url("images/g_book3_hover.png");
+        background-image:url("images/g_book3_hover.png");
 }
 
 #g_books3:active{
-	background-image:url("images/g_book3_active.png");
+        background-image:url("images/g_book3_active.png");
 
 }
 
 #g_books3_transparent{
-	background-image:url("images/g_book3_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book3_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books4{
-	background-image:url("images/g_book4.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book4.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books4:hover{
-	background-image:url("images/g_book4_hover.png");
+        background-image:url("images/g_book4_hover.png");
 }
 
 #g_books4:active{
-	background-image:url("images/g_book4_active.png");
+        background-image:url("images/g_book4_active.png");
 
 }
 
 #g_books4_transparent{
-	background-image:url("images/g_book4_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book4_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books5{
-	background-image:url("images/g_book5.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book5.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books5:hover{
-	background-image:url("images/g_book5_hover.png");
+        background-image:url("images/g_book5_hover.png");
 }
 
 #g_books5:active{
-	background-image:url("images/g_book5_active.png");
+        background-image:url("images/g_book5_active.png");
 
 }
 
 #g_books5_transparent{
-	background-image:url("images/g_book5_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book5_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books6{
-	background-image:url("images/g_book6.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book6.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books6:hover{
-	background-image:url("images/g_book6_hover.png");
+        background-image:url("images/g_book6_hover.png");
 }
 
 #g_books6:active{
-	background-image:url("images/g_book6_active.png");
+        background-image:url("images/g_book6_active.png");
 
 }
 
 #g_books6_transparent{
-	background-image:url("images/g_book6_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book6_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books7{
-	background-image:url("images/g_book7.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book7.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books7:hover{
-	background-image:url("images/g_book7_hover.png");
+        background-image:url("images/g_book7_hover.png");
 }
 
 #g_books7:active{
-	background-image:url("images/g_book7_active.png");
+        background-image:url("images/g_book7_active.png");
 
 }
 
 #g_books7_transparent{
-	background-image:url("images/g_book7_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/g_book7_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #g_books1.correct{background: url("images/g_book1_star.png");}
@@ -405,181 +411,184 @@ body {
 
 /*=====================Red Books===========================*/
 #r_books_transparent{
-	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 200px;
+        position: absolute;
+        width: 430px;
+        height: 110px;
+        top: 260px;
+        left: 10px;
+        padding-left: 10px;
 }
 
 #r_books{
-	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 200px;
-	margin: 0px;
-	padding: 0px;
+        position: absolute;
+        width: 430px;
+        height: 110px;
+        top: 260px;
+        left: 10px;
+        margin: 0px;
+        padding-left: 10px;
 
-}	
+}
 
 #r_books1{
-	background-image:url("images/r_book1.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book1.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books1:hover{
-	background-image:url("images/r_book1_hover.png");
+        background-image:url("images/r_book1_hover.png");
 }
 
 #r_books1:active{
-	background-image:url("images/r_book1_active.png");
+        background-image:url("images/r_book1_active.png");
 
 }
 
 #r_books1_transparent{
-	background-image:url("images/r_book1_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book1_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books2 {
-	background-image:url("images/r_book2.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book2.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books2:hover{
-	background-image:url("images/r_book2_hover.png");
+        background-image:url("images/r_book2_hover.png");
 }
 
 #r_books2:active{
-	background-image:url("images/r_book2_active.png");
+        background-image:url("images/r_book2_active.png");
 
 }
 
 #r_books2_transparent{
-	background-image:url("images/r_book2_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book2_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books3{
-	background-image:url("images/r_book3.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book3.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books3:hover{
-	background-image:url("images/r_book3_hover.png");
+        background-image:url("images/r_book3_hover.png");
 }
 
 #r_books3:active{
-	background-image:url("images/r_book3_active.png");
+        background-image:url("images/r_book3_active.png");
 
 }
 
 #r_books3_transparent{
-	background-image:url("images/r_book3_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book3_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books4{
-	background-image:url("images/r_book4.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book4.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books4:hover{
-	background-image:url("images/r_book4_hover.png");
+        background-image:url("images/r_book4_hover.png");
 }
 
 #r_books4:active{
-	background-image:url("images/r_book4_active.png");
+        background-image:url("images/r_book4_active.png");
 
 }
 
 #r_books4_transparent{
-	background-image:url("images/r_book4_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book4_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books5{
-	background-image:url("images/r_book5.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book5.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books5:hover{
-	background-image:url("images/r_book5_hover.png");
+        background-image:url("images/r_book5_hover.png");
 }
 
 #r_books5:active{
-	background-image:url("images/r_book5_active.png");
+        background-image:url("images/r_book5_active.png");
 
 }
 
 #r_books5_transparent{
-	background-image:url("images/r_book5_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book5_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books6{
-	background-image:url("images/r_book6.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book6.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books6:hover{
-	background-image:url("images/r_book6_hover.png");
+        background-image:url("images/r_book6_hover.png");
 }
 
 #r_books6:active{
-	background-image:url("images/r_book6_active.png");
+        background-image:url("images/r_book6_active.png");
 
 }
 
 #r_books6_transparent{
-	background-image:url("images/r_book6_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book6_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books7{
-	background-image:url("images/r_book7.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book7.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books7:hover{
-	background-image:url("images/r_book7_hover.png");
+        background-image:url("images/r_book7_hover.png");
 }
 
 #r_books7:active{
-	background-image:url("images/r_book7_active.png");
+        background-image:url("images/r_book7_active.png");
 
 }
 
 #r_books7_transparent{
-	background-image:url("images/r_book7_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/r_book7_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #r_books1.correct{background: url("images/r_book1_star.png");}
@@ -592,181 +601,182 @@ body {
 
 /*=====================Yellow Books===========================*/
 #y_books_transparent{
-	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 300px;
+        position: absolute;
+        width: 430px;
+        height: 110px;
+        top: 400px;
+        left: 10px;
 }
 
 #y_books{
-	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 300px;
-	margin: 0px;
-	padding: 0px;
+        position: absolute;
+        width: 430px;
+        height: 110px;
+        top: 400px;
+        margin: 0px;
+        left: 10px;
 
-}	
+}
 
 #y_books1{
-	background-image:url("images/y_book1.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book1.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books1:hover{
-	background-image:url("images/y_book1_hover.png");
+        background-image:url("images/y_book1_hover.png");
 }
 
 #y_books1:active{
-	background-image:url("images/y_book1_active.png");
+        background-image:url("images/y_book1_active.png");
 
 }
 
 #y_books1_transparent{
-	background-image:url("images/y_book1_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book1_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books2 {
-	background-image:url("images/y_book2.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book2.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books2:hover{
-	background-image:url("images/y_book2_hover.png");
+        background-image:url("images/y_book2_hover.png");
 }
 
 #y_books2:active{
-	background-image:url("images/y_book2_active.png");
+        background-image:url("images/y_book2_active.png");
 
 }
 
 #y_books2_transparent{
-	background-image:url("images/y_book2_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book2_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books3{
-	background-image:url("images/y_book3.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book3.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books3:hover{
-	background-image:url("images/y_book3_hover.png");
+        background-image:url("images/y_book3_hover.png");
 }
 
 #y_books3:active{
-	background-image:url("images/y_book3_active.png");
+        background-image:url("images/y_book3_active.png");
 
 }
 
 #y_books3_transparent{
-	background-image:url("images/y_book3_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book3_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books4{
-	background-image:url("images/y_book4.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book4.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books4:hover{
-	background-image:url("images/y_book4_hover.png");
+        background-image:url("images/y_book4_hover.png");
 }
 
 #y_books4:active{
-	background-image:url("images/y_book4_active.png");
+        background-image:url("images/y_book4_active.png");
 
 }
 
 #y_books4_transparent{
-	background-image:url("images/y_book4_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book4_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books5{
-	background-image:url("images/y_book5.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book5.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books5:hover{
-	background-image:url("images/y_book5_hover.png");
+        background-image:url("images/y_book5_hover.png");
 }
 
 #y_books5:active{
-	background-image:url("images/y_book5_active.png");
+        background-image:url("images/y_book5_active.png");
 
 }
 
 #y_books5_transparent{
-	background-image:url("images/y_book5_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book5_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books6{
-	background-image:url("images/y_book6.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book6.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books6:hover{
-	background-image:url("images/y_book6_hover.png");
+        background-image:url("images/y_book6_hover.png");
 }
 
 #y_books6:active{
-	background-image:url("images/y_book6_active.png");
+        background-image:url("images/y_book6_active.png");
 
 }
 
 #y_books6_transparent{
-	background-image:url("images/y_book6_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book6_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books7{
-	background-image:url("images/y_book7.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book7.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books7:hover{
-	background-image:url("images/y_book7_hover.png");
+        background-image:url("images/y_book7_hover.png");
 }
 
 #y_books7:active{
-	background-image:url("images/y_book7_active.png");
+        background-image:url("images/y_book7_active.png");
 
 }
 
 #y_books7_transparent{
-	background-image:url("images/y_book7_transparent.png");
-	float: left;
-	width: 104px;
-	height: 100px;
+        background-image:url("images/y_book7_transparent.png");
+        float: left;
+        width: 104px;
+        height: 100px;
 }
 
 #y_books1.correct{background: url("images/y_book1_star.png");}
@@ -780,270 +790,262 @@ body {
 /*================test================*/
 
 #test1 {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 20px;
-	left: 500px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: red;
+        top: 40px;
+        left: 500px;
 
-	border-radius: 10px;
-	border: 2px solid #333;
+        border-radius: 10px;
+        border: 2px solid #333;
 }
 
 #numbers1 {
-	position: absolute;
-	top: 30px;
-	left: 550px;
-	width: 210px;
-	height: 40px;
+        position: absolute;
+        top: 50px;
+        left: 550px;
+        width: 210px;
+        height: 40px;
 }
 
 #da_b_books1, #da_b_books2, #da_b_books3, #da_b_books4{
-	width: 30px;
-	height: 30px;
-	background:yellow;
-	border-radius: 10px;
-	border: 2px solid #333;
-	margin-left: 15px;
-	float: left;
+        width: 20px;
+        height: 25px;
+        background:yellow;
+        border-radius: 10px;
+        border: 2px solid #333;
+        margin-left: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+        float: left;
 }
 
 
-#da_b_books1:hover, #da_b_books2:hover, 
+#da_b_books1:hover, #da_b_books2:hover,
 #da_b_books3:hover, #da_b_books4:hover {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #CC91B2;
+        box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
-#da_b_books1:active, #da_b_books2:active, 
+#da_b_books1:active, #da_b_books2:active,
 #da_b_books3:active, #da_b_books4:active {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #BFC8DB;
+        box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test2 {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 120px;
-	left: 500px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: red;
+        top: 160px;
+        left: 500px;
 
-	border-radius: 10px;
-	border: 2px solid #333;
+        border-radius: 10px;
+        border: 2px solid #333;
 }
 
 #numbers2 {
-	position: absolute;
-	top: 130px;
-	left: 550px;
-	width: 210px;
-	height: 40px;
+        position: absolute;
+        top: 170px;
+        left: 550px;
+        width: 210px;
+        height: 40px;
 }
 
 #da_g_books1, #da_g_books2, #da_g_books3, #da_g_books4 {
-	width: 30px;
-	height: 30px;
-	background:yellow;
-	border-radius: 10px;
-	border: 2px solid #333;
-	margin-left: 15px;
-	float: left;
+        width: 20px;
+        height: 25px;
+        background:yellow;
+        border-radius: 10px;
+        border: 2px solid #333;
+        margin-left: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+        float: left;
 }
 
 
-#da_g_books1:hover, #da_g_books2:hover, 
+#da_g_books1:hover, #da_g_books2:hover,
 #da_g_books3:hover, #da_g_books4:hover {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #CC91B2;
+        box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
-#da_g_books1:active, #da_g_books2:active, 
+#da_g_books1:active, #da_g_books2:active,
 #da_g_books3:active, #da_g_books4:active {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #BFC8DB;
+        box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test3 {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 220px;
-	left: 500px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: red;
+        top: 290px;
+        left: 500px;
 
-	border-radius: 10px;
-	border: 2px solid #333;
+        border-radius: 10px;
+        border: 2px solid #333;
 }
 
 #numbers3 {
-	position: absolute;
-	top: 230px;
-	left: 550px;
-	width: 210px;
-	height: 40px;
+        position: absolute;
+        top: 300px;
+        left: 550px;
+        width: 210px;
+        height: 40px;
 }
 
 #da_r_books1, #da_r_books2, #da_r_books3, #da_r_books4 {
-	width: 30px;
-	height: 30px;
-	background:yellow;
-	border-radius: 10px;
-	border: 2px solid #333;
-	margin-left: 15px;
-	float: left;
+        width: 20px;
+        height: 25px;
+        background:yellow;
+        border-radius: 10px;
+        border: 2px solid #333;
+        margin-left: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+        float: left;
 }
 
-#da_r_books1:hover, #da_r_books2:hover, 
+#da_r_books1:hover, #da_r_books2:hover,
 #da_r_books3:hover, #da_r_books4:hover {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #CC91B2;
+        box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
-#da_r_books1:active, #da_r_books2:active, 
+#da_r_books1:active, #da_r_books2:active,
 #da_r_books3:active, #da_r_books4:active {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #BFC8DB;
+        box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test4 {
-	position: absolute;
-	width: 50px;
-	height: 50px;
-	background: red;
-	top: 320px;
-	left: 500px;
+        position: absolute;
+        width: 50px;
+        height: 50px;
+        background: red;
+        top: 420px;
+        left: 500px;
 
-	border-radius: 10px;
-	border: 2px solid #333;
+        border-radius: 10px;
+        border: 2px solid #333;
 }
 
 #numbers4 {
-	position: absolute;
-	top: 330px;
-	left: 550px;
-	width: 210px;
-	height: 40px;
+        position: absolute;
+        top: 430px;
+        left: 550px;
+        width: 210px;
+        height: 40px;
 }
 
 #da_y_books1, #da_y_books2, #da_y_books3, #da_y_books4 {
-	width: 30px;
-	height: 30px;
-	background:yellow;
-	border-radius: 10px;
-	border: 2px solid #333;
-	margin-left: 15px;
-	float: left;
+        width: 20px;
+        height: 25px;
+        background:yellow;
+        border-radius: 10px;
+        border: 2px solid #333;
+        margin-left: 15px;
+        padding-left: 10px;
+        padding-top: 5px;
+        float: left;
 }
 
-#da_y_books1:hover, #da_y_books2:hover, 
+#da_y_books1:hover, #da_y_books2:hover,
 #da_y_books3:hover, #da_y_books4:hover {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #CC91B2;
+        box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
-#da_y_books1:active, #da_y_books2:active, 
+#da_y_books1:active, #da_y_books2:active,
 #da_y_books3:active, #da_y_books4:active {
-	width: 30px;
-	height: 30px;
 
-	box-shadow: 0px 0px 2px 2px #BFC8DB;
+        box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #howMany {
-	position: absolute;
-	width: 300px;
-	top: 0px;
-	left: 500px;
+        position: absolute;
+        width: 300px;
+        top: 0px;
+        left: 500px;
 }
 
 #b_books_guess{
-	position: absolute;
-	width: 300px;
-	top: 0px;
-	left: 500px;
+        position: absolute;
+        width: 300px;
+        top: 15px;
+        left: 500px;
 }
 
 #g_books_guess{
-	position: absolute;
-	width: 300px;
-	top: 100px;
-	left: 500px;
+        position: absolute;
+        width: 300px;
+        top: 135px;
+        left: 500px;
 }
 
 #r_books_guess{
-	position: absolute;
-	width: 300px;
-	top: 200px;
-	left: 500px;
+        position: absolute;
+        width: 300px;
+        top: 265px;
+        left: 500px;
 }
 
 #y_books_guess{
-	position: absolute;
-	width: 300px;
-	top: 300px;
-	left: 500px;
+        position: absolute;
+        width: 300px;
+        top: 395px;
+        left: 500px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
-	width: 20px;
-	height: 25px;
-	margin-left: 8px;
-	margin-top: 8px;
-	background:yellow;
-	border-radius: 10px;
-	border: 2px solid #333;
-	padding-left: 10px;
-	padding-top: 5px;
+        width: 20px;
+        height: 25px;
+        margin-left: 8px;
+        margin-top: 8px;
+        background:yellow;
+        border-radius: 10px;
+        border: 2px solid #333;
+        padding-left: 10px;
+        padding-top: 5px;
 }
 
 #popUp{
-	background: gray;
-	width: 300px;
-	height: 300px;
-	margin-top: 10px;	
-	margin-left: 50px;
-	float: left;
-	border-radius: 10px;
+        background: gray;
+        width: 300px;
+        height: 300px;
+        margin-top: 10px;
+        margin-left: 50px;
+        float: left;
+        border-radius: 10px;
 }
 #score {
-	position: absolute;
-	top: 350px;
-	left: 100px;
-	width: 170px;
-	height: 60px;
+        position: absolute;
+        top: 350px;
+        left: 100px;
+        width: 170px;
+        height: 60px;
 }
 
 #stars{
-	float: left;
+        float: left;
 }
 
 #starMe{
-	background-image:url("images/star.png");
-	width: 58px;
-	height: 56px;
-	float: right;
+        background-image:url("images/star.png");
+        width: 58px;
+        height: 56px;
+        float: right;
 }
 
 button{
-	margin: 0 auto;
-	margin-top: 18%;
-	margin-left: 40%;
+        margin: 0 auto;
+        margin-top: 18%;
+        margin-left: 40%;
 }
