@@ -1,0 +1,1140 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/*================books.html page=============*/
+#container {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 450px;
+	height: 520px;
+	margin: 0 auto;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+/*====================Airplanes============================*/
+	
+#airplane {
+	position: absolute;
+	width: 480px;
+	height: 110px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+#airplane_transparent {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 480px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+
+}
+/*================================================*/
+
+#airplane1{
+	background-image:url("images/a1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane1:hover{
+	background-image:url("images/a1_hover.png");
+}
+
+#airplane1:active{
+	background-image:url("images/a1_active.png");
+
+}
+
+#airplane1_transparent{
+	background-image:url("images/a1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane2{
+	background-image:url("images/a2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane2:hover{
+	background-image:url("images/a2_hover.png");
+}
+
+#airplane2:active{
+	background-image:url("images/a2_active.png");
+
+}
+
+#airplane2_transparent{
+	background-image:url("images/a2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane3{
+	background-image:url("images/a3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane3:hover{
+	background-image:url("images/a3_hover.png");
+}
+
+#airplane3:active{
+	background-image:url("images/a3_active.png");
+
+}
+
+#airplane3_transparent{
+	background-image:url("images/a3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane4{
+	background-image:url("images/a4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane4:hover{
+	background-image:url("images/a4_hover.png");
+}
+
+#airplane4:active{
+	background-image:url("images/a4_active.png");
+
+}
+
+#airplane4_transparent{
+	background-image:url("images/a4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane5{
+	background-image:url("images/a5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane5:hover{
+	background-image:url("images/a5_hover.png");
+}
+
+#airplane5:active{
+	background-image:url("images/a5_active.png");
+
+}
+
+#airplane5_transparent{
+	background-image:url("images/a5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane6{
+	background-image:url("images/a6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane6:hover{
+	background-image:url("images/a6_hover.png");
+}
+
+#airplane6:active{
+	background-image:url("images/a6_active.png");
+
+}
+
+#airplane6_transparent{
+	background-image:url("images/a6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane7{
+	background-image:url("images/a7.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane7:hover{
+	background-image:url("images/a7_hover.png");
+}
+
+#airplane7:active{
+	background-image:url("images/a7_active.png");
+
+}
+
+#airplane7_transparent{
+	background-image:url("images/a7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#airplane1.correct{background: url("images/a1_star.png");}
+#airplane2.correct{background: url("images/a2_star.png");}
+#airplane3.correct{background: url("images/a3_star.png");}
+#airplane4.correct{background: url("images/a4_star.png");}
+#airplane5.correct{background: url("images/a5_star.png");}
+#airplane6.correct{background: url("images/a6_star.png");}
+#airplane7.correct{background: url("images/a7_star.png");}
+
+
+/*=====================Animals===========================*/
+#animal_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 130px;
+	left: 10px;
+}
+
+#animal{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 100px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#animal1{
+	background-image:url("images/animal1.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal1:hover{
+	background-image:url("images/animal1_hover.png");
+}
+
+#animal1:active{
+	background-image:url("images/animal1_active.png");
+
+}
+
+#animal1_transparent{
+	background-image:url("images/animal1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal2 {
+	background-image:url("images/animal2.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal2:hover{
+	background-image:url("images/animal2_hover.png");
+}
+
+#animal2:active{
+	background-image:url("images/animal2_active.png");
+
+}
+
+#animal2_transparent{
+	background-image:url("images/animal2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal3{
+	background-image:url("images/animal3.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal3:hover{
+	background-image:url("images/animal3_hover.png");
+}
+
+#animal3:active{
+	background-image:url("images/animal3_active.png");
+
+}
+
+#animal3_transparent{
+	background-image:url("images/animal3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal4{
+	background-image:url("images/animal4.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal4:hover{
+	background-image:url("images/animal4_hover.png");
+}
+
+#animal4:active{
+	background-image:url("images/animal4_active.png");
+
+}
+
+#animal4_transparent{
+	background-image:url("images/animal4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal5{
+	background-image:url("images/animal5.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal5:hover{
+	background-image:url("images/animal5_hover.png");
+}
+
+#animal5:active{
+	background-image:url("images/animal5_active.png");
+
+}
+
+#animal5_transparent{
+	background-image:url("images/animal5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal6{
+	background-image:url("images/animal6.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal6:hover{
+	background-image:url("images/animal6_hover.png");
+}
+
+#animal6:active{
+	background-image:url("images/animal6_active.png");
+
+}
+
+#animal6_transparent{
+	background-image:url("images/animal6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal7{
+	background-image:url("images/animal7.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal7:hover{
+	background-image:url("images/animal7_hover.png");
+}
+
+#animal7:active{
+	background-image:url("images/animal7_active.png");
+
+}
+
+#animal7_transparent{
+	background-image:url("images/animal7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal8{
+	background-image:url("images/animal8.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal8:hover{
+	background-image:url("images/animal8_hover.png");
+}
+
+#animal8:active{
+	background-image:url("images/animal8_active.png");
+
+}
+
+#animal8_transparent{
+	background-image:url("images/animal8_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal9{
+	background-image:url("images/animal9.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal9:hover{
+	background-image:url("images/animal9_hover.png");
+}
+
+#animal9:active{
+	background-image:url("images/animal9_active.png");
+
+}
+
+#animal9_transparent{
+	background-image:url("images/animal9_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal10{
+	background-image:url("images/animal10.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal10:hover{
+	background-image:url("images/animal10_hover.png");
+}
+
+#animal10:active{
+	background-image:url("images/animal10_active.png");
+
+}
+
+#animal10_transparent{
+	background-image:url("images/animal10_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal11{
+	background-image:url("images/animal11.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal11:hover{
+	background-image:url("images/animal11_hover.png");
+}
+
+#animal11:active{
+	background-image:url("images/animal11_active.png");
+
+}
+
+#animal11_transparent{
+	background-image:url("images/animal11_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#animal1.correct{background: url("images/animal1_star.png");}
+#animal2.correct{background: url("images/animal2_star.png");}
+#animal3.correct{background: url("images/animal3_star.png");}
+#animal4.correct{background: url("images/animal4_star.png");}
+#animal5.correct{background: url("images/animal5_star.png");}
+#animal6.correct{background: url("images/animal6_star.png");}
+#animal7.correct{background: url("images/animal7_star.png");}
+#animal8.correct{background: url("images/animal8_star.png");}
+#animal9.correct{background: url("images/animal9_star.png");}
+#animal10.correct{background: url("images/animal10_star.png");}
+#animal11.correct{background: url("images/animal11_star.png");}
+
+/*=====================Balls===========================*/
+#ball_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 270px;
+	left: 10px;
+}
+
+#ball{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 200px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#ball1{
+	background-image:url("images/ball1.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball1:hover{
+	background-image:url("images/ball1_hover.png");
+}
+
+#ball1:active{
+	background-image:url("images/ball1_active.png");
+
+}
+
+#ball1_transparent{
+	background-image:url("images/ball1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball2{
+	background-image:url("images/ball2.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball2:hover{
+	background-image:url("images/ball2_hover.png");
+}
+
+#ball2:active{
+	background-image:url("images/ball2_active.png");
+
+}
+
+#ball2_transparent{
+	background-image:url("images/ball2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball3{
+	background-image:url("images/ball3.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball3:hover{
+	background-image:url("images/ball3_hover.png");
+}
+
+#ball3:active{
+	background-image:url("images/ball3_active.png");
+
+}
+
+#ball3_transparent{
+	background-image:url("images/ball3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball4{
+	background-image:url("images/ball4.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball4:hover{
+	background-image:url("images/ball4_hover.png");
+}
+
+#ball4:active{
+	background-image:url("images/ball4_active.png");
+
+}
+
+#ball4_transparent{
+	background-image:url("images/ball4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball5{
+	background-image:url("images/ball5.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball5:hover{
+	background-image:url("images/ball5_hover.png");
+}
+
+#ball5:active{
+	background-image:url("images/ball5_active.png");
+
+}
+
+#ball5_transparent{
+	background-image:url("images/ball5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball6{
+	background-image:url("images/ball6.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball6:hover{
+	background-image:url("images/ball6_hover.png");
+}
+
+#ball6:active{
+	background-image:url("images/ball6_active.png");
+
+}
+
+#ball6_transparent{
+	background-image:url("images/ball6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball7{
+	background-image:url("images/ball7.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball7:hover{
+	background-image:url("images/ball7_hover.png");
+}
+
+#ball7:active{
+	background-image:url("images/ball7_active.png");
+
+}
+
+#ball7_transparent{
+	background-image:url("images/ball7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#ball1.correct{background: url("images/ball1_star.png");}
+#ball2.correct{background: url("images/ball2_star.png");}
+#ball3.correct{background: url("images/ball3_star.png");}
+#ball4.correct{background: url("images/ball4_star.png");}
+#ball5.correct{background: url("images/ball5_star.png");}
+#ball6.correct{background: url("images/ball6_star.png");}
+#ball7.correct{background: url("images/ball7_star.png");}
+
+/*=====================Cars===========================*/
+#car_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 390px;
+	left: 10px;
+}
+
+#car{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 300px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#car1{
+	background-image:url("images/car1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car1:hover{
+	background-image:url("images/car1_hover.png");
+}
+
+#car1:active{
+	background-image:url("images/car1_active.png");
+
+}
+
+#car1_transparent{
+	background-image:url("images/car1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car2 {
+	background-image:url("images/car2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car2:hover{
+	background-image:url("images/car2_hover.png");
+}
+
+#car2:active{
+	background-image:url("images/car2_active.png");
+
+}
+
+#car2_transparent{
+	background-image:url("images/car2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car3{
+	background-image:url("images/car3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car3:hover{
+	background-image:url("images/car3_hover.png");
+}
+
+#car3:active{
+	background-image:url("images/car3_active.png");
+
+}
+
+#car3_transparent{
+	background-image:url("images/car3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car4{
+	background-image:url("images/car4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car4:hover{
+	background-image:url("images/car4_hover.png");
+}
+
+#car4:active{
+	background-image:url("images/car4_active.png");
+
+}
+
+#car4_transparent{
+	background-image:url("images/car4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car5{
+	background-image:url("images/car5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car5:hover{
+	background-image:url("images/car5_hover.png");
+}
+
+#car5:active{
+	background-image:url("images/car5_active.png");
+
+}
+
+#car5_transparent{
+	background-image:url("images/car5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car6{
+	background-image:url("images/car6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car6:hover{
+	background-image:url("images/car6_hover.png");
+}
+
+#car6:active{
+	background-image:url("images/car6_active.png");
+
+}
+
+#car6_transparent{
+	background-image:url("images/car6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#cars7{
+	background-image:url("images/car7.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car7:hover{
+	background-image:url("images/car7_hover.png");
+}
+
+#car7:active{
+	background-image:url("images/car7_active.png");
+
+}
+
+#car7_transparent{
+	background-image:url("images/car7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car1.correct{background: url("images/car1_star.png");}
+#car2.correct{background: url("images/car2_star.png");}
+#car3.correct{background: url("images/car3_star.png");}
+#car4.correct{background: url("images/car4_star.png");}
+#car5.correct{background: url("images/car5_star.png");}
+#car6.correct{background: url("images/car6_star.png");}
+#car7.correct{background: url("images/car7_star.png");}
+
+/*================test================*/
+
+#test1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 30px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers1 {
+	position: absolute;
+	top: 40px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_airplane1, #da_airplane2, #da_airplane3, #da_airplane4{
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+
+#da_airplane1:hover, #da_airplane2:hover, 
+#da_airplane3:hover, #da_airplane4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_airplane1:active, #da_airplane2:active, 
+#da_airplane3:active, #da_airplane4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 160px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers2 {
+	position: absolute;
+	top: 170px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_animal1, #da_animal2, #da_animal3, #da_animal4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_animal1:hover, #da_animal2:hover, 
+#da_animal3:hover, #da_animal4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_animal1:active, #da_animal2:active, 
+#da_animal3:active, #da_animal4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 300px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers3 {
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_ball1, #da_ball2, #da_ball3, #da_ball4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_ball1:hover, #da_ball2:hover, 
+#da_ball3:hover, #da_ball4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_ball1:active, #da_ball2:active, 
+#da_ball3:active, #da_ball4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 420px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers4 {
+	position: absolute;
+	top: 430px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_car1, #da_car2, #da_car3, #da_car4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_car1:hover, #da_car2:hover, 
+#da_car3:hover, #da_car4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_car1:active, #da_car2:active, 
+#da_car3:active, #da_car4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#howMany {
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#airplane_guess{
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#animal_guess{
+	position: absolute;
+	width: 300px;
+	top: 135px;
+	left: 500px;
+}
+
+#ball_guess{
+	position: absolute;
+	width: 300px;
+	top: 275px;
+	left: 500px;
+}
+
+#car_guess{
+	position: absolute;
+	width: 300px;
+	top: 395px;
+	left: 500px;
+}
+
+#guessMe1, #guessMe2, #guessMe3, #guessMe4 {
+	width: 20px;
+	height: 25px;
+	margin-left: 8px;
+	margin-top: 8px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+#popUp{
+	background: gray;
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;	
+	margin-left: 50px;
+	float: left;
+	border-radius: 10px;
+}
+#score {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	width: 170px;
+	height: 60px;
+}
+
+#stars{
+	float: left;
+}
+
+#starMe{
+	background-image:url("images/star.png");
+	width: 58px;
+	height: 56px;
+	float: right;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 18%;
+	margin-left: 40%;
+}
