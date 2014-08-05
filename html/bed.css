@@ -1,0 +1,949 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/*================books.html page=============*/
+#container {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 450px;
+	height: 520px;
+	margin: 0 auto;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+/*====================Airplanes============================*/
+	
+#pillow{
+	position: absolute;
+	width: 480px;
+	height: 110px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+
+#pillow_transparent {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 480px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+
+}
+/*================================================*/
+
+#pillow1{
+	background-image:url("images/pillow1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow1:hover{
+	background-image:url("images/pillow1_hover.png");
+}
+
+#pillow1:active{
+	background-image:url("images/pillow1_active.png");
+
+}
+
+#pillow1_transparent{
+	background-image:url("images/pillow1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow2{
+	background-image:url("images/pillow2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow2:hover{
+	background-image:url("images/pillow2_hover.png");
+}
+
+#pillow2:active{
+	background-image:url("images/pillow2_active.png");
+
+}
+
+#pillow2_transparent{
+	background-image:url("images/pillow2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow3{
+	background-image:url("images/pillow3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow3:hover{
+	background-image:url("images/pillow3_hover.png");
+}
+
+#pillow3:active{
+	background-image:url("images/pillow3_active.png");
+
+}
+
+#pillow3_transparent{
+	background-image:url("images/pillow3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow4{
+	background-image:url("images/pillow4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow4:hover{
+	background-image:url("images/pillow4_hover.png");
+}
+
+#pillow4:active{
+	background-image:url("images/pillow4_active.png");
+
+}
+
+#pillow4_transparent{
+	background-image:url("images/pillow4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow5{
+	background-image:url("images/pillow5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow5:hover{
+	background-image:url("images/pillow5_hover.png");
+}
+
+#pillow5:active{
+	background-image:url("images/pillow5_active.png");
+
+}
+
+#pillow5_transparent{
+	background-image:url("images/pillow5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow6{
+	background-image:url("images/pillow6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow6:hover{
+	background-image:url("images/pillow6_hover.png");
+}
+
+#pillow6:active{
+	background-image:url("images/pillow6_active.png");
+
+}
+
+#pillow6_transparent{
+	background-image:url("images/pillow6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#pillow1.correct{background: url("images/pillow1_star.png");}
+#pillow2.correct{background: url("images/pillow2_star.png");}
+#pillow3.correct{background: url("images/pillow3_star.png");}
+#pillow4.correct{background: url("images/pillow4_star.png");}
+#pillow5.correct{background: url("images/pillow5_star.png");}
+#pillow6.correct{background: url("images/pillow6_star.png");}
+
+
+/*=====================Animals===========================*/
+#dolls_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 130px;
+	left: 10px;
+}
+
+#dolls{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 100px;
+	margin: 0px;
+	padding: 0px;
+}	
+
+#dolls1{
+	background-image:url("images/pillow1.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls1:hover{
+	background-image:url("images/pillow1_hover.png");
+}
+
+#dolls1:active{
+	background-image:url("images/pillow1_active.png");
+
+}
+
+#dolls1_transparent{
+	background-image:url("images/pillow1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls2{
+	background-image:url("images/pillow2.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls2:hover{
+	background-image:url("images/pillow2_hover.png");
+}
+
+#dolls2:active{
+	background-image:url("images/pillow2_active.png");
+
+}
+
+#dolls2_transparent{
+	background-image:url("images/pillow2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls3{
+	background-image:url("images/pillow3.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls3:hover{
+	background-image:url("images/pillow3_hover.png");
+}
+
+#dolls3:active{
+	background-image:url("images/pillow3_active.png");
+
+}
+
+#dolls3_transparent{
+	background-image:url("images/pillow3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls4{
+	background-image:url("images/pillow4.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls4:hover{
+	background-image:url("images/pillow4_hover.png");
+}
+
+#dolls4:active{
+	background-image:url("images/pillow4_active.png");
+
+}
+
+#dolls4_transparent{
+	background-image:url("images/pillow4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls5{
+	background-image:url("images/pillow5.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls5:hover{
+	background-image:url("images/pillow5_hover.png");
+}
+
+#dolls5:active{
+	background-image:url("images/pillow5_active.png");
+
+}
+
+#dolls5_transparent{
+	background-image:url("images/pillow5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls6{
+	background-image:url("images/pillow6.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls6:hover{
+	background-image:url("images/pillow6_hover.png");
+}
+
+#dolls6:active{
+	background-image:url("images/pillow6_active.png");
+
+}
+
+#dolls6_transparent{
+	background-image:url("images/pillow6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#dolls1.correct{background: url("images/pillow1_star.png");}
+#dolls2.correct{background: url("images/pillow2_star.png");}
+#dolls3.correct{background: url("images/pillow3_star.png");}
+#dolls4.correct{background: url("images/pillow4_star.png");}
+#dolls5.correct{background: url("images/pillow5_star.png");}
+#dolls6.correct{background: url("images/pillow6_star.png");}
+
+/*=====================Balls===========================*/
+#doors_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 270px;
+	left: 10px;
+}
+
+#doors{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 200px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#doors1{
+	background-image:url("images/pillow1.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors1:hover{
+	background-image:url("images/pillow1_hover.png");
+}
+
+#doors1:active{
+	background-image:url("images/pillow1_active.png");
+
+}
+
+#doors1_transparent{
+	background-image:url("images/pillow1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors2{
+	background-image:url("images/pillow2.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors2:hover{
+	background-image:url("images/pillow2_hover.png");
+}
+
+#doors2:active{
+	background-image:url("images/pillow2_active.png");
+
+}
+
+#doors2_transparent{
+	background-image:url("images/pillow2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors3{
+	background-image:url("images/pillow3.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors3:hover{
+	background-image:url("images/pillow3_hover.png");
+}
+
+#doors3:active{
+	background-image:url("images/pillow3_active.png");
+
+}
+
+#doors3_transparent{
+	background-image:url("images/pillow3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors4{
+	background-image:url("images/pillow4.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors4:hover{
+	background-image:url("images/pillow4_hover.png");
+}
+
+#doors4:active{
+	background-image:url("images/pillow4_active.png");
+
+}
+
+#doors4_transparent{
+	background-image:url("images/pillow4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors5{
+	background-image:url("images/pillow5.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors5:hover{
+	background-image:url("images/pillow5_hover.png");
+}
+
+#doors5:active{
+	background-image:url("images/pillow5_active.png");
+
+}
+
+#doors5_transparent{
+	background-image:url("images/pillow5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors6{
+	background-image:url("images/pillow6.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors6:hover{
+	background-image:url("images/pillow6_hover.png");
+}
+
+#doors6:active{
+	background-image:url("images/pillow6_active.png");
+
+}
+
+#doors6_transparent{
+	background-image:url("images/pillow6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+}
+
+#doors1.correct{background: url("images/pillow1_star.png");}
+#doors2.correct{background: url("images/pillow2_star.png");}
+#doors3.correct{background: url("images/pillow3_star.png");}
+#doors4.correct{background: url("images/pillow4_star.png");}
+#doors5.correct{background: url("images/pillow5_star.png");}
+#doors6.correct{background: url("images/pillow6_star.png");}
+#doors7.correct{background: url("images/pillow7_star.png");}
+
+/*=====================Cars===========================*/
+#helmet_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 390px;
+	left: 10px;
+}
+
+#helmet{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 300px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#helmet1{
+	background-image:url("images/pillow1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet1:hover{
+	background-image:url("images/pillow1_hover.png");
+}
+
+#helmet1:active{
+	background-image:url("images/pillow1_active.png");
+
+}
+
+#helmet1_transparent{
+	background-image:url("images/pillow1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet2 {
+	background-image:url("images/pillow2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet2:hover{
+	background-image:url("images/pillow2_hover.png");
+}
+
+#helmet2:active{
+	background-image:url("images/pillow2_active.png");
+
+}
+
+#helmet2_transparent{
+	background-image:url("images/pillow2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet3{
+	background-image:url("images/pillow3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet3:hover{
+	background-image:url("images/pillow3_hover.png");
+}
+
+#helmet3:active{
+	background-image:url("images/pillow3_active.png");
+
+}
+
+#helmet3_transparent{
+	background-image:url("images/pillow3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet4{
+	background-image:url("images/pillow4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet4:hover{
+	background-image:url("images/pillow4_hover.png");
+}
+
+#helmet4:active{
+	background-image:url("images/pillow4_active.png");
+
+}
+
+#helmet4_transparent{
+	background-image:url("images/pillow4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet5{
+	background-image:url("images/pillow5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet5:hover{
+	background-image:url("images/pillow5_hover.png");
+}
+
+#helmet5:active{
+	background-image:url("images/pillow5_active.png");
+
+}
+
+#helmet5_transparent{
+	background-image:url("images/pillow5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet6{
+	background-image:url("images/pillow6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet6:hover{
+	background-image:url("images/pillow6_hover.png");
+}
+
+#helmet6:active{
+	background-image:url("images/pillow6_active.png");
+
+}
+
+#helmet6_transparent{
+	background-image:url("images/pillow6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#helmet1.correct{background: url("images/pillow1_star.png");}
+#helmet2.correct{background: url("images/pillow2_star.png");}
+#helmet3.correct{background: url("images/pillow3_star.png");}
+#helmet4.correct{background: url("images/pillow4_star.png");}
+#helmet5.correct{background: url("images/pillow5_star.png");}
+#helmet6.correct{background: url("images/pillow6_star.png");}
+
+/*================test================*/
+
+#test1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 30px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers1 {
+	position: absolute;
+	top: 40px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_pillow1, #da_pillow2, #da_pillow3, #da_pillow4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+
+#da_pillow1:hover, #da_pillow2:hover, 
+#da_pillow3:hover, #da_pillow4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_pillow1:active, #da_pillow2:active, 
+#da_pillow3:active, #da_pillow4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 160px;
+	left: 500px;
+	background: red;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers2 {
+	position: absolute;
+	top: 170px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_dolls1, #da_dolls2, #da_dolls3, #da_dolls4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_dolls1:hover, #da_dolls2:hover, 
+#da_dolls3:hover, #da_dolls4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_dolls1:active, #da_dolls2:active, 
+#da_dolls3:active, #da_dolls4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 300px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers3 {
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_doors1, #da_doors2, #da_doors3, #da_doors4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_doors1:hover, #da_doors2:hover, 
+#da_doors3:hover, #da_doors4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_doors1:active, #da_doors2:active, 
+#da_doors3:active, #da_doors4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 420px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers4 {
+	position: absolute;
+	top: 430px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_helmet1, #da_helmet2, #da_helmet3, #da_helmet4 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_helmet1:hover, #da_helmet2:hover, 
+#da_helmet3:hover, #da_helmet4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_helmet1:active, #da_helmet2:active, 
+#da_helmet3:active, #da_helmet4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#howMany {
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#pillow_guess{
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#dolls_guess{
+	position: absolute;
+	width: 300px;
+	top: 135px;
+	left: 500px;
+}
+
+#doors_guess{
+	position: absolute;
+	width: 300px;
+	top: 275px;
+	left: 500px;
+}
+
+#helmet_guess{
+	position: absolute;
+	width: 300px;
+	top: 395px;
+	left: 500px;
+}
+
+#guessMe1, #guessMe2, #guessMe3, #guessMe4 {
+	width: 20px;
+	height: 25px;
+	margin-left: 8px;
+	margin-top: 8px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+#popUp{
+	background: gray;
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;	
+	margin-left: 50px;
+	float: left;
+	border-radius: 10px;
+}
+#score {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	width: 170px;
+	height: 60px;
+}
+
+#stars{
+	float: left;
+}
+
+#starMe{
+	background-image:url("images/star.png");
+	width: 58px;
+	height: 56px;
+	float: right;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 18%;
+	margin-left: 40%;
+}

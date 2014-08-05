@@ -80,7 +80,7 @@
     var trueHats = 0;
 
     //There are 7 pants that need to appear randomly. Array and then random the elements
-    var pants = [1, 2, 3, 4, 5, 6, 7, 9];
+    var pants = [1, 2, 3, 4, 5, 6];
     pants.sort(function() {
         return Math.random() - .3
     });
@@ -117,13 +117,13 @@
             $("<div>" + "</div>").attr("id", "shoes" + k + "_transparent").appendTo("#shoes_transparent");
             $("<div>" + "</div>").attr("id", "sox" + k).appendTo("#sox");
             $("<div>" + "</div>").attr("id", "sox" + k + "_transparent").appendTo("#sox_transparent");
+            $("<div>" + "</div>").attr("id", "pants" + k).appendTo("#pants");
+            $("<div>" + "</div>").attr("id", "pants" + k + "_transparent").appendTo("#pants_transparent");
         };
 
         for (var k = 1; k <= 9; k++) {
             $("<div>" + "</div>").attr("id", "hats" + k).appendTo("#hats");
             $("<div>" + "</div>").attr("id", "hats" + k + "_transparent").appendTo("#hats_transparent");
-            $("<div>" + "</div>").attr("id", "pants" + k).appendTo("#pants");
-            $("<div>" + "</div>").attr("id", "pants" + k + "_transparent").appendTo("#pants_transparent");
         };
 
         //create the divs with the little boxes to guess how many shirts were there and adding to 'numbers' div
