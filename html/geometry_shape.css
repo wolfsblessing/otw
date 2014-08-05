@@ -71,7 +71,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object12{
@@ -96,7 +96,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object13{
@@ -121,7 +121,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object14{
@@ -146,7 +146,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object15{
@@ -171,7 +171,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object16{
@@ -196,7 +196,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object17{
@@ -221,17 +221,17 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 /*#object11.correct{background: url("images/o1_1_star.png");}*/
-#object11.correct{background: url("images/o1.png");}
-#object12.correct{background: url("images/o1_2.png");}
-#object13.correct{background: url("images/o1_3.png");}
-#object14.correct{background: url("images/o1_4.png");}
-#object15.correct{background: url("images/o1_5.png");}
-#object16.correct{background: url("images/o1_6.png");}
-#object17.correct{background: url("images/o1_7.png");}
+#object11.correct{background: url("images/o1_star.png");}
+#object12.correct{background: url("images/o1_2_star.png");}
+#object13.correct{background: url("images/o1_3_star.png");}
+#object14.correct{background: url("images/o1_4_star.png");}
+#object15.correct{background: url("images/o1_5_star.png");}
+#object16.correct{background: url("images/o1_6_star.png");}
+#object17.correct{background: url("images/o1_7_star.png");}
 
 
 /*=====================object2s===========================*/
@@ -275,7 +275,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object22 {
@@ -300,7 +300,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object23{
@@ -325,7 +325,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object24{
@@ -350,7 +350,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object25{
@@ -375,7 +375,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object26{
@@ -400,7 +400,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object27{
@@ -425,16 +425,16 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
-#object21.correct{background: url("images/o1.png");}
-#object22.correct{background: url("images/o1_2.png");}
-#object23.correct{background: url("images/o1_3.png");}
-#object24.correct{background: url("images/o1_4.png");}
-#object25.correct{background: url("images/o1_5.png");}
-#object26.correct{background: url("images/o1_6.png");}
-#object27.correct{background: url("images/o1_7.png");}
+#object21.correct{background: url("images/o1_star.png");}
+#object22.correct{background: url("images/o1_2_star.png");}
+#object23.correct{background: url("images/o1_3_star.png");}
+#object24.correct{background: url("images/o1_4_star.png");}
+#object25.correct{background: url("images/o1_5_star.png");}
+#object26.correct{background: url("images/o1_6_star.png");}
+#object27.correct{background: url("images/o1_7_star.png");}
 
 /*=====================object3s===========================*/
 #object3_transparent{
@@ -477,7 +477,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object32{
@@ -502,7 +502,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object33{
@@ -527,7 +527,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object34{
@@ -552,7 +552,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object35{
@@ -577,7 +577,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object36{
@@ -602,7 +602,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object37{
@@ -627,16 +627,16 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
-#object31.correct{background: url("images/o1.png");}
-#object32.correct{background: url("images/o1_2.png");}
-#object33.correct{background: url("images/o1_3.png");}
-#object34.correct{background: url("images/o1_4.png");}
-#object35.correct{background: url("images/o1_5.png");}
-#object36.correct{background: url("images/o1_6.png");}
-#object37.correct{background: url("images/o1_7.png");}
+#object31.correct{background: url("images/o1_star.png");}
+#object32.correct{background: url("images/o1_2_star.png");}
+#object33.correct{background: url("images/o1_3_star.png");}
+#object34.correct{background: url("images/o1_4_star.png");}
+#object35.correct{background: url("images/o1_5_star.png");}
+#object36.correct{background: url("images/o1_6_star.png");}
+#object37.correct{background: url("images/o1_7_star.png");}
 
 /*=====================object4s===========================*/
 #object4_transparent{
@@ -679,7 +679,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object42 {
@@ -704,7 +704,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object43{
@@ -729,7 +729,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object44{
@@ -754,7 +754,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object45{
@@ -779,7 +779,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object46{
@@ -804,7 +804,7 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
 #object4s7{
@@ -829,16 +829,16 @@ body {
 	float: left;
 	width: 92px;
 	height: 104px;
-	opacity: 0.1;
+	opacity: 0.3;
 }
 
-#object41.correct{background: url("images/o1.png");}
-#object42.correct{background: url('images/o1_2.png');}
-#object43.correct{background: url("images/o1_3.png");}
-#object44.correct{background: url("images/o1_4.png");}
-#object45.correct{background: url("images/o1_5.png");}
-#object46.correct{background: url("images/o1_6.png");}
-#object47.correct{background: url("images/o1_7.png");}
+#object41.correct{background: url("images/o1_star.png");}
+#object42.correct{background: url('images/o1_2_star.png');}
+#object43.correct{background: url("images/o1_3_star.png");}
+#object44.correct{background: url("images/o1_4_star.png");}
+#object45.correct{background: url("images/o1_5_star.png");}
+#object46.correct{background: url("images/o1_6_star.png");}
+#object47.correct{background: url("images/o1_7_star.png");}
 
 /*================test================*/
 
