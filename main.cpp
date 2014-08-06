@@ -10,7 +10,6 @@ int main(int argc, char *argv[])
     viewer.showExpanded();
     viewer.loadFile(QLatin1String("../html/index.html"));
 //    viewer.loadFile(QLatin1String("../html/closet.html"));
-
     viewer.setGeometry( 50, 50, 1000, 800 );
 
     return app.exec();
