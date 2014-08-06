@@ -11,7 +11,6 @@ body {
 	padding: 0px;
 }
 
-
 #wholeRoom {
 	position: absolute;
 	top: 10px;
@@ -26,7 +25,7 @@ body {
 	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
 }
 
-#subtraction {
+#theCloset {
 	position: absolute;
 	top: 10px;
 	left: 380px;
@@ -43,19 +42,19 @@ body {
 	padding-top: 35px;
 }
 
-#subtraction:hover{
-	background: #eaeaea;
+#theCloset:hover{
+        background: #eaeaea;
 	cursor:context-menu;
 }
 
-#subtraction:active{
+#theCloset:active{
 	background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 	cursor:context-menu;
+
 }
 
 
-#add{
+#theToys{
 	position: absolute;
 	top: 10px;
 	left: 10px;
@@ -72,19 +71,18 @@ body {
 	padding-top: 35px;
 }
 
-#add:hover{
+#theToys:hover{
 	background: #eaeaea;
 	cursor:context-menu;
 }
 
-#add:active{
+#theToys:active{
 	background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 	cursor:context-menu;
 }
 
 
-#to_room{
+#theBooks{
 	position: absolute;
 	top: 200px;
 	left: 200px;
@@ -101,19 +99,18 @@ body {
 	padding-top: 35px;
 }
 
-#to_room:hover{
+#theBooks:hover{
 	background: #eaeaea;
 	cursor:context-menu;
 }
 
-#to_room:active{
+#theBooks:active{
 	background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 	cursor:context-menu;
 }
 
 
-#geometric{
+#theBed{
 	position: absolute;
 	top: 380px;
 	left: 10px;
@@ -130,14 +127,13 @@ body {
 	padding-top: 35px;
 }
 
-#geometric:hover{
+#theBed:hover{
 	background: #eaeaea;
 	cursor:context-menu;
 }
 
-#geometric:active{
+#theBed:active{
 	background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 	cursor:context-menu;
 }
 
@@ -166,6 +162,6 @@ body {
 
 #theWorkingTable:active{
 	background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 	cursor:context-menu;
 }
+
