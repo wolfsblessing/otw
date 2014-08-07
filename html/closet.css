@@ -29,8 +29,8 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 100px;
-	width: 550px;
-	height: 520px;
+	width: 530px;
+	height: 540px;
 	margin: 0 auto;
 	border: 2px solid #333;
 	border-radius: 10px;
@@ -45,10 +45,13 @@ body {
 	left: 120px;
 	margin: 0px;
 	padding: 0px;
-
 }
-/*================================================*/
 
+#dashirts li {
+	list-style-type: none;
+}
+
+/*================================================*/
 #shirts1{
 	background:url("images/bluza1.png") no-repeat;
 	width: 104px;
@@ -198,18 +201,26 @@ body {
 #shirt_outline {
 	position: absolute;
 	background:url("images/bluza_outline.png") no-repeat;
+	border-right: 2px solid #333;
 	width: 104px;
 	height: 100px;
+	opacity: 0.3;
 }
 
 #trans_shirts {
 	position: absolute;
 	left: 120px;
-	width: 480px;
+	width: 400px;
 	height: 110px;
 	margin: 0px;
 	padding: 0px;
+	border-bottom: 1px dashed #aeaeae;
 
+}
+
+
+#trans_shirts li {
+	list-style-type: none;
 }
 
 #shirts1_transparent{
@@ -271,9 +282,25 @@ body {
 
 #shoes_transparent{
 	position: absolute;
-	width: 430px;
+	left: 120px;
+	width: 400px;
 	height: 110px;
-	top: 100px;
+	top: 110px;
+	border-bottom: 1px dashed #aeaeae;
+}
+
+#shoes_transparent li {
+	list-style-type: none;
+}
+
+#shoes_outline {
+	position: absolute;
+	top: 120px;
+	background:url("images/cevli_outline.png") no-repeat;
+	border-right: 2px solid #333;
+	width: 104px;
+	height: 100px;
+	opacity: 0.3;
 }
 
 #shoes{
@@ -284,6 +311,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 
+}
+
+#shoes li {
+	list-style-type: none;
 }
 
 #shoes1{
@@ -452,9 +483,25 @@ body {
 /*===============sox===============*/
 #sox_transparent{
 	position: absolute;
-	width: 430px;
-	height: 78px;
-	top: 210px;
+	width: 400px;
+	height: 90px;
+	top: 220px;
+	left: 120px;
+	border-bottom: 1px dashed #aeaeae;
+}
+
+#sox_transparent li {
+	list-style-type: none;
+}
+
+#sox_outline {
+	position: absolute;
+	top: 220px;
+	background:url("images/corapi_outline.png") no-repeat;
+	border-right: 2px solid #333;
+	width: 104px;
+	height: 100px;
+	opacity: 0.3;
 }
 
 #sox{
@@ -464,7 +511,10 @@ body {
 	top: 210px;
 	margin: 0px;
 	padding: 0px;
+}
 
+#sox li {
+	list-style-type: none;
 }
 
 #sox1{
@@ -641,12 +691,27 @@ body {
 
 #hats_transparent{
 	position: absolute;
-	width: 430px;
-	height: 69px;
-	top: 300px;
+	width: 400px;
+	height: 90px;
+	top: 320px;
+	left: 120px;
 	margin: 0px;
 	padding: 0px;
+	border-bottom: 1px dashed #aeaeae;
+}
 
+#hats_transparent li {
+	list-style-type: none;
+}
+
+#hats_outline {
+	position: absolute;
+	top: 310px;
+	background:url("images/hat_outline.png") no-repeat;
+	border-right: 2px solid #333;
+	width: 104px;
+	height: 100px;
+	opacity: 0.3;
 }
 
 #hats{
@@ -657,6 +722,10 @@ body {
 	margin: 0px;
 	padding: 0px;
 
+}
+
+#hats li {
+	list-style-type: none;
 }
 
 #hats1{
@@ -880,12 +949,26 @@ body {
 
 #pants_transparent{
 	position: absolute;
-	width: 430px;
-	height: 94px;
-	top: 400px;
+	width: 400px;
+	height: 105px;
+	top: 420px;
+	left: 120px;
 	margin: 0px;
 	padding: 0px;
+}
 
+#pants_transparent li {
+	list-style-type: none;
+}
+
+#pants_outline {
+	position: absolute;
+	top: 420px;
+	background:url("images/pants_outline.png") no-repeat;
+	border-right: 2px solid #333;
+	width: 104px;
+	height: 100px;
+	opacity: 0.2;
 }
 
 #pants{
@@ -896,6 +979,10 @@ body {
 	padding: 0px;
 	top: 400px;
 
+}
+
+#pants {
+	list-style-type: none;
 }
 
 #pants1{
@@ -1079,36 +1166,36 @@ body {
 #shirtNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 0px;
-	left: 500px;
+	top: 5px;
+	left: 560px;
 }
 
 #shoesNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 100px;
-	left: 500px;
+	top: 115px;
+	left: 560px;
 }
 
 #soxNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 200px;
-	left: 500px;
+	top: 215px;
+	left: 560px;
 }
 
 #hatNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 300px;
-	left: 500px;
+	top: 315px;
+	left: 560px;
 }
 
 #pantsNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 400px;
-	left: 500px;
+	top: 415px;
+	left: 560px;
 }
 
 /*================test================*/
@@ -1117,8 +1204,8 @@ body {
 	width: 50px;
 	height: 50px;
 	background: red;
-	top: 20px;
-	left: 500px;
+	top: 30px;
+	left: 560px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1126,35 +1213,34 @@ body {
 
 #numbers1 {
 	position: absolute;
-	top: 30px;
-	left: 550px;
+	top: 40px;
+	left: 610px;
 	width: 210px;
 	height: 40px;
 }
 
 #daShirts1, #daShirts2, #daShirts3, #daShirts4 {
-	width: 30px;
+	width: 23px;
 	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 
 #daShirts1:hover, #daShirts2:hover, 
 #daShirts3:hover, #daShirts4:hover {
-	width: 30px;
-	height: 30px;
 
 	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 #daShirts1:active, #daShirts2:active, 
 #daShirts3:active, #daShirts4:active {
-	width: 30px;
-	height: 30px;
 
 	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
@@ -1164,8 +1250,8 @@ body {
 	width: 50px;
 	height: 50px;
 	background: red;
-	top: 120px;
-	left: 500px;
+	top: 140px;
+	left: 560px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1173,27 +1259,28 @@ body {
 
 #numbers2 {
 	position: absolute;
-	top: 130px;
-	left: 550px;
+	top: 150px;
+	left: 610px;
 	width: 210px;
 	height: 40px;
 }
 
 #daShoes1, #daShoes2, #daShoes3, #daShoes4 {
-	width: 30px;
+	width: 23px;
 	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 
 #daShoes1:hover, #daShoes2:hover, 
 #daShoes3:hover, #daShoes4:hover {
-	width: 30px;
-	height: 30px;
 
 	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
@@ -1201,8 +1288,6 @@ body {
 
 #daShoes1:active, #daShoes2:active, 
 #daShoes3:active, #daShoes4:active {
-	width: 30px;
-	height: 30px;
 
 	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
@@ -1212,8 +1297,8 @@ body {
 	width: 50px;
 	height: 50px;
 	background: red;
-	top: 220px;
-	left: 500px;
+	top: 240px;
+	left: 560px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1221,35 +1306,33 @@ body {
 
 #numbers3 {
 	position: absolute;
-	top: 230px;
-	left: 550px;
+	top: 250px;
+	left: 610px;
 	width: 210px;
 	height: 40px;
 }
 
 #daSox1, #daSox2, #daSox3, #daSox4 {
-	width: 30px;
+	width: 23px;
 	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 #daSox1:hover, #daSox2:hover, 
 #daSox3:hover, #daSox4:hover {
-	width: 30px;
-	height: 30px;
-
 	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
 #daSox1:active, #daSox2:active, 
 #daSox3:active, #daSox4:active {
-	width: 30px;
-	height: 30px;
 
 	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
@@ -1259,8 +1342,8 @@ body {
 	width: 50px;
 	height: 50px;
 	background: red;
-	top: 320px;
-	left: 500px;
+	top: 340px;
+	left: 560px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1268,44 +1351,41 @@ body {
 
 #numbers4 {
 	position: absolute;
-	top: 330px;
-	left: 550px;
+	top: 350px;
+	left: 610px;
 	width: 210px;
 	height: 40px;
 }
 
 
 #daHats1, #daHats2, #daHats3, #daHats4 {
-	width: 30px;
+	width: 23px;
 	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
-#daHats:hover, #daHats2:hover, 
+#daHats1:hover, #daHats2:hover, 
 #daHats3:hover, #daHats4:hover {
-	width: 30px;
-	height: 30px;
-
 	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 
 #daHats1:active, #daHats2:active, 
 #daHats3:active, #daHats4:active {
-	width: 30px;
-	height: 30px;
-
 	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
 #test5 {
 	position: absolute;
-	top: 420px;
-	left: 500px;
+	top: 440px;
+	left: 560px;
 	width: 50px;
 	height: 50px;
 	background: red;
@@ -1316,36 +1396,33 @@ body {
 
 #numbers5 {
 	position: absolute;
-	top: 430px;
-	left: 550px;
+	top: 450px;
+	left: 610px;
 	width: 210px;
 	height: 40px;
 }
 
 
 #daPants1, #daPants2, #daPants3, #daPants4 {
-	width: 30px;
+	width: 23px;
 	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
-#daPants:hover, #daPants2:hover, 
+#daPants1:hover, #daPants2:hover, 
 #daPants3:hover, #daPants4:hover {
-	width: 30px;
-	height: 30px;
-
 	box-shadow: 0px 0px 2px 2px #CC91B2;
 }
 
 #daPants1:active, #daPants2:active, 
 #daPants3:active, #daPants4:active {
-	width: 30px;
-	height: 30px;
-
 	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
@@ -1353,26 +1430,29 @@ body {
 	background: gray;
 	width: 300px;
 	height: 300px;
-	margin-top: -100px;	
-	margin-left: 50px;
+	margin-top: 100px;	
+	margin-left: 115px;
 	float: left;
 	border-radius: 10px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4, #guessMe5{
-	width: 30px;
+	width: 23px;
 	height: 30px;
 	margin-left: 8px;
 	margin-top: 8px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
+	padding-left: 7px;
+	font-size: 1.7em;
+	font-family: arial bold;
 }
 
 #score {
 	position: absolute;
-	top: 350px;
-	left: 100px;
+	top: 400px;
+	left: 190px;
 	width: 170px;
 	height: 60px;
 }
@@ -1388,3 +1468,7 @@ body {
 	float: right;
 }
 
+.back, .reset {
+	margin-top: 50px;
+	margin-left: 100px;
+}

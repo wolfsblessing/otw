@@ -5,7 +5,7 @@
   <head>
     <title>hats</title>
     <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-    <link rel="stylesheet" type="text/css" href="open.css">
+    <link rel="stylesheet" type="text/css" href="closet.css">
 
     <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="jquery-ui.min.js"></script>
@@ -16,18 +16,23 @@
   <body>
       <div id="container">
 
+        <div id="shirt_outline"></div>
         <div id="trans_shirts"> </div>
         <div id="dashirts"> </div>
 
+        <div id="shoes_outline"></div>
         <div id="shoes_transparent"></div>
         <div id="shoes"></div>
 
+        <div id="sox_outline"></div>
         <div id="sox_transparent"></div>
         <div id="sox"></div>
 
+        <div id="hats_outline"></div>
         <div id="hats_transparent"></div>
         <div id="hats"></div>
 
+        <div id="pants_outline"></div>
         <div id="pants_transparent"></div>
         <div id="pants"></div>
 
@@ -54,9 +59,8 @@
         <div id="numbers5"> </div>
 
         <div id="popUp">
-          <button div="back" onclick="window.location.href='room.html'">Назад</button>
-          <button div="reset" onclick="window.location.reload()">играј повторно</button>
-          <button div="continue" onclick="">продолжи</button>
+          <button class="back" onclick="window.location.href='room.html'">Назад</button>
+          <button class="reset" onclick="window.location.reload()">Играј повторно</button>
         </div>
         <div id="score">
           <p id="stars">Браво, си доби Ѕвезда!</p>
@@ -65,4 +69,4 @@
       </div>
         </body>
 </html>
-<script type="text/javascript" src="code.js"></script>
+<script type="text/javascript" src="closet.js"></script>
