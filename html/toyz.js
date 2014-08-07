@@ -11,7 +11,7 @@
         return Math.random() - .3
     });
     daTransparent = [0, 120, 240, 360];
-    dacopy = [20, 40, 60, 80];
+    dacopy = [-60, 100, 200, 300];
     dacopy.sort(function() {
         return Math.random() - .25
     });
@@ -93,22 +93,18 @@
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 7; k++) {
-            $("<div>" + "</div>").attr("id", "airplane" + k).appendTo("#airplane");
-            $("<div>" + "</div>").attr("id", "airplane" + k + "_transparent").appendTo("#airplane_transparent");
+            $("<li>" + "</li>").attr("id", "airplane" + k).appendTo("#airplane");
 
             //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "ball" + k).appendTo("#ball");
-            $("<div>" + "</div>").attr("id", "ball" + k + "_transparent").appendTo("#ball_transparent");
+            $("<li>" + "</li>").attr("id", "ball" + k).appendTo("#ball");
 
             //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "car" + k).appendTo("#car");
-            $("<div>" + "</div>").attr("id", "car" + k + "_transparent").appendTo("#car_transparent");
+            $("<li>" + "</li>").attr("id", "car" + k).appendTo("#car");
         };
 
         for (var k = 1; k <= 11; k++) {
             //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "animal" + k).appendTo("#animal");
-            $("<div>" + "</div>").attr("id", "animal" + k + "_transparent").appendTo("#animal_transparent");
+            $("<li>" + "</li>").attr("id", "animal" + k).appendTo("#animal");
         };
 
 
@@ -162,148 +158,138 @@
 
         //--------------------------------------------------------------------------------
         //Airplanes
+        myAirplanePosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= airplaneNumbers[0]; i++) {
-            $("#airplane" + airplane[i]).show();
-            $("#airplane" + airplane[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#airplane" + airplane[i]).draggable({
-                stack: "#airplane",
-                revert: true,
-                cursor: "move"
+            $("#airplane" + airplane[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "550px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#airplane" + airplane[i] + "_transparent").droppable({
-                accept: "#airplane" + airplane[i],
+                top: "500px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#airplane_transparent").droppable({
+                accept: "#airplane > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     airplaneCounter = airplaneCounter + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myAirplanePosition + "px",
+                    }).appendTo("#airplane_transparent");
+                    myAirplanePosition = myAirplanePosition + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Animals
+
+        // //--------------------------------------------------------------------------------
+        // //Animals
+        myAnimalPosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= animalNumbers[0]; i++) {
-            $("#animal" + animal[i]).show();
-            $("#animal" + animal[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#animal" + animal[i]).draggable({
-                stack: "#animal",
-                revert: true,
-                cursor: "move"
+            $("#animal" + animal[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "450px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#animal" + animal[i] + "_transparent").droppable({
-                accept: "#animal" + animal[i],
+                top: "470px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#animal_transparent").droppable({
+                accept: "#animal > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     animalCounter = animalCounter + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myAnimalPosition + "px",
+                    }).appendTo("#animal_transparent");
+                    myAnimalPosition = myAnimalPosition + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Balls
+        // //--------------------------------------------------------------------------------
+        // //Balls
+
+        myBallPosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= ballNumbers[0]; i++) {
-            $("#ball" + ball[i]).show();
-            $("#ball" + ball[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#ball" + ball[i]).draggable({
-                stack: "#ball",
-                revert: true,
-                cursor: "move"
+            $("#ball" + ball[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "350px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#ball" + ball[i] + "_transparent").droppable({
-                accept: "#ball" + ball[i],
+                top: "440px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#ball_transparent").droppable({
+                accept: "#ball > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     ballCounter = ballCounter + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myBallPosition + "px",
+                    }).appendTo("#ball_transparent");
+                    myBallPosition = myBallPosition + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Cars
+        // //--------------------------------------------------------------------------------
+        // //Cars
+
+        myCarPosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= carNumbers[0]; i++) {
-            $("#car" + car[i]).show();
-            $("#car" + car[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#car" + car[i]).draggable({
-                stack: "#car",
-                revert: true,
-                cursor: "move"
+            $("#car" + car[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "250px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#car" + car[i] + "_transparent").droppable({
-                accept: "#car" + car[i],
+                top: "390px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#car_transparent").droppable({
+                accept: "#car > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     carCounter = carCounter + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myCarPosition + "px",
+                    }).appendTo("#car_transparent");
+                    myCarPosition = myCarPosition + 100;
                 }
             });
         };
-
 
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements
@@ -541,12 +527,16 @@
                 (true_car == 1)) {
                 $("#airplane_transparent").hide();
                 $("#airplane").hide();
+                $("#airplane_outline").hide();
                 $("#animal_transparent").hide();
                 $("#animal").hide();
+                $("#animal_outline").hide();
                 $("#ball_transparent").hide();
                 $("#ball").hide();
+                $("#ball_outline").hide();
                 $("#car_transparent").hide();
                 $("#car").hide();
+                $("#car_outline").hide();
                 $("#airplane_guess").hide();
                 $("#animal_guess").hide();
                 $("#ball_guess").hide();
