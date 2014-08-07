@@ -34,21 +34,28 @@ body {
 	left: 10px;
 	margin: 0px;
 	padding: 0px;
-
 }
 
+#b_books li {
+	list-style-type: none;
+}
 
 #b_books_transparent{
 	position: absolute;
 	top: 10px;
 	left: 10px;
-	width: 480px;
+	width: 420px;
 	height: 110px;
 	margin: 0px;
 	padding: 0px;
-	color:red;
-
+	border: 2px solid blue;
+	border-radius: 10px;
 }
+
+#b_books_transparent li {
+	list-style-type: none;
+}
+
 /*================================================*/
 
 #b_books1{
@@ -224,10 +231,17 @@ body {
 /*=====================Green Books===========================*/
 #g_books_transparent{
 	position: absolute;
-	width: 430px;
+	width: 410px;
 	height: 110px;
 	top: 130px;
+	left: 10px;
 	padding-left: 10px;
+	border: 2px solid green;
+	border-radius: 10px;
+}
+
+#g_books_transparent li {
+	list-style-type: none;
 }
 
 #g_books{
@@ -237,8 +251,11 @@ body {
 	top: 130px;
 	margin: 0px;
 	padding-left: 10px;
-
 }	
+
+#g_books li {
+	list-style-type: none;
+}
 
 #g_books1{
 	background-image:url("images/g_book1.png");
@@ -412,11 +429,17 @@ body {
 /*=====================Red Books===========================*/
 #r_books_transparent{
 	position: absolute;
-	width: 430px;
+	width: 410px;
 	height: 110px;
-	top: 260px;
+	top: 250px;
 	left: 10px;
 	padding-left: 10px;
+	border: 2px solid red;
+	border-radius: 10px;
+}
+
+#r_books_transparent li {
+	list-style-type: none;
 }
 
 #r_books{
@@ -427,8 +450,11 @@ body {
 	left: 10px;
 	margin: 0px;
 	padding-left: 10px;
-
 }	
+
+#r_books li {
+	list-style-type: none;
+}
 
 #r_books1{
 	background-image:url("images/r_book1.png");
@@ -602,10 +628,16 @@ body {
 /*=====================Yellow Books===========================*/
 #y_books_transparent{
 	position: absolute;
-	width: 430px;
+	width: 420px;
 	height: 110px;
-	top: 400px;
+	top: 370px;
 	left: 10px;
+	border: 2px solid orange;
+	border-radius: 10px;
+}
+
+#y_books_transparent li {
+	list-style-type: none;
 }
 
 #y_books{
@@ -617,6 +649,10 @@ body {
 	left: 10px;
 
 }	
+
+#y_books li {
+	list-style-type: none;
+}
 
 #y_books1{
 	background-image:url("images/y_book1.png");
@@ -810,15 +846,16 @@ body {
 }
 
 #da_b_books1, #da_b_books2, #da_b_books3, #da_b_books4{
-	width: 20px;
-	height: 25px;
+	width: 23px;
+	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
-	padding-left: 10px;
-	padding-top: 5px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 
@@ -855,15 +892,16 @@ body {
 }
 
 #da_g_books1, #da_g_books2, #da_g_books3, #da_g_books4 {
-	width: 20px;
-	height: 25px;
+	width: 23px;
+	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
-	padding-left: 10px;
-	padding-top: 5px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 
@@ -901,15 +939,16 @@ body {
 }
 
 #da_r_books1, #da_r_books2, #da_r_books3, #da_r_books4 {
-	width: 20px;
-	height: 25px;
+	width: 23px;
+	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
-	padding-left: 10px;
-	padding-top: 5px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 #da_r_books1:hover, #da_r_books2:hover, 
@@ -946,15 +985,16 @@ body {
 }
 
 #da_y_books1, #da_y_books2, #da_y_books3, #da_y_books4 {
-	width: 20px;
-	height: 25px;
+	width: 23px;
+	height: 30px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
 	margin-left: 15px;
-	padding-left: 10px;
-	padding-top: 5px;
+	padding-left: 7px;
 	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
 }
 
 #da_y_books1:hover, #da_y_books2:hover, 
@@ -1005,15 +1045,16 @@ body {
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
-	width: 20px;
-	height: 25px;
+	width: 23px;
+	height: 30px;
 	margin-left: 8px;
 	margin-top: 8px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
-	padding-left: 10px;
-	padding-top: 5px;
+	padding-left: 7px;
+	font-size: 1.7em;
+	font-family: arial bold;
 }
 
 #popUp{

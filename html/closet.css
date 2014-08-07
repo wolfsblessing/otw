@@ -1469,6 +1469,7 @@ body {
 }
 
 .back, .reset {
-	margin-top: 50px;
-	margin-left: 100px;
+	margin: 0 auto;
+	margin-top: 18%;
+	margin-left: 40%;
 }

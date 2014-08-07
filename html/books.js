@@ -11,7 +11,7 @@
         return Math.random() - .3
     });
     daTransparent = [0, 120, 240, 360];
-    dacopy = [20, 40, 60, 80];
+    dacopy = [-60, 100, 200, 300];
     dacopy.sort(function() {
         return Math.random() - .25
     });
@@ -93,21 +93,17 @@
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 7; k++) {
-            $("<div>" + "</div>").attr("id", "b_books" + k).appendTo("#b_books");
-            $("<div>" + "</div>").attr("id", "b_books" + k + "_transparent").appendTo("#b_books_transparent");
+            $("<li>" + "</li>").attr("id", "b_books" + k).appendTo("#b_books");
 
             //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "g_books" + k).appendTo("#g_books");
-            $("<div>" + "</div>").attr("id", "g_books" + k + "_transparent").appendTo("#g_books_transparent");
+            $("<li>" + "</li>").attr("id", "g_books" + k).appendTo("#g_books");
 
             //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "r_books" + k).appendTo("#r_books");
-            $("<div>" + "</div>").attr("id", "r_books" + k + "_transparent").appendTo("#r_books_transparent");
+            $("<li>" + "</li>").attr("id", "r_books" + k).appendTo("#r_books");
         };
         for (var k = 1; k <= 6; k++) {
             //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "y_books" + k).appendTo("#y_books");
-            $("<div>" + "</div>").attr("id", "y_books" + k + "_transparent").appendTo("#y_books_transparent");
+            $("<li>" + "</li>").attr("id", "y_books" + k).appendTo("#y_books");
         };
 
 
@@ -161,148 +157,138 @@
 
         //--------------------------------------------------------------------------------
         //Blue Books
+        myBlueBookPosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= b_booksNumbers[0]; i++) {
-            $("#b_books" + b_books[i]).show();
-            $("#b_books" + b_books[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#b_books" + b_books[i]).draggable({
-                stack: "#b_books",
-                revert: true,
-                cursor: "move"
+            $("#b_books" + b_books[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "550px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#b_books" + b_books[i] + "_transparent").droppable({
-                accept: "#b_books" + b_books[i],
+                top: "500px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#b_books_transparent").droppable({
+                accept: "#b_books > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     b_booksCounter = b_booksCounter + 1;
                     books_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myBlueBookPosition + "px",
+                    }).appendTo("#b_books_transparent");
+                    myBlueBookPosition = myBlueBookPosition + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Green Books
-        for (var i = 1; i <= g_booksNumbers[0]; i++) {
-            $("#g_books" + g_books[i]).show();
-            $("#g_books" + g_books[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
+        // //--------------------------------------------------------------------------------
+        // //Green Books
 
-            $("#g_books" + g_books[i]).draggable({
-                stack: "#g_books",
-                revert: true,
-                cursor: "move"
+        myGreenBookPosition = 0;
+        //        function showMyAlph() {
+        for (var i = 1; i <= g_booksNumbers[0]; i++) {
+            $("#g_books" + g_books[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
                 top: "450px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#g_books" + g_books[i] + "_transparent").droppable({
-                accept: "#g_books" + g_books[i],
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#g_books_transparent").droppable({
+                accept: "#g_books > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     g_booksCounter = g_booksCounter + 1;
                     books_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myGreenBookPosition + "px",
+                    }).appendTo("#g_books_transparent");
+                    myGreenBookPosition = myGreenBookPosition + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Red Books
+        // //--------------------------------------------------------------------------------
+        // //Red Books
+
+        myRedBookPosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= r_booksNumbers[0]; i++) {
-            $("#r_books" + r_books[i]).show();
-            $("#r_books" + r_books[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#r_books" + r_books[i]).draggable({
-                stack: "#r_books",
-                revert: true,
-                cursor: "move"
+            $("#r_books" + r_books[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "350px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#r_books" + r_books[i] + "_transparent").droppable({
-                accept: "#r_books" + r_books[i],
+                top: "380px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#r_books_transparent").droppable({
+                accept: "#r_books > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     r_booksCounter = r_booksCounter + 1;
                     books_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myRedBookPosition + "px",
+                    }).appendTo("#r_books_transparent");
+                    myRedBookPosition = myRedBookPosition + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Yellow Books
+        // //--------------------------------------------------------------------------------
+        // //Yellow Books
+
+        myYellowBookPosition = 0;
+        //        function showMyAlph() {
         for (var i = 1; i <= y_booksNumbers[0]; i++) {
-            $("#y_books" + y_books[i]).show();
-            $("#y_books" + y_books[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#y_books" + y_books[i]).draggable({
-                stack: "#y_books",
-                revert: true,
-                cursor: "move"
+            $("#y_books" + y_books[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "250px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#y_books" + y_books[i] + "_transparent").droppable({
-                accept: "#y_books" + y_books[i],
+                top: "300px",
+                left: dacopy[i - 1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#y_books_transparent").droppable({
+                accept: "#y_books > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
                     y_booksCounter = y_booksCounter + 1;
                     books_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: myYellowBookPosition + "px",
+                    }).appendTo("#y_books_transparent");
+                    myYellowBookPosition = myYellowBookPosition + 100;
                 }
             });
         };
-
 
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements
