@@ -649,7 +649,7 @@
                 $("#shirt_outline").hide();
                 $("#shoes_outline").hide();
                 $("#sox_outline").hide();
-//                $("#hats_outline").hide();
+                $("#hats_outline").hide();
 //                $("#pants_outline").hide();
 
                 $("#popUp").fadeIn(3000);
