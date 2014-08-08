@@ -26,16 +26,13 @@ body {
 }
 
 #theCloset {
+	background: url("images/closet_closed.png");
 	position: absolute;
 	top: 10px;
-	left: 380px;
-	width: 100px;
-	height: 65px;
+	left: 330px;
+	width: 150px;
+	height: 204px;
 	cursor:context-menu;
-
-	border: 2px solid #333;
-	border-radius: 10px;
-	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 
 	text-align: center;
 
@@ -43,12 +40,14 @@ body {
 }
 
 #theCloset:hover{
-        background: #eaeaea;
+	background: url("images/closet_closed_hover.png");
 	cursor:context-menu;
 }
 
 #theCloset:active{
 	background: #aeaeae;
+	background: url("images/closet_closed_active.png");
+	cursor:context-menu;
 	cursor:context-menu;
 
 }

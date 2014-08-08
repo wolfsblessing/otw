@@ -11,7 +11,7 @@
         return Math.random() - .3
     });
     daTransparent = [0, 120, 240, 360];
-    dacopy = [20, 40, 60, 80];
+    dacopy = [-70, 120, 220,330];
     dacopy.sort(function() {
         return Math.random() - .25
     });
@@ -23,66 +23,66 @@
     var score = 0;
     var guess = 0;
 
-    //There are 6 types of pillow that need to appear randomly. Array and then random the elements
-    var pillow = [1, 2, 3, 4, 5, 6];
-    pillow.sort(function() {
+    //There are 6 types of pillow1 that need to appear randomly. Array and then random the elements
+    var pillow1 = [1, 2, 3, 4, 5];
+    pillow1.sort(function() {
         return Math.random() - .23
     });
-    var pillowNumbers = [2, 3, 4];
-    pillowNumbers.sort(function() {
+    var pillow1Numbers = [2, 3, 4];
+    pillow1Numbers.sort(function() {
         return Math.random() - .3
     });
 
-    var pillowCounter = 0;
-    var check_pillow = 0;
-    var guess_pillow = 0;
-    var true_pillow = 0;
+    var pillow1Counter = 0;
+    var check_pillow1 = 0;
+    var guess_pillow1 = 0;
+    var true_pillow1 = 0;
 
     //There are 6 types of dolls that need to appear randomly. Array and then random the elements
-    var dolls = [1, 2, 3, 4, 5, 6];
-    dolls.sort(function() {
+    //There are 6 types of pillow1 that need to appear randomly. Array and then random the elements
+    var pillow2 = [1, 2, 3, 4, 5];
+    pillow2.sort(function() {
         return Math.random() - .23
     });
-    var dollsNumbers = [2, 3, 4];
-    dollsNumbers.sort(function() {
+    var pillow2Numbers = [2, 3, 4];
+    pillow2Numbers.sort(function() {
         return Math.random() - .3
     });
 
-    var dollsCounter = 0;
-    var check_dolls = 0;
-    var guess_dolls = 0;
-    var true_dolls = 0;
+    var pillow2Counter = 0;
+    var check_pillow2 = 0;
+    var guess_pillow2 = 0;
+    var true_pillow2 = 0;
 
-
-    //There are 6 types of doors that need to appear randomly. Array and then random the elements
-    var doors = [1, 2, 3, 4, 5, 6];
-    doors.sort(function() {
+    //There are 6 types of pillow3 that need to appear randomly. Array and then random the elements
+    var pillow3 = [1, 2, 3, 4, 5];
+    pillow3.sort(function() {
         return Math.random() - .23
     });
-    var doorsNumbers = [2, 3, 4];
-    doorsNumbers.sort(function() {
+    var pillow3Numbers = [2, 3, 4];
+    pillow3Numbers.sort(function() {
         return Math.random() - .3
     });
 
-    var doorsCounter = 0;
-    var check_doors = 0;
-    var guess_doors = 0;
-    var true_doors = 0;
+    var pillow3Counter = 0;
+    var check_pillow3 = 0;
+    var guess_pillow3 = 0;
+    var true_pillow3 = 0;
 
-    //There are 6 helmets of doors that need to appear randomly. Array and then random the elements
-    var helmet = [1, 2, 3, 4, 5, 6];
-    helmet.sort(function() {
+    //There are 6 pillow4s of pillow3 that need to appear randomly. Array and then random the elements
+    var pillow4 = [1, 2, 3, 4, 5];
+    pillow4.sort(function() {
         return Math.random() - .23
     });
-    var helmetNumbers = [2, 3, 4];
-    helmetNumbers.sort(function() {
+    var pillow4Numbers = [2, 3, 4];
+    pillow4Numbers.sort(function() {
         return Math.random() - .3
     });
 
-    var helmetCounter = 0;
-    var check_helmet = 0;
-    var guess_helmet = 0;
-    var true_helmet = 0;
+    var pillow4Counter = 0;
+    var check_pillow4 = 0;
+    var guess_pillow4 = 0;
+    var true_pillow4 = 0;
 
     //Creating the init function so I don't use the $(document).ready function all the time
     //also, when i do changes to variables will be usuable withing the scope, because I'm having problems
@@ -91,47 +91,33 @@
     function init() {
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-        for (var k = 1; k <= 6; k++) {
-            $("<div>" + "</div>").attr("id", "pillow" + k).appendTo("#pillow");
-            $("<div>" + "</div>").attr("id", "pillow" + k + "_transparent").appendTo("#pillow_transparent");
-
-            $("<div>" + "</div>").attr("id", "dolls" + k).appendTo("#dolls");
-            $("<div>" + "</div>").attr("id", "dolls" + k + "_transparent").appendTo("#dolls_transparent");
-
-            $("<div>" + "</div>").attr("id", "doors" + k).appendTo("#doors");
-            $("<div>" + "</div>").attr("id", "doors" + k + "_transparent").appendTo("#doors_transparent");
-
-            $("<div>" + "</div>").attr("id", "helmet" + k).appendTo("#helmet");
-            $("<div>" + "</div>").attr("id", "helmet" + k + "_transparent").appendTo("#helmet_transparent");
+        for (var k = 1; k <= 5; k++) {
+            $("<li>" + "</li>").attr("id", "pillow1" + k).appendTo("#pillow1");
+            $("<li>" + "</li>").attr("id", "pillow2" + k).appendTo("#pillow2");
+            $("<li>" + "</li>").attr("id", "pillow3" + k).appendTo("#pillow3");
+            $("<li>" + "</li>").attr("id", "pillow4" + k).appendTo("#pillow4");
         };
 
         //Hiding every book element that I've created in the body
         for (var i = 1; i <= 6; i++) {
-            $("#pillow" + i).hide();
-            $("#pillow" + i + "_transparent").hide();
-
-            $("#dolls" + i).hide();
-            $("#dolls" + i + "_transparent").hide();
-
-            $("#doors" + i).hide();
-            $("#doors" + i + "_transparent").hide();
-
-            $("#helmet" + i).hide();
-            $("#helmet" + i + "_transparent").hide();
+            $("#pillow1" + i).hide();
+            $("#pillow2" + i).hide();
+            $("#pillow3" + i).hide();
+            $("#pillow4" + i).hide();
         };
 
         //create the divs with the little boxes to guess how many shirts were there and adding to 'numbers' div
         for (var k = 1; k <= 4; k++) {
-            $("<div>" + k + "</div>").attr("id", "da_pillow" + k).appendTo("#numbers1");
-            $("<div>" + k + "</div>").attr("id", "da_dolls" + k).appendTo("#numbers2");
-            $("<div>" + k + "</div>").attr("id", "da_doors" + k).appendTo("#numbers3");
-            $("<div>" + k + "</div>").attr("id", "da_helmet" + k).appendTo("#numbers4");
+            $("<div>" + k + "</div>").attr("id", "da_pillow1" + k).appendTo("#numbers1");
+            $("<div>" + k + "</div>").attr("id", "da_pillow2" + k).appendTo("#numbers2");
+            $("<div>" + k + "</div>").attr("id", "da_pillow3" + k).appendTo("#numbers3");
+            $("<div>" + k + "</div>").attr("id", "da_pillow4" + k).appendTo("#numbers4");
         };
 
+        $("#pillow1_guess").hide();
         $("#pillow_guess").hide();
-        $("#dolls_guess").hide();
-        $("#doors_guess").hide();
-        $("#helmet_guess").hide();
+        $("#pillow3_guess").hide();
+        $("#pillow4_guess").hide();
 
         //creating the divs for tries after the user has guessed
         for (var k = 1; k <= 5; k++) {
@@ -155,403 +141,419 @@
         //need to ask why i had to use '-1' at the array so the droppable objects are shown in order
 
         //--------------------------------------------------------------------------------
-        //Pillow
-        for (var i = 1; i <= pillowNumbers[0]; i++) {
-            $("#pillow" + pillow[i]).show();
-            $("#pillow" + pillow[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
+        //pillow1
 
-            $("#pillow" + pillow[i]).draggable({
-                stack: "#pillow",
-                revert: true,
-                cursor: "move"
+        mypillow11Position = 0;
+        for (var i = 1; i <= 1; i++) {
+            $("#pillow1" + pillow1[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "550px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#pillow" + pillow[i] + "_transparent").droppable({
-                accept: "#pillow" + pillow[i],
+                top: "500px",
+                left: dacopy[0] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#pillow1_transparent").droppable({
+                accept: "#pillow1 > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    pillowCounter = pillowCounter + 1;
-                    element_Check();
-                    $(this).droppable('disable');
+//                    b_booksCounter = b_booksCounter + 1;
+//                    books_Check();
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: mypillow11Position + "px",
+                    }).appendTo("#pillow1_transparent");
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Dolls
-        for (var i = 1; i <= dollsNumbers[0]; i++) {
-            $("#dolls" + dolls[i]).show();
-            $("#dolls" + dolls[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#dolls" + dolls[i]).draggable({
-                stack: "#dolls",
-                revert: true,
-                cursor: "move"
+        mypillow2Position = 0;
+        for (var i = 1; i <= 1; i++) {
+            $("#pillow2" + pillow2[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "450px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#dolls" + dolls[i] + "_transparent").droppable({
-                accept: "#dolls" + dolls[i],
+                top: "500px",
+                left: dacopy[1] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#pillow2_transparent").droppable({
+                accept: "#pillow2 > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    dollsCounter = dollsCounter + 1;
-                    element_Check();
-                    $(this).droppable('disable');
+//                    b_booksCounter = b_booksCounter + 1;
+//                    books_Check();
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: mypillow2Position + "px",
+                    }).appendTo("#pillow2_transparent");
+                    mypillow2Position = mypillow2Position + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Doors
-        for (var i = 1; i <= doorsNumbers[0]; i++) {
-            $("#doors" + doors[i]).show();
-            $("#doors" + doors[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#doors" + doors[i]).draggable({
-                stack: "#doors",
-                revert: true,
-                cursor: "move"
+        mypillow3Position = 0;
+        for (var i = 1; i <= 1; i++) {
+            $("#pillow3" + pillow3[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "350px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#doors" + doors[i] + "_transparent").droppable({
-                accept: "#doors" + doors[i],
+                top: "500px",
+                left: dacopy[2] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#pillow3_transparent").droppable({
+                accept: "#pillow3 > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    doorsCounter = doorsCounter + 1;
-                    element_Check();
-                    $(this).droppable('disable');
+//                    b_booksCounter = b_booksCounter + 1;
+//                    books_Check();
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: mypillow3Position + "px",
+                    }).appendTo("#pillow3_transparent");
+                    mypillow3Position = mypillow3Position + 100;
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //Helmets
-        for (var i = 1; i <= helmetNumbers[0]; i++) {
-            $("#helmet" + helmet[i]).show();
-            $("#helmet" + helmet[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#helmet" + helmet[i]).draggable({
-                stack: "#helmet",
-                revert: true,
-                cursor: "move"
+        mypillow4Position = 0;
+        for (var i = 1; i <= 1; i++) {
+            $("#pillow4" + pillow4[i]).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "250px",
-                left: dacopy[i] + "px"
-            }, 2000);
-
-            $("#helmet" + helmet[i] + "_transparent").droppable({
-                accept: "#helmet" + helmet[i],
+                top: "500px",
+                left: dacopy[3] + "px"
+            }, 2000).css({
+                "position": "absolute"
+            });
+            $("#pillow4_transparent").droppable({
+                accept: "#pillow4 > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    helmetCounter = helmetCounter + 1;
-                    element_Check();
-                    $(this).droppable('disable');
+//                    b_booksCounter = b_booksCounter + 1;
+//                    books_Check();
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        top: "5px",
+                        left: mypillow4Position + "px",
+                    }).appendTo("#pillow4_transparent");
+                    mypillow4Position = mypillow4Position + 100;
                 }
             });
         };
 
-        //creating a function where it checks if the draggable items are as same as the droppable
-        //then show the other elements
-        function element_Check() {
-            if ((pillowCounter == pillowNumbers[0]) && (dollsCounter == dollsNumbers[0]) &&
-                (doorsCounter == doorsNumbers[0]) && (helmetCounter == helmetNumbers[0])) {
-                for (var i = 1; i <= 4; i++) {
-                    $("#test" + i).fadeIn(3000);
-                    //            $("#howMany").fadeIn(3000);
-                    $("#numbers" + i).fadeIn(3000);
-                };
 
-                $("#pillow_guess").fadeIn(3000);
-                $("#dolls_guess").fadeIn(3000);
-                $("#doors_guess").fadeIn(3000);
-                $("#helmet_guess").fadeIn(3000);
 
-                for (var i = 1; i <= 4; i++) {
-                    $("#da_pillow" + i).fadeIn(3000);
-                    $("#da_dolls" + i).fadeIn(3000);
-                    $("#da_doors" + i).fadeIn(3000);
-                    $("#da_helmet" + i).fadeIn(3000);
-                };
-            };
-        };
+        // //--------------------------------------------------------------------------------
+        // //pillow4s
+        // for (var i = 1; i <= pillow4Numbers[0]; i++) {
+        //     $("#pillow4" + pillow4[i]).show();
+        //     $("#pillow4" + pillow4[i] + "_transparent").show().css({
+        //         "color": "red",
+        //         "left": daTransparent[i - 1] + "px"
+        //     });
 
-        //after the Blue books elements are dropped into their places, the next elements are shown
-        //these new elements will be draggable
+        //     $("#pillow4" + pillow4[i]).draggable({
+        //         stack: "#pillow4",
+        //         revert: true,
+        //         cursor: "move"
+        //     }).animate({
+        //         top: "250px",
+        //         left: dacopy[i] + "px"
+        //     }, 2000);
 
-        //Pillow
-        for (var i = 1; i <= 4; i++) {
-            check_pillow = check_pillow + 1;
-            $("#da_pillow" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_pillow = guess_pillow + 1;
-                    if (guess_pillow != pillowNumbers[0] && guess_pillow == 2) {
-                        $("#da_pillow" + pillowNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (pillowNumbers[0] == 2 && guess_pillow != pillowNumbers[0] && guess_pillow == 1) {
-                        $("#da_pillow" + pillowNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_pillow == 3) {
-                        $("#numbers1").hide(50);
-                        true_pillow = 1;
-                        checkAllGuess();
-                        $("#guessMe1").show().text(pillowNumbers[0]).unbind();
-                    };
-                }
-            });
+        //     $("#pillow4" + pillow4[i] + "_transparent").droppable({
+        //         accept: "#pillow4" + pillow4[i],
+        //         drop: function(ev, ui) {
+        //             ui.draggable.addClass("correct");
+        //             pillow4Counter = pillow4Counter + 1;
+        //             element_Check();
+        //             $(this).droppable('disable');
+        //             ui.draggable.draggable({
+        //                 revert: false,
+        //             }).unbind().position({
+        //                 of: $(this),
+        //                 my: "center",
+        //                 at: "center"
+        //             });
+        //         }
+        //     });
+        // };
 
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
+        // //creating a function where it checks if the draggable items are as same as the droppable
+        // //then show the other elements
+        // function element_Check() {
+        //     if ((pillow1Counter == pillow1Numbers[0]) && (dollsCounter == dollsNumbers[0]) &&
+        //         (pillow3Counter == pillow3Numbers[0]) && (pillow4Counter == pillow4Numbers[0])) {
+        //         for (var i = 1; i <= 4; i++) {
+        //             $("#test" + i).fadeIn(3000);
+        //             //            $("#howMany").fadeIn(3000);
+        //             $("#numbers" + i).fadeIn(3000);
+        //         };
 
-            if (check_pillow == pillowNumbers[0]) {
-                $("#test1").droppable({
-                    accept: "#da_pillow" + i,
-                    drop: function(ev, ui) {
-                        true_pillow = 1;
-                        checkAllGuess();
-                        $("#guessMe1").show().text(pillowNumbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers1").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
+        //         $("#pillow1_guess").fadeIn(3000);
+        //         $("#dolls_guess").fadeIn(3000);
+        //         $("#pillow3_guess").fadeIn(3000);
+        //         $("#pillow4_guess").fadeIn(3000);
 
-        //Dolls
-        for (var i = 1; i <= 4; i++) {
-            check_dolls = check_dolls + 1;
-            $("#da_dolls" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_dolls = guess_dolls + 1;
-                    if (guess_dolls != dollsNumbers[0] && guess_dolls == 2) {
-                        $("#da_dolls" + dollsNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (dollsNumbers[0] == 2 && guess_dolls != dollsNumbers[0] && guess_dolls == 1) {
-                        $("#da_dolls" + dollsNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_dolls == 3) {
-                        $("#numbers2").hide(50);
-                        true_dolls = 1;
-                        checkAllGuess();
-                        $("#guessMe2").show().text(dollsNumbers[0]).unbind();
-                    };
-                }
-            });
+        //         for (var i = 1; i <= 4; i++) {
+        //             $("#da_pillow1" + i).fadeIn(3000);
+        //             $("#da_dolls" + i).fadeIn(3000);
+        //             $("#da_pillow3" + i).fadeIn(3000);
+        //             $("#da_pillow4" + i).fadeIn(3000);
+        //         };
+        //     };
+        // };
 
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
+        // //after the Blue books elements are dropped into their places, the next elements are shown
+        // //these new elements will be draggable
 
-            if (check_dolls == dollsNumbers[0]) {
-                $("#test2").droppable({
-                    accept: "#da_dolls" + i,
-                    drop: function(ev, ui) {
-                        true_dolls = 1;
-                        checkAllGuess();
-                        $("#guessMe2").show().text(dollsNumbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers2").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
+        // //pillow1
+        // for (var i = 1; i <= 4; i++) {
+        //     check_pillow1 = check_pillow1 + 1;
+        //     $("#da_pillow1" + i).draggable({
+        //         revert: true,
+        //         cursor: "move",
+        //         stop: function() {
+        //             guess_pillow1 = guess_pillow1 + 1;
+        //             if (guess_pillow1 != pillow1Numbers[0] && guess_pillow1 == 2) {
+        //                 $("#da_pillow1" + pillow1Numbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (pillow1Numbers[0] == 2 && guess_pillow1 != pillow1Numbers[0] && guess_pillow1 == 1) {
+        //                 $("#da_pillow1" + pillow1Numbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (guess_pillow1 == 3) {
+        //                 $("#numbers1").hide(50);
+        //                 true_pillow1 = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe1").show().text(pillow1Numbers[0]).unbind();
+        //             };
+        //         }
+        //     });
 
-        //Doors
-        for (var i = 1; i <= 4; i++) {
-            check_doors = check_doors + 1;
-            $("#da_doors" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_doors = guess_doors + 1;
-                    if (guess_doors != doorsNumbers[0] && guess_doors == 2) {
-                        $("#da_doors" + doorsNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (doorsNumbers[0] == 2 && guess_doors != doorsNumbers[0] && guess_doors == 1) {
-                        $("#da_doors" + doorsNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_doors == 3) {
-                        $("#numbers3").hide(50);
-                        true_doors = 1;
-                        checkAllGuess();
-                        $("#guessMe3").show().text(doorsNumbers[0]).unbind();
-                    };
-                }
-            });
+        //     //if the person put the correct number into the box then make the draggable disabled
+        //     //also show the pop up message
 
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
+        //     if (check_pillow1 == pillow1Numbers[0]) {
+        //         $("#test1").droppable({
+        //             accept: "#da_pillow1" + i,
+        //             drop: function(ev, ui) {
+        //                 true_pillow1 = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe1").show().text(pillow1Numbers[0]);
+        //                 $(this).droppable("disable");
+        //                 $("#numbers1").hide();
+        //                 ui.draggable.draggable({
+        //                     revert: false,
+        //                 }).unbind().position({
+        //                     of: $(this),
+        //                     my: "center",
+        //                     at: "center"
+        //                 });
+        //             }
+        //         });
+        //     };
+        // };
 
-            if (check_doors == doorsNumbers[0]) {
-                $("#test3").droppable({
-                    accept: "#da_doors" + i,
-                    drop: function(ev, ui) {
-                        true_doors = 1;
-                        checkAllGuess();
-                        $("#guessMe3").show().text(doorsNumbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers3").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
+        // //Dolls
+        // for (var i = 1; i <= 4; i++) {
+        //     check_dolls = check_dolls + 1;
+        //     $("#da_dolls" + i).draggable({
+        //         revert: true,
+        //         cursor: "move",
+        //         stop: function() {
+        //             guess_dolls = guess_dolls + 1;
+        //             if (guess_dolls != dollsNumbers[0] && guess_dolls == 2) {
+        //                 $("#da_dolls" + dollsNumbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (dollsNumbers[0] == 2 && guess_dolls != dollsNumbers[0] && guess_dolls == 1) {
+        //                 $("#da_dolls" + dollsNumbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (guess_dolls == 3) {
+        //                 $("#numbers2").hide(50);
+        //                 true_dolls = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe2").show().text(dollsNumbers[0]).unbind();
+        //             };
+        //         }
+        //     });
 
-        //Helmet
-        for (var i = 1; i <= 4; i++) {
-            check_helmet = check_helmet + 1;
-            $("#da_helmet" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_helmet = guess_helmet + 1;
-                    if (guess_helmet != helmetNumbers[0] && guess_helmet == 2) {
-                        $("#da_helmet" + helmetNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (helmetNumbers[0] == 2 && guess_helmet != helmetNumbers[0] && guess_helmet == 1) {
-                        $("#da_helmet" + helmetNumbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_helmet == 3) {
-                        $("#numbers4").hide(50);
-                        true_helmet = 1;
-                        checkAllGuess();
-                        $("#guessMe4").show().text(helmetNumbers[0]).unbind();
-                    };
-                }
-            });
+        //     //if the person put the correct number into the box then make the draggable disabled
+        //     //also show the pop up message
 
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
+        //     if (check_dolls == dollsNumbers[0]) {
+        //         $("#test2").droppable({
+        //             accept: "#da_dolls" + i,
+        //             drop: function(ev, ui) {
+        //                 true_dolls = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe2").show().text(dollsNumbers[0]);
+        //                 $(this).droppable("disable");
+        //                 $("#numbers2").hide();
+        //                 ui.draggable.draggable({
+        //                     revert: false,
+        //                 }).unbind().position({
+        //                     of: $(this),
+        //                     my: "center",
+        //                     at: "center"
+        //                 });
+        //             }
+        //         });
+        //     };
+        // };
 
-            if (check_helmet == helmetNumbers[0]) {
-                $("#test4").droppable({
-                    accept: "#da_helmet" + i,
-                    drop: function(ev, ui) {
-                        true_helmet = 1;
-                        checkAllGuess();
-                        $("#guessMe4").show().text(helmetNumbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers4").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
+        // //pillow3
+        // for (var i = 1; i <= 4; i++) {
+        //     check_pillow3 = check_pillow3 + 1;
+        //     $("#da_pillow3" + i).draggable({
+        //         revert: true,
+        //         cursor: "move",
+        //         stop: function() {
+        //             guess_pillow3 = guess_pillow3 + 1;
+        //             if (guess_pillow3 != pillow3Numbers[0] && guess_pillow3 == 2) {
+        //                 $("#da_pillow3" + pillow3Numbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (pillow3Numbers[0] == 2 && guess_pillow3 != pillow3Numbers[0] && guess_pillow3 == 1) {
+        //                 $("#da_pillow3" + pillow3Numbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (guess_pillow3 == 3) {
+        //                 $("#numbers3").hide(50);
+        //                 true_pillow3 = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe3").show().text(pillow3Numbers[0]).unbind();
+        //             };
+        //         }
+        //     });
 
-        function checkAllGuess() {
-            if ((true_pillow == 1) && (true_dolls == 1) && (true_doors == 1) && (true_helmet == 1)) {
-                $("#pillow_transparent").hide();
-                $("#pillow").hide();
-                $("#pillow_guess").hide();
+        //     //if the person put the correct number into the box then make the draggable disabled
+        //     //also show the pop up message
 
-                $("#dolls_transparent").hide();
-                $("#dolls").hide();
-                $("#dolls_guess").hide();
+        //     if (check_pillow3 == pillow3Numbers[0]) {
+        //         $("#test3").droppable({
+        //             accept: "#da_pillow3" + i,
+        //             drop: function(ev, ui) {
+        //                 true_pillow3 = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe3").show().text(pillow3Numbers[0]);
+        //                 $(this).droppable("disable");
+        //                 $("#numbers3").hide();
+        //                 ui.draggable.draggable({
+        //                     revert: false,
+        //                 }).unbind().position({
+        //                     of: $(this),
+        //                     my: "center",
+        //                     at: "center"
+        //                 });
+        //             }
+        //         });
+        //     };
+        // };
 
-                $("#doors_transparent").hide();
-                $("#doors").hide();
-                $("#doors_guess").hide();
+        // //pillow4
+        // for (var i = 1; i <= 4; i++) {
+        //     check_pillow4 = check_pillow4 + 1;
+        //     $("#da_pillow4" + i).draggable({
+        //         revert: true,
+        //         cursor: "move",
+        //         stop: function() {
+        //             guess_pillow4 = guess_pillow4 + 1;
+        //             if (guess_pillow4 != pillow4Numbers[0] && guess_pillow4 == 2) {
+        //                 $("#da_pillow4" + pillow4Numbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (pillow4Numbers[0] == 2 && guess_pillow4 != pillow4Numbers[0] && guess_pillow4 == 1) {
+        //                 $("#da_pillow4" + pillow4Numbers[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (guess_pillow4 == 3) {
+        //                 $("#numbers4").hide(50);
+        //                 true_pillow4 = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe4").show().text(pillow4Numbers[0]).unbind();
+        //             };
+        //         }
+        //     });
 
-                $("#helmet_transparent").hide();
-                $("#helmet").hide();
-                $("#helmet_guess").hide();
+        //     //if the person put the correct number into the box then make the draggable disabled
+        //     //also show the pop up message
 
-                $("#popUp").fadeIn(3000);
-                $("#score").fadeIn(3000);
-            };
-        };
+        //     if (check_pillow4 == pillow4Numbers[0]) {
+        //         $("#test4").droppable({
+        //             accept: "#da_pillow4" + i,
+        //             drop: function(ev, ui) {
+        //                 true_pillow4 = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe4").show().text(pillow4Numbers[0]);
+        //                 $(this).droppable("disable");
+        //                 $("#numbers4").hide();
+        //                 ui.draggable.draggable({
+        //                     revert: false,
+        //                 }).unbind().position({
+        //                     of: $(this),
+        //                     my: "center",
+        //                     at: "center"
+        //                 });
+        //             }
+        //         });
+        //     };
+        // };
+
+        // function checkAllGuess() {
+        //     if ((true_pillow1 == 1) && (true_dolls == 1) && (true_pillow3 == 1) && (true_pillow4 == 1)) {
+        //         $("#pillow1_transparent").hide();
+        //         $("#pillow1").hide();
+        //         $("#pillow1_guess").hide();
+
+        //         $("#dolls_transparent").hide();
+        //         $("#dolls").hide();
+        //         $("#dolls_guess").hide();
+
+        //         $("#pillow3_transparent").hide();
+        //         $("#pillow3").hide();
+        //         $("#pillow3_guess").hide();
+
+        //         $("#pillow4_transparent").hide();
+        //         $("#pillow4").hide();
+        //         $("#pillow4_guess").hide();
+
+        //         $("#popUp").fadeIn(3000);
+        //         $("#score").fadeIn(3000);
+        //     };
+        // };
 
     };
 
