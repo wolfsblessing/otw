@@ -1,5 +1,5 @@
 (function() {
-
+    document.body.style.zoom="90%"
     //Creating the global variables
     var daXpos = [0, 120, 240, 360, 480];
     var daYpos = [300, 400, 500];
@@ -285,7 +285,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "350px",
+                top: "340px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -311,43 +311,45 @@
 
         //Pants
 
-        myPantsPosition = 0;
-        for (var i = 1; i <= pantsNumber[0]; i++) {
-            $("#pants" + pants[i]).show().draggable({
-                cursor: "move",
-                revert: true
-            }).animate({
-                top: "300px",
-                left: dacopy[i - 1] + "px"
-            }, 2000).css({
-                "position": "absolute"
-            });
-            $("#pants_transparent").droppable({
-                accept: "#pants > li",
-                drop: function(ev, ui) {
-                    ui.draggable.addClass("correct");
-                    pantsCounter = pantsCounter + 1;
-                    shirtsshoesCheck();
-                    ui.draggable.draggable({
-                        cursor: "default",
-                        revert: false
-                    }).unbind().css({
-                        position: "absolute",
-                        top: "5px",
-                        left: myPantsPosition + "px",
-                    }).appendTo("#pants_transparent");
-                    myPantsPosition = myPantsPosition + 100;
-                }
-            });
-        };
+        // myPantsPosition = 0;
+        // for (var i = 1; i <= pantsNumber[0]; i++) {
+        //     $("#pants" + pants[i]).show().draggable({
+        //         cursor: "move",
+        //         revert: true
+        //     }).animate({
+        //         top: "280px",
+        //         left: dacopy[i - 1] + "px"
+        //     }, 2000).css({
+        //         "position": "absolute"
+        //     });
+        //     $("#pants_transparent").droppable({
+        //         accept: "#pants > li",
+        //         drop: function(ev, ui) {
+        //             ui.draggable.addClass("correct");
+        //             pantsCounter = pantsCounter + 1;
+        //             shirtsshoesCheck();
+        //             ui.draggable.draggable({
+        //                 cursor: "default",
+        //                 revert: false
+        //             }).unbind().css({
+        //                 position: "absolute",
+        //                 top: "5px",
+        //                 left: myPantsPosition + "px",
+        //             }).appendTo("#pants_transparent");
+        //             myPantsPosition = myPantsPosition + 100;
+        //         }
+        //     });
+        // };
 
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements
         function shirtsshoesCheck() {
             if ((shoesCounter == shoesNumber[0]) && (shirtCounter == shirtNumberss[0]) &&
-                (soxCounter == soxNumber[0]) && (hatsCounter == hatsNumber[0]) &&
-                (pantsCounter == pantsNumber[0])) {
-                for (var i = 1; i <= 5; i++) {
+                (soxCounter == soxNumber[0]) && (hatsCounter == hatsNumber[0])) 
+//                && (pantsCounter == pantsNumber[0]))
+            {
+//                for (var i = 1; i <= 5; i++) {
+                for (var i = 1; i <= 4; i++) {
                     $("#test" + i).fadeIn(3000);
                     //            $("#howMany").fadeIn(3000);
                     $("#numbers" + i).fadeIn(3000);
@@ -355,7 +357,7 @@
                     $("#shoesNumGuess").fadeIn(3000);
                     $("#soxNumGuess").fadeIn(3000);
                     $("#hatNumGuess").fadeIn(3000);
-                    $("#pantsNumGuess").fadeIn(3000);
+//                    $("#pantsNumGuess").fadeIn(3000);
                 };
 
                 for (var i = 1; i <= 4; i++) {
@@ -363,7 +365,7 @@
                     $("#daShoes" + i).fadeIn(3000);
                     $("#daSox" + i).fadeIn(3000);
                     $("#daHats" + i).fadeIn(3000);
-                    $("#daPants" + i).fadeIn(3000);
+ //                   $("#daPants" + i).fadeIn(3000);
                 };
             };
         };
@@ -576,57 +578,59 @@
         //after the Pants elements are dropped into their places, the next elements are shown
         //these new elements will be draggable
         //Pants
-        for (var i = 1; i <= 4; i++) {
-            checkPants = checkPants + 1;
-            $("#daPants" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guessPants = guessPants + 1;
-                    if (guessPants != pantsNumber[0] && guessPants == 2) {
-                        $("#daPants" + pantsNumber[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (pantsNumber[0] == 2 && guessPants != pantsNumber[0] && guessPants == 1) {
-                        $("#daPants" + pantsNumber[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guessPants == 3) {
-                        $("#numbers5").hide(50);
-                        truePants = 1;
-                        checkAllGuess();
-                        $("#guessMe5").show().text(pantsNumber[0]).unbind();
-                    };
-                }
-            });
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
-            if (checkPants == pantsNumber[0]) {
-                $("#test5").droppable({
-                    accept: "#daPants" + i,
-                    drop: function(ev, ui) {
-                        truePants = 1;
-                        checkAllGuess();
-                        $("#guessMe5").show().text(pantsNumber[0]);
-                        $(this).droppable("disable");
-                        $("#numbers5").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
+        // for (var i = 1; i <= 4; i++) {
+        //     checkPants = checkPants + 1;
+        //     $("#daPants" + i).draggable({
+        //         revert: true,
+        //         cursor: "move",
+        //         stop: function() {
+        //             guessPants = guessPants + 1;
+        //             if (guessPants != pantsNumber[0] && guessPants == 2) {
+        //                 $("#daPants" + pantsNumber[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (pantsNumber[0] == 2 && guessPants != pantsNumber[0] && guessPants == 1) {
+        //                 $("#daPants" + pantsNumber[0]).animate({
+        //                     "background-color": "red"
+        //                 }, 2000);
+        //             };
+        //             if (guessPants == 3) {
+        //                 $("#numbers5").hide(50);
+        //                 truePants = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe5").show().text(pantsNumber[0]).unbind();
+        //             };
+        //         }
+        //     });
+        //     //if the person put the correct number into the box then make the draggable disabled
+        //     //also show the pop up message
+        //     if (checkPants == pantsNumber[0]) {
+        //         $("#test5").droppable({
+        //             accept: "#daPants" + i,
+        //             drop: function(ev, ui) {
+        //                 truePants = 1;
+        //                 checkAllGuess();
+        //                 $("#guessMe5").show().text(pantsNumber[0]);
+        //                 $(this).droppable("disable");
+        //                 $("#numbers5").hide();
+        //                 ui.draggable.draggable({
+        //                     revert: false,
+        //                 }).unbind().position({
+        //                     of: $(this),
+        //                     my: "center",
+        //                     at: "center"
+        //                 });
+        //             }
+        //         });
+        //     };
+        // };
 
         function checkAllGuess() {
             if ((trueShirt == 1) && (trueShoes == 1) && (trueSox == 1) &&
-                (trueHats == 1) && (truePants == 1)) {
+                (trueHats == 1))
+//                 && (truePants == 1)) 
+            {
                 $("#trans_shirts").hide();
                 $("#daShirts").hide();
                 $("#shoes_transparent").hide();
@@ -645,8 +649,8 @@
                 $("#shirt_outline").hide();
                 $("#shoes_outline").hide();
                 $("#sox_outline").hide();
-                $("#hats_outline").hide();
-                $("#pants_outline").hide();
+//                $("#hats_outline").hide();
+//                $("#pants_outline").hide();
 
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);
