@@ -1157,8 +1157,9 @@ body {
 	width: 50px;
 	height: 50px;
 	background: red;
-	top: 490px;
-	left: 100px;
+
+	top: 390px;
+	left: 700px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1166,8 +1167,8 @@ body {
 
 #numbers2 {
 	position: absolute;
-	top: 500px;
-	left: 150px;
+	top: 400px;
+	left: 750px;
 	width: 210px;
 	height: 40px;
 }
@@ -1202,8 +1203,8 @@ body {
 	width: 50px;
 	height: 50px;
 	background: red;
-	top: 390px;
-	left: 700px;
+	top: 490px;
+	left: 100px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1211,8 +1212,8 @@ body {
 
 #numbers3 {
 	position: absolute;
-	top: 400px;
-	left: 750px;
+	top: 500px;
+	left: 150px;
 	width: 210px;
 	height: 40px;
 }
@@ -1305,7 +1306,7 @@ body {
 	position: absolute;
 	width: 300px;
 	top: 465px;
-	left: 100px;
+	left: 700px;
 }
 
 #ball_guess{
@@ -1319,7 +1320,7 @@ body {
 	position: absolute;
 	width: 300px;
 	top: 465px;
-	left: 700px;
+	left: 100px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
