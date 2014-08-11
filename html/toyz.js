@@ -541,6 +541,12 @@
                 $("#animal_guess").hide();
                 $("#ball_guess").hide();
                 $("#car_guess").hide();
+                $("#container").hide();
+
+                for (var i = 1; i <= 4; i++) {
+                    $("#test" + i).hide();
+                    $("#numbers" + i).hide();
+                };
 
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);

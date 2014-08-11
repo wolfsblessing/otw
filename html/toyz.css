@@ -58,6 +58,7 @@ body {
 	background:url("images/a1_outline.png") no-repeat;
 	width: 104px;
 	height: 100px;
+	border-right: 1px solid #aeaeae;
 	top: 45px;
 	left: 70px;
 	opacity: 0.15;
@@ -308,6 +309,7 @@ body {
 	left: 650px;
 	width: 104px;
 	height: 110px;
+	border-right: 1px solid #aeaeae;
 	opacity: 0.15;
 	-ms-transform: scale(0.8,0.8); /* IE 9 */
     -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
@@ -684,6 +686,7 @@ body {
 	width: 104px;
 	height: 110px;
 	opacity: 0.15;
+	border-right: 1px solid #aeaeae;
 	-ms-transform: scale(0.8,0.8); /* IE 9 */
     -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
     transform: scale(0.8,0.8); /* Standard syntax */
@@ -935,6 +938,7 @@ body {
 	width: 104px;
 	height: 100px;
 	opacity: 0.15;
+	border-right: 1px solid #aeaeae;
 }
 
 #car1{
@@ -1305,22 +1309,22 @@ body {
 #animal_guess{
 	position: absolute;
 	width: 300px;
-	top: 465px;
+	top: 365px;
 	left: 700px;
 }
 
 #ball_guess{
 	position: absolute;
 	width: 300px;
-	top: 365px;
-	left: 700px;
+	top: 465px;
+	left: 100px;
 }
 
 #car_guess{
 	position: absolute;
 	width: 300px;
+	left: 700px;
 	top: 465px;
-	left: 100px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
