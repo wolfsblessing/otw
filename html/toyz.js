@@ -11,7 +11,7 @@
         return Math.random() - .3
     });
     daTransparent = [0, 120, 240, 360];
-    dacopy = [-60, 100, 200, 300];
+    dacopy = [-100, 50, 130, 250];
     dacopy.sort(function() {
         return Math.random() - .25
     });
@@ -165,7 +165,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "500px",
+                top: "280px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -199,7 +199,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "470px",
+                top: "270px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -233,7 +233,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "440px",
+                top: "220px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -267,7 +267,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "390px",
+                top: "190px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"

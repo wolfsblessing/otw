@@ -55,56 +55,49 @@ body {
 
 #theToys{
 	position: absolute;
-	top: 10px;
-	left: 10px;
-	width: 100px;
-	height: 65px;
+	top: 50px;
+	left: 30px;
+	width: 200px;
+	height: 105px;
 	cursor:context-menu;
-
-	border: 2px solid #333;
-	border-radius: 10px;
-
-	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: url("images/toys_room.png");
 
 	text-align: center;
 	padding-top: 35px;
 }
 
 #theToys:hover{
-	background: #eaeaea;
+	background: url("images/toys_room_hover.png");
 	cursor:context-menu;
 }
 
 #theToys:active{
-	background: #aeaeae;
 	cursor:context-menu;
+	background: url("images/toys_room_active.png");
 }
 
 
 #theBooks{
 	position: absolute;
-	top: 200px;
-	left: 200px;
-	width: 100px;
-	height: 65px;
+	top: 280px;
+	left: 30px;
+	width: 210px;
+	height: 150px;
 	cursor:context-menu;
 
-	border: 2px solid #333;
-	border-radius: 10px;
-
-	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: url("images/closet_room.png");
 
 	text-align: center;
 	padding-top: 35px;
 }
 
 #theBooks:hover{
-	background: #eaeaea;
+	background: url("images/closet_room_hover.png");
 	cursor:context-menu;
 }
 
 #theBooks:active{
-	background: #aeaeae;
+	background: url("images/closet_room_active.png");
 	cursor:context-menu;
 }
 
