@@ -16,12 +16,10 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 100px;
-	width: 450px;
-	height: 520px;
+	width: 499px;
+	height: 499px;
 	margin: 0 auto;
-	border: 2px solid #333;
-	border-radius: 10px;
-	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+	background-image:url("images/closet_img.png");
 }
 
 /*====================Blue Books============================*/
@@ -42,14 +40,12 @@ body {
 
 #b_books_transparent{
 	position: absolute;
-	top: 10px;
+	top: 60px;
 	left: 10px;
 	width: 420px;
 	height: 110px;
 	margin: 0px;
 	padding: 0px;
-	border: 2px solid blue;
-	border-radius: 10px;
 }
 
 #b_books_transparent li {
@@ -63,6 +59,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books1:hover{
@@ -79,6 +78,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books2 {
@@ -86,6 +88,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books2:hover{
@@ -102,6 +107,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books3{
@@ -109,6 +117,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books3:hover{
@@ -125,6 +136,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books4{
@@ -132,6 +146,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books4:hover{
@@ -148,6 +165,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books5{
@@ -155,6 +175,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books5:hover{
@@ -171,6 +194,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books6{
@@ -178,6 +204,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books6:hover{
@@ -194,6 +223,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books7{
@@ -201,6 +233,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books7:hover{
@@ -217,6 +252,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #b_books1.correct{background: url("images/b_book1_star.png");}
@@ -232,12 +270,10 @@ body {
 #g_books_transparent{
 	position: absolute;
 	width: 410px;
-	height: 110px;
-	top: 130px;
+	height: 100px;
+	top: 170px;
 	left: 10px;
 	padding-left: 10px;
-	border: 2px solid green;
-	border-radius: 10px;
 }
 
 #g_books_transparent li {
@@ -262,6 +298,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books1:hover{
@@ -278,6 +317,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books2 {
@@ -285,6 +327,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books2:hover{
@@ -301,6 +346,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books3{
@@ -308,6 +356,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books3:hover{
@@ -324,6 +375,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books4{
@@ -331,6 +385,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books4:hover{
@@ -347,6 +404,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books5{
@@ -354,6 +414,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books5:hover{
@@ -370,6 +433,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books6{
@@ -377,6 +443,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books6:hover{
@@ -393,6 +462,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books7{
@@ -400,6 +472,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books7:hover{
@@ -416,6 +491,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #g_books1.correct{background: url("images/g_book1_star.png");}
@@ -431,11 +509,9 @@ body {
 	position: absolute;
 	width: 410px;
 	height: 110px;
-	top: 250px;
+	top: 270px;
 	left: 10px;
 	padding-left: 10px;
-	border: 2px solid red;
-	border-radius: 10px;
 }
 
 #r_books_transparent li {
@@ -461,6 +537,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books1:hover{
@@ -477,6 +556,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books2 {
@@ -484,6 +566,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books2:hover{
@@ -500,6 +585,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books3{
@@ -507,6 +595,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books3:hover{
@@ -523,6 +614,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books4{
@@ -530,6 +624,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books4:hover{
@@ -546,6 +643,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books5{
@@ -553,6 +653,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books5:hover{
@@ -569,6 +672,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books6{
@@ -576,6 +682,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books6:hover{
@@ -592,6 +701,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books7{
@@ -599,6 +711,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books7:hover{
@@ -615,6 +730,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #r_books1.correct{background: url("images/r_book1_star.png");}
@@ -630,10 +748,8 @@ body {
 	position: absolute;
 	width: 420px;
 	height: 110px;
-	top: 370px;
+	top: 380px;
 	left: 10px;
-	border: 2px solid orange;
-	border-radius: 10px;
 }
 
 #y_books_transparent li {
@@ -659,6 +775,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books1:hover{
@@ -675,6 +794,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books2 {
@@ -682,6 +804,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books2:hover{
@@ -698,6 +823,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books3{
@@ -705,6 +833,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books3:hover{
@@ -721,6 +852,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books4{
@@ -728,6 +862,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books4:hover{
@@ -744,6 +881,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books5{
@@ -751,6 +891,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books5:hover{
@@ -767,6 +910,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books6{
@@ -774,6 +920,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books6:hover{
@@ -790,6 +939,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books7{
@@ -797,6 +949,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books7:hover{
@@ -813,6 +968,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #y_books1.correct{background: url("images/y_book1_star.png");}
