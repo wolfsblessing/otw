@@ -69,6 +69,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts1:hover{
@@ -86,6 +89,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts2:hover{
@@ -103,6 +109,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts3:hover{
@@ -120,6 +129,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts4:hover{
@@ -137,6 +149,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts5:hover{
@@ -154,6 +169,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts6:hover{
@@ -171,6 +189,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts7:hover{
@@ -188,6 +209,9 @@ body {
 	width: 104px;
 	height: 100px;
 	float: left;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shirts8:hover{
@@ -310,6 +334,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes1:hover{
@@ -325,6 +352,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes2{
@@ -332,6 +362,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes2:hover{
@@ -347,6 +380,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes3{
@@ -354,6 +390,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes3:hover{
@@ -369,6 +408,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes4{
@@ -376,6 +418,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes4:hover{
@@ -391,6 +436,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes5{
@@ -398,6 +446,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes5:hover{
@@ -413,6 +464,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes6{
@@ -420,6 +474,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes6:hover{
@@ -435,6 +492,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes7{
@@ -442,6 +502,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes7:hover{
@@ -457,6 +520,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #shoes1.correct{background: url("images/cevli1_star.png");}
@@ -511,6 +577,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox1:hover{
@@ -527,6 +596,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox2{
@@ -534,6 +606,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox2:hover{
@@ -550,6 +625,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox3{
@@ -557,6 +635,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox3:hover{
@@ -573,6 +654,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox4{
@@ -580,6 +664,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox4:hover{
@@ -596,6 +683,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox5{
@@ -603,6 +693,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox5:hover{
@@ -619,6 +712,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox6{
@@ -626,6 +722,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox6:hover{
@@ -642,6 +741,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox7{
@@ -649,6 +751,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox7:hover{
@@ -665,6 +770,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 78px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #sox1.correct{background: url("images/corapi1_star.png");}
@@ -723,6 +831,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats1:hover{
@@ -739,6 +850,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats2{
@@ -746,6 +860,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats2:hover{
@@ -762,6 +879,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats3{
@@ -769,6 +889,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats3:hover{
@@ -785,6 +908,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats4{
@@ -792,6 +918,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats4:hover{
@@ -808,6 +937,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats5{
@@ -815,6 +947,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats5:hover{
@@ -831,6 +966,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats6{
@@ -838,6 +976,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats6:hover{
@@ -854,6 +995,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats7{
@@ -861,6 +1005,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats7:hover{
@@ -877,6 +1024,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats8{
@@ -884,6 +1034,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats8:hover{
@@ -900,6 +1053,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats9{
@@ -907,6 +1063,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats9:hover{
@@ -923,6 +1082,9 @@ body {
 	float: left;
 	width: 104px;
 	height: 69px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
 }
 
 #hats1.correct{background: url("images/hat1_star.png");}

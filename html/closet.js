@@ -1,5 +1,5 @@
 (function() {
-    document.body.style.zoom="90%"
+//    document.body.style.zoom="90%"
     //Creating the global variables
     var daXpos = [0, 120, 240, 360, 480];
     var daYpos = [300, 400, 500];
@@ -186,7 +186,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "500px",
+                top: "490px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -219,7 +219,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "450px",
+                top: "440px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -252,7 +252,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "400px",
+                top: "390px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -285,7 +285,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "340px",
+                top: "320px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
