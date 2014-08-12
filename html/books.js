@@ -164,7 +164,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "500px",
+                top: "450px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -198,7 +198,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "450px",
+                top: "390px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -232,7 +232,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "380px",
+                top: "330px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -266,7 +266,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "300px",
+                top: "250px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"

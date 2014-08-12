@@ -186,7 +186,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "490px",
+                top: "400px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -219,7 +219,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "440px",
+                top: "360px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -252,7 +252,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "390px",
+                top: "320px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -285,7 +285,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "320px",
+                top: "270px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -350,6 +350,10 @@
             {
 //                for (var i = 1; i <= 5; i++) {
                 for (var i = 1; i <= 4; i++) {
+                    $("#my_room").animate({
+                        width: "1150px"
+                    });
+
                     $("#test" + i).fadeIn(3000);
                     //            $("#howMany").fadeIn(3000);
                     $("#numbers" + i).fadeIn(3000);

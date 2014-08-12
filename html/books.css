@@ -12,10 +12,29 @@ body {
 }
 
 /*================books.html page=============*/
+#my_room {
+position: absolute;
+	left: 20px;
+	top: 65px;
+	background:url("images/my_room_big.png") repeat-x;
+	background-position: 0 -30px;
+	width: 1100px;
+	height: 630px;
+
+	border: 2px solid #000;
+	border-radius: 10px;
+
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+
+	-ms-transform: scale(1,1.2); /* IE 9 */
+    -webkit-transform: scale(1,1.2); /* Chrome, Safari, Opera */
+    transform: scale(1,1.2); /* Standard syntax */
+}
+
 #container {
 	position: absolute;
 	top: 10px;
-	left: 100px;
+	left: 300px;
 	width: 499px;
 	height: 499px;
 	margin: 0 auto;
