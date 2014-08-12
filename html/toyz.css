@@ -12,10 +12,29 @@ body {
 }
 
 /*================books.html page=============*/
+#wall {
+	position: absolute;
+	left: 220px;
+	top: 80px;
+	background:url("images/my_room.png") repeat-x;
+	background-position: 0 -50px;
+	width: 1100px;
+	height: 550px;
+
+	border: 2px solid #000;
+	border-radius: 10px;
+
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+
+	-ms-transform: scale(1.17,1.2); /* IE 9 */
+    -webkit-transform: scale(1.17,1.2); /* Chrome, Safari, Opera */
+    transform: scale(1.17,1.2); /* Standard syntax */
+
+}
 #container {
 	position: absolute;
-	top: 10px;
-	left: 150px;
+	top: 140px;
+	left: 170px;
 	width: 1200px;
 	height: 360px;
 	margin: 0 auto;
@@ -1116,18 +1135,34 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
-	top: 390px;
-	left: 100px;
+	background: #fff;
+	top: 520px;
+	left: 300px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
 }
 
+#airplane_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/a1_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 495px;
+	left: 275px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+}
+
 #numbers1 {
 	position: absolute;
-	top: 400px;
-	left: 150px;
+	top: 530px;
+	left: 350px;
 	width: 210px;
 	height: 40px;
 }
@@ -1160,19 +1195,36 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
+	background: #fff;
 
-	top: 390px;
-	left: 700px;
+	top: 520px;
+	left: 900px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
 }
 
+#animal_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/animal_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 495px;
+	left: 875px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+
+}
+
 #numbers2 {
 	position: absolute;
-	top: 400px;
-	left: 750px;
+	top: 530px;
+	left: 950px;
 	width: 210px;
 	height: 40px;
 }
@@ -1206,18 +1258,35 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
-	top: 490px;
-	left: 100px;
+	background: #fff;
+	top: 610px;
+	left: 300px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
 }
 
+#ball_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/ball_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 584px;
+	left: 275px;
+
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+
+
+}
+
 #numbers3 {
 	position: absolute;
-	top: 500px;
-	left: 150px;
+	top: 620px;
+	left: 350px;
 	width: 210px;
 	height: 40px;
 }
@@ -1251,18 +1320,35 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
-	top: 490px;
-	left: 700px;
+	background: #fff;
+	top: 610px;
+	left: 900px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
 }
 
+#car_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/car_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 584px;
+	left: 875px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+
+}
+
 #numbers4 {
 	position: absolute;
-	top: 500px;
-	left: 750px;
+	top: 620px;
+	left: 950px;
 	width: 210px;
 	height: 40px;
 }
@@ -1302,29 +1388,29 @@ body {
 #airplane_guess{
 	position: absolute;
 	width: 300px;
-	top: 365px;
-	left: 100px;
+	top: 495px;
+	left: 300px;
 }
 
 #animal_guess{
 	position: absolute;
 	width: 300px;
-	top: 365px;
-	left: 700px;
+	top: 495px;
+	left: 900px;
 }
 
 #ball_guess{
 	position: absolute;
 	width: 300px;
-	top: 465px;
-	left: 100px;
+	top: 590px;
+	left: 300px;
 }
 
 #car_guess{
 	position: absolute;
 	width: 300px;
-	left: 700px;
-	top: 465px;
+	left: 900px;
+	top: 590px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
@@ -1341,20 +1427,21 @@ body {
 }
 
 #popUp{
+	top: 50px;
+	left: 600px;
+	position: absolute;
 	background: gray;
 	width: 300px;
 	height: 300px;
-	margin-top: 100px;	
-	margin-left: 115px;
-	float: left;
 	border-radius: 10px;
 }
 #score {
 	position: absolute;
-	top: 400px;
-	left: 190px;
-	width: 170px;
+	top: 350px;
+	left: 640px;
+	width: 270px;
 	height: 60px;
+	font-size: 1.5em;
 }
 
 #stars{

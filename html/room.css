@@ -15,21 +15,36 @@ body {
 	position: absolute;
 	top: 10px;
 	left: 100px;
-	width: 500px;
-	height: 500px;
+	width: 1000px;
+	height: 600px;
 	cursor:context-menu;
+
 
 	border: 2px solid #000;
 	border-radius: 10px;
+	background: #76d94f;
+	background: url("images/my_room.png");
 
 	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+#window {
+	background: url("images/window.png");
+	position: absolute;
+	top: -160px;
+	left: 260px;
+	width: 591px;
+	height: 577px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
 }
 
 #theCloset {
 	background: url("images/closet_closed.png");
 	position: absolute;
-	top: 10px;
-	left: 330px;
+	top: 180px;
+	left: 800px;
 	width: 150px;
 	height: 204px;
 	cursor:context-menu;
@@ -56,11 +71,15 @@ body {
 #theToys{
 	position: absolute;
 	top: 50px;
-	left: 30px;
-	width: 200px;
-	height: 105px;
+	left: -190px;
+	width: 815px;
+	height: 544px;
 	cursor:context-menu;
+
 	background: url("images/toys_room.png");
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
 
 	text-align: center;
 	padding-top: 35px;
@@ -79,13 +98,16 @@ body {
 
 #theBooks{
 	position: absolute;
-	top: 280px;
-	left: 30px;
-	width: 210px;
-	height: 150px;
+	top: 120px;
+	left: 310px;
+	width: 541px;
+	height: 409px;
 	cursor:context-menu;
 
 	background: url("images/closet_room.png");
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
 
 	text-align: center;
 	padding-top: 35px;
@@ -129,31 +151,30 @@ body {
 	cursor:context-menu;
 }
 
-
 #theWorkingTable{
 	position: absolute;
-	top: 380px;
-	left: 380px;
-	width: 100px;
-	height: 65px;
+	top: 270px;
+	left: 40px;
+	width: 750px;
+	height: 429px;
 	cursor:context-menu;
 
-	border: 2px solid #333;
-	border-radius: 10px;
-
-	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+	background: url("images/working_table.png");
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
 
 	text-align: center;
 	padding-top: 35px;
 }
 
 #theWorkingTable:hover{
-	background: #eaeaea;
+	background: url("images/working_table_hover.png");
 	cursor:context-menu;
 }
 
 #theWorkingTable:active{
-	background: #aeaeae;
+	background: url("images/working_table_active.png");
 	cursor:context-menu;
 }
 

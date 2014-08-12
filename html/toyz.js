@@ -135,6 +135,12 @@
         $("#ball_guess").hide();
         $("#car_guess").hide();
 
+        $("#airplane_BG").hide();
+        $("#animal_BG").hide();
+        $("#ball_BG").hide();
+        $("#car_BG").hide();
+
+
         //creating the divs for tries after the user has guessed
         for (var k = 1; k <= 5; k++) {
             $("<div>" + "</div>").attr("id", "guessMe" + k).appendTo("#test" + k);
@@ -307,6 +313,11 @@
                 $("#ball_guess").fadeIn(3000);
                 $("#car_guess").fadeIn(3000);
 
+                $("#airplane_BG").fadeIn(3000);
+                $("#animal_BG").fadeIn(3000);
+                $("#ball_BG").fadeIn(3000);
+                $("#car_BG").fadeIn(3000);
+
                 for (var i = 1; i <= 4; i++) {
                     $("#da_airplan" + i).fadeIn(3000);
                     $("#da_animal" + i).fadeIn(3000);
@@ -338,6 +349,7 @@
                     };
                     if (guess_airplane == 3) {
                         $("#numbers1").hide(50);
+                        $("#airplane_BG").hide();
                         true_airplane = 1;
                         checkAllGuess();
                         $("#guessMe1").show().text(airplaneNumbers[0]).unbind();
@@ -355,6 +367,7 @@
                         true_airplane = 1;
                         checkAllGuess();
                         $("#guessMe1").show().text(airplaneNumbers[0]);
+                        $("#airplane_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers1").hide();
                         ui.draggable.draggable({
@@ -389,6 +402,7 @@
                     };
                     if (guess_animal == 3) {
                         $("#numbers2").hide(50);
+                        $("#animal_BG").hide();
                         true_animal = 1;
                         checkAllGuess();
                         $("#guessMe2").show().text(animalNumbers[0]).unbind();
@@ -406,6 +420,7 @@
                         true_animal = 1;
                         checkAllGuess();
                         $("#guessMe2").show().text(animalNumbers[0]);
+                        $("#animal_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers2").hide();
                         ui.draggable.draggable({
@@ -443,6 +458,7 @@
                         true_ball = 1;
                         checkAllGuess();
                         $("#guessMe3").show().text(ballNumbers[0]).unbind();
+                        $("#ball_BG").hide();
                     };
                 }
             });
@@ -457,6 +473,7 @@
                         true_ball = 1;
                         checkAllGuess();
                         $("#guessMe3").show().text(ballNumbers[0]);
+                        $("#ball_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers3").hide();
                         ui.draggable.draggable({
@@ -471,7 +488,7 @@
             };
         };
 
-        //Yellow Books
+        //Cars 
         for (var i = 1; i <= 4; i++) {
             check_car = check_car + 1;
             $("#da_car" + i).draggable({
@@ -494,6 +511,7 @@
                         true_car = 1;
                         checkAllGuess();
                         $("#guessMe4").show().text(carNumbers[0]).unbind();
+                        $("#car_BG").hide();
                     };
                 }
             });
@@ -508,6 +526,7 @@
                         true_car = 1;
                         checkAllGuess();
                         $("#guessMe4").show().text(carNumbers[0]);
+                        $("#car_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers4").hide();
                         ui.draggable.draggable({
