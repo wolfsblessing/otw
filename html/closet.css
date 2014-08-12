@@ -1618,10 +1618,11 @@ body {
 }
 
 #popUp{
+	position: absolute;
 	background: gray;
 	width: 300px;
 	height: 300px;
-	margin-top: 70px;	
+	margin-top: 40px;	
 	margin-left: 295px;
 	float: left;
 	border-radius: 10px;
@@ -1642,7 +1643,7 @@ body {
 
 #score {
 	position: absolute;
-	top: 410px;
+	top: 360px;
 	left: 310px;
 	width: 270px;
 	height: 60px;
