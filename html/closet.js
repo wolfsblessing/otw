@@ -163,6 +163,10 @@
             $("#numbers" + i).hide();
         };
 
+        $("#shirt_BG").hide();
+        $("#shoes_BG").hide();
+        $("#sox_BG").hide();
+        $("#hat_BG").hide();
         $("#popUp").hide();
         $("#score").hide();
         $("#howMany").hide();
@@ -365,6 +369,11 @@
                 };
 
                 for (var i = 1; i <= 4; i++) {
+
+                    $("#shirt_BG").fadeIn();
+                    $("#shoes_BG").fadeIn();
+                    $("#sox_BG").fadeIn();
+                    $("#hat_BG").fadeIn();
                     $("#daShirts" + i).fadeIn(3000);
                     $("#daShoes" + i).fadeIn(3000);
                     $("#daSox" + i).fadeIn(3000);
@@ -399,6 +408,7 @@
                         trueShirt = 1;
                         checkAllGuess();
                         $("#guessMe1").show().text(shirtNumberss[0]).unbind();
+                        $("#shirt_BG").hide();
                     };
                 }
             });
@@ -413,6 +423,7 @@
                         trueShirt = 1;
                         checkAllGuess();
                         $("#guessMe1").show().text(shirtNumberss[0]);
+                        $("#shirt_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers1").hide();
                         ui.draggable.draggable({
@@ -451,6 +462,7 @@
                         trueShoes = 1;
                         checkAllGuess();
                         $("#guessMe2").show().text(shoesNumber[0]).unbind();
+                        $("#shoes_BG").hide();
                     };
                 }
             });
@@ -463,6 +475,7 @@
                         trueShoes = 1;
                         checkAllGuess();
                         $("#guessMe2").show().text(shoesNumber[0]);
+                        $("#shoes_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers2").hide();
                         ui.draggable.draggable({
@@ -502,6 +515,7 @@
                         trueSox = 1;
                         checkAllGuess();
                         $("#guessMe3").show().text(soxNumber[0]).unbind();
+                        $("#sox_BG").hide();
                     };
                 }
             });
@@ -514,6 +528,7 @@
                         trueSox = 1;
                         checkAllGuess();
                         $("#guessMe3").show().text(shoesNumber[0]);
+                        $("#sox_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers3").hide();
                         ui.draggable.draggable({
@@ -553,6 +568,7 @@
                         trueHats = 1;
                         checkAllGuess();
                         $("#guessMe4").show().text(hatsNumber[0]).unbind();
+                        $("#hat_BG").hide();
                     };
                 }
             });
@@ -565,6 +581,7 @@
                         trueHats = 1;
                         checkAllGuess();
                         $("#guessMe4").show().text(hatsNumber[0]);
+                        $("#hat_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers4").hide();
                         ui.draggable.draggable({
@@ -655,6 +672,7 @@
                 $("#sox_outline").hide();
                 $("#hats_outline").hide();
                 $("#container").hide();
+
                 $("#test1").hide();
                 $("#test2").hide();
                 $("#test3").hide();
