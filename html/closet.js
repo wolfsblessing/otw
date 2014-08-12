@@ -654,6 +654,12 @@
                 $("#shoes_outline").hide();
                 $("#sox_outline").hide();
                 $("#hats_outline").hide();
+                $("#container").hide();
+                $("#test1").hide();
+                $("#test2").hide();
+                $("#test3").hide();
+                $("#test4").hide();
+
 //                $("#pants_outline").hide();
 
                 $("#popUp").fadeIn(3000);

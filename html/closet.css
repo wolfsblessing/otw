@@ -1394,12 +1394,27 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
+	background: #fff;
 	top: 60px;
 	left: 880px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
+}
+
+#shirt_BG{
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/bluza_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 35px;
+	left: 855px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
 #numbers1 {
@@ -1440,12 +1455,27 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
+	background: #fff;
 	top: 160px;
 	left: 880px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
+}
+
+#shoes_BG{
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/cevli_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 135px;
+	left: 855px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
 #numbers2 {
@@ -1487,12 +1517,27 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
+	background: #fff;
 	top: 260px;
 	left: 880px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
+}
+
+#sox_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/corapi_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 235px;
+	left: 855px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
 #numbers3 {
@@ -1532,12 +1577,27 @@ body {
 	position: absolute;
 	width: 50px;
 	height: 50px;
-	background: red;
+	background: #fff;
 	top: 360px;
 	left: 880px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
+}
+
+#hat_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/hat_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 335px;
+	left: 855px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
 #numbers4 {
@@ -1619,11 +1679,11 @@ body {
 
 #popUp{
 	position: absolute;
+	top: 30px;
+	left: 450px;
 	background: gray;
 	width: 300px;
 	height: 300px;
-	margin-top: 40px;	
-	margin-left: 295px;
 	float: left;
 	border-radius: 10px;
 }
@@ -1644,7 +1704,7 @@ body {
 #score {
 	position: absolute;
 	top: 360px;
-	left: 310px;
+	left: 470px;
 	width: 270px;
 	height: 60px;
 	font-size: 1.3em;
