@@ -266,7 +266,7 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "250px",
+                top: "280px",
                 left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
@@ -536,6 +536,12 @@
                 $("#g_books_guess").hide();
                 $("#r_books_guess").hide();
                 $("#y_books_guess").hide();
+                $("#container").hide();
+
+                $("#test1").hide();
+                $("#test2").hide();
+                $("#test3").hide();
+                $("#test4").hide();
 
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);
