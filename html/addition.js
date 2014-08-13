@@ -29,6 +29,13 @@
 
         for (k = 1; k <= 10; k++) {
             $("<div>" + k + "</div>").attr("id", "number" + k).appendTo("#choseNumbers");
+            $("<div>" + "</div>").attr("id", "toShowFirst" + k).appendTo("#showFirst");
+            $("<div>" + "</div>").attr("id", "toShowSecond" + k).appendTo("#showSecond");
+        }
+
+        for (k = 1; k <= 10; k++) {
+            $("#toShowFirst"+ k).hide();
+            $("#toShowSecond"+ k).hide();
         }
 
         $("<div>" + "</div>").attr("id", "inResult").appendTo("#result");
@@ -46,6 +53,14 @@
                 stop: function() {
                     guessResult = guessResult + 1;
                     if (guessResult == 2) {
+                //creating the objects for the first number
+                    for (m = 1; m <= firstNumber[0]; m++) {
+                        $("#toShowFirst" + m).show();
+                    };
+                //creating the objects for the second number
+                    for (k = 1; k <= thirdNumber[0]; k++) {
+                        $("#toShowSecond" + k).show();
+                    };
                         $("#number" + the_result).animate({
                             "background-color": "red"
                         }, 2000);
@@ -86,6 +101,8 @@
         };
 
 
+
+//the end of init()         
     };
 
 

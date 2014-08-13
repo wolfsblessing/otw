@@ -44,6 +44,176 @@ body {
 	padding-top: 20px;
 }
 
+#showFirst {
+	position: absolute;
+	top: 200px;
+	left: -20px;
+	max-width: 210px;
+	background: #eaeaea;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+}
+
+#showSecond{
+	position: absolute;
+	top: 200px;
+	left: 180px;
+	max-width: 210px;
+	background: #eaeaea;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+}
+
+#toShowFirst1, #toShowSecond1{
+	background-image: url("images/a1.png");
+	float: left;
+	margin: 0;
+	margin-left: -15px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst2, #toShowSecond2 {
+	background-image:url("images/a2.png");
+	float: left;
+	margin-left: -50px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst3, #toShowSecond3 {
+	background-image:url("images/a3.png");
+	float: left;
+	margin-left: -40px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst4, #toShowSecond4 {
+	background-image:url("images/a4.png");
+	float: left;
+	margin-left: -20px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst5, #toShowSecond5 {
+	background-image:url("images/a5.png");
+	float: left;
+	margin-left: -50px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst6, #toShowSecond6 {
+	background-image:url("images/a6.png");
+	float: left;
+	margin-left: -40px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+
+#toShowFirst7, #toShowSecond7 {
+	background-image:url("images/a7.png");
+	float: left;
+	margin-left: -20px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst8, #toShowSecond8 {
+	background-image:url("images/animal1.png");
+	float: left;
+	margin-left: -40px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst9, #toShowSecond9 {
+	background-image:url("images/animal2.png");
+	float: left;
+	margin-left: -50px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+#toShowFirst10, #toShowSecond10 {
+	background-image:url("images/animal3.png");
+	float: left;
+	margin-left: -15px;
+	margin-top: -30px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+}
+
+
+
+
+
+
+
+
+#toShowFirst2:hover{
+	background-image:url("images/a2_hover.png");
+}
+
+#toShowFirst2:active{
+	background-image:url("images/a2_active.png");
+
+}
+
 #the_Plus {
 	position: absolute;
 	top: 115px;
