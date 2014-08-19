@@ -155,12 +155,12 @@
         var checkblue_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= 4; i++) {
-            $("#object_blue" + i).show().draggable({
+            $("#object_blue" + object_blue[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "400px",
+                top: "430px",
                 left: dacopy[i - 1] + "px"
             }, 2000);
 
@@ -193,7 +193,7 @@
             });
         };
 
-        //--------------------------------------------------------------------------------
+//--------------------------------------------------------------------------------
         //object_greens
         var myobject_greenPosition = 30;
         var leftgreenFix = 30;
@@ -201,12 +201,12 @@
         var checkgreen_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= 4; i++) {
-            $("#object_green" + i).show().draggable({
+            $("#object_green" + object_green[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "560px",
+                top: "570px",
                 left: dacopy[i - 1] + "px"
             }, 2000);
 
@@ -239,6 +239,7 @@
             });
         };
 
+//--------------------------------------------------------------------------------
         //object_yellows
         var myobject_yellowPosition = 30;
         var leftyellowFix = 30;
@@ -246,12 +247,12 @@
         var checkyellow_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= 4; i++) {
-            $("#object_yellow" + i).show().draggable({
+            $("#object_yellow" + object_yellow[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "560px",
+                top: "630px",
                 left: dacopy[i - 1] + "px"
             }, 2000);
 
@@ -285,6 +286,7 @@
         };
 
 
+//--------------------------------------------------------------------------------
 //object_reds
         var myobject_redPosition = 30;
         var leftredFix = 30;
@@ -292,12 +294,12 @@
         var checkred_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= 4; i++) {
-            $("#object_red" + i).show().draggable({
+            $("#object_red" + object_red[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "500px",
+                top: "680px",
                 left: dacopy[i - 1] + "px"
             }, 2000);
 
