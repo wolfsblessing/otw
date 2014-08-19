@@ -11,7 +11,7 @@
         return Math.random() - .3
     });
     daTransparent = [0, 120, 240, 360];
-    dacopy = [20, 40, 60, 80];
+    dacopy = [0, 100, 200, 300, 380];
     dacopy.sort(function() {
         return Math.random() - .25
     });
@@ -23,66 +23,65 @@
     var score = 0;
     var guess = 0;
 
-    //There are 7 types of object1s that need to appear randomly. Array and then random the elements
-    var object1 = [1, 2, 3, 4, 5, 6, 7];
-    object1.sort(function() {
+    //There are 7 types of object_blues that need to appear randomly. Array and then random the elements
+    var object_blue = [1, 2, 3, 4];
+    object_blue.sort(function() {
         return Math.random() - .23
     });
-    var object1Numbers = [2, 3, 4];
-    object1Numbers.sort(function() {
+    var object_blueNumbers = [2, 3, 4];
+    object_blueNumbers.sort(function() {
         return Math.random() - .3
     });
 
-    var object1Counter = 0;
-    var check_object1 = 0;
-    var guess_object1 = 0;
-    var true_object1 = 0;
+    var object_blueCounter = 0;
+    var check_object_blue = 0;
+    var guess_object_blue = 0;
+    var true_object_blue = 0;
 
-    //There are 7 green books that need to appear randomly. Array and then random the elements
-    var object2 = [1, 2, 3, 4, 5, 6, 7];
-    object2.sort(function() {
+    /*===================================*/ 
+    var object_green = [1, 2, 3, 4];
+    object_green.sort(function() {
         return Math.random() - .23
     });
-    var object2Numbers = [2, 3, 4];
-    object2Numbers.sort(function() {
+
+    var object_greenNumbers = [2, 3, 4];
+    object_greenNumbers.sort(function() {
         return Math.random() - .3
     });
 
-    var object2Counter = 0;
-    var check_object2 = 0;
-    var guess_object2 = 0;
-    var true_object2 = 0;
-
-    //There are 7 red books that need to appear randomly. Array and then random the elements
-    var object3 = [1, 2, 3, 4, 5, 6, 7];
-    object3.sort(function() {
+    var object_greenCounter = 0;
+    var check_object_green = 0;
+    var guess_object_green = 0;
+     
+    /*===================================*/ 
+    var object_yellow = [1, 2, 3, 4];
+    object_yellow.sort(function() {
         return Math.random() - .23
     });
-    var object3Numbers = [2, 3, 4];
-    object3Numbers.sort(function() {
+
+    var object_yellowNumbers = [2, 3, 4];
+    object_yellowNumbers.sort(function() {
         return Math.random() - .3
     });
 
-    var object3Counter = 0;
-    var check_object3 = 0;
-    var guess_object3 = 0;
-    var true_object3 = 0;
-
-
-    //There are 7 yellow books that need to appear randomly. Array and then random the elements
-    var object4 = [1, 2, 3, 4, 5, 6];
-    object4.sort(function() {
+    var object_yellowCounter = 0;
+    var check_object_yellow = 0;
+    var guess_object_yellow = 0;
+     
+    /*===================================*/ 
+    var object_red = [1, 2, 3, 4];
+    object_red.sort(function() {
         return Math.random() - .23
     });
-    var object4Numbers = [2, 3, 4];
-    object4Numbers.sort(function() {
+
+    var object_redNumbers = [2, 3, 4];
+    object_redNumbers.sort(function() {
         return Math.random() - .3
     });
 
-    var object4Counter = 0;
-    var check_object4 = 0;
-    var guess_object4 = 0;
-    var true_object4 = 0;
+    var object_redCounter = 0;
+    var check_object_red = 0;
+    var guess_object_red = 0;
 
 
     //Creating the init function so I don't use the $(document).ready function all the time
@@ -92,54 +91,43 @@
     function init() {
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-        for (var k = 1; k <= 7; k++) {
-            $("<div>" + "</div>").attr("id", "object1" + k).appendTo("#object1");
-            $("<div>" + "</div>").attr("id", "object1" + k + "_transparent").appendTo("#object1_transparent");
+        for (var k = 1; k <= 4; k++) {
+            $("<li>" + "</li>").attr("id", "object_blue" + k).appendTo("#object_blue");
+            $("<li>" + "</li>").attr("id", "object_green" + k).appendTo("#object_green");
+            $("<li>" + "</li>").attr("id", "object_yellow" + k).appendTo("#object_yellow");
+            $("<li>" + "</li>").attr("id", "object_red" + k).appendTo("#object_red");
 
-            $("<div>" + "</div>").attr("id", "object2" + k).appendTo("#object2");
-            $("<div>" + "</div>").attr("id", "object2" + k + "_transparent").appendTo("#object2_transparent");
-
-            //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "object3" + k).appendTo("#object3");
-            $("<div>" + "</div>").attr("id", "object3" + k + "_transparent").appendTo("#object3_transparent");
-
-            //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
-            $("<div>" + "</div>").attr("id", "object4" + k).appendTo("#object4");
-            $("<div>" + "</div>").attr("id", "object4" + k + "_transparent").appendTo("#object4_transparent");
         };
-
-        for (var k = 1; k <= 11; k++) {};
-
 
         //Hiding every book element that I've created in the body
-        for (var i = 1; i <= 7; i++) {
-            $("#object1" + i).hide();
-            $("#object1" + i + "_transparent").hide();
-            $("#object3" + i).hide();
-            $("#object3" + i + "_transparent").hide();
-            $("#object4" + i).hide();
-            $("#object4" + i + "_transparent").hide();
-        };
-        for (var i = 1; i <= 11; i++) {
-            $("#object2" + i).hide();
-            $("#object2" + i + "_transparent").hide();
+        for (var i = 1; i <= 4; i++) {
+            $("#object_blue" + i).hide();
+            $("#object_green" + i).hide();
+            $("#object_yellow" + i).hide();
+            $("#object_red" + i).hide();
         };
 
         //create the divs with the little boxes to guess how many shirts were there and adding to 'numbers' div
         for (var k = 1; k <= 4; k++) {
-            $("<div>" + k + "</div>").attr("id", "da_object1" + k).appendTo("#numbers1");
-            $("<div>" + k + "</div>").attr("id", "da_object2" + k).appendTo("#numbers2");
-            $("<div>" + k + "</div>").attr("id", "da_object3" + k).appendTo("#numbers3");
-            $("<div>" + k + "</div>").attr("id", "da_object4" + k).appendTo("#numbers4");
+            $("<div>" + k + "</div>").attr("id", "da_object_blue" + k).appendTo("#numbers1");
+            $("<div>" + k + "</div>").attr("id", "da_object_green" + k).appendTo("#numbers2");
+            $("<div>" + k + "</div>").attr("id", "da_object_yellow" + k).appendTo("#numbers3");
+            $("<div>" + k + "</div>").attr("id", "da_object_red" + k).appendTo("#numbers4");
         };
 
-        $("#object1_guess").hide();
-        $("#object2_guess").hide();
-        $("#object3_guess").hide();
-        $("#object4_guess").hide();
+        $("#object_blue_guess").hide();
+        $("#object_green_guess").hide();
+        $("#object_yellow_guess").hide();
+        $("#object_red_guess").hide();
+
+        $("#object_blue_BG").hide();
+        $("#object_green_BG").hide();
+        $("#object_yellow_BG").hide();
+        $("#object_red_BG").hide();
+
 
         //creating the divs for tries after the user has guessed
-        for (var k = 1; k <= 5; k++) {
+        for (var k = 1; k <= 2; k++) {
             $("<div>" + "</div>").attr("id", "guessMe" + k).appendTo("#test" + k);
         };
 
@@ -160,411 +148,201 @@
         //need to ask why i had to use '-1' at the array so the droppable objects are shown in order
 
         //--------------------------------------------------------------------------------
-        //object1s
-        for (var i = 1; i <= object1Numbers[0]; i++) {
-            $("#object1" + object1[i]).show();
-            $("#object1" + object1[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#object1" + object1[i]).draggable({
-                stack: "#object1",
-                revert: true,
-                cursor: "move"
+        //object_blues
+        var myobject_bluePosition = 30;
+        var leftblueFix = 30;
+        var checkblue_top= 0;
+        var checkblue_left = 0;
+        //        function showMyAlph() {
+        for (var i = 1; i <= 4; i++) {
+            $("#object_blue" + i).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "550px",
-                left: dacopy[i] + "px"
+                "position": "absolute",
+                top: "400px",
+                left: dacopy[i - 1] + "px"
             }, 2000);
 
-            $("#object1" + object1[i] + "_transparent").droppable({
-                accept: "#object1" + object1[i],
+            $("#object_blue_transparent").droppable({
+                accept: "#object_blue > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    object1Counter = object1Counter + 1;
+                    object_blueCounter = object_blueCounter + 1;
+                    checkblue_top = checkblue_top + 1;
+                    checkblue_left = checkblue_left + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        left: leftblueFix + "px",
+                        top: myobject_bluePosition + "px",
+                    }).appendTo("#object_blue_transparent");
+//making sure that there will be only 2 items in one line since I can't controll the position 
+//with CSS for some reason.                     
+                    if (checkblue_top == 2){
+                        myobject_bluePosition = 130;
+                    };
+                    leftblueFix = leftblueFix + 125;
+                    if (checkblue_left == 2){
+                        leftblueFix = 30;
+                    };
                 }
             });
         };
 
         //--------------------------------------------------------------------------------
-        //object2s
-        for (var i = 1; i <= object2Numbers[0]; i++) {
-            $("#object2" + object2[i]).show();
-            $("#object2" + object2[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#object2" + object2[i]).draggable({
-                stack: "#object2",
-                revert: true,
-                cursor: "move"
+        //object_greens
+        var myobject_greenPosition = 30;
+        var leftgreenFix = 30;
+        var checkgreen_top= 0;
+        var checkgreen_left = 0;
+        //        function showMyAlph() {
+        for (var i = 1; i <= 4; i++) {
+            $("#object_green" + i).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "450px",
-                left: dacopy[i] + "px"
+                "position": "absolute",
+                top: "560px",
+                left: dacopy[i - 1] + "px"
             }, 2000);
 
-            $("#object2" + object2[i] + "_transparent").droppable({
-                accept: "#object2" + object2[i],
+            $("#object_green_transparent").droppable({
+                accept: "#object_green > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    object2Counter = object2Counter + 1;
+                    object_greenCounter = object_greenCounter + 1;
+                    checkgreen_top = checkgreen_top + 1;
+                    checkgreen_left = checkgreen_left + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        left: leftgreenFix + "px",
+                        top: myobject_greenPosition + "px",
+                    }).appendTo("#object_green_transparent");
+//making sure that there will be only 2 items in one line since I can't controll the position 
+//with CSS for some reason.                     
+                    if (checkgreen_top == 2){
+                        myobject_greenPosition = 130;
+                    };
+                    leftgreenFix = leftgreenFix + 125;
+                    if (checkgreen_left == 2){
+                        leftgreenFix = 30;
+                    };
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //object3s
-        for (var i = 1; i <= object3Numbers[0]; i++) {
-            $("#object3" + object3[i]).show();
-            $("#object3" + object3[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
-
-            $("#object3" + object3[i]).draggable({
-                stack: "#object3",
-                revert: true,
-                cursor: "move"
+        //object_yellows
+        var myobject_yellowPosition = 30;
+        var leftyellowFix = 30;
+        var checkyellow_top= 0;
+        var checkyellow_left = 0;
+        //        function showMyAlph() {
+        for (var i = 1; i <= 4; i++) {
+            $("#object_yellow" + i).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "350px",
-                left: dacopy[i] + "px"
+                "position": "absolute",
+                top: "560px",
+                left: dacopy[i - 1] + "px"
             }, 2000);
 
-            $("#object3" + object3[i] + "_transparent").droppable({
-                accept: "#object3" + object3[i],
+            $("#object_yellow_transparent").droppable({
+                accept: "#object_yellow > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    object3Counter = object3Counter + 1;
+                    object_yellowCounter = object_yellowCounter + 1;
+                    checkyellow_top = checkyellow_top + 1;
+                    checkyellow_left = checkyellow_left + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        left: leftyellowFix + "px",
+                        top: myobject_yellowPosition + "px",
+                    }).appendTo("#object_yellow_transparent");
+//making sure that there will be only 2 items in one line since I can't controll the position 
+//with CSS for some reason.                     
+                    if (checkyellow_top == 2){
+                        myobject_yellowPosition = 130;
+                    };
+                    leftyellowFix = leftyellowFix + 125;
+                    if (checkyellow_left == 2){
+                        leftyellowFix = 30;
+                    };
                 }
             });
         };
 
-        //--------------------------------------------------------------------------------
-        //object4s
-        for (var i = 1; i <= object4Numbers[0]; i++) {
-            $("#object4" + object4[i]).show();
-            $("#object4" + object4[i] + "_transparent").show().css({
-                "color": "red",
-                "left": daTransparent[i - 1] + "px"
-            });
 
-            $("#object4" + object4[i]).draggable({
-                stack: "#object4",
-                revert: true,
-                cursor: "move"
+//object_reds
+        var myobject_redPosition = 30;
+        var leftredFix = 30;
+        var checkred_top= 0;
+        var checkred_left = 0;
+        //        function showMyAlph() {
+        for (var i = 1; i <= 4; i++) {
+            $("#object_red" + i).show().draggable({
+                cursor: "move",
+                revert: true
             }).animate({
-                top: "250px",
-                left: dacopy[i] + "px"
+                "position": "absolute",
+                top: "500px",
+                left: dacopy[i - 1] + "px"
             }, 2000);
 
-            $("#object4" + object4[i] + "_transparent").droppable({
-                accept: "#object4" + object4[i],
+            $("#object_red_transparent").droppable({
+                accept: "#object_red > li",
                 drop: function(ev, ui) {
                     ui.draggable.addClass("correct");
-                    object4Counter = object4Counter + 1;
+                    object_redCounter = object_redCounter + 1;
+                    checkred_top = checkred_top + 1;
+                    checkred_left = checkred_left + 1;
                     element_Check();
-                    $(this).droppable('disable');
                     ui.draggable.draggable({
-                        revert: false,
-                    }).unbind().position({
-                        of: $(this),
-                        my: "center",
-                        at: "center"
-                    });
+                        cursor: "default",
+                        revert: false
+                    }).unbind().css({
+                        position: "absolute",
+                        left: leftredFix + "px",
+                        top: myobject_redPosition + "px",
+                    }).appendTo("#object_red_transparent");
+//making sure that there will be only 2 items in one line since I can't controll the position 
+//with CSS for some reason.                     
+                    if (checkred_top == 2){
+                        myobject_redPosition = 130;
+                    };
+                    leftredFix = leftredFix + 125;
+                    if (checkred_left == 2){
+                        leftredFix = 30;
+                    };
                 }
             });
         };
-
 
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements
         function element_Check() {
-            if ((object1Counter == object1Numbers[0]) && (object2Counter == object2Numbers[0]) &&
-                (object3Counter == object3Numbers[0]) && (object4Counter == object4Numbers[0])) {
-                for (var i = 1; i <= 4; i++) {
-                    $("#test" + i).fadeIn(3000);
-                    //            $("#howMany").fadeIn(3000);
-                    $("#numbers" + i).fadeIn(3000);
-                };
-
-                $("#object1_guess").fadeIn(3000);
-                $("#object2_guess").fadeIn(3000);
-                $("#object3_guess").fadeIn(3000);
-                $("#object4_guess").fadeIn(3000);
-
-                for (var i = 1; i <= 4; i++) {
-                    $("#da_airplan" + i).fadeIn(3000);
-                    $("#da_object2" + i).fadeIn(3000);
-                    $("#da_object3" + i).fadeIn(3000);
-                    $("#da_object4" + i).fadeIn(3000);
-                };
-            };
-        };
-
-        //after the Blue books elements are dropped into their places, the next elements are shown
-        //these new elements will be draggable
-        //object1s
-        for (var i = 1; i <= 4; i++) {
-            check_object1 = check_object1 + 1;
-            $("#da_object1" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_object1 = guess_object1 + 1;
-                    if (guess_object1 != object1Numbers[0] && guess_object1 == 2) {
-                        $("#da_object1" + object1Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (object1Numbers[0] == 2 && guess_object1 != object1Numbers[0] && guess_object1 == 1) {
-                        $("#da_object1" + object1Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_object1 == 3) {
-                        $("#numbers1").hide(50);
-                        true_object1 = 1;
-                        checkAllGuess();
-                        $("#guessMe1").show().text(object1Numbers[0]).unbind();
-                    };
-                }
-            });
-
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
-
-            if (check_object1 == object1Numbers[0]) {
-                $("#test1").droppable({
-                    accept: "#da_object1" + i,
-                    drop: function(ev, ui) {
-                        true_object1 = 1;
-                        checkAllGuess();
-                        $("#guessMe1").show().text(object1Numbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers1").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
-
-        //Green Books
-        for (var i = 1; i <= 4; i++) {
-            check_object2 = check_object2 + 1;
-            $("#da_object2" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_object2 = guess_object2 + 1;
-                    if (guess_object2 != object2Numbers[0] && guess_object2 == 2) {
-                        $("#da_object2" + object2Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (object2Numbers[0] == 2 && guess_object2 != object2Numbers[0] && guess_object2 == 1) {
-                        $("#da_object2" + object2Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_object2 == 3) {
-                        $("#numbers2").hide(50);
-                        true_object2 = 1;
-                        checkAllGuess();
-                        $("#guessMe2").show().text(object2Numbers[0]).unbind();
-                    };
-                }
-            });
-
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
-
-            if (check_object2 == object2Numbers[0]) {
-                $("#test2").droppable({
-                    accept: "#da_object2" + i,
-                    drop: function(ev, ui) {
-                        true_object2 = 1;
-                        checkAllGuess();
-                        $("#guessMe2").show().text(object2Numbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers2").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
-
-        //Red Books
-        for (var i = 1; i <= 4; i++) {
-            check_object3 = check_object3 + 1;
-            $("#da_object3" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_object3 = guess_object3 + 1;
-                    if (guess_object3 != object3Numbers[0] && guess_object3 == 2) {
-                        $("#da_object3" + object3Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (object3Numbers[0] == 2 && guess_object3 != object3Numbers[0] && guess_object3 == 1) {
-                        $("#da_object3" + object3Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_object3 == 3) {
-                        $("#numbers3").hide(50);
-                        true_object3 = 1;
-                        checkAllGuess();
-                        $("#guessMe3").show().text(object3Numbers[0]).unbind();
-                    };
-                }
-            });
-
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
-
-            if (check_object3 == object3Numbers[0]) {
-                $("#test3").droppable({
-                    accept: "#da_object3" + i,
-                    drop: function(ev, ui) {
-                        true_object3 = 1;
-                        checkAllGuess();
-                        $("#guessMe3").show().text(object3Numbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers3").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
-
-        //Yellow Books
-        for (var i = 1; i <= 4; i++) {
-            check_object4 = check_object4 + 1;
-            $("#da_object4" + i).draggable({
-                revert: true,
-                cursor: "move",
-                stop: function() {
-                    guess_object4 = guess_object4 + 1;
-                    if (guess_object4 != object4Numbers[0] && guess_object4 == 2) {
-                        $("#da_object4" + object4Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (object4Numbers[0] == 2 && guess_object4 != object4Numbers[0] && guess_object4 == 1) {
-                        $("#da_object4" + object4Numbers[0]).animate({
-                            "background-color": "red"
-                        }, 2000);
-                    };
-                    if (guess_object4 == 3) {
-                        $("#numbers4").hide(50);
-                        true_object4 = 1;
-                        checkAllGuess();
-                        $("#guessMe4").show().text(object4Numbers[0]).unbind();
-                    };
-                }
-            });
-
-            //if the person put the correct number into the box then make the draggable disabled
-            //also show the pop up message
-
-            if (check_object4 == object4Numbers[0]) {
-                $("#test4").droppable({
-                    accept: "#da_object4" + i,
-                    drop: function(ev, ui) {
-                        true_object4 = 1;
-                        checkAllGuess();
-                        $("#guessMe4").show().text(object4Numbers[0]);
-                        $(this).droppable("disable");
-                        $("#numbers4").hide();
-                        ui.draggable.draggable({
-                            revert: false,
-                        }).unbind().position({
-                            of: $(this),
-                            my: "center",
-                            at: "center"
-                        });
-                    }
-                });
-            };
-        };
-
-        function checkAllGuess() {
-            if ((true_object1 == 1) && (true_object2 == 1) && (true_object3 == 1) &&
-                (true_object4 == 1)) {
-                $("#object1_transparent").hide();
-                $("#object1").hide();
-                $("#object2_transparent").hide();
-                $("#object2").hide();
-                $("#object3_transparent").hide();
-                $("#object3").hide();
-                $("#object4_transparent").hide();
-                $("#object4").hide();
-                $("#object1_guess").hide();
-                $("#object2_guess").hide();
-                $("#object3_guess").hide();
-                $("#object4_guess").hide();
-
-                $("#popUp").fadeIn(3000);
-                $("#score").fadeIn(3000);
+            if ((object_blueCounter == 4) && (object_greenCounter == 4) &&
+                (object_yellowCounter == 4) && (object_redCounter == 4)) {
+                 $("#popUp").fadeIn(3000);
+                 $("#score").fadeIn(3000);
+                 $("#textMe").hide();
             };
         };
 
     };
 
-
-
     $(init);
-
-
-    //if the person wants to restart the game, i'm using the reload function.
-    //have to check if the score can be kept
-
 
 })();
