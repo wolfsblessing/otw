@@ -206,7 +206,7 @@
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "570px",
+                top: "585px",
                 left: dacopy[i - 1] + "px"
             }, 2000);
 
