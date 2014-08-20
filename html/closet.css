@@ -1356,28 +1356,28 @@ body {
 #shirtNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 40px;
+	top: 240px;
 	left: 880px;
 }
 
 #shoesNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 140px;
+	top: 340px;
 	left: 880px;
 }
 
 #soxNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 240px;
+	top: 140px;
 	left: 880px;
 }
 
 #hatNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 340px;
+	top: 40px;
 	left: 880px;
 }
 
@@ -1394,7 +1394,7 @@ body {
 	width: 50px;
 	height: 50px;
 	background: #fff;
-	top: 60px;
+	top: 260px;
 	left: 880px;
 
 	border-radius: 10px;
@@ -1408,7 +1408,7 @@ body {
 	background:url("images/bluza_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 35px;
+	top: 235px;
 	left: 855px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -1418,7 +1418,7 @@ body {
 
 #numbers1 {
 	position: absolute;
-	top: 70px;
+	top: 270px;
 	left: 930px;
 	width: 210px;
 	height: 40px;
@@ -1455,7 +1455,7 @@ body {
 	width: 50px;
 	height: 50px;
 	background: #fff;
-	top: 160px;
+	top: 360px;
 	left: 880px;
 
 	border-radius: 10px;
@@ -1469,7 +1469,7 @@ body {
 	background:url("images/cevli_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 135px;
+	top: 335px;
 	left: 855px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -1479,7 +1479,7 @@ body {
 
 #numbers2 {
 	position: absolute;
-	top: 170px;
+	top: 370px;
 	left: 930px;
 	width: 210px;
 	height: 40px;
@@ -1517,7 +1517,7 @@ body {
 	width: 50px;
 	height: 50px;
 	background: #fff;
-	top: 260px;
+	top: 160px;
 	left: 880px;
 
 	border-radius: 10px;
@@ -1531,7 +1531,7 @@ body {
 	background:url("images/corapi_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 235px;
+	top: 135px;
 	left: 855px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -1541,7 +1541,7 @@ body {
 
 #numbers3 {
 	position: absolute;
-	top: 270px;
+	top: 170px;
 	left: 930px;
 	width: 210px;
 	height: 40px;
@@ -1577,7 +1577,7 @@ body {
 	width: 50px;
 	height: 50px;
 	background: #fff;
-	top: 360px;
+	top: 60px;
 	left: 880px;
 
 	border-radius: 10px;
@@ -1591,7 +1591,7 @@ body {
 	background:url("images/hat_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 335px;
+	top: 35px;
 	left: 855px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -1601,7 +1601,7 @@ body {
 
 #numbers4 {
 	position: absolute;
-	top: 370px;
+	top: 70px;
 	left: 930px;
 	width: 210px;
 	height: 40px;
