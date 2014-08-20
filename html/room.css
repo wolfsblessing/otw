@@ -32,7 +32,7 @@ body {
 	background: url("images/window.png");
 	position: absolute;
 	top: -160px;
-	left: 260px;
+	left: 210px;
 	width: 591px;
 	height: 577px;
 	-ms-transform: scale(0.4,0.4); /* IE 9 */
@@ -43,8 +43,8 @@ body {
 #theCloset {
 	background: url("images/closet_closed.png");
 	position: absolute;
-	top: 180px;
-	left: 800px;
+	top: 150px;
+	left: 760px;
 	width: 150px;
 	height: 204px;
 	cursor:context-menu;
@@ -52,6 +52,10 @@ body {
 	text-align: center;
 
 	padding-top: 35px;
+
+	-ms-transform: scale(1.4,1.4); /* IE 9 */
+    -webkit-transform: scale(1.4,1.4); /* Chrome, Safari, Opera */
+    transform: scale(1.4,1.4); /* Standard syntax */
 }
 
 #theCloset:hover{
@@ -71,7 +75,7 @@ body {
 #theToys{
 	position: absolute;
 	top: 50px;
-	left: -190px;
+	left: -210px;
 	width: 815px;
 	height: 544px;
 	cursor:context-menu;
@@ -99,7 +103,7 @@ body {
 #theBooks{
 	position: absolute;
 	top: 120px;
-	left: 310px;
+	left: 230px;
 	width: 541px;
 	height: 409px;
 	cursor:context-menu;

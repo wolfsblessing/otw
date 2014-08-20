@@ -4,19 +4,19 @@
     $('#to_room').mouseenter(function(e) {
 //        $(this).animate({ height: '100', left: '0', top: '0', width: '100'}, 100);
         $(this).animate({ 
-        	height: '75', 
-        	width: '140', 
-        	top: '280', 
-        	left: '360', 
-        	'padding-top': '40'}, 100);
+        	height: '35', 
+        	width: '210', 
+        	top: '670', 
+        	left: '460', 
+        	'padding-top': '10'}, 100);
     }).mouseleave(function(e) {
 //        $(this).animate({ height: '332', left: '-20', top: '-20', width: '500'}, 100);
         $(this).animate({ 
-        	height: '65', 
-        	width: '100', 
-        	top: '300', 
-        	left: '380',
-        	'padding-top': '30'}, 100);
+        	height: '25', 
+        	width: '200', 
+        	top: '680', 
+        	left: '470',
+        	'padding-top': '5'}, 100);
     });
 
     $(init);

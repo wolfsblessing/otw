@@ -121,44 +121,16 @@ body {
     -webkit-transform: scale(0.25,0.25); /* Chrome, Safari, Opera */
     transform: scale(0.25,0.25); /* Standard syntax */
 }
-
-
-#to_room{
-	position: absolute;
-	top: 300px;
-	left: 380px;
-	width: 100px;
-	height: 65px;
-	background: #eaeaea;
-
-	border: 2px solid #333;
-	border-radius: 10px;
-
-	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
-
-	text-align: center;
-	padding-top: 35px;
-}
-
-#to_room:hover{
-	background: #eaeaea;
-}
-
-#to_room:active{
-	background: #aeaeae;
-   box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
-}
-
 #geometric_text {
 	position: absolute;
-	top: 483px;
-	left: 353px;
+	top: 270px;
+	left: 355px;
 	font-size: 1.2em;
 }
 
 #geometric{
 	position: absolute;
-	top: 380px;
+	top: 170px;
 	left: 100px;
 	width: 640px;
 	height: 390px;
@@ -212,3 +184,30 @@ body {
 	background: #aeaeae;
    box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
 }
+
+#to_room{
+	position: absolute;
+	top: 680px;
+	left: 470px;
+	width: 200px;
+	height: 25px;
+	background: #eaeaea;
+
+	border: 2px solid #333;
+	border-radius: 10px;
+
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+
+	text-align: center;
+	padding-top: 5px;
+}
+
+#to_room:hover{
+	background: #eaeaea;
+}
+
+#to_room:active{
+	background: #aeaeae;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7); 
+}
+

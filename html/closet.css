@@ -49,7 +49,7 @@ body {
 	position: absolute;
 	width: 480px;
 	height: 110px;
-	top: 35px;
+	top: 235px;
 	left: 320px;
 	margin: 0px;
 	padding: 0px;
@@ -61,7 +61,7 @@ body {
 
 #shirt_outline {
 	position: absolute;
-	top: 37px;
+	top: 233px;
 	left: 210px;
 	background:url("images/bluza_outline.png") no-repeat;
 	-ms-transform: scale(0.8,0.8); /* IE 9 */
@@ -77,7 +77,7 @@ body {
 
 #trans_shirts {
 	position: absolute;
-	top: 35px;
+	top: 225px;
 	left: 300px;
 	width: 400px;
 	height: 110px;
@@ -322,7 +322,7 @@ body {
 	position: absolute;
 	width: 400px;
 	height: 110px;
-	top: 130px;
+	top: 330px;
 	left: 300px;
 }
 
@@ -332,7 +332,7 @@ body {
 
 #shoes_outline {
 	position: absolute;
-	top: 136px;
+	top: 336px;
 	left: 210px;
 	background:url("images/cevli_outline.png") no-repeat;
 	border-right: 2px solid #333;
@@ -348,7 +348,7 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 110px;
-	top: 130px;
+	top: 330px;
 	left: 320px;
 	margin: 0px;
 	padding: 0px;
@@ -569,7 +569,7 @@ body {
 	position: absolute;
 	width: 400px;
 	height: 90px;
-	top: 250px;
+	top: 142px;
 	left: 300px;
 }
 
@@ -579,7 +579,7 @@ body {
 
 #sox_outline {
 	position: absolute;
-	top: 234px;
+	top: 134px;
 	left: 210px;
 	background:url("images/corapi_outline.png") no-repeat;
 	border-right: 2px solid #333;
@@ -594,8 +594,8 @@ body {
 #sox{
 	position: absolute;
 	width: 430px;
-	height: 78px;
-	top: 240px;
+	height: 88px;
+	top: 140px;
 	left: 320px;
 	margin: 0px;
 	padding: 0px;
@@ -823,7 +823,7 @@ body {
 	position: absolute;
 	width: 400px;
 	height: 90px;
-	top: 345px;
+	top: 43px;
 	left: 300px;
 	margin: 0px;
 	padding: 0px;
@@ -835,7 +835,7 @@ body {
 
 #hats_outline {
 	position: absolute;
-	top: 331px;
+	top: 38px;
 	left: 210px;
 	background:url("images/hat_outline.png") no-repeat;
 	border-right: 2px solid #333;
@@ -851,12 +851,11 @@ body {
 #hats{
 	position: absolute;
 	width: 430px;
-	height: 69px;
-	top: 350px;
+	height: 89px;
+	top: 43px;
 	left: 320px;
 	margin: 0px;
 	padding: 0px;
-
 }
 
 #hats li {
