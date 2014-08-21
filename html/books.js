@@ -91,6 +91,24 @@
 
     function init() {
 
+        $("#girly").hide();
+        $("#boyish").hide();
+        
+        storage.get('girly');
+        storage.get('boyish');
+
+        console.log(storage.get('girly'));
+        console.log(storage.get('boyish'));
+
+        if((storage.get("girly")) == true ){
+             $("#girly").show();
+        };
+
+        if((storage.get("boyish")) == true ){
+             $("#boyish").show();
+        };
+
+
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 7; k++) {
             $("<li>" + "</li>").attr("id", "b_books" + k).appendTo("#b_books");
@@ -300,6 +318,11 @@
                     //            $("#howMany").fadeIn(3000);
                     $("#numbers" + i).fadeIn(3000);
                 };
+
+                $("#text_blob").hide();
+                $("#help_text").hide();
+                $("#girly").hide();
+                $("#boyish").hide();
 
                 $("#b_books_guess").fadeIn(3000);
                 $("#g_books_guess").fadeIn(3000);
@@ -542,6 +565,16 @@
                 $("#test2").hide();
                 $("#test3").hide();
                 $("#test4").hide();
+
+                if((storage.get("girly")) == true ){
+                     $("#girly").show();
+                };
+
+                if((storage.get("boyish")) == true ){
+                     $("#boyish").show();
+                };
+
+                $("#text_blob").fadeIn(3000);
 
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);

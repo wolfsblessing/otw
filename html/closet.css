@@ -13,13 +13,47 @@ body {
 }
 /*================closet.html page=============*/
 
+#girly {
+	position: absolute;
+	left: 950px;
+	top: 300px;
+
+}
+
+#boyish {
+	position: absolute;
+	left: 950px;
+	top: 300px;
+}
+
+
+#text_blob {
+	position: absolute;
+	top: 0px;
+	left: 680px;
+	background: url("images/text_blob.png");
+	width: 640px;
+	height: 400px;
+
+	-ms-transform: scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: scale(0.6,0.6); /* Chrome, Safari, Opera */
+    transform: scale(0.6,0.6); /* Standard syntax */
+}
+
+#help_text {
+	position: absolute;
+	top: 140px;
+	left: 880px;
+	width: 250px;
+}
+
 #my_room {
 	position: absolute;
 	left: 20px;
 	top: 65px;
 	background:url("images/my_room.png") repeat-x;
 	background-position: 0 -10px;
-	width: 885px;
+	width: 1185px;
 	height: 570px;
 
 	border: 2px solid #000;
@@ -1678,7 +1712,7 @@ body {
 
 #popUp{
 	position: absolute;
-	top: 30px;
+	top: 90px;
 	left: 450px;
 	background: gray;
 	width: 300px;
@@ -1702,8 +1736,8 @@ body {
 
 #score {
 	position: absolute;
-	top: 360px;
-	left: 470px;
+	top: 130px;
+	left: 870px;
 	width: 270px;
 	height: 60px;
 	font-size: 1.3em;

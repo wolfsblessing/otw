@@ -1,5 +1,7 @@
 ﻿(function() {
 
+    storage = $.localStorage;
+
     var alphabet = ["A", "Б", "В", "Г", "Д", "Ѓ", "Е", "Ж",
         "З", "Ѕ", "И", "Ј", "К", "Л", "Љ", "М",
         "Н", "Њ", "О", "П", "Р", "С", "Т", "Ќ",
@@ -17,7 +19,6 @@
         for (var k = 0; k <= 30; k++) {
             $("#alphDrag" + k).hide();
         };
-
 
         //Hiding all the objectst that are not needed on the landing page
         //Show the Welcome page
@@ -111,6 +112,9 @@
 
         //Clicking on one of the images will hide the other one 
         //the girl
+    girly = false;
+    boyish = false;
+
         var showTheForm = 1;
         $("#1").click(function() {
             shakeMe = 2;
@@ -119,6 +123,9 @@
             //if this image was clicked once 
             if (showTheForm == 1) {
                 $("#it_is_girl").fadeIn(2000);
+                storage.set('girly', true);
+                storage.set('boyish', false);
+                console.log((storage.get('girly')));
 
                 showMyAlph();
                 $("#goToCloset").fadeIn(2000);
@@ -132,6 +139,9 @@
             $("#2").unbind();
             //if this image was clicked once, don't show the form again
             if (showTheForm == 1) {
+                storage.set('boyish', true);
+                storage.set('girly', false);
+                console.log((storage.get('boyish')));
                 $("#it_is_boy").show();
 
                 showMyAlph();
@@ -139,8 +149,6 @@
                 showTheForm = 2;
             }
         });
-
-
     }
     $(init);
 

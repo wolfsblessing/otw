@@ -11,6 +11,40 @@ body {
 	padding: 0px;
 }
 
+
+#girly {
+	position: absolute;
+	left: 750px;
+	top: 260px;
+
+}
+
+#boyish {
+	position: absolute;
+	left: 750px;
+	top: 260px;
+}
+
+#text_blob {
+	position: absolute;
+	top: -60px;
+	left: 480px;
+	background: url("images/text_blob.png");
+	width: 640px;
+	height: 400px;
+
+	-ms-transform: scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: scale(0.6,0.6); /* Chrome, Safari, Opera */
+    transform: scale(0.6,0.6); /* Standard syntax */
+}
+
+#help_text {
+	position: absolute;
+	top: 80px;
+	left: 680px;
+	width: 300px;
+}
+
 /*================books.html page=============*/
 #my_room {
 position: absolute;
@@ -1240,7 +1274,7 @@ position: absolute;
 #popUp{
 	position: absolute;
 	top: 30px;
-	left: 400px;
+	left: 300px;
 	background: gray;
 	width: 300px;
 	height: 300px;
@@ -1249,8 +1283,8 @@ position: absolute;
 }
 #score {
 	position: absolute;
-	top: 360px;
-	left: 420px;
+	top: 70px;
+	left: 680px;
 	width: 270px;
 	height: 60px;
 	font-size: 1.3em;
