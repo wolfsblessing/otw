@@ -31,7 +31,11 @@ body {
 #girly {
 	position: absolute;
 	left: 990px;
-	top: 300px;
+	top: 300px;	
+
+	-ms-transform: scale(1.5,1.5); /* IE 9 */
+    -webkit-transform: scale(1.5,1.5); /* Chrome, Safari, Opera */
+    transform: scale(1.5,1.5); /* Standard syntax */
 
 }
 
@@ -194,9 +198,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	cursor:context-menu;
 
 	background: url("images/working_table.png");
-	-ms-transform: scale(0.8,0.8); /* IE 9 */
-    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
-    transform: scale(0.8,0.8); /* Standard syntax */
+	-ms-transform: scale(0.7,0.7); /* IE 9 */
+    -webkit-transform: scale(0.7,0.7); /* Chrome, Safari, Opera */
+    transform: scale(0.7,0.7); /* Standard syntax */
 
 	text-align: center;
 	padding-top: 35px;
