@@ -45,6 +45,12 @@ body {
 	width: 300px;
 }
 
+#help_text_sq {
+	position: absolute;
+	top: 100px;
+	left: 1225px;
+	width: 300px;
+}
 
 /*================books.html page=============*/
 #wall {

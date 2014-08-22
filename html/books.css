@@ -45,6 +45,13 @@ body {
 	width: 300px;
 }
 
+#help_text_sq {
+	position: absolute;
+	top: 80px;
+	left: 660px;
+	width: 300px;
+}
+
 /*================books.html page=============*/
 #my_room {
 position: absolute;

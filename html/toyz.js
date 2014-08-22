@@ -586,6 +586,7 @@
                 };
 
                 $("#help_text").hide();
+                $("#help_text_sq").hide();
 
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);

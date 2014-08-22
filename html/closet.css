@@ -18,6 +18,9 @@ body {
 	left: 950px;
 	top: 300px;
 
+	-ms-transform: scale(1.2,1.2); /* IE 9 */
+    -webkit-transform: scale(1.2,1.2); /* Chrome, Safari, Opera */
+    transform: scale(1.2,1.2); /* Standard syntax */
 }
 
 #boyish {

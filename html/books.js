@@ -321,6 +321,7 @@
 
                 $("#text_blob").hide();
                 $("#help_text").hide();
+                $("#help_text_sq").hide();
                 $("#girly").hide();
                 $("#boyish").hide();
 
