@@ -1313,3 +1313,15 @@ button{
 	margin-top: 18%;
 	margin-left: 40%;
 }
+
+#next {
+	position: absolute;
+	top: 380px;
+	left: 280px;
+}
+
+#previous{
+	position: absolute;
+	top: 380px;
+	left: -730px;
+}

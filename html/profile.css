@@ -1,0 +1,149 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#center_me {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+	height: 550px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+#theName {
+	margin: 10px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	text-align: center;
+}
+
+#front_page {
+	margin: 0 auto;
+	padding-top: 40%;
+	padding-left: 0%;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 10%;
+	margin-left: 42%;
+}
+
+#button1 {
+	position: absolute;
+	top: 250px;
+	left: 182px;
+	margin: 0 auto;
+}
+
+.image1 {
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+.image2 {
+	float: right;
+	margin-top: 30px;
+	margin-right: 30px;
+}
+
+#it_is_boy {
+	padding-top: 50px;
+	float: right;
+	width: 160px;
+	margin: 0px 0px 20px 0px;
+/*margin-left: 150px;*/
+} 
+
+#it_is_girl {
+	margin-left: 180px;
+	padding-top: 60px;
+	width: 160px;
+}
+
+#theAlphaDrag {
+	position: absolute;
+	top: 425px;
+	left: 10px;
+}
+
+#theAlphaDrag li {
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	list-style-type: none;
+
+	cursor: pointer;
+}
+
+/*the dropped letters */
+#theAlphaDrop li{
+	cursor: default;
+	float: left;
+	margin-left: 3px;
+	margin-right: 3px;
+	list-style-type: none;
+}
+
+#theAlphaDrop {
+	position: absolute;
+	top: 370px;
+	left: 120px;
+
+	width: 300px;
+	height:  30px;
+
+	border: 2px solid rgba(51, 51, 51, 0.2);
+	border-radius: 10px;
+	padding: 8px 0px 0px 10px;
+}
+
+#delete_me {
+	position: absolute;
+	top: 325px;
+	left: 220px;
+}
+
+#delete_me_completely {
+	position: absolute;
+	top: 325px;
+	left: 260px;
+}
+
+
+#goToCloset {
+	position: absolute;
+	top: 560px;
+	left: 510px;
+	min-width: 120px;
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+}
+
+#go_to_welcome{
+	position: absolute;
+	top: 560px;
+	left: 110px;
+	min-width: 120px;
+	margin: 0px 0px 0px 0px;
+	padding: 0;
+}
+

@@ -1504,3 +1504,15 @@ button{
 	margin-top: 18%;
 	margin-left: 40%;
 }
+
+#next {
+	position: absolute;
+	top: 310px;
+	left: 690px;
+}
+
+#previous{
+	position: absolute;
+	top: 310px;
+	left: -730px;
+}

@@ -319,3 +319,15 @@ button{
 	margin-top: 14%;
 	margin-left: 25%;
 }
+
+#next {
+	position: absolute;
+	top: 370px;
+	left: 130px;
+}
+
+#previous{
+	position: absolute;
+	top: 570px;
+	left: 30px;
+}

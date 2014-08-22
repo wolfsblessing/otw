@@ -215,3 +215,15 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', end
 	background: url("images/working_table_active.png");
 	cursor:context-menu;
 }
+
+#next {
+	position: absolute;
+	top: 570px;
+	left: 1130px;
+}
+
+#previous{
+	position: absolute;
+	top: 570px;
+	left: 30px;
+}

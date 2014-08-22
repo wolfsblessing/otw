@@ -115,8 +115,8 @@ body {
 #trans_shirts {
 	position: absolute;
 	top: 225px;
-	left: 300px;
-	width: 400px;
+	left: 200px;
+	width: 500px;
 	height: 110px;
 	margin: 0px;
 	padding: 0px;
@@ -357,10 +357,10 @@ body {
 
 #shoes_transparent{
 	position: absolute;
-	width: 400px;
+	width: 500px;
 	height: 110px;
 	top: 330px;
-	left: 300px;
+	left: 200px;
 }
 
 #shoes_transparent li {
@@ -604,10 +604,10 @@ body {
 /*===============sox===============*/
 #sox_transparent{
 	position: absolute;
-	width: 400px;
+	width: 500px;
 	height: 90px;
 	top: 142px;
-	left: 300px;
+	left: 200px;
 }
 
 #sox_transparent li {
@@ -858,10 +858,10 @@ body {
 
 #hats_transparent{
 	position: absolute;
-	width: 400px;
+	width: 500px;
 	height: 90px;
 	top: 43px;
-	left: 300px;
+	left: 200px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -1761,4 +1761,16 @@ body {
 	margin: 0 auto;
 	margin-top: 18%;
 	margin-left: 40%;
+}
+
+#next {
+	position: absolute;
+	top: 650px;
+	left: 1100px;
+}
+
+#previous{
+	position: absolute;
+	top: 650px;
+	left: 50px;
 }

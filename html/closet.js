@@ -229,7 +229,7 @@
                     }).unbind().css({
                         position: "absolute",
                         top: "5px",
-                        left: myShirtPosition + "px",
+                        left: 100 + myShirtPosition + "px",
                     }).appendTo("#trans_shirts");
                     myShirtPosition = myShirtPosition + 100;
                 }
@@ -262,7 +262,7 @@
                     }).unbind().css({
                         position: "absolute",
                         top: "5px",
-                        left: myShoesPosition + "px",
+                        left: 100 + myShoesPosition + "px",
                     }).appendTo("#shoes_transparent");
                     myShoesPosition = myShoesPosition + 100;
                 }
@@ -295,7 +295,7 @@
                     }).unbind().css({
                         position: "absolute",
                         top: "5px",
-                        left: mySoxPosition + "px",
+                        left: 100 + mySoxPosition + "px",
                     }).appendTo("#sox_transparent");
                     mySoxPosition = mySoxPosition + 100;
                 }
@@ -328,7 +328,7 @@
                     }).unbind().css({
                         position: "absolute",
                         top: "5px",
-                        left: myHatsPosition + "px",
+                        left: 100 + myHatsPosition + "px",
                     }).appendTo("#hats_transparent");
                     myHatsPosition = myHatsPosition + 100;
                 }

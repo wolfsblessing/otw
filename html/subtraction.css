@@ -410,3 +410,15 @@ button{
 	margin-top: 14%;
 	margin-left: 19%;
 }
+
+#next {
+	position: absolute;
+	top: 390px;
+	left: 580px;
+}
+
+#previous{
+	position: absolute;
+	top: 390px;
+	left: -130px;
+}
