@@ -205,8 +205,8 @@
                         revert: false
                     }).unbind().css({
                         position: "absolute",
-                        top: "5px",
-                        left: myAirplanePosition + "px",
+                        top: "45px",
+                        left: 130 + myAirplanePosition + "px",
                     }).appendTo("#airplane_transparent");
                     myAirplanePosition = myAirplanePosition + 100;
                 }
@@ -239,8 +239,8 @@
                         revert: false
                     }).unbind().css({
                         position: "absolute",
-                        top: "5px",
-                        left: myAnimalPosition + "px",
+                        top: "25px",
+                        left: 100 + myAnimalPosition + "px",
                     }).appendTo("#animal_transparent");
                     myAnimalPosition = myAnimalPosition + 100;
                 }
@@ -273,8 +273,8 @@
                         revert: false
                     }).unbind().css({
                         position: "absolute",
-                        top: "5px",
-                        left: myBallPosition + "px",
+                        top: "25px",
+                        left: 110 + myBallPosition + "px",
                     }).appendTo("#ball_transparent");
                     myBallPosition = myBallPosition + 100;
                 }
@@ -307,8 +307,8 @@
                         revert: false
                     }).unbind().css({
                         position: "absolute",
-                        top: "5px",
-                        left: myCarPosition + "px",
+                        top: "40px",
+                        left: 110 + myCarPosition + "px",
                     }).appendTo("#car_transparent");
                     myCarPosition = myCarPosition + 100;
                 }
@@ -360,7 +360,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (airplaneNumbers[0] == 2 && guess_airplane != airplaneNumbers[0] && guess_airplane == 1) {
+                    if (airplaneNumbers[0] == 2 && guess_airplane == 2) {
                         $("#da_airplane" + airplaneNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -413,7 +413,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (animalNumbers[0] == 2 && guess_animal != animalNumbers[0] && guess_animal == 1) {
+                    if (animalNumbers[0] == 2 && guess_animal == 2) {
                         $("#da_animal" + animalNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -466,7 +466,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (ballNumbers[0] == 2 && guess_ball != ballNumbers[0] && guess_ball == 1) {
+                    if (ballNumbers[0] == 2 && guess_ball == 2) {
                         $("#da_ball" + ballNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -519,7 +519,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (carNumbers[0] == 2 && guess_car != carNumbers[0] && guess_car == 1) {
+                    if (carNumbers[0] == 2 && guess_car == 2) {
                         $("#da_car" + carNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);

@@ -1,0 +1,754 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/*================books.html page=============*/
+#container {
+	position: absolute;
+	top: 10px;
+	left: 100px;
+	width: 450px;
+	height: 520px;
+	margin: 0 auto;
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+/*====================Airplanes============================*/
+	
+#pillow1{
+	position: absolute;
+	width: 480px;
+	height: 110px;
+	top: 0px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#pillow1 li {
+	list-style-type: none;
+}
+
+
+#pillow1_transparent {
+	position: absolute;
+	top: 0px;
+	left: 10px;
+	width: 480px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+	border: 1px dashed #aeaeae;
+
+}
+
+#pillow1_transparent {
+	list-style-type: none;
+}
+/*================================================*/
+
+#pillow11{
+	background-image:url("images/pillow1.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow11:hover{
+	background-image:url("images/pillow1_hover.png");
+}
+
+#pillow11:active{
+	background-image:url("images/pillow1_active.png");
+
+}
+
+#pillow12{
+	background-image:url("images/pillow2.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow12:hover{
+	background-image:url("images/pillow2_hover.png");
+}
+
+#pillow12:active{
+	background-image:url("images/pillow2_active.png");
+
+}
+
+#pillow13{
+	background-image:url("images/pillow3.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow13:hover{
+	background-image:url("images/pillow3_hover.png");
+}
+
+#pillow13:active{
+	background-image:url("images/pillow3_active.png");
+
+}
+
+#pillow14{
+	background-image:url("images/pillow4.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow14:hover{
+	background-image:url("images/pillow4_hover.png");
+}
+
+#pillow14:active{
+	background-image:url("images/pillow4_active.png");
+
+}
+
+#pillow15{
+	background-image:url("images/pillow5.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow15:hover{
+	background-image:url("images/pillow5_hover.png");
+}
+
+#pillow15:active{
+	background-image:url("images/pillow5_active.png");
+
+}
+
+#pillow11.correct{background: url("images/pillow1_star.png");}
+#pillow12.correct{background: url("images/pillow2_star.png");}
+#pillow13.correct{background: url("images/pillow3_star.png");}
+#pillow14.correct{background: url("images/pillow4_star.png");}
+#pillow15.correct{background: url("images/pillow5_star.png");}
+
+/*=====================Animals===========================*/
+#pillow2_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 130px;
+	left: 10px;
+	border: 1px dashed #aeaeae;
+}
+
+#pillow2_transparent {
+	list-style-type: none;
+}
+
+#pillow2{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 100px;
+	margin: 0px;
+	padding: 0px;
+}	
+
+#pillow2 {
+	list-style-type: none;
+}
+
+#pillow21{
+	background-image:url("images/pillowB1.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow21:hover{
+	background-image:url("images/pillowB1_hover.png");
+}
+
+#pillow21:active{
+	background-image:url("images/pillowB1_active.png");
+
+}
+
+#pillow21_transparent{
+	background-image:url("images/pillowB1_transparent.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow22{
+	background-image:url("images/pillowB2.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow22:hover{
+	background-image:url("images/pillowB2_hover.png");
+}
+
+#pillow22:active{
+	background-image:url("images/pillowB2_active.png");
+
+}
+
+#pillow23{
+	background-image:url("images/pillowB3.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow23:hover{
+	background-image:url("images/pillowB3_hover.png");
+}
+
+#pillow23:active{
+	background-image:url("images/pillowB3_active.png");
+
+}
+
+#pillow24{
+	background-image:url("images/pillowB4.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow24:hover{
+	background-image:url("images/pillowB4_hover.png");
+}
+
+#pillow24:active{
+	background-image:url("images/pillowB4_active.png");
+
+}
+
+#pillow25{
+	background-image:url("images/pillowB5.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow25:hover{
+	background-image:url("images/pillowB5_hover.png");
+}
+
+#pillow25:active{
+	background-image:url("images/pillowB5_active.png");
+
+}
+
+#pillow21.correct{background: url("images/pillowB1_star.png");}
+#pillow22.correct{background: url("images/pillowB2_star.png");}
+#pillow23.correct{background: url("images/pillowB3_star.png");}
+#pillow24.correct{background: url("images/pillowB4_star.png");}
+#pillow25.correct{background: url("images/pillowB5_star.png");}
+
+/*=====================Balls===========================*/
+#pillow3_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 270px;
+	left: 10px;
+	border: 1px dashed #aeaeae;
+}
+
+#pillow3_transparent li {
+	list-style-type: none;
+}
+
+#pillow3{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 200px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#pillow3 li {
+	list-style-type: none;
+}
+
+#pillow31{
+	background-image:url("images/pillowC1.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow31:hover{
+	background-image:url("images/pillowC1_hover.png");
+}
+
+#pillow31:active{
+	background-image:url("images/pillowC1_active.png");
+
+}
+
+#pillow32{
+	background-image:url("images/pillowC2.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow32:hover{
+	background-image:url("images/pillowC2_hover.png");
+}
+
+#pillow32:active{
+	background-image:url("images/pillowC2_active.png");
+
+}
+
+#pillow33{
+	background-image:url("images/pillowC3.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow33:hover{
+	background-image:url("images/pillowC3_hover.png");
+}
+
+#pillow33:active{
+	background-image:url("images/pillowC3_active.png");
+
+}
+
+#pillow34{
+	background-image:url("images/pillowC4.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow34:hover{
+	background-image:url("images/pillowC4_hover.png");
+}
+
+#pillow34:active{
+	background-image:url("images/pillowC4_active.png");
+
+}
+
+#pillow35{
+	background-image:url("images/pillowC5.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow35:hover{
+	background-image:url("images/pillowC5_hover.png");
+}
+
+#pillow35:active{
+	background-image:url("images/pillowC5_active.png");
+
+}
+
+#pillow31.correct{background: url("images/pillowC1_star.png");}
+#pillow32.correct{background: url("images/pillowC2_star.png");}
+#pillow33.correct{background: url("images/pillowC3_star.png");}
+#pillow34.correct{background: url("images/pillowC4_star.png");}
+#pillow35.correct{background: url("images/pillowC5_star.png");}
+
+/*=====================Cars===========================*/
+#pillow4_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 390px;
+	left: 10px;
+	border: 1px dashed #aeaeae;
+}
+
+#pillow4_transparent li {
+	list-style-type: none;
+}
+
+#pillow4{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 300px;
+	margin: 0px;
+	padding: 0px;
+
+}	
+
+#pillow4 li {
+	list-style-type: none;
+}
+
+#pillow41{
+	background-image:url("images/pillowD1.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow41:hover{
+	background-image:url("images/pillowD1_hover.png");
+}
+
+#pillow41:active{
+	background-image:url("images/pillowD1_active.png");
+
+}
+
+#pillow42 {
+	background-image:url("images/pillowD2.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow42:hover{
+	background-image:url("images/pillowD2_hover.png");
+}
+
+#pillow42:active{
+	background-image:url("images/pillowD2_active.png");
+
+}
+
+#pillow43{
+	background-image:url("images/pillowD3.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow43:hover{
+	background-image:url("images/pillowD3_hover.png");
+}
+
+#pillow43:active{
+	background-image:url("images/pillowD3_active.png");
+
+}
+
+#pillow44{
+	background-image:url("images/pillowD4.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow44:hover{
+	background-image:url("images/pillowD4_hover.png");
+}
+
+#pillow44:active{
+	background-image:url("images/pillowD4_active.png");
+
+}
+
+#pillow45{
+	background-image:url("images/pillowD5.png");
+	float: left;
+	width: 124px;
+	height: 131px;
+}
+
+#pillow45:hover{
+	background-image:url("images/pillowD5_hover.png");
+}
+
+#pillow45:active{
+	background-image:url("images/pillowD5_active.png");
+
+}
+
+#pillow41.correct{background: url("images/pillowD1_star.png");}
+#pillow42.correct{background: url("images/pillowD2_star.png");}
+#pillow43.correct{background: url("images/pillowD3_star.png");}
+#pillow44.correct{background: url("images/pillowD4_star.png");}
+#pillow45.correct{background: url("images/pillowD5_star.png");}
+
+/*================test================*/
+
+#test1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 30px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers1 {
+	position: absolute;
+	top: 40px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_pillow11, #da_pillow12, #da_pillow13, #da_pillow14 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+
+#da_pillow11:hover, #da_pillow12:hover, 
+#da_pillow13:hover, #da_pillow14:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_pillow11:active, #da_pillow12:active, 
+#da_pillow13:active, #da_pillow14:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 160px;
+	left: 500px;
+	background: red;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers2 {
+	position: absolute;
+	top: 170px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_pillow21, #da_pillow22, #da_pillow23, #da_pillow24 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_pillow21:hover, #da_pillow22:hover, 
+#da_pillow23:hover, #da_pillow24:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_pillow21:active, #da_pillow22:active, 
+#da_pillow23:active, #da_pillow24:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 300px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers3 {
+	position: absolute;
+	top: 310px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_pillow31, #da_pillow32, #da_pillow33, #da_pillow34 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_pillow31:hover, #da_pillow32:hover, 
+#da_pillow33:hover, #da_pillow34:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_pillow31:active, #da_pillow32:active, 
+#da_pillow33:active, #da_pillow34:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: red;
+	top: 420px;
+	left: 500px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#numbers4 {
+	position: absolute;
+	top: 430px;
+	left: 550px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_pillow41, #da_pillow42, #da_pillow43, #da_pillow44 {
+	width: 20px;
+	height: 25px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 10px;
+	padding-top: 5px;
+	float: left;
+}
+
+#da_pillow41:hover, #da_pillow42:hover, 
+#da_pillow43:hover, #da_pillow44:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_pillow41:active, #da_pillow42:active, 
+#da_pillow43:active, #da_pillow44:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#howMany {
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#pillow1_guess{
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#pillow2_guess{
+	position: absolute;
+	width: 300px;
+	top: 135px;
+	left: 500px;
+}
+
+#pillow3_guess{
+	position: absolute;
+	width: 300px;
+	top: 275px;
+	left: 500px;
+}
+
+#pillow4_guess{
+	position: absolute;
+	width: 300px;
+	top: 395px;
+	left: 500px;
+}
+
+#guessMe1, #guessMe2, #guessMe3, #guessMe4 {
+	width: 20px;
+	height: 25px;
+	margin-left: 8px;
+	margin-top: 8px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	padding-left: 10px;
+	padding-top: 5px;
+}
+
+#popUp{
+	background: gray;
+	width: 300px;
+	height: 300px;
+	margin-top: 10px;	
+	margin-left: 50px;
+	float: left;
+	border-radius: 10px;
+}
+#score {
+	position: absolute;
+	top: 350px;
+	left: 100px;
+	width: 170px;
+	height: 60px;
+}
+
+#stars{
+	float: left;
+}
+
+#starMe{
+	background-image:url("images/star.png");
+	width: 58px;
+	height: 56px;
+	float: right;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 18%;
+	margin-left: 40%;
+}

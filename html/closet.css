@@ -1170,219 +1170,6 @@ body {
 #hats8.correct{background: url("images/hat8_star.png");}
 #hats9.correct{background: url("images/hat9_star.png");}
 
-/*===================pants==============================*/
-
-#pants_transparent{
-	position: absolute;
-	width: 400px;
-	height: 105px;
-	top: 525px;
-	left: 308px;
-	margin: 0px;
-	padding: 0px;
-}
-
-#pants_transparent li {
-	list-style-type: none;
-}
-
-#pants_outline {
-	position: absolute;
-	top: 530px;
-	left: 195px;
-	background:url("images/pants_outline.png") no-repeat;
-	border-right: 2px solid #333;
-	width: 104px;
-	height: 100px;
-	opacity: 0.2;
-}
-
-#pants{
-	position: absolute;
-	width: 550px;
-	height: 94px;
-	margin: 0px;
-	padding: 0px;
-	top: 525px;
-	left: 308px;
-
-}
-
-#pants {
-	list-style-type: none;
-}
-
-#pants1{
-	background-image:url("images/pants1.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants1:hover{
-	background-image:url("images/pants1_hover.png");
-}
-
-#pants1:active{
-	background-image:url("images/pants1_active.png");
-
-}
-
-#pants1_transparent{
-	background-image:url("images/pants1_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants2{
-	background-image:url("images/pants2.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants2:hover{
-	background-image:url("images/pants2_hover.png");
-}
-
-#pants2:active{
-	background-image:url("images/pants2_active.png");
-
-}
-
-#pants2_transparent{
-	background-image:url("images/pants2_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants3{
-	background-image:url("images/pants3.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants3:hover{
-	background-image:url("images/pants3_hover.png");
-}
-
-#pants3:active{
-	background-image:url("images/pants3_active.png");
-
-}
-
-#pants3_transparent{
-	background-image:url("images/pants3_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants4{
-	background-image:url("images/pants4.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants4:hover{
-	background-image:url("images/pants4_hover.png");
-}
-
-#pants4:active{
-	background-image:url("images/pants4_active.png");
-
-}
-
-#pants4_transparent{
-	background-image:url("images/pants4_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants5{
-	background-image:url("images/pants5.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants5:hover{
-	background-image:url("images/pants5_hover.png");
-}
-
-#pants5:active{
-	background-image:url("images/pants5_active.png");
-
-}
-
-#pants5_transparent{
-	background-image:url("images/pants5_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants6{
-	background-image:url("images/pants6.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants6:hover{
-	background-image:url("images/pants6_hover.png");
-}
-
-#pants1:active{
-	background-image:url("images/pants1_active.png");
-
-}
-
-#pants6_transparent{
-	background-image:url("images/pants6_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants7{
-	background-image:url("images/pants7.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants7:hover{
-	background-image:url("images/pants7_hover.png");
-}
-
-#pants7:active{
-	background-image:url("images/pants7_active.png");
-
-}
-
-#pants7_transparent{
-	background-image:url("images/pants7_transparent.png");
-	float: left;
-	width: 104px;
-	height: 94px;
-}
-
-#pants1.correct{background: url("images/pants1_star.png");}
-#pants2.correct{background: url("images/pants2_star.png");}
-#pants3.correct{background: url("images/pants3_star.png");}
-#pants4.correct{background: url("images/pants4_star.png");}
-#pants5.correct{background: url("images/pants5_star.png");}
-#pants6.correct{background: url("images/pants6_star.png");}
-#pants7.correct{background: url("images/pants7_star.png");}
-#pants8.correct{background: url("images/pants8_star.png");}
-#pants9.correct{background: url("images/pants9_star.png");}
-
 #howMany {
 	position: absolute;
 	width: 300px;
@@ -1428,8 +1215,8 @@ body {
 /*================test================*/
 #test1 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
 	top: 260px;
 	left: 880px;
@@ -1445,8 +1232,8 @@ body {
 	background:url("images/bluza_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 235px;
-	left: 855px;
+	top: 243px;
+	left: 863px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1455,8 +1242,8 @@ body {
 
 #numbers1 {
 	position: absolute;
-	top: 270px;
-	left: 930px;
+	top: 280px;
+	left: 950px;
 	width: 210px;
 	height: 40px;
 }
@@ -1489,8 +1276,8 @@ body {
 
 #test2 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
 	top: 360px;
 	left: 880px;
@@ -1506,8 +1293,8 @@ body {
 	background:url("images/cevli_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 335px;
-	left: 855px;
+	top: 345px;
+	left: 865px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1517,7 +1304,7 @@ body {
 #numbers2 {
 	position: absolute;
 	top: 370px;
-	left: 930px;
+	left: 950px;
 	width: 210px;
 	height: 40px;
 }
@@ -1551,8 +1338,8 @@ body {
 
 #test3 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
 	top: 160px;
 	left: 880px;
@@ -1568,8 +1355,8 @@ body {
 	background:url("images/corapi_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 135px;
-	left: 855px;
+	top: 145px;
+	left: 865px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1578,8 +1365,8 @@ body {
 
 #numbers3 {
 	position: absolute;
-	top: 170px;
-	left: 930px;
+	top: 180px;
+	left: 950px;
 	width: 210px;
 	height: 40px;
 }
@@ -1611,8 +1398,8 @@ body {
 
 #test4 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
 	top: 60px;
 	left: 880px;
@@ -1628,8 +1415,8 @@ body {
 	background:url("images/hat_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 35px;
-	left: 855px;
+	top: 40px;
+	left: 862px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1638,8 +1425,8 @@ body {
 
 #numbers4 {
 	position: absolute;
-	top: 70px;
-	left: 930px;
+	top: 80px;
+	left: 950px;
 	width: 210px;
 	height: 40px;
 }
@@ -1669,50 +1456,6 @@ body {
 	box-shadow: 0px 0px 2px 2px #BFC8DB;
 }
 
-#test5 {
-	position: absolute;
-	top: 540px;
-	left: 910px;
-	width: 50px;
-	height: 50px;
-	background: red;
-
-	border-radius: 10px;
-	border: 2px solid #333;
-}
-
-#numbers5 {
-	position: absolute;
-	top: 550px;
-	left: 960px;
-	width: 210px;
-	height: 40px;
-}
-
-
-#daPants1, #daPants2, #daPants3, #daPants4 {
-	width: 23px;
-	height: 30px;
-	background:yellow;
-	border-radius: 10px;
-	border: 2px solid #333;
-	margin-left: 15px;
-	padding-left: 7px;
-	float: left;
-	font-size: 1.6em;
-	font-family: arial bold;
-}
-
-#daPants1:hover, #daPants2:hover, 
-#daPants3:hover, #daPants4:hover {
-	box-shadow: 0px 0px 2px 2px #CC91B2;
-}
-
-#daPants1:active, #daPants2:active, 
-#daPants3:active, #daPants4:active {
-	box-shadow: 0px 0px 2px 2px #BFC8DB;
-}
-
 #popUp{
 	position: absolute;
 	top: 90px;
@@ -1727,8 +1470,8 @@ body {
 #guessMe1, #guessMe2, #guessMe3, #guessMe4, #guessMe5{
 	width: 23px;
 	height: 30px;
-	margin-left: 8px;
-	margin-top: 8px;
+	margin-left: 14px;
+	margin-top: 14px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;

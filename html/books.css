@@ -1048,8 +1048,8 @@ position: absolute;
 
 #test1 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: red;
 	top: 100px;
 	left: 610px;
@@ -1060,8 +1060,8 @@ position: absolute;
 
 #numbers1 {
 	position: absolute;
-	top: 110px;
-	left: 660px;
+	top: 120px;
+	left: 670px;
 	width: 210px;
 	height: 40px;
 }
@@ -1094,8 +1094,8 @@ position: absolute;
 
 #test2 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: red;
 	top: 200px;
 	left: 610px;
@@ -1106,8 +1106,8 @@ position: absolute;
 
 #numbers2 {
 	position: absolute;
-	top: 210px;
-	left: 660px;
+	top: 220px;
+	left: 670px;
 	width: 210px;
 	height: 40px;
 }
@@ -1141,8 +1141,8 @@ position: absolute;
 
 #test3 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: red;
 	top: 300px;
 	left: 610px;
@@ -1153,8 +1153,8 @@ position: absolute;
 
 #numbers3 {
 	position: absolute;
-	top: 310px;
-	left: 660px;
+	top: 320px;
+	left: 670px;
 	width: 210px;
 	height: 40px;
 }
@@ -1187,8 +1187,8 @@ position: absolute;
 
 #test4 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: red;
 	top: 390px;
 	left: 610px;
@@ -1199,8 +1199,8 @@ position: absolute;
 
 #numbers4 {
 	position: absolute;
-	top: 400px;
-	left: 660px;
+	top: 410px;
+	left: 670px;
 	width: 210px;
 	height: 40px;
 }
@@ -1268,8 +1268,8 @@ position: absolute;
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
 	width: 23px;
 	height: 30px;
-	margin-left: 8px;
-	margin-top: 8px;
+	margin-left: 15px;
+	margin-top: 14px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1322,6 +1322,10 @@ button{
 
 #previous{
 	position: absolute;
-	top: 380px;
-	left: -730px;
+	top: 730px;
+	left: 40px;
+
+	margin: 0 auto;
+	margin-top: 0px;
+	margin-left: 0px;
 }

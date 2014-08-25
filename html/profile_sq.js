@@ -24,23 +24,32 @@
 
         //Hiding all the objectst that are not needed on the landing page
         //Show the Welcome page
-        $("#front_page").hide();
-        $("#front_page").fadeIn(4000);
-        $("#second").hide();
-        $("#third").hide();
-        $("#second_slide").hide();
         $("#fifth").hide();
+        $("#fifth").fadeIn(2000);
+
         $("#chose").hide();
+        $("#chose").fadeIn(2000);
+
         $(".defferred").hide();
+        $(".defferred").fadeIn(2000);
         $("#1").hide();
+        $("#1").fadeIn();
+
         $("#2").hide();
+        $("#2").fadeIn();
+
         $("#it_is_girl").hide();
         $("#it_is_boy").hide();
+
         $("#third_slide").hide();
         $("#myForm").hide();
         $("#avatarName").hide();
         $("#theAlphaDrop").hide();
         $("#goToCloset").hide();
+        $("#delete_me").hide();
+        $("#delete_me_completely").hide();
+        $("#go_to_welcome").hide();
+
 
         //showing only the logo and what is this thing all about
         $("#welcome").click(function() {
@@ -131,6 +140,7 @@
 
                 showMyAlph();
                 $("#goToCloset").fadeIn(2000);
+                $("#go_to_welcome").fadeIn(2000);
                 showTheForm = 2;
             }
         });
@@ -148,6 +158,7 @@
 
                 showMyAlph();
                 $("#goToCloset").fadeIn(2000);
+                $("#go_to_welcome").fadeIn(2000);
                 showTheForm = 2;
             }
         });

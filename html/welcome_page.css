@@ -45,3 +45,15 @@ h1 {
 	top: 500px;
 	left: 10px;
 }
+
+#second_slide_sq {
+	position: absolute;
+	top: 550px;
+	left: 570px;
+}
+
+#previous_slide_sq{
+	position: absolute;
+	top: 550px;
+	left: 120px;
+}

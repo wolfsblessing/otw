@@ -391,7 +391,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (shirtNumberss[0] == 2 && guessShirt != shirtNumberss[0] && guessShirt == 1) {
+                    if (shirtNumberss[0] == 2 && guessShirt == 2) {
                         $("#daShirts" + shirtNumberss[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -445,7 +445,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (shoesNumber[0] == 2 && guessShoes != shoesNumber[0] && guessShoes == 1) {
+                    if (shoesNumber[0] == 2 && guessShoes == 2) {
                         $("#daShoes" + shoesNumber[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -498,7 +498,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (soxNumber[0] == 2 && guessSox != soxNumber[0] && guessSox == 1) {
+                    if (soxNumber[0] == 2 && guessSox == 2) {
                         $("#daSox" + soxNumber[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -520,7 +520,7 @@
                     drop: function(ev, ui) {
                         trueSox = 1;
                         checkAllGuess();
-                        $("#guessMe3").show().text(shoesNumber[0]);
+                        $("#guessMe3").show().text(soxNumber[0]);
                         $("#sox_BG").hide();
                         $(this).droppable("disable");
                         $("#numbers3").hide();
@@ -551,7 +551,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (hatsNumber[0] == 2 && guessHats != hatsNumber[0] && guessHats == 1) {
+                    if (hatsNumber[0] == 2 && guessHats == 2) {
                         $("#daHats" + hatsNumber[0]).animate({
                             "background-color": "red"
                         }, 2000);

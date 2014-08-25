@@ -1,0 +1,47 @@
+﻿<!doctype html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+        <link rel="stylesheet" type="text/css" href="index.css">
+     
+        <script type="text/javascript" src="jquery.min.js"></script>
+        <script type="text/javascript" src="jquery-ui.min.js"></script>
+        <script type="text/javascript" src="jquery.storageapi.js"></script>
+        <script type="text/javascript" src="index_sq.js"></script>
+     </head>
+
+      <script type="text/javascript">
+        var TestVar = "";
+          function readText (form) {
+              TestVar =form.inputbox.value;
+                $("#chose").hide();
+                $("#it_is_boy").hide();
+                $("#it_is_girl").hide();
+                $("#myForm").hide();
+                $("#avatarName").text(TestVar).fadeIn("slow");
+                $("#goToCloset").fadeIn("slow");
+            };
+      </script>
+    <body> 
+      <div id="center_me">
+        <h1 id="front_page">Mirësevini</h1>
+        <button id="welcome">Vazhdoni</button>
+        <h1 id="second">Mësojmë matematikë me</h1>
+        <h1 id="third">"Hapeni dritaret"</h1>
+        <button id="second_slide">Tjetra</button>
+        <h1 id="fifth">Krijim i profilit</h1>
+        <h1 id="chose">Zgjidhni femër ose mashkull</h1>
+        <div class="deffered_block">
+          <img id="1" class="image1" src="images/girl.jpg"/>
+          <img id="2" class="image2" src="images/boy.jpg"/>
+          <div id="it_is_girl">Keni zgjedhë femër</div>
+          <div id="it_is_boy">Keni zgjedhë mashkëll</div>
+        </div>
+        <div id="theAlphaDrop"></div>
+        <div id="theAlphaDrag"></div>
+        <div id="avatarName">hello</div>
+      </div>
+      <button id="goToCloset" onclick="window.location.href='room_sq.html'">Tjetra faqe</button>
+    </body>
+</html> 

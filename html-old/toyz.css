@@ -1,0 +1,1518 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+
+#girly {
+	position: absolute;
+	left: 1300px;
+	top: 280px;
+
+}
+
+#boyish {
+	position: absolute;
+	left: 1300px;
+	top: 280px;
+}
+
+#text_blob {
+	position: absolute;
+	top: -40px;
+	left: 1040px;
+	background: url("images/text_blob.png");
+	width: 640px;
+	height: 400px;
+
+	-ms-transform: scale(0.6,0.6); /* IE 9 */
+    -webkit-transform: scale(0.6,0.6); /* Chrome, Safari, Opera */
+    transform: scale(0.6,0.6); /* Standard syntax */
+}
+
+#help_text {
+	position: absolute;
+	top: 100px;
+	left: 1240px;
+	width: 300px;
+}
+
+#help_text_sq {
+	position: absolute;
+	top: 100px;
+	left: 1225px;
+	width: 300px;
+}
+
+/*================books.html page=============*/
+#wall {
+	position: absolute;
+	left: 120px;
+	top: 80px;
+	background:url("images/my_room.png") repeat-x;
+	background-position: 0 -50px;
+	width: 1310px;
+	height: 550px;
+
+	border: 2px solid #000;
+	border-radius: 10px;
+
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+
+	-ms-transform: scale(1.17,1.2); /* IE 9 */
+    -webkit-transform: scale(1.17,1.2); /* Chrome, Safari, Opera */
+    transform: scale(1.17,1.2); /* Standard syntax */
+
+}
+#container {
+	position: absolute;
+	top: 140px;
+	left: 70px;
+	width: 1200px;
+	height: 360px;
+	margin: 0 auto;
+	background:url("images/shelf.png") no-repeat;
+}
+
+/*====================Airplanes============================*/
+	
+#airplane {
+	position: absolute;
+	width: 480px;
+	height: 110px;
+	top: 60px;
+	left: 200px;
+	margin: 0px;
+	padding: 0px;
+
+}
+
+#airplane li {
+	list-style-type: none;
+}
+
+#airplane_transparent {
+	position: absolute;
+	top: 80px;
+	left: 190px;
+	width: 400px;
+	height: 110px;
+	margin: 0px;
+	padding: 0px;
+}
+
+#airplane_transparent {
+	list-style-type: none;
+}
+
+#airplane_outline {
+	position: absolute;
+	background:url("images/a1_outline.png") no-repeat;
+	width: 104px;
+	height: 100px;
+	border-right: 1px solid #aeaeae;
+	top: 45px;
+	left: 70px;
+	opacity: 0.15;
+}
+
+
+/*================================================*/
+
+#airplane1{
+	background-image:url("images/a1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane1:hover{
+	background-image:url("images/a1_hover.png");
+}
+
+#airplane1:active{
+	background-image:url("images/a1_active.png");
+
+}
+
+#airplane1_transparent{
+	background-image:url("images/a1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane2{
+	background-image:url("images/a2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane2:hover{
+	background-image:url("images/a2_hover.png");
+}
+
+#airplane2:active{
+	background-image:url("images/a2_active.png");
+
+}
+
+#airplane2_transparent{
+	background-image:url("images/a2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane3{
+	background-image:url("images/a3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane3:hover{
+	background-image:url("images/a3_hover.png");
+}
+
+#airplane3:active{
+	background-image:url("images/a3_active.png");
+
+}
+
+#airplane3_transparent{
+	background-image:url("images/a3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane4{
+	background-image:url("images/a4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane4:hover{
+	background-image:url("images/a4_hover.png");
+}
+
+#airplane4:active{
+	background-image:url("images/a4_active.png");
+
+}
+
+#airplane4_transparent{
+	background-image:url("images/a4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane5{
+	background-image:url("images/a5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane5:hover{
+	background-image:url("images/a5_hover.png");
+}
+
+#airplane5:active{
+	background-image:url("images/a5_active.png");
+
+}
+
+#airplane5_transparent{
+	background-image:url("images/a5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane6{
+	background-image:url("images/a6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane6:hover{
+	background-image:url("images/a6_hover.png");
+}
+
+#airplane6:active{
+	background-image:url("images/a6_active.png");
+
+}
+
+#airplane6_transparent{
+	background-image:url("images/a6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane7{
+	background-image:url("images/a7.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane7:hover{
+	background-image:url("images/a7_hover.png");
+}
+
+#airplane7:active{
+	background-image:url("images/a7_active.png");
+
+}
+
+#airplane7_transparent{
+	background-image:url("images/a7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#airplane1.correct{background: url("images/a1_star.png");}
+#airplane2.correct{background: url("images/a2_star.png");}
+#airplane3.correct{background: url("images/a3_star.png");}
+#airplane4.correct{background: url("images/a4_star.png");}
+#airplane5.correct{background: url("images/a5_star.png");}
+#airplane6.correct{background: url("images/a6_star.png");}
+#airplane7.correct{background: url("images/a7_star.png");}
+
+
+/*=====================Animals===========================*/
+#animal_transparent{
+	position: absolute;
+	width: 400px;
+	height: 130px;
+	top: 60px;
+	left: 760px;
+}
+
+#animal_transparent li {
+	list-style-type: none;
+}
+
+#animal{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 80px;
+	left: 790px;
+	margin: 0px;
+	padding: 0px;
+}	
+
+#animal_outline {
+	position: absolute;
+	background:url("images/animal_outline.png") no-repeat;
+	top: 40px;
+	left: 650px;
+	width: 104px;
+	height: 110px;
+	border-right: 1px solid #aeaeae;
+	opacity: 0.15;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
+}
+
+#animal li {
+	list-style-type: none;
+}
+
+#animal1{
+	background-image:url("images/animal1.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal1:hover{
+	background-image:url("images/animal1_hover.png");
+}
+
+#animal1:active{
+	background-image:url("images/animal1_active.png");
+
+}
+
+#animal1_transparent{
+	background-image:url("images/animal1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal2 {
+	background-image:url("images/animal2.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal2:hover{
+	background-image:url("images/animal2_hover.png");
+}
+
+#animal2:active{
+	background-image:url("images/animal2_active.png");
+
+}
+
+#animal2_transparent{
+	background-image:url("images/animal2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal3{
+	background-image:url("images/animal3.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal3:hover{
+	background-image:url("images/animal3_hover.png");
+}
+
+#animal3:active{
+	background-image:url("images/animal3_active.png");
+
+}
+
+#animal3_transparent{
+	background-image:url("images/animal3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal4{
+	background-image:url("images/animal4.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal4:hover{
+	background-image:url("images/animal4_hover.png");
+}
+
+#animal4:active{
+	background-image:url("images/animal4_active.png");
+
+}
+
+#animal4_transparent{
+	background-image:url("images/animal4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal5{
+	background-image:url("images/animal5.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal5:hover{
+	background-image:url("images/animal5_hover.png");
+}
+
+#animal5:active{
+	background-image:url("images/animal5_active.png");
+
+}
+
+#animal5_transparent{
+	background-image:url("images/animal5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal6{
+	background-image:url("images/animal6.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal6:hover{
+	background-image:url("images/animal6_hover.png");
+}
+
+#animal6:active{
+	background-image:url("images/animal6_active.png");
+
+}
+
+#animal6_transparent{
+	background-image:url("images/animal6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal7{
+	background-image:url("images/animal7.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal7:hover{
+	background-image:url("images/animal7_hover.png");
+}
+
+#animal7:active{
+	background-image:url("images/animal7_active.png");
+
+}
+
+#animal7_transparent{
+	background-image:url("images/animal7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal8{
+	background-image:url("images/animal8.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal8:hover{
+	background-image:url("images/animal8_hover.png");
+}
+
+#animal8:active{
+	background-image:url("images/animal8_active.png");
+
+}
+
+#animal8_transparent{
+	background-image:url("images/animal8_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal9{
+	background-image:url("images/animal9.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal9:hover{
+	background-image:url("images/animal9_hover.png");
+}
+
+#animal9:active{
+	background-image:url("images/animal9_active.png");
+
+}
+
+#animal9_transparent{
+	background-image:url("images/animal9_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal10{
+	background-image:url("images/animal10.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal10:hover{
+	background-image:url("images/animal10_hover.png");
+}
+
+#animal10:active{
+	background-image:url("images/animal10_active.png");
+
+}
+
+#animal10_transparent{
+	background-image:url("images/animal10_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal11{
+	background-image:url("images/animal11.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal11:hover{
+	background-image:url("images/animal11_hover.png");
+}
+
+#animal11:active{
+	background-image:url("images/animal11_active.png");
+
+}
+
+#animal11_transparent{
+	background-image:url("images/animal11_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#animal1.correct{background: url("images/animal1_star.png");}
+#animal2.correct{background: url("images/animal2_star.png");}
+#animal3.correct{background: url("images/animal3_star.png");}
+#animal4.correct{background: url("images/animal4_star.png");}
+#animal5.correct{background: url("images/animal5_star.png");}
+#animal6.correct{background: url("images/animal6_star.png");}
+#animal7.correct{background: url("images/animal7_star.png");}
+#animal8.correct{background: url("images/animal8_star.png");}
+#animal9.correct{background: url("images/animal9_star.png");}
+#animal10.correct{background: url("images/animal10_star.png");}
+#animal11.correct{background: url("images/animal11_star.png");}
+
+/*=====================Balls===========================*/
+#ball_transparent{
+	position: absolute;
+	width: 400px;
+	height: 130px;
+	top: 205px;
+	left: 210px;
+}
+
+#ball_transparent li {
+	list-style-type: none;
+}
+
+#ball{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 220px;
+	left: 200px;
+	margin: 0px;
+	padding: 0px;
+}	
+
+#ball li {
+	list-style-type: none;
+}
+
+#ball_outline{
+	position: absolute;
+	background:url("images/ball_outline.png") no-repeat;
+	top: 190px;
+	left: 80px;
+	width: 104px;
+	height: 110px;
+	opacity: 0.15;
+	border-right: 1px solid #aeaeae;
+	-ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
+}
+
+#ball1{
+	background-image:url("images/ball1.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball1:hover{
+	background-image:url("images/ball1_hover.png");
+}
+
+#ball1:active{
+	background-image:url("images/ball1_active.png");
+
+}
+
+#ball1_transparent{
+	background-image:url("images/ball1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball2{
+	background-image:url("images/ball2.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball2:hover{
+	background-image:url("images/ball2_hover.png");
+}
+
+#ball2:active{
+	background-image:url("images/ball2_active.png");
+
+}
+
+#ball2_transparent{
+	background-image:url("images/ball2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball3{
+	background-image:url("images/ball3.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball3:hover{
+	background-image:url("images/ball3_hover.png");
+}
+
+#ball3:active{
+	background-image:url("images/ball3_active.png");
+
+}
+
+#ball3_transparent{
+	background-image:url("images/ball3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball4{
+	background-image:url("images/ball4.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball4:hover{
+	background-image:url("images/ball4_hover.png");
+}
+
+#ball4:active{
+	background-image:url("images/ball4_active.png");
+
+}
+
+#ball4_transparent{
+	background-image:url("images/ball4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball5{
+	background-image:url("images/ball5.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball5:hover{
+	background-image:url("images/ball5_hover.png");
+}
+
+#ball5:active{
+	background-image:url("images/ball5_active.png");
+
+}
+
+#ball5_transparent{
+	background-image:url("images/ball5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball6{
+	background-image:url("images/ball6.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball6:hover{
+	background-image:url("images/ball6_hover.png");
+}
+
+#ball6:active{
+	background-image:url("images/ball6_active.png");
+
+}
+
+#ball6_transparent{
+	background-image:url("images/ball6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball7{
+	background-image:url("images/ball7.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball7:hover{
+	background-image:url("images/ball7_hover.png");
+}
+
+#ball7:active{
+	background-image:url("images/ball7_active.png");
+
+}
+
+#ball7_transparent{
+	background-image:url("images/ball7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 110px;
+	-ms-transform: scale(0.9,0.9); /* IE 9 */
+    -webkit-transform: scale(0.9,0.9); /* Chrome, Safari, Opera */
+    transform: scale(0.9,0.9); /* Standard syntax */
+}
+
+#ball1.correct{background: url("images/ball1_star.png");}
+#ball2.correct{background: url("images/ball2_star.png");}
+#ball3.correct{background: url("images/ball3_star.png");}
+#ball4.correct{background: url("images/ball4_star.png");}
+#ball5.correct{background: url("images/ball5_star.png");}
+#ball6.correct{background: url("images/ball6_star.png");}
+#ball7.correct{background: url("images/ball7_star.png");}
+
+/*=====================Cars===========================*/
+#car_transparent{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 225px;
+	left: 760px;
+}
+
+#car_transparent{
+	list-style-type: none;
+}
+
+#car{
+	position: absolute;
+	width: 430px;
+	height: 110px;
+	top: 250px;
+	left: 700px;
+	margin: 0px;
+	padding: 0px;
+}	
+
+#car li {
+	list-style-type: none;
+}
+
+#car_outline{
+	position: absolute;
+	background:url("images/car_outline.png") no-repeat;
+	top: 195px;
+	left: 660px;
+	width: 104px;
+	height: 100px;
+	opacity: 0.15;
+	border-right: 1px solid #aeaeae;
+}
+
+#car1{
+	background-image:url("images/car1.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car1:hover{
+	background-image:url("images/car1_hover.png");
+}
+
+#car1:active{
+	background-image:url("images/car1_active.png");
+
+}
+
+#car1_transparent{
+	background-image:url("images/car1_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car2 {
+	background-image:url("images/car2.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car2:hover{
+	background-image:url("images/car2_hover.png");
+}
+
+#car2:active{
+	background-image:url("images/car2_active.png");
+
+}
+
+#car2_transparent{
+	background-image:url("images/car2_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car3{
+	background-image:url("images/car3.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car3:hover{
+	background-image:url("images/car3_hover.png");
+}
+
+#car3:active{
+	background-image:url("images/car3_active.png");
+
+}
+
+#car3_transparent{
+	background-image:url("images/car3_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car4{
+	background-image:url("images/car4.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car4:hover{
+	background-image:url("images/car4_hover.png");
+}
+
+#car4:active{
+	background-image:url("images/car4_active.png");
+
+}
+
+#car4_transparent{
+	background-image:url("images/car4_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car5{
+	background-image:url("images/car5.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car5:hover{
+	background-image:url("images/car5_hover.png");
+}
+
+#car5:active{
+	background-image:url("images/car5_active.png");
+
+}
+
+#car5_transparent{
+	background-image:url("images/car5_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car6{
+	background-image:url("images/car6.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car6:hover{
+	background-image:url("images/car6_hover.png");
+}
+
+#car6:active{
+	background-image:url("images/car6_active.png");
+
+}
+
+#car6_transparent{
+	background-image:url("images/car6_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#cars7{
+	background-image:url("images/car7.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car7:hover{
+	background-image:url("images/car7_hover.png");
+}
+
+#car7:active{
+	background-image:url("images/car7_active.png");
+
+}
+
+#car7_transparent{
+	background-image:url("images/car7_transparent.png");
+	float: left;
+	width: 104px;
+	height: 100px;
+}
+
+#car1.correct{background: url("images/car1_star.png");}
+#car2.correct{background: url("images/car2_star.png");}
+#car3.correct{background: url("images/car3_star.png");}
+#car4.correct{background: url("images/car4_star.png");}
+#car5.correct{background: url("images/car5_star.png");}
+#car6.correct{background: url("images/car6_star.png");}
+#car7.correct{background: url("images/car7_star.png");}
+
+/*================test================*/
+
+#test1 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	top: 520px;
+	left: 300px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#airplane_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/a1_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 495px;
+	left: 275px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+}
+
+#numbers1 {
+	position: absolute;
+	top: 530px;
+	left: 350px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_airplane1, #da_airplane2, #da_airplane3, #da_airplane4{
+	width: 23px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 7px;
+	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
+}
+
+
+#da_airplane1:hover, #da_airplane2:hover, 
+#da_airplane3:hover, #da_airplane4:hover {
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_airplane1:active, #da_airplane2:active, 
+#da_airplane3:active, #da_airplane4:active {
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test2 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+
+	top: 520px;
+	left: 900px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#animal_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/animal_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 495px;
+	left: 875px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+
+}
+
+#numbers2 {
+	position: absolute;
+	top: 530px;
+	left: 950px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_animal1, #da_animal2, #da_animal3, #da_animal4 {
+	width: 23px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 7px;
+	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
+}
+
+#da_animal1:hover, #da_animal2:hover, 
+#da_animal3:hover, #da_animal4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_animal1:active, #da_animal2:active, 
+#da_animal3:active, #da_animal4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test3 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	top: 610px;
+	left: 300px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#ball_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/ball_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 584px;
+	left: 275px;
+
+	-ms-transform: scale(0.4,0.4); /* IE 9 */
+    -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
+    transform: scale(0.4,0.4); /* Standard syntax */
+
+
+}
+
+#numbers3 {
+	position: absolute;
+	top: 620px;
+	left: 350px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_ball1, #da_ball2, #da_ball3, #da_ball4 {
+	width: 23px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 7px;
+	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
+}
+
+#da_ball1:hover, #da_ball2:hover, 
+#da_ball3:hover, #da_ball4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_ball1:active, #da_ball2:active, 
+#da_ball3:active, #da_ball4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#test4 {
+	position: absolute;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+	top: 610px;
+	left: 900px;
+
+	border-radius: 10px;
+	border: 2px solid #333;
+}
+
+#car_BG {
+	position: absolute;
+	width: 104px;
+	height: 100px;
+	background:url("images/car_outline.png") no-repeat;
+	opacity: 0.5;
+
+	top: 584px;
+	left: 875px;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+
+}
+
+#numbers4 {
+	position: absolute;
+	top: 620px;
+	left: 950px;
+	width: 210px;
+	height: 40px;
+}
+
+#da_car1, #da_car2, #da_car3, #da_car4 {
+	width: 23px;
+	height: 30px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	margin-left: 15px;
+	padding-left: 7px;
+	float: left;
+	font-size: 1.6em;
+	font-family: arial bold;
+}
+
+#da_car1:hover, #da_car2:hover, 
+#da_car3:hover, #da_car4:hover {
+
+	box-shadow: 0px 0px 2px 2px #CC91B2;
+}
+
+#da_car1:active, #da_car2:active, 
+#da_car3:active, #da_car4:active {
+
+	box-shadow: 0px 0px 2px 2px #BFC8DB;
+}
+
+#howMany {
+	position: absolute;
+	width: 300px;
+	top: 0px;
+	left: 500px;
+}
+
+#airplane_guess{
+	position: absolute;
+	width: 300px;
+	top: 495px;
+	left: 300px;
+}
+
+#animal_guess{
+	position: absolute;
+	width: 300px;
+	top: 495px;
+	left: 900px;
+}
+
+#ball_guess{
+	position: absolute;
+	width: 300px;
+	top: 590px;
+	left: 300px;
+}
+
+#car_guess{
+	position: absolute;
+	width: 300px;
+	left: 900px;
+	top: 590px;
+}
+
+#guessMe1, #guessMe2, #guessMe3, #guessMe4 {
+	width: 23px;
+	height: 30px;
+	margin-left: 8px;
+	margin-top: 8px;
+	background:yellow;
+	border-radius: 10px;
+	border: 2px solid #333;
+	padding-left: 7px;
+	font-size: 1.7em;
+	font-family: arial bold;
+}
+
+#popUp{
+	top: 50px;
+	left: 600px;
+	position: absolute;
+	background: gray;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+}
+#score {
+	position: absolute;
+	top: 50px;
+	left: 1250px;
+	width: 260px;
+	height: 60px;
+	font-size: 1.5em;
+}
+
+#stars{
+	float: left;
+}
+
+#starMe{
+	position: absolute;
+	top: 60px;
+	left: 90px;
+	background-image:url("images/star.png");
+	width: 58px;
+	height: 56px;
+	float: right;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 18%;
+	margin-left: 40%;
+}
+
+#next {
+	position: absolute;
+	top: 310px;
+	left: 690px;
+}
+
+#previous{
+	position: absolute;
+	top: 310px;
+	left: -730px;
+}

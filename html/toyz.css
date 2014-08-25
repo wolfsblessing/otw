@@ -101,10 +101,10 @@ body {
 
 #airplane_transparent {
 	position: absolute;
-	top: 80px;
-	left: 190px;
-	width: 400px;
-	height: 110px;
+	top: 40px;
+	left: 50px;
+	width: 600px;
+	height: 140px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -342,10 +342,10 @@ body {
 /*=====================Animals===========================*/
 #animal_transparent{
 	position: absolute;
-	width: 400px;
-	height: 130px;
-	top: 60px;
-	left: 760px;
+	width: 530px;
+	height: 140px;
+	top: 40px;
+	left: 650px;
 }
 
 #animal_transparent li {
@@ -714,10 +714,10 @@ body {
 /*=====================Balls===========================*/
 #ball_transparent{
 	position: absolute;
-	width: 400px;
-	height: 130px;
-	top: 205px;
-	left: 210px;
+	width: 570px;
+	height: 140px;
+	top: 185px;
+	left: 70px;
 }
 
 #ball_transparent li {
@@ -966,10 +966,10 @@ body {
 /*=====================Cars===========================*/
 #car_transparent{
 	position: absolute;
-	width: 430px;
-	height: 110px;
-	top: 225px;
-	left: 760px;
+	width: 540px;
+	height: 140px;
+	top: 185px;
+	left: 650px;
 }
 
 #car_transparent{
@@ -1174,11 +1174,11 @@ body {
 
 #test1 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
-	top: 520px;
-	left: 300px;
+	top: 515px;
+	left: 290px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1192,7 +1192,7 @@ body {
 	opacity: 0.5;
 
 	top: 495px;
-	left: 275px;
+	left: 270px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1234,12 +1234,12 @@ body {
 
 #test2 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
 
-	top: 520px;
-	left: 900px;
+	top: 515px;
+	left: 890px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1297,11 +1297,11 @@ body {
 
 #test3 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
-	top: 610px;
-	left: 300px;
+	top: 615px;
+	left: 290px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1314,8 +1314,8 @@ body {
 	background:url("images/ball_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 584px;
-	left: 275px;
+	top: 594px;
+	left: 272px;
 
 	-ms-transform: scale(0.4,0.4); /* IE 9 */
     -webkit-transform: scale(0.4,0.4); /* Chrome, Safari, Opera */
@@ -1326,7 +1326,7 @@ body {
 
 #numbers3 {
 	position: absolute;
-	top: 620px;
+	top: 630px;
 	left: 350px;
 	width: 210px;
 	height: 40px;
@@ -1359,11 +1359,11 @@ body {
 
 #test4 {
 	position: absolute;
-	width: 50px;
-	height: 50px;
+	width: 65px;
+	height: 65px;
 	background: #fff;
-	top: 610px;
-	left: 900px;
+	top: 615px;
+	left: 890px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1376,8 +1376,8 @@ body {
 	background:url("images/car_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 584px;
-	left: 875px;
+	top: 594px;
+	left: 870px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1388,7 +1388,7 @@ body {
 
 #numbers4 {
 	position: absolute;
-	top: 620px;
+	top: 630px;
 	left: 950px;
 	width: 210px;
 	height: 40px;
@@ -1429,36 +1429,36 @@ body {
 #airplane_guess{
 	position: absolute;
 	width: 300px;
-	top: 495px;
-	left: 300px;
+	top: 490px;
+	left: 290px;
 }
 
 #animal_guess{
 	position: absolute;
 	width: 300px;
-	top: 495px;
-	left: 900px;
+	top: 490px;
+	left: 890px;
 }
 
 #ball_guess{
 	position: absolute;
 	width: 300px;
 	top: 590px;
-	left: 300px;
+	left: 290px;
 }
 
 #car_guess{
 	position: absolute;
 	width: 300px;
-	left: 900px;
+	left: 890px;
 	top: 590px;
 }
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4 {
 	width: 23px;
 	height: 30px;
-	margin-left: 8px;
-	margin-top: 8px;
+	margin-left: 15px;
+	margin-top: 13px;
 	background:yellow;
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1513,6 +1513,10 @@ button{
 
 #previous{
 	position: absolute;
-	top: 310px;
-	left: -730px;
+	top: 0px;
+	left: 0px;
+
+	margin: 0 auto;
+	margin-top: 650px;
+	margin-left: 30px;
 }

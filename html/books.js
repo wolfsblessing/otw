@@ -354,7 +354,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (b_booksNumbers[0] == 2 && guess_b_Books != b_booksNumbers[0] && guess_b_Books == 1) {
+                    if (b_booksNumbers[0] == 2 && guess_b_Books == 2) {
                         $("#da_b_books" + b_booksNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -405,7 +405,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (g_booksNumbers[0] == 2 && guess_g_Books != g_booksNumbers[0] && guess_g_Books == 1) {
+                    if (g_booksNumbers[0] == 2 && guess_g_Books == 2) {
                         $("#da_g_books" + g_booksNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -456,7 +456,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (r_booksNumbers[0] == 2 && guess_r_Books != r_booksNumbers[0] && guess_r_Books == 1) {
+                    if (r_booksNumbers[0] == 2 && guess_r_Books == 2) {
                         $("#da_r_books" + r_booksNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);
@@ -507,7 +507,7 @@
                             "background-color": "red"
                         }, 2000);
                     };
-                    if (y_booksNumbers[0] == 2 && guess_y_Books != y_booksNumbers[0] && guess_y_Books == 1) {
+                    if (y_booksNumbers[0] == 2 && guess_y_Books == 2) {
                         $("#da_y_books" + y_booksNumbers[0]).animate({
                             "background-color": "red"
                         }, 2000);

@@ -23,11 +23,17 @@
                 $("#help_text").text("Ќе ми помогнеш ли да го средам плакарот?").css({
                 	"top": "60px"
                 });
+                $("#help_text_sq").text("Do të më ndihmosh të e rregulloj dollapin?").css({
+                    "top": "60px"
+                });
             }
         }, function() {
             $(this).removeClass('animated');
             $("#help_text").text("Ова е мојата соба! Ќе ми помогнеш ли да ја средам? Кога собата ќе биде средена ќе ми помогнеш ли да напишам домашно?").css({
              	"top":"50px"
+             });
+            $("#help_text_sq").text("Kjo është dhoma ime! A do të me ndihmosh të e rregulloj? Pasi dhoma të jet e rregulluar a më ndihmon të i bëj detyrat e shtëpisë?").css({
+                "top": "50px"
              });
         });
 
@@ -37,12 +43,18 @@
                 $("#help_text").text("Ќе ми помогнеш ли да ги средам играчките?").css({
                 	"top": "60px"
                 });
+                $("#help_text_sq").text("Do të më ndihmosh të i rregulloj lodrat?").css({
+                    "top": "60px"
+                });
             }
         }, function() {
             $(this).removeClass('animated');
             $("#help_text").text("Ова е мојата соба! Ќе ми помогнеш ли да ја средам? Кога собата ќе биде средена ќе ми помогнеш ли да напишам домашно?").css({
             	"top":"50px"
             });
+            $("#help_text_sq").text("Kjo është dhoma ime! A do të me ndihmosh të e rregulloj? Pasi dhoma të jet e rregulluar a më ndihmon të i bëj detyrat e shtëpisë?").css({
+                "top": "50px"
+             });
         });
 
         $('#theBooks').hover(function() {
@@ -51,6 +63,9 @@
                 $("#help_text").text("Ќе ми помогнеш ли да ги средам книгите?").css({
                 	"top": "60px"
                 });
+                $("#help_text_sq").text("Do të më ndihmosh të i rregulloj librat?").css({
+                    "top": "60px"
+                });
 
             }
         }, function() {
@@ -58,6 +73,9 @@
             $("#help_text").text("Ова е мојата соба! Ќе ми помогнеш ли да ја средам? Кога собата ќе биде средена ќе ми помогнеш ли да напишам домашно?").css({
             	"top":"50px"
             });
+            $("#help_text_sq").text("Kjo është dhoma ime! A do të me ndihmosh të e rregulloj? Pasi dhoma të jet e rregulluar a më ndihmon të i bëj detyrat e shtëpisë?").css({
+                "top": "50px"
+             });
         });
 
         $('#theWorkingTable').hover(function() {
@@ -66,12 +84,18 @@
                 $("#help_text").text("Ќе ми помогнеш ли да напишам домашно?").css({
                 	"top": "60px"
                 });
+                $("#help_text_sq").text("Do të më ndihmosh të bëj detyrat?").css({
+                    "top": "60px"
+                });
             }
         }, function() {
             $(this).removeClass('animated');
             $("#help_text").text("Ова е мојата соба! Ќе ми помогнеш ли да ја средам? Кога собата ќе биде средена ќе ми помогнеш ли да напишам домашно?").css({
             	"top":"50px"
             });
+            $("#help_text_sq").text("Kjo është dhoma ime! A do të me ndihmosh të e rregulloj? Pasi dhoma të jet e rregulluar a më ndihmon të i bëj detyrat e shtëpisë?").css({
+                "top": "50px"
+             });
         });
 
 	};

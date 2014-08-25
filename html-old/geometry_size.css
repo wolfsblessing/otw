@@ -1,0 +1,333 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+/*================books.html page=============*/
+#container {
+	position: absolute;
+	top: 10px;
+	left: 50px;
+	width: 890px;
+	height: 720px;
+	background: #b53131;
+
+	border: 2px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+#notepad {
+	position: absolute;
+	background:url("images/notepad.png") repeat-x;
+	top: -185px;
+	left: 60px;
+	width: 789px;
+	height: 1096px;
+	cursor:context-menu;
+
+	-ms-transform: scale(1.1,0.60); /* IE 9 */
+    -webkit-transform: scale(1.1,0.60); /* Chrome, Safari, Opera */
+    transform: scale(1.1,0.60); /* Standard syntax */
+}
+
+#textMe {
+	position: absolute;
+	top: 10px;
+	left: 300px;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+/*====================object1s============================*/
+	
+#object1_outline {
+	position: absolute;
+	top: 250px;
+	left: 190px;
+	background-image:url("images/ball_outline.png");
+	width: 104px;
+	height: 110px;
+	opacity: 0.3;
+
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+
+}
+#object1{
+	position: absolute;
+	width: 180px;
+	height: 510px;
+	top: 100px;
+	left: 220px;
+}
+
+
+#object1_transparent {
+	position: absolute;
+	top: 270px;
+	left: 210px;
+	width: 250px;
+	height: 210px;
+	background: #eaeaea;
+
+	border: 2px solid #333;
+	border-radius: 10px;
+
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+
+}
+
+#object1_transparent li {
+	list-style-type: none;
+	display: inline-block;
+}
+
+/*================================================*/
+
+#object1 li {
+	list-style-type: none;
+}
+
+#object11{
+	background-image:url("images/square_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object11:hover{
+	background-image:url("images/square_small_2_hover.png");
+}
+
+#object11:active{
+	background-image:url("images/square_small_2_active.png");
+}
+
+#object12{
+	background-image:url("images/square_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object12:hover{
+	background-image:url("images/square_small_4_hover.png");
+}
+
+#object12:active{
+	background-image:url("images/square_small_4_active.png");
+}
+
+#object13{
+	background-image:url("images/triangle_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object13:hover{
+	background-image:url("images/triangle_small_hover.png");
+}
+
+#object13:active{
+	background-image:url("images/triangle_small_active.png");
+}
+
+#object14{
+	background-image:url("images/circle_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object14:hover{
+	background-image:url("images/circle_small_hover.png");
+}
+
+#object14:active{
+	background-image:url("images/circle_small_active.png");
+}
+
+#object11.correct{background: url("images/square_small_2_star.png"); }
+#object12.correct{background: url("images/square_small_4_star.png"); }
+#object13.correct{background: url("images/triangle_small_star.png"); }
+#object14.correct{background: url("images/circle_small_star.png"); }
+
+
+/*=====================object2s===========================*/
+
+#object2_outline {
+	position: absolute;
+	top: 85px;
+	left: 500px;
+	background-image:url("images/ball_outline.png");
+	width: 104px;
+	height: 110px;
+	opacity: 0.3;
+
+	-ms-transform: scale(1,1); /* IE 9 */
+    -webkit-transform: scale(1,1); /* Chrome, Safari, Opera */
+    transform: scale(1,1); /* Standard syntax */
+
+}
+
+#object2_transparent{
+	position: absolute;
+	width: 320px;
+	height: 400px;
+	top: 80px;
+	left: 490px;
+	background: #eaeaea;
+
+	border: 2px solid #333;
+	border-radius: 10px;
+
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+}
+
+#object2_transparent li {
+	list-style-type: none;
+}
+
+#object2{
+	position: absolute;
+	width: 180px;
+	height: 510px;
+	top: 0px;
+	left: 240px;
+}	
+
+#object2 li {
+	list-style-type: none;
+}
+
+#object21{
+	background-image:url("images/square_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object21:hover{
+	background-image:url("images/square_big_hover.png");
+}
+
+#object21:active{
+	background-image:url("images/square_big_active.png");
+
+}
+
+#object22 {
+	background-image:url("images/square_big_2.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object22:hover{
+	background-image:url("images/square_big_2_hover.png");
+}
+
+#object22:active{
+	background-image:url("images/square_big_2_active.png");
+
+}
+
+#object23{
+	background-image:url("images/triangle_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object23:hover{
+	background-image:url("images/triangle_big_hover.png");
+}
+
+#object23:active{
+	background-image:url("images/triangle_big_active.png");
+
+}
+
+#object24{
+	background-image:url("images/circle_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object24:hover{
+	background-image:url("images/circle_big_hover.png");
+}
+
+#object24:active{
+	background-image:url("images/circle_big_active.png");
+
+}
+
+#object21.correct{background: url("images/square_big_star.png");}
+#object22.correct{background: url("images/square_big_2_star.png");}
+#object23.correct{background: url("images/triangle_big_star.png");}
+#object24.correct{background: url("images/circle_big_star.png");}
+/*================test================*/
+#popUp{
+	position: absolute;
+	top: 105px;
+	left: 210px;
+	background: gray;
+	width: 250px;
+	height: 150px;
+	border-radius: 10px;
+}
+#score {
+	position: absolute;
+	top: -15px;
+	left: 370px;
+	height: 60px;
+	font-size: 1.5em;
+	color: #fff;
+}
+
+#stars{
+	float: left;
+}
+
+#starMe{
+	background-image:url("images/star.png");
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	width: 58px;
+	height: 56px;
+}
+
+button{
+	margin: 0 auto;
+	margin-top: 14%;
+	margin-left: 25%;
+}
+
+#next {
+	position: absolute;
+	top: 370px;
+	left: 130px;
+}
+
+#previous{
+	position: absolute;
+	top: 570px;
+	left: 30px;
+}

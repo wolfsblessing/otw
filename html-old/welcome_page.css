@@ -1,0 +1,59 @@
+html {
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+
+body {
+	width: 100%;
+	margin: 0 auto;
+	padding: 0px;
+}
+
+#center_me {
+	position: absolute;
+	top: 50px;
+	left: 100px;
+	margin: 0 auto;
+	padding: 0;
+	width: 550px;
+	height: 550px;
+	border: 1px solid #333;
+	border-radius: 10px;
+	box-shadow: 0px 20px 35px 5px rgba(105,105,105,0.7);
+}
+
+#theName {
+	margin: 10px;
+	font-weight: bold;
+	color: rgba(0, 0, 0, 0.5);
+}
+
+h1 {
+	text-align: center;
+}
+
+#second_slide {
+	position: absolute;
+	top: 500px;
+	left: 470px;
+}
+
+#previous_slide{
+	position: absolute;
+	top: 500px;
+	left: 10px;
+}
+
+#second_slide_sq {
+	position: absolute;
+	top: 580px;
+	left: 570px;
+}
+
+#previous_slide_sq{
+	position: absolute;
+	top: 500px;
+	left: 50px;
+}
