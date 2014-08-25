@@ -50,6 +50,14 @@ body {
 	width: 250px;
 }
 
+#help_text_sq {
+	position: absolute;
+	top: 140px;
+	left: 880px;
+	width: 250px;
+}
+
+
 #my_room {
 	position: absolute;
 	left: 20px;
@@ -1180,29 +1188,29 @@ body {
 #shirtNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 240px;
-	left: 880px;
+	top: 480px;
+	left: 580px;
 }
 
 #shoesNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 340px;
-	left: 880px;
+	top: 590px;
+	left: 580px;
 }
 
 #soxNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 140px;
-	left: 880px;
+	top: 590px;
+	left: 180px;
 }
 
 #hatNumGuess {
 	position: absolute;
 	width: 300px;
-	top: 40px;
-	left: 880px;
+	top: 480px;
+	left: 180px;
 }
 
 #pantsNumGuess {
@@ -1218,8 +1226,9 @@ body {
 	width: 65px;
 	height: 65px;
 	background: #fff;
-	top: 260px;
-	left: 880px;
+
+	top: 500px;
+	left: 580px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1232,8 +1241,8 @@ body {
 	background:url("images/bluza_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 243px;
-	left: 863px;
+	top: 485px;
+	left: 565px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1242,10 +1251,10 @@ body {
 
 #numbers1 {
 	position: absolute;
-	top: 280px;
-	left: 950px;
 	width: 210px;
 	height: 40px;
+	top: 520px;
+	left: 650px;
 }
 
 #daShirts1, #daShirts2, #daShirts3, #daShirts4 {
@@ -1279,10 +1288,11 @@ body {
 	width: 65px;
 	height: 65px;
 	background: #fff;
-	top: 360px;
-	left: 880px;
 
+	top: 610px;
+	left: 580px;
 	border-radius: 10px;
+
 	border: 2px solid #333;
 }
 
@@ -1293,8 +1303,8 @@ body {
 	background:url("images/cevli_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 345px;
-	left: 865px;
+	top: 593px;
+	left: 563px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1303,8 +1313,8 @@ body {
 
 #numbers2 {
 	position: absolute;
-	top: 370px;
-	left: 950px;
+	top: 630px;
+	left: 650px;
 	width: 210px;
 	height: 40px;
 }
@@ -1341,8 +1351,8 @@ body {
 	width: 65px;
 	height: 65px;
 	background: #fff;
-	top: 160px;
-	left: 880px;
+	top: 610px;
+	left: 180px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1355,8 +1365,8 @@ body {
 	background:url("images/corapi_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 145px;
-	left: 865px;
+	top: 595px;
+	left: 165px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1365,8 +1375,8 @@ body {
 
 #numbers3 {
 	position: absolute;
-	top: 180px;
-	left: 950px;
+	top: 630px;
+	left: 250px;
 	width: 210px;
 	height: 40px;
 }
@@ -1401,8 +1411,8 @@ body {
 	width: 65px;
 	height: 65px;
 	background: #fff;
-	top: 60px;
-	left: 880px;
+	top: 500px;
+	left: 180px;
 
 	border-radius: 10px;
 	border: 2px solid #333;
@@ -1415,8 +1425,8 @@ body {
 	background:url("images/hat_outline.png") no-repeat;
 	opacity: 0.5;
 
-	top: 40px;
-	left: 862px;
+	top: 480px;
+	left: 162px;
 
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
@@ -1425,8 +1435,8 @@ body {
 
 #numbers4 {
 	position: absolute;
-	top: 80px;
-	left: 950px;
+	top: 520px;
+	left: 250px;
 	width: 210px;
 	height: 40px;
 }
@@ -1458,14 +1468,34 @@ body {
 
 #popUp{
 	position: absolute;
-	top: 90px;
-	left: 450px;
+	top: 250px;
+	left: 340px;
 	background: gray;
-	width: 300px;
-	height: 300px;
-	float: left;
+	width: 500px;
+	height: 200px;
 	border-radius: 10px;
+	border: 2px solid #000;
+
+	box-shadow: inset 0px 0px 11px 1px #333;	
+
+    background: white;
+    -moz-border-radius: 50% / 50%;
+    -webkit-border-radius: 50% / 50%;
+    border-radius: 50% / 50%;
 }
+
+#pop_up_text {
+	padding-top: 30px;
+	padding-left: 60px;
+	padding-bottom: 10px;
+}
+
+#pop_up_text_sq {
+	padding-top: 30px;
+	padding-left: 130px;
+	padding-bottom: 10px;
+}
+
 
 #guessMe1, #guessMe2, #guessMe3, #guessMe4, #guessMe5{
 	width: 23px;
@@ -1500,10 +1530,18 @@ body {
 	float: right;
 }
 
-.back, .reset {
-	margin: 0 auto;
-	margin-top: 18%;
-	margin-left: 40%;
+.back{
+	position: absolute;
+	top: 70px;
+	left: 180px;
+	width: 120px;
+}
+
+.reset {
+	position: absolute;
+	top: 150px;
+	left: 180px;
+	width: 120px;
 }
 
 #next {

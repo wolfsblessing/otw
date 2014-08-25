@@ -337,9 +337,10 @@
         function element_Check() {
             if ((object_blueCounter == 4) && (object_greenCounter == 4) &&
                 (object_yellowCounter == 4) && (object_redCounter == 4)) {
-                 $("#popUp").fadeIn(3000);
-                 $("#score").fadeIn(3000);
+                 $("#popUp").fadeIn(2000);
+                 $("#score").fadeIn(2000);
                  $("#textMe").hide();
+                 $("#previous").hide();
             };
         };
 

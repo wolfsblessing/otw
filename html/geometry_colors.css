@@ -475,13 +475,17 @@ body {
 /*================test================*/
 #popUp{
 	position: absolute;
-	top: 525px;
+	top: 540px;
 	left: 350px;
-	background: gray;
+	background: #fff;
 	width: 250px;
-	height: 150px;
+	height: 120px;
+	float: left;
 	border-radius: 10px;
+	border: 2px solid #000;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 }
+
 #score {
 	position: absolute;
 	top: -15px;
@@ -493,6 +497,20 @@ body {
 
 #stars{
 	float: left;
+}
+
+.back{
+	position: absolute;
+	top: -15px;
+	left: 5px;
+	width: 120px;
+}
+
+.reset {
+	position: absolute;
+	top: 40px;
+	left: 5px;
+	width: 120px;
 }
 
 #starMe{
@@ -508,4 +526,12 @@ button{
 	margin: 0 auto;
 	margin-top: 14%;
 	margin-left: 25%;
+}
+
+#previous {
+	position: absolute;
+	top: 689px;
+	left: 40px;
+
+	margin: 0px;
 }

@@ -355,10 +355,8 @@
                     $("#shoesNumGuess").fadeIn(3000);
                     $("#soxNumGuess").fadeIn(3000);
                     $("#hatNumGuess").fadeIn(3000);
-                    $("#girly").fadeOut(100);
-                    $("#boyish").fadeOut(100);
-                    $("#text_blob").fadeOut(100);
-                    $("#help_text").fadeOut(100);
+                    $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
+                    $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
                 };
 
                 for (var i = 1; i <= 4; i++) {
@@ -619,6 +617,9 @@
                 $("#test2").hide();
                 $("#test3").hide();
                 $("#test4").hide();
+                $("#previous").hide();
+                $("#help_text").hide();
+                $("#help_text_sq").hide();
 
                 if((storage.get("girly")) == true ){
                     $("#girly").fadeIn(2000);
@@ -627,8 +628,6 @@
                 if((storage.get("boyish")) == true ){
                     $("#boyish").fadeIn(2000);
                 };
-
-                $("#text_blob").fadeIn(100);
 
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);

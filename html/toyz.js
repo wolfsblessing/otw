@@ -335,6 +335,8 @@
                 $("#animal_BG").fadeIn(3000);
                 $("#ball_BG").fadeIn(3000);
                 $("#car_BG").fadeIn(3000);
+                $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
+                $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
 
                 for (var i = 1; i <= 4; i++) {
                     $("#da_airplan" + i).fadeIn(3000);
@@ -579,6 +581,7 @@
                 $("#ball_guess").hide();
                 $("#car_guess").hide();
                 $("#container").hide();
+                $("#previous").hide();
 
                 for (var i = 1; i <= 4; i++) {
                     $("#test" + i).hide();

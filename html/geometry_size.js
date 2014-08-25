@@ -204,6 +204,7 @@
                  $("#popUp").fadeIn(3000);
                  $("#score").fadeIn(3000);
                  $("#textMe").hide();
+                 $("#previous").hide();
             };
         };
 

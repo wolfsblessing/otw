@@ -319,11 +319,8 @@
                     $("#numbers" + i).fadeIn(3000);
                 };
 
-                $("#text_blob").hide();
-                $("#help_text").hide();
-                $("#help_text_sq").hide();
-                $("#girly").hide();
-                $("#boyish").hide();
+                $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
+                $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
 
                 $("#b_books_guess").fadeIn(3000);
                 $("#g_books_guess").fadeIn(3000);
@@ -561,11 +558,14 @@
                 $("#r_books_guess").hide();
                 $("#y_books_guess").hide();
                 $("#container").hide();
+                $("#previous").hide();
 
                 $("#test1").hide();
                 $("#test2").hide();
                 $("#test3").hide();
                 $("#test4").hide();
+                $("#help_text").hide();
+                $("#help_text_sq").hide();
 
                 if((storage.get("girly")) == true ){
                      $("#girly").show();
@@ -575,10 +575,10 @@
                      $("#boyish").show();
                 };
 
-                $("#text_blob").fadeIn(3000);
+                $("#text_blob").fadeIn(2000);
 
-                $("#popUp").fadeIn(3000);
-                $("#score").fadeIn(3000);
+                $("#popUp").fadeIn(2000);
+                $("#score").fadeIn(2000);
             };
         };
 

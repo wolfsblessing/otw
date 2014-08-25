@@ -369,16 +369,17 @@ body {
 	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 }
 
-
 #popUp{
 	position: absolute;
 	top: 20px;
 	left: 820px;
-	background: gray;
+	background: #fff;
 	width: 150px;
 	height: 150px;
 	float: left;
 	border-radius: 10px;
+	border: 2px solid #000;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 }
 
 #score {
@@ -394,6 +395,23 @@ body {
 #stars{
 	float: left;
 }
+
+
+.back{
+	position: absolute;
+	top: 0px;
+	left: -15px;
+	width: 120px;
+}
+
+.reset {
+	position: absolute;
+	top: 80px;
+	left: -15px;
+	width: 120px;
+}
+
+
 
 #starMe{
 	background-image:url("images/star.png");

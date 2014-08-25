@@ -132,6 +132,7 @@
 //                        $("#toShowResult0").fadeIn(3000).text(the_result);
                         $("#popUp").fadeIn(3000);
                         $("#score").fadeIn(3000);
+                        $("#previous").hide();
                     }
                 });
             };

@@ -287,10 +287,13 @@ body {
 	position: absolute;
 	top: 105px;
 	left: 210px;
-	background: gray;
-	width: 250px;
+	background: #fff;
+	width: 150px;
 	height: 150px;
+	float: left;
 	border-radius: 10px;
+	border: 2px solid #000;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 }
 #score {
 	position: absolute;
@@ -305,6 +308,20 @@ body {
 	float: left;
 }
 
+.back{
+	position: absolute;
+	top: 20px;
+	left: 15px;
+	width: 120px;
+}
+
+.reset {
+	position: absolute;
+	top: 80px;
+	left: 15px;
+	width: 120px;
+}
+
 #starMe{
 	background-image:url("images/star.png");
 	position: absolute;
@@ -312,12 +329,6 @@ body {
 	left: 80px;
 	width: 58px;
 	height: 56px;
-}
-
-button{
-	margin: 0 auto;
-	margin-top: 14%;
-	margin-left: 25%;
 }
 
 #next {
@@ -328,6 +339,9 @@ button{
 
 #previous{
 	position: absolute;
-	top: 570px;
-	left: 30px;
+	top: 690px;
+	left: 40px;
+
+	margin-top: 0px;
+	margin-left: 0px;
 }
