@@ -153,16 +153,51 @@
         var leftblueFix = 30;
         var checkblue_top= 0;
         var checkblue_left = 0;
+
+       var top_position = [[430,0], [430, 100], [430, 200], [430, 300], 
+                            [490, 0], [490, 100], [490, 200], [490, 300],
+                            [540, 0],[540, 100], [540, 200], [540, 300], 
+                            [600, 0],[600, 100], [600, 200], [600, 300]];
+
+
+//        var top_position = [430, 490, 540, 600]; 
+        var left_position = [0, 100, 200, 300];
+
+        top_position.sort(function() {
+         return Math.random() - .3
+        });
+
+        left_position.sort(function() {
+         return Math.random() - .3
+        });
+
+        var x_position = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
+
+        x_position.sort(function() {
+         return Math.random() - .3
+        });
+
+        $("#firstNumber").text(x_position);
+
+
+        my_random_number = 0;
+
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_blueNumbers[0]; i++) {
+
             $("#object_blue" + object_blue[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "430px",
-                left: dacopy[i - 1] + "px"
+//                top: "430px",
+//                left: dacopy[i - 1] + "px"
+
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+
+        top_position.splice(i-1, 1);
 
             $("#object_blue_transparent").droppable({
                 accept: "#object_blue > li",
@@ -191,6 +226,7 @@
                     };
                 }
             });
+        
         };
 
 //--------------------------------------------------------------------------------
@@ -200,15 +236,19 @@
         var checkgreen_top= 0;
         var checkgreen_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_greenNumbers[0]; i++) {
             $("#object_green" + object_green[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "585px",
-                left: dacopy[i - 1] + "px"
+//                top: "585px",
+//                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+
+            top_position.splice(i-1, 1);
 
             $("#object_green_transparent").droppable({
                 accept: "#object_green > li",
@@ -246,15 +286,19 @@
         var checkyellow_top= 0;
         var checkyellow_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_yellowNumbers[0]; i++) {
             $("#object_yellow" + object_yellow[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "630px",
-                left: dacopy[i - 1] + "px"
+//                top: "630px",
+//                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+
+        top_position.splice(i-1, 1);
 
             $("#object_yellow_transparent").droppable({
                 accept: "#object_yellow > li",
@@ -293,15 +337,19 @@
         var checkred_top= 0;
         var checkred_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_greenNumbers[0]; i++) {
             $("#object_red" + object_red[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "680px",
-                left: dacopy[i - 1] + "px"
+//                top: "680px",
+//                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+
+//        top_position.splice(i, 0);
 
             $("#object_red_transparent").droppable({
                 accept: "#object_red > li",
@@ -331,6 +379,7 @@
                 }
             });
         };
+        console.log(top_position);
 
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements

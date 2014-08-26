@@ -58,7 +58,7 @@ body {
 	width: 180px;
 	height: 510px;
 	top: 100px;
-	left: 220px;
+	left: 280px;
 }
 
 
@@ -219,8 +219,8 @@ body {
 	position: absolute;
 	width: 180px;
 	height: 510px;
-	top: 0px;
-	left: 240px;
+	top: 100px;
+	left: 280px;
 }	
 
 #object_green li {
@@ -346,8 +346,8 @@ body {
 	position: absolute;
 	width: 180px;
 	height: 510px;
-	top: 0px;
-	left: 240px;
+	top: 100px;
+	left: 280px;
 }	
 
 #object_yellow li {
@@ -474,8 +474,8 @@ body {
 	position: absolute;
 	width: 180px;
 	height: 510px;
-	top: 0px;
-	left: 240px;
+	top: 100px;
+	left: 280px;
 }	
 
 #object_red li {
@@ -561,6 +561,20 @@ body {
 #object_red2.correct{background: url("images/circle_small_star.png");}
 #object_red3.correct{background: url("images/circle_small_star.png");}
 #object_red4.correct{background: url("images/circle_small_star.png");}
+
+/*================================================================================*/
+/*================================The Green Color================================================*/
+/*================================================================================*/
+
+
+
+
+
+
+
+
+
+
 
 
 /*================test================*/
