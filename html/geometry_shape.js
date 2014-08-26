@@ -161,16 +161,14 @@
        var top_position = [[430,0], [430, 100], [430, 200], [430, 300], 
                             [490, 0], [490, 100], [490, 200], [490, 300],
                             [540, 0],[540, 100], [540, 200], [540, 300], 
-                            [600, 0],[600, 100], [600, 200], [600, 300],];
+                            [600, 0],[600, 100], [600, 200], [600, 300]];
+
+
+//        var top_position = [430, 490, 540, 600]; 
 
         top_position.sort(function() {
          return Math.random() - .3
         });
-
-        $("#firstNumber").text(x_position);
-
-
-        my_random_number = 0;
 
         //        function showMyAlph() {
         for (var i = 1; i <= object_blueNumbers[0]; i++) {

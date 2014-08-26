@@ -148,7 +148,7 @@
         var top_position = [[430,0], [430, 100], [430, 200], [430, 300], 
                             [490, 0], [490, 100], [490, 200], [490, 300],
                             [540, 0],[540, 100], [540, 200], [540, 300], 
-                            [600, 0],[600, 100], [600, 200], [600, 300],];
+                            [600, 0],[600, 100], [600, 200], [600, 300]];
 
         top_position.sort(function() {
          return Math.random() - .3
@@ -165,7 +165,7 @@
         var checkblue_top= 0;
         var checkblue_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_blueNumbers[0]; i++) {
             $("#object_blue" + object_blue[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
@@ -215,7 +215,7 @@
         var checkgreen_top= 0;
         var checkgreen_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_greenNumbers[0]; i++) {
             $("#object_green" + object_green[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
@@ -265,7 +265,7 @@
         var checkyellow_top= 0;
         var checkyellow_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_yellowNumbers[0]; i++) {
             $("#object_yellow" + object_yellow[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
@@ -316,7 +316,7 @@
         var checkred_top= 0;
         var checkred_left = 0;
         //        function showMyAlph() {
-        for (var i = 1; i <= 4; i++) {
+        for (var i = 1; i <= object_redNumbers[0]; i++) {
             $("#object_red" + object_red[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
@@ -361,8 +361,8 @@
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements
         function element_Check() {
-            if ((object_blueCounter == 4) && (object_greenCounter == 4) &&
-                (object_yellowCounter == 4) && (object_redCounter == 4)) {
+            if ((object_blueCounter == object_blueNumbers[0]) && (object_greenCounter == object_greenNumbers[0]) &&
+                (object_yellowCounter == object_yellowNumbers[0]) && (object_redCounter == object_redNumbers[0])) {
                  $("#popUp").fadeIn(2000);
                  $("#score").fadeIn(2000);
                  $("#textMe").hide();

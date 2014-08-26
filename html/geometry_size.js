@@ -101,6 +101,14 @@
         $("#howMany").hide();
         $("#shirtNumGuess").hide();
 
+        var top_position = [[430,0], [430, 100], [430, 200], [430, 300], 
+                            [540, 0],[540, 100], [540, 200], [540, 300]]; 
+
+        top_position.sort(function() {
+         return Math.random() - .3
+        });
+
+
         //creating a for loop so i decide to show random elements that are hiden.
         //Making them draggable and droppable at the same time while the loop is checking
         //need to ask why i had to use '-1' at the array so the droppable objects are shown in order
