@@ -56,7 +56,7 @@ body {
 #object_blue{
 	position: absolute;
 	width: 180px;
-	height: 510px;
+	height: 110px;
 	top: 100px;
 	left: 280px;
 }
@@ -218,7 +218,7 @@ body {
 #object_green{
 	position: absolute;
 	width: 180px;
-	height: 510px;
+	height: 110px;
 	top: 100px;
 	left: 280px;
 }	
@@ -345,7 +345,7 @@ body {
 #object_yellow{
 	position: absolute;
 	width: 180px;
-	height: 510px;
+	height: 110px;
 	top: 100px;
 	left: 280px;
 }	
@@ -473,7 +473,7 @@ body {
 #object_red{
 	position: absolute;
 	width: 180px;
-	height: 510px;
+	height: 110px;
 	top: 100px;
 	left: 280px;
 }	
@@ -567,15 +567,884 @@ body {
 /*================================================================================*/
 
 
+#object_blue_11{
+	background-image:url("images/square_green_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_11:hover{
+	background-image:url("images/square_green_small_2_hover.png");
+}
+
+#object_blue_11:active{
+	background-image:url("images/square_green_small_2_active.png");
+}
+
+#object_blue_12{
+	background-image:url("images/square_green_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_12:hover{
+	background-image:url("images/square_green_small_2_hover.png");
+}
+
+#object_blue_12:active{
+	background-image:url("images/square_green_small_2_active.png");
+}
+
+#object_blue_13{
+	background-image:url("images/square_green_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_13:hover{
+	background-image:url("images/square_green_small_2_hover.png");
+}
+
+#object_blue_13:active{
+	background-image:url("images/square_green_small_2_active.png");
+}
+
+#object_blue_14{
+	background-image:url("images/square_green_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_14:hover{
+	background-image:url("images/square_green_small_2_hover.png");
+}
+
+#object_blue_14:active{
+	background-image:url("images/square_green_small_2_active.png");
+}
+
+#object_blue_11.correct{background: url("images/square_green_small_2_star.png"); }
+#object_blue_12.correct{background: url("images/square_green_small_2_star.png"); }
+#object_blue_13.correct{background: url("images/square_green_small_2_star.png"); }
+#object_blue_14.correct{background: url("images/square_green_small_2_star.png"); }
+
+/*=====================This squares===========================*/
 
 
+#object_green_11{
+	background-image:url("images/square_green_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_11:hover{
+	background-image:url("images/square_green_small_4_hover.png");
+}
+
+#object_green_11:active{
+	background-image:url("images/square_green_small_4_active.png");
+
+}
+
+#object_green_12 {
+	background-image:url("images/square_green_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_green_12:hover{
+	background-image:url("images/square_green_small_4_hover.png");
+}
+
+#object_green_12:active{
+	background-image:url("images/square_green_small_4_active.png");
+
+}
+
+#object_green_13{
+	background-image:url("images/square_green_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_13:hover{
+	background-image:url("images/square_green_small_4_hover.png");
+}
+
+#object_green_13:active{
+	background-image:url("images/square_green_small_4_active.png");
+
+}
+
+#object_green_14{
+	background-image:url("images/square_green_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_14:hover{
+	background-image:url("images/square_green_small_4_hover.png");
+}
+
+#object_green_14:active{
+	background-image:url("images/square_green_small_4_active.png");
+}
 
 
+#object_green_11.correct{background: url("images/square_green_small_4_star.png"); }
+#object_green_12.correct{background: url("images/square_green_small_4_star.png");}
+#object_green_13.correct{background: url("images/square_green_small_4_star.png");}
+#object_green_14.correct{background: url("images/square_green_small_4_star.png");}
 
 
+/*=====================Triangles===========================*/
 
 
+#object_yellow_11{
+	background-image:url("images/triangle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
 
+#object_yellow_11:hover{
+	background-image:url("images/triangle_green_small_hover.png");
+}
+
+#object_yellow_11:active{
+	background-image:url("images/triangle_green_small_active.png");
+
+}
+
+#object_yellow_12 {
+	background-image:url("images/triangle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_yellow_12:hover{
+	background-image:url("images/triangle_green_small_hover.png");
+}
+
+#object_yellow_12:active{
+	background-image:url("images/triangle_green_small_active.png");
+
+}
+
+#object_yellow_13{
+	background-image:url("images/triangle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_13:hover{
+	background-image:url("images/triangle_green_small_hover.png");
+}
+
+#object_yellow_13:active{
+	background-image:url("images/triangle_green_small_active.png");
+
+}
+
+#object_yellow_14{
+	background-image:url("images/triangle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_14:hover{
+	background-image:url("images/triangle_green_small_hover.png");
+}
+
+#object_yellow_14:active{
+	background-image:url("images/triangle_green_small_active.png");
+}
+
+
+#object_yellow_11.correct{background: url("images/triangle_green_small_star.png"); }
+#object_yellow_12.correct{background: url("images/triangle_green_small_star.png");}
+#object_yellow_13.correct{background: url("images/triangle_green_small_star.png");}
+#object_yellow_14.correct{background: url("images/triangle_green_small_star.png");}
+
+
+/*=====================Circles===========================*/
+
+
+#object_red_11{
+	background-image:url("images/circle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_11:hover{
+	background-image:url("images/circle_green_small_hover.png");
+}
+
+#object_red_11:active{
+	background-image:url("images/circle_green_small_active.png");
+}
+
+#object_red_12 {
+	background-image:url("images/circle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_red_12:hover{
+	background-image:url("images/circle_green_small_hover.png");
+}
+
+#object_red_12:active{
+	background-image:url("images/circle_green_small_active.png");
+
+}
+
+#object_red_13{
+	background-image:url("images/circle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_13:hover{
+	background-image:url("images/circle_green_small_hover.png");
+}
+
+#object_red_13:active{
+	background-image:url("images/circle_green_small_active.png");
+}
+
+#object_red_14{
+	background-image:url("images/circle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_14:hover{
+	background-image:url("images/circle_green_small_hover.png");
+}
+
+#object_red_14:active{
+	background-image:url("images/circle_green_small_active.png");
+}
+
+
+#object_red_11.correct{background: url("images/circle_green_small_star.png"); }
+#object_red_12.correct{background: url("images/circle_green_small_star.png");}
+#object_red_13.correct{background: url("images/circle_green_small_star.png");}
+#object_red_14.correct{background: url("images/circle_green_small_star.png");}
+
+/*================================================================================*/
+/*================================The Yellow Color================================================*/
+/*================================================================================*/
+
+
+#object_blue_21{
+	background-image:url("images/square_yellow_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_21:hover{
+	background-image:url("images/square_yellow_small_2_hover.png");
+}
+
+#object_blue_21:active{
+	background-image:url("images/square_yellow_small_2_active.png");
+}
+
+#object_blue_22{
+	background-image:url("images/square_yellow_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_22:hover{
+	background-image:url("images/square_yellow_small_2_hover.png");
+}
+
+#object_blue_22:active{
+	background-image:url("images/square_yellow_small_2_active.png");
+}
+
+#object_blue_23{
+	background-image:url("images/square_yellow_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_23:hover{
+	background-image:url("images/square_yellow_small_2_hover.png");
+}
+
+#object_blue_23:active{
+	background-image:url("images/square_yellow_small_2_active.png");
+}
+
+#object_blue_24{
+	background-image:url("images/square_yellow_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_24:hover{
+	background-image:url("images/square_yellow_small_2_hover.png");
+}
+
+#object_blue_24:active{
+	background-image:url("images/square_yellow_small_2_active.png");
+}
+
+#object_blue_21.correct{background: url("images/square_yellow_small_2_star.png"); }
+#object_blue_22.correct{background: url("images/square_yellow_small_2_star.png"); }
+#object_blue_23.correct{background: url("images/square_yellow_small_2_star.png"); }
+#object_blue_24.correct{background: url("images/square_yellow_small_2_star.png"); }
+
+/*=====================This squares===========================*/
+
+
+#object_green_21{
+	background-image:url("images/square_yellow_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_21:hover{
+	background-image:url("images/square_yellow_small_4_hover.png");
+}
+
+#object_green_21:active{
+	background-image:url("images/square_yellow_small_4_active.png");
+}
+
+#object_green_22 {
+	background-image:url("images/square_yellow_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_green_22:hover{
+	background-image:url("images/square_yellow_small_4_hover.png");
+}
+
+#object_green_22:active{
+	background-image:url("images/square_yellow_small_4_active.png");
+
+}
+
+#object_green_23{
+	background-image:url("images/square_yellow_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_23:hover{
+	background-image:url("images/square_yellow_small_4_hover.png");
+}
+
+#object_green_23:active{
+	background-image:url("images/square_yellow_small_4_active.png");
+
+}
+
+#object_green_24{
+	background-image:url("images/square_yellow_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_24:hover{
+	background-image:url("images/square_yellow_small_4_hover.png");
+}
+
+#object_green_24:active{
+	background-image:url("images/square_yellow_small_4_active.png");
+}
+
+
+#object_green_21.correct{background: url("images/square_yellow_small_4_star.png"); }
+#object_green_22.correct{background: url("images/square_yellow_small_4_star.png");}
+#object_green_23.correct{background: url("images/square_yellow_small_4_star.png");}
+#object_green_24.correct{background: url("images/square_yellow_small_4_star.png");}
+
+
+/*=====================Triangles===========================*/
+
+
+#object_yellow_21{
+	background-image:url("images/triangle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_21:hover{
+	background-image:url("images/triangle_yellow_small_hover.png");
+}
+
+#object_yellow_21:active{
+	background-image:url("images/triangle_yellow_small_active.png");
+
+}
+
+#object_yellow_22 {
+	background-image:url("images/triangle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_yellow_22:hover{
+	background-image:url("images/triangle_yellow_small_hover.png");
+}
+
+#object_yellow_22:active{
+	background-image:url("images/triangle_yellow_small_active.png");
+
+}
+
+#object_yellow_23{
+	background-image:url("images/triangle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_23:hover{
+	background-image:url("images/triangle_yellow_small_hover.png");
+}
+
+#object_yellow_23:active{
+	background-image:url("images/triangle_yellow_small_active.png");
+
+}
+
+#object_yellow_24{
+	background-image:url("images/triangle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_24:hover{
+	background-image:url("images/triangle_yellow_small_hover.png");
+}
+
+#object_yellow_24:active{
+	background-image:url("images/triangle_yellow_small_active.png");
+}
+
+
+#object_yellow_21.correct{background: url("images/triangle_yellow_small_star.png"); }
+#object_yellow_22.correct{background: url("images/triangle_yellow_small_star.png");}
+#object_yellow_23.correct{background: url("images/triangle_yellow_small_star.png");}
+#object_yellow_24.correct{background: url("images/triangle_yellow_small_star.png");}
+
+
+/*=====================Circles===========================*/
+
+
+#object_red_21{
+	background-image:url("images/circle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_21:hover{
+	background-image:url("images/circle_yellow_small_hover.png");
+}
+
+#object_red_21:active{
+	background-image:url("images/circle_yellow_small_active.png");
+}
+
+#object_red_22 {
+	background-image:url("images/circle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_red_22:hover{
+	background-image:url("images/circle_yellow_small_hover.png");
+}
+
+#object_red_22:active{
+	background-image:url("images/circle_yellow_small_active.png");
+
+}
+
+#object_red_23{
+	background-image:url("images/circle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_23:hover{
+	background-image:url("images/circle_yellow_small_hover.png");
+}
+
+#object_red_23:active{
+	background-image:url("images/circle_yellow_small_active.png");
+}
+
+#object_red_24{
+	background-image:url("images/circle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_24:hover{
+	background-image:url("images/circle_yellow_small_hover.png");
+}
+
+#object_red_24:active{
+	background-image:url("images/circle_yellow_small_active.png");
+}
+
+
+#object_red_21.correct{background: url("images/circle_yellow_small_star.png"); }
+#object_red_22.correct{background: url("images/circle_yellow_small_star.png");}
+#object_red_23.correct{background: url("images/circle_yellow_small_star.png");}
+#object_red_24.correct{background: url("images/circle_yellow_small_star.png");}
+
+/*================================================================================*/
+/*================================The Red Color================================================*/
+/*================================================================================*/
+
+
+#object_blue_31{
+	background-image:url("images/square_red_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_31:hover{
+	background-image:url("images/square_red_small_2_hover.png");
+}
+
+#object_blue_31:active{
+	background-image:url("images/square_red_small_2_active.png");
+}
+
+#object_blue_32{
+	background-image:url("images/square_red_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_32:hover{
+	background-image:url("images/square_red_small_2_hover.png");
+}
+
+#object_blue_32:active{
+	background-image:url("images/square_red_small_2_active.png");
+}
+
+#object_blue_33{
+	background-image:url("images/square_red_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_33:hover{
+	background-image:url("images/square_red_small_2_hover.png");
+}
+
+#object_blue_33:active{
+	background-image:url("images/square_red_small_2_active.png");
+}
+
+#object_blue_34{
+	background-image:url("images/square_red_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_blue_34:hover{
+	background-image:url("images/square_red_small_2_hover.png");
+}
+
+#object_blue_34:active{
+	background-image:url("images/square_red_small_2_active.png");
+}
+
+#object_blue_31.correct{background: url("images/square_red_small_2_star.png"); }
+#object_blue_32.correct{background: url("images/square_red_small_2_star.png"); }
+#object_blue_33.correct{background: url("images/square_red_small_2_star.png"); }
+#object_blue_34.correct{background: url("images/square_red_small_2_star.png"); }
+
+/*=====================This squares===========================*/
+
+
+#object_green_31{
+	background-image:url("images/square_red_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_31:hover{
+	background-image:url("images/square_red_small_4_hover.png");
+}
+
+#object_green_31:active{
+	background-image:url("images/square_red_small_4_active.png");
+
+}
+
+#object_green_32 {
+	background-image:url("images/square_red_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_green_32:hover{
+	background-image:url("images/square_red_small_4_hover.png");
+}
+
+#object_green_32:active{
+	background-image:url("images/square_red_small_4_active.png");
+
+}
+
+#object_green_33{
+	background-image:url("images/square_red_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_33:hover{
+	background-image:url("images/square_red_small_4_hover.png");
+}
+
+#object_green_33:active{
+	background-image:url("images/square_red_small_4_active.png");
+
+}
+
+#object_green_34{
+	background-image:url("images/square_red_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_green_34:hover{
+	background-image:url("images/square_red_small_4_hover.png");
+}
+
+#object_green_34:active{
+	background-image:url("images/square_red_small_4_active.png");
+}
+
+
+#object_green_31.correct{background: url("images/square_red_small_4_star.png"); }
+#object_green_32.correct{background: url("images/square_red_small_4_star.png");}
+#object_green_33.correct{background: url("images/square_red_small_4_star.png");}
+#object_green_34.correct{background: url("images/square_red_small_4_star.png");}
+
+
+/*=====================Triangles===========================*/
+
+
+#object_yellow_31{
+	background-image:url("images/triangle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_31:hover{
+	background-image:url("images/triangle_red_small_hover.png");
+}
+
+#object_yellow_31:active{
+	background-image:url("images/triangle_red_small_active.png");
+
+}
+
+#object_yellow_32 {
+	background-image:url("images/triangle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_yellow_32:hover{
+	background-image:url("images/triangle_red_small_hover.png");
+}
+
+#object_yellow_32:active{
+	background-image:url("images/triangle_red_small_active.png");
+
+}
+
+#object_yellow_33{
+	background-image:url("images/triangle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_33:hover{
+	background-image:url("images/triangle_red_small_hover.png");
+}
+
+#object_yellow_33:active{
+	background-image:url("images/triangle_red_small_active.png");
+
+}
+
+#object_yellow_34{
+	background-image:url("images/triangle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_yellow_34:hover{
+	background-image:url("images/triangle_red_small_hover.png");
+}
+
+#object_yellow_34:active{
+	background-image:url("images/triangle_red_small_active.png");
+}
+
+
+#object_yellow_31.correct{background: url("images/triangle_red_small_star.png"); }
+#object_yellow_32.correct{background: url("images/triangle_red_small_star.png");}
+#object_yellow_33.correct{background: url("images/triangle_red_small_star.png");}
+#object_yellow_34.correct{background: url("images/triangle_red_small_star.png");}
+
+
+/*=====================Circles===========================*/
+
+
+#object_red_31{
+	background-image:url("images/circle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_31:hover{
+	background-image:url("images/circle_red_small_hover.png");
+}
+
+#object_red_31:active{
+	background-image:url("images/circle_red_small_active.png");
+}
+
+#object_red_32 {
+	background-image:url("images/circle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object_red_32:hover{
+	background-image:url("images/circle_red_small_hover.png");
+}
+
+#object_red_32:active{
+	background-image:url("images/circle_red_small_active.png");
+
+}
+
+#object_red_33{
+	background-image:url("images/circle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_33:hover{
+	background-image:url("images/circle_red_small_hover.png");
+}
+
+#object_red_33:active{
+	background-image:url("images/circle_red_small_active.png");
+}
+
+#object_red_34{
+	background-image:url("images/circle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object_red_34:hover{
+	background-image:url("images/circle_red_small_hover.png");
+}
+
+#object_red_34:active{
+	background-image:url("images/circle_red_small_active.png");
+}
+
+
+#object_red_31.correct{background: url("images/circle_red_small_star.png"); }
+#object_red_32.correct{background: url("images/circle_red_small_star.png");}
+#object_red_33.correct{background: url("images/circle_red_small_star.png");}
+#object_red_34.correct{background: url("images/circle_red_small_star.png");}
 
 /*================test================*/
 #popUp{

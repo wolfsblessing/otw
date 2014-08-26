@@ -83,6 +83,10 @@
     var check_object_red = 0;
     var guess_object_red = 0;
 
+    var ran_color = ["", "_1", "_2", "_3"];
+    ran_color.sort(function() {
+        return Math.random() - .3
+    });
 
     //Creating the init function so I don't use the $(document).ready function all the time
     //also, when i do changes to variables will be usuable withing the scope, because I'm having problems
@@ -92,19 +96,19 @@
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 4; k++) {
-            $("<li>" + "</li>").attr("id", "object_blue" + k).appendTo("#object_blue");
-            $("<li>" + "</li>").attr("id", "object_green" + k).appendTo("#object_green");
-            $("<li>" + "</li>").attr("id", "object_yellow" + k).appendTo("#object_yellow");
-            $("<li>" + "</li>").attr("id", "object_red" + k).appendTo("#object_red");
+            $("<li>" + "</li>").attr("id", "object_blue" + ran_color[0] + k).appendTo("#object_blue");
+            $("<li>" + "</li>").attr("id", "object_green" + ran_color[0] + k).appendTo("#object_green");
+            $("<li>" + "</li>").attr("id", "object_yellow" + ran_color[0] + k).appendTo("#object_yellow");
+            $("<li>" + "</li>").attr("id", "object_red" + ran_color[0] + k).appendTo("#object_red");
 
         };
 
         //Hiding every book element that I've created in the body
         for (var i = 1; i <= 4; i++) {
-            $("#object_blue" + i).hide();
-            $("#object_green" + i).hide();
-            $("#object_yellow" + i).hide();
-            $("#object_red" + i).hide();
+            $("#object_blue" + ran_color[0] + i).hide();
+            $("#object_green" + ran_color[0] + i).hide();
+            $("#object_yellow" + ran_color[0] + i).hide();
+            $("#object_red" + ran_color[0] + i).hide();
         };
 
         //create the divs with the little boxes to guess how many shirts were there and adding to 'numbers' div
@@ -157,7 +161,7 @@
        var top_position = [[430,0], [430, 100], [430, 200], [430, 300], 
                             [490, 0], [490, 100], [490, 200], [490, 300],
                             [540, 0],[540, 100], [540, 200], [540, 300], 
-                            [600, 0],[600, 100], [600, 200], [600, 300]];
+                            [600, 0],[600, 100], [600, 200], [600, 300],];
 
 
 //        var top_position = [430, 490, 540, 600]; 
@@ -185,7 +189,7 @@
         //        function showMyAlph() {
         for (var i = 1; i <= object_blueNumbers[0]; i++) {
 
-            $("#object_blue" + object_blue[i-1]).show().draggable({
+            $("#object_blue" + ran_color[0] + object_blue[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
@@ -237,7 +241,7 @@
         var checkgreen_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= object_greenNumbers[0]; i++) {
-            $("#object_green" + object_green[i-1]).show().draggable({
+            $("#object_green" + ran_color[0] + object_green[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
@@ -287,7 +291,7 @@
         var checkyellow_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= object_yellowNumbers[0]; i++) {
-            $("#object_yellow" + object_yellow[i-1]).show().draggable({
+            $("#object_yellow" + ran_color[0] + object_yellow[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
@@ -338,7 +342,7 @@
         var checkred_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= object_greenNumbers[0]; i++) {
-            $("#object_red" + object_red[i-1]).show().draggable({
+            $("#object_red" + ran_color[0] + object_red[i-1]).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
@@ -384,8 +388,8 @@
         //creating a function where it checks if the draggable items are as same as the droppable
         //then show the other elements
         function element_Check() {
-            if ((object_blueCounter == 4) && (object_greenCounter == 4) &&
-                (object_yellowCounter == 4) && (object_redCounter == 4)) {
+            if ((object_blueCounter == object_blueNumbers[0]) && (object_greenCounter == object_greenNumbers[0]) &&
+                (object_yellowCounter == object_yellowNumbers[0]) && (object_redCounter == object_greenNumbers[0])) {
                  $("#popUp").fadeIn(2000);
                  $("#score").fadeIn(2000);
                  $("#textMe").hide();
