@@ -56,9 +56,9 @@ body {
 #object_blue{
 	position: absolute;
 	width: 180px;
-	height: 510px;
+	height: 110px;
 	top: 100px;
-	left: 220px;
+	left: 250px;
 }
 
 
@@ -178,9 +178,9 @@ body {
 #object_green{
 	position: absolute;
 	width: 180px;
-	height: 510px;
-	top: 0px;
-	left: 240px;
+	height: 110px;
+	top: 100px;
+	left: 250px;
 }	
 
 #object_green li {
@@ -284,9 +284,9 @@ body {
 #object_yellow{
 	position: absolute;
 	width: 180px;
-	height: 510px;
-	top: 0px;
-	left: 240px;
+	height: 110px;
+	top: 100px;
+	left: 250px;
 }	
 
 #object_yellow li {
@@ -390,9 +390,9 @@ body {
 #object_red{
 	position: absolute;
 	width: 180px;
-	height: 510px;
-	top: 0px;
-	left: 240px;
+	height: 110px;
+	top: 100px;
+	left: 250px;
 }	
 
 #object_red li {

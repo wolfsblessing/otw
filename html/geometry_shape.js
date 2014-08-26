@@ -163,21 +163,7 @@
                             [540, 0],[540, 100], [540, 200], [540, 300], 
                             [600, 0],[600, 100], [600, 200], [600, 300],];
 
-
-//        var top_position = [430, 490, 540, 600]; 
-        var left_position = [0, 100, 200, 300];
-
         top_position.sort(function() {
-         return Math.random() - .3
-        });
-
-        left_position.sort(function() {
-         return Math.random() - .3
-        });
-
-        var x_position = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15];
-
-        x_position.sort(function() {
          return Math.random() - .3
         });
 

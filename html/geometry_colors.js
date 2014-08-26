@@ -143,6 +143,17 @@
         $("#howMany").hide();
         $("#shirtNumGuess").hide();
 
+//Creating the array for all 16 positions so i can put for random placement when the objects are
+//created
+        var top_position = [[430,0], [430, 100], [430, 200], [430, 300], 
+                            [490, 0], [490, 100], [490, 200], [490, 300],
+                            [540, 0],[540, 100], [540, 200], [540, 300], 
+                            [600, 0],[600, 100], [600, 200], [600, 300],];
+
+        top_position.sort(function() {
+         return Math.random() - .3
+        });
+
         //creating a for loop so i decide to show random elements that are hiden.
         //Making them draggable and droppable at the same time while the loop is checking
         //need to ask why i had to use '-1' at the array so the droppable objects are shown in order
@@ -160,9 +171,13 @@
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "430px",
-                left: dacopy[i - 1] + "px"
+                // top: "430px",
+                // left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+
+            top_position.splice(i-1, 1);
 
             $("#object_blue_transparent").droppable({
                 accept: "#object_blue > li",
@@ -206,9 +221,13 @@
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "570px",
-                left: dacopy[i - 1] + "px"
+                // top: "570px",
+                // left: dacopy[i - 1] + "px"
+
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+            top_position.splice(i-1, 1);
 
             $("#object_green_transparent").droppable({
                 accept: "#object_green > li",
@@ -252,9 +271,13 @@
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "630px",
-                left: dacopy[i - 1] + "px"
+                // top: "630px",
+                // left: dacopy[i - 1] + "px"
+
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
+            top_position.splice(i-1, 1);
 
             $("#object_yellow_transparent").droppable({
                 accept: "#object_yellow > li",
@@ -299,8 +322,11 @@
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "680px",
-                left: dacopy[i - 1] + "px"
+                // top: "680px",
+                // left: dacopy[i - 1] + "px"
+
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000);
 
             $("#object_red_transparent").droppable({
