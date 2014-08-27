@@ -66,9 +66,9 @@ body {
 #object1{
 	position: absolute;
 	width: 180px;
-	height: 510px;
+	height: 110px;
 	top: 100px;
-	left: 220px;
+	left: 250px;
 }
 
 
@@ -163,8 +163,218 @@ body {
 #object13.correct{background: url("images/triangle_small_star.png"); }
 #object14.correct{background: url("images/circle_small_star.png"); }
 
+/*==================================================================*/
+/*=============================Green================================*/
+/*==================================================================*/
 
-/*=====================object2s===========================*/
+#object31{
+	background-image:url("images/square_green_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object31:hover{
+	background-image:url("images/square_green_small_2_hover.png");
+}
+
+#object31:active{
+	background-image:url("images/square_green_small_2_active.png");
+}
+
+#object32{
+	background-image:url("images/square_green_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object32:hover{
+	background-image:url("images/square_green_small_4_hover.png");
+}
+
+#object32:active{
+	background-image:url("images/square_green_small_4_active.png");
+	background-image:url("images/square_green_small_4_hover.png");
+}
+
+#object33{
+	background-image:url("images/triangle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object33:hover{
+	background-image:url("images/triangle_green_small_hover.png");
+}
+
+#object33:active{
+	background-image:url("images/triangle_green_small_active.png");
+}
+
+#object34{
+	background-image:url("images/circle_green_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object34:hover{
+	background-image:url("images/circle_green_small_hover.png");
+}
+
+#object34:active{
+	background-image:url("images/circle_green_small_active.png");
+}
+
+#object31.correct{background: url("images/square_green_small_2_star.png"); }
+#object32.correct{background: url("images/square_green_small_4_star.png"); }
+#object33.correct{background: url("images/triangle_green_small_star.png"); }
+#object34.correct{background: url("images/circle_green_small_star.png"); }
+
+/*==================================================================*/
+/*============================= Yellow =============================*/
+/*==================================================================*/
+
+#object51{
+	background-image:url("images/square_yellow_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object51:hover{
+	background-image:url("images/square_yellow_small_2_hover.png");
+}
+
+#object51:active{
+	background-image:url("images/square_yellow_small_2_active.png");
+}
+
+#object52{
+	background-image:url("images/square_yellow_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object52:hover{
+	background-image:url("images/square_yellow_small_4_hover.png");
+}
+
+#object52:active{
+	background-image:url("images/square_yellow_small_4_active.png");
+}
+
+#object53{
+	background-image:url("images/triangle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object53:hover{
+	background-image:url("images/triangle_yellow_small_hover.png");
+}
+
+#object53:active{
+	background-image:url("images/triangle_yellow_small_active.png");
+}
+
+#object54{
+	background-image:url("images/circle_yellow_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object54:hover{
+	background-image:url("images/circle_yellow_small_hover.png");
+}
+
+#object54:active{
+	background-image:url("images/circle_yellow_small_active.png");
+}
+
+#object51.correct{background: url("images/square_yellow_small_2_star.png"); }
+#object52.correct{background: url("images/square_yellow_small_4_star.png"); }
+#object53.correct{background: url("images/triangle_yellow_small_star.png"); }
+#object54.correct{background: url("images/circle_yellow_small_star.png"); }
+
+/*==================================================================*/
+/*=============================== Red ==============================*/
+/*==================================================================*/
+
+#object71{
+	background-image:url("images/square_red_small_2.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object71:hover{
+	background-image:url("images/square_red_small_2_hover.png");
+}
+
+#object71:active{
+	background-image:url("images/square_red_small_2_active.png");
+}
+
+#object72{
+	background-image:url("images/square_red_small_4.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object72:hover{
+	background-image:url("images/square_red_small_4_hover.png");
+}
+
+#object72:active{
+	background-image:url("images/square_red_small_4_active.png");
+}
+
+#object73{
+	background-image:url("images/triangle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object73:hover{
+	background-image:url("images/triangle_red_small_hover.png");
+}
+
+#object73:active{
+	background-image:url("images/triangle_red_small_active.png");
+}
+
+#object74{
+	background-image:url("images/circle_red_small.png");
+	position: absolute;
+	width: 60px;
+	height: 60px;
+}
+
+#object74:hover{
+	background-image:url("images/circle_red_small_hover.png");
+}
+
+#object74:active{
+	background-image:url("images/circle_red_small_active.png");
+}
+
+#object71.correct{background: url("images/square_red_small_2_star.png"); }
+#object72.correct{background: url("images/square_red_small_4_star.png"); }
+#object73.correct{background: url("images/triangle_red_small_star.png"); }
+#object74.correct{background: url("images/circle_red_small_star.png"); }
+
+
+/*=======================================================*/
+/*=====================The big objects===================*/
+/*=======================================================*/
 
 #object2_outline {
 	position: absolute;
@@ -202,9 +412,9 @@ body {
 #object2{
 	position: absolute;
 	width: 180px;
-	height: 510px;
-	top: 0px;
-	left: 240px;
+	height: 110px;
+	top: 100px;
+	left: 250px;
 }	
 
 #object2 li {
@@ -282,6 +492,256 @@ body {
 #object22.correct{background: url("images/square_big_2_star.png");}
 #object23.correct{background: url("images/triangle_big_star.png");}
 #object24.correct{background: url("images/circle_big_star.png");}
+
+/*=======================================================*/
+/*=====================The big objects===================*/
+/*=======================================================*/
+
+#object41{
+	background-image:url("images/square_green_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object41:hover{
+	background-image:url("images/square_green_big_hover.png");
+}
+
+#object41:active{
+	background-image:url("images/square_green_big_active.png");
+
+}
+
+#object42 {
+	background-image:url("images/square_green_big_2.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object42:hover{
+	background-image:url("images/square_green_big_2_hover.png");
+}
+
+#object42:active{
+	background-image:url("images/square_green_big_2_active.png");
+
+}
+
+#object43{
+	background-image:url("images/triangle_green_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object43:hover{
+	background-image:url("images/triangle_green_big_hover.png");
+}
+
+#object43:active{
+	background-image:url("images/triangle_green_big_active.png");
+
+}
+
+#object44{
+	background-image:url("images/circle_green_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object44:hover{
+	background-image:url("images/circle_green_big_hover.png");
+}
+
+#object44:active{
+	background-image:url("images/circle_green_big_active.png");
+
+}
+
+#object41.correct{background: url("images/square_green_big_star.png");}
+#object42.correct{background: url("images/square_green_big_2_star.png");}
+#object43.correct{background: url("images/triangle_green_big_star.png");}
+#object44.correct{background: url("images/circle_green_big_star.png");}
+
+/*=======================================================*/
+/*=====================The big objects===================*/
+/*=======================================================*/
+
+#object61{
+	background-image:url("images/square_yellow_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object61:hover{
+	background-image:url("images/square_yellow_big_hover.png");
+}
+
+#object61:active{
+	background-image:url("images/square_yellow_big_active.png");
+
+}
+
+#object62 {
+	background-image:url("images/square_yellow_big_2.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object62:hover{
+	background-image:url("images/square_yellow_big_2_hover.png");
+}
+
+#object62:active{
+	background-image:url("images/square_yellow_big_2_active.png");
+
+}
+
+#object63{
+	background-image:url("images/triangle_yellow_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object63:hover{
+	background-image:url("images/triangle_yellow_big_hover.png");
+}
+
+#object63:active{
+	background-image:url("images/triangle_yellow_big_active.png");
+
+}
+
+#object64{
+	background-image:url("images/circle_yellow_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object64:hover{
+	background-image:url("images/circle_yellow_big_hover.png");
+}
+
+#object64:active{
+	background-image:url("images/circle_yellow_big_active.png");
+
+}
+
+#object61.correct{background: url("images/square_yellow_big_star.png");}
+#object62.correct{background: url("images/square_yellow_big_2_star.png");}
+#object63.correct{background: url("images/triangle_yellow_big_star.png");}
+#object64.correct{background: url("images/circle_yellow_big_star.png");}
+
+/*=======================================================*/
+/*=====================The big objects===================*/
+/*=======================================================*/
+
+#object81{
+	background-image:url("images/square_red_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object81:hover{
+	background-image:url("images/square_red_big_hover.png");
+}
+
+#object81:active{
+	background-image:url("images/square_red_big_active.png");
+
+}
+
+#object82 {
+	background-image:url("images/square_red_big_2.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+/*	-ms-transform: scale(2,2); /* IE 9 */
+/*    -webkit-transform: scale(2,2); /* Chrome, Safari, Opera */
+/*    transform: scale(2,2); /* Standard syntax */	
+}
+
+#object82:hover{
+	background-image:url("images/square_red_big_2_hover.png");
+}
+
+#object82:active{
+	background-image:url("images/square_red_big_2_active.png");
+
+}
+
+#object83{
+	background-image:url("images/triangle_red_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object83:hover{
+	background-image:url("images/triangle_red_big_hover.png");
+}
+
+#object83:active{
+	background-image:url("images/triangle_red_big_active.png");
+
+}
+
+#object84{
+	background-image:url("images/circle_red_big.png");
+	position: absolute;
+	width: 110px;
+	height: 110px;
+}
+
+#object84:hover{
+	background-image:url("images/circle_red_big_hover.png");
+}
+
+#object84:active{
+	background-image:url("images/circle_red_big_active.png");
+
+}
+
+#object81.correct{background: url("images/square_red_big_star.png");}
+#object82.correct{background: url("images/square_red_big_2_star.png");}
+#object83.correct{background: url("images/triangle_red_big_star.png");}
+#object84.correct{background: url("images/circle_red_big_star.png");}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /*================test================*/
 #popUp{
 	position: absolute;

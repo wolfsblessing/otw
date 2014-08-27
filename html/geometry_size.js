@@ -52,6 +52,11 @@
     var guess_object2 = 0;
     var true_object2 = 0;
   
+    var ran_color = [[1, 2], [3, 4], [5, 6], [7, 8]];
+    ran_color.sort(function() {
+        return Math.random() - .3
+    });
+
     //Creating the init function so I don't use the $(document).ready function all the time
     //also, when i do changes to variables will be usuable withing the scope, because I'm having problems
     //working with them outside the function
@@ -60,8 +65,8 @@
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 4; k++) {
-            $("<li>" + "</li>").attr("id", "object1" + k).appendTo("#object1");
-            $("<li>" + "</li>").attr("id", "object2" + k).appendTo("#object2");
+            $("<li>" + "</li>").attr("id", "object" + ran_color[0][0] + k).appendTo("#object1");
+            $("<li>" + "</li>").attr("id", "object" + ran_color[0][1] + k).appendTo("#object2");
 
         };
 
@@ -73,7 +78,7 @@
 
         //create the divs with the little boxes to guess how many shirts were there and adding to 'numbers' div
         for (var k = 1; k <= 4; k++) {
-            $("<div>" + k + "</div>").attr("id", "da_object1" + k).appendTo("#numbers1");
+            $("<div>" + k + "</div>").attr("id", "da_object" +ran_color[0] + k).appendTo("#numbers1");
             $("<div>" + k + "</div>").attr("id", "da_object2" + k).appendTo("#numbers2");
         };
 
@@ -121,14 +126,20 @@
         var check1_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= 4; i++) {
-            $("#object1" + i).show().draggable({
+            $("#object" + ran_color[0][0] + i).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "400px",
-                left: dacopy[i - 1] + "px"
+                // top: "400px",
+                // left: dacopy[i - 1] + "px"
+
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
+
             }, 2000);
+
+            top_position.splice(i-1, 1);
 
             $("#object1_transparent").droppable({
                 accept: "#object1 > li",
@@ -167,13 +178,17 @@
         var check2_left = 0;
         //        function showMyAlph() {
         for (var i = 1; i <= 4; i++) {
-            $("#object2" + i).show().draggable({
+            $("#object" +ran_color[0][1] + i).show().draggable({
                 cursor: "move",
                 revert: true
             }).animate({
                 "position": "absolute",
-                top: "560px",
-                left: dacopy[i - 1] + "px"
+                // top: "560px",
+                // left: dacopy[i - 1] + "px"
+
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
+
             }, 2000);
 
             $("#object2_transparent").droppable({
