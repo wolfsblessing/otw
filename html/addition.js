@@ -77,9 +77,6 @@
     function init() {
 
         $("#showCheckMe").text(store.get("remember_my_count"));
-        //        $("#showfirst").text(firstNumber[0]);
-        //        $("#showsecond").text(secondNumber);
-        //       $("#showthird").text(thirdNumber[0]);
 
         for (k = 1; k <= 10; k++) {
             $("<div>" + k + "</div>").attr("id", "number" + k).appendTo("#choseNumbers");
@@ -104,6 +101,7 @@
 
 
         $("<div>" + "</div>").attr("id", "inResult").appendTo("#result");
+
          if (store.get("remember_my_count") > 3){
             first_random = first_seven[0];
             second_random = third_seven[0];
@@ -117,9 +115,6 @@
             result_random = the_result;
             length_random = firstNumber.length;
         };
-
-
-
 
         $("#firstNumber").text(first_random);
         $("#secondNumber").text(second_random);
@@ -195,8 +190,6 @@
                             $("#popUp2").show();
                         };
 
-
-
                         $("#showCheckMe").text(store.get("remember_my_count"));
 
                         $("#showFirst").fadeIn();
@@ -252,9 +245,6 @@
         $(".back").click(function() {
             store.set("remember_my_count", 1);
         });
-
-
-
 
 //the end of init()         
     };
