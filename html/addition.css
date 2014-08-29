@@ -362,7 +362,6 @@ body {
 	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 }
 
-
 #popUp{
 	position: absolute;
 	top: 20px;
@@ -375,6 +374,28 @@ body {
 	border: 2px solid #000;
 	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
 }
+
+#popUp2{
+	position: absolute;
+	top: 120px;
+	left: 220px;
+	background: #fff;
+	width: 350px;
+	height: 150px;
+	float: left;
+	border-radius: 10px;
+	border: 2px solid #000;
+	box-shadow: inset 0px 0px 10px rgba(105,105,105,0.7);
+}
+
+#text_me {
+	position: absolute;
+	width: 320px;
+	top: 30px;
+	left: 10px;
+	text-align: center;
+}
+
 
 #score {
 	position: absolute;
@@ -389,7 +410,6 @@ body {
 #stars{
 	float: left;
 }
-
 
 .back{
 	position: absolute;
@@ -435,3 +455,18 @@ button{
 
 	margin: 0;
 }
+
+.back2{
+	position: absolute;
+	top: -30px;
+	left: -55px;
+	width: 120px;
+}
+
+.reset2 {
+	position: absolute;
+	top: -30px;
+	left: 145px;
+	width: 120px;
+}
+
