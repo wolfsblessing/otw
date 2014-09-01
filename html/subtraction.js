@@ -70,7 +70,7 @@
 
     function init() {
 
-        $("#showCheckMe").text(store.get("remember_my_count"));
+//        $("#showCheckMe").text(store.get("remember_my_count"));
 
         for (k = 0; k <= 10; k++) {
             $("<div>" + k + "</div>").attr("id", "number" + k).appendTo("#choseNumbers");
@@ -196,8 +196,8 @@
                         $("#the_equal_2").fadeIn();
                         $("#result_2").fadeIn();
 
-                        for (m = 0; m <= result_random; m++) {
-                            $("#toShowResult" + m).show();
+                        for (m = 1; m <= result_random; m++) {
+                            $("#toShowResult" +(second_random + m)).show();
                         };
                         $(this).droppable('disable');
 //                        $("#choseNumbers").fadeOut(500);
