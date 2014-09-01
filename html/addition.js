@@ -140,7 +140,7 @@
                         };
                     //creating the objects for the second number
                         for (k = 1; k <= second_random; k++) {
-                            $("#toShowSecond" + k).show();
+                            $("#toShowSecond" + (first_random + k)).show();
                         };
                         $("#number" + result_random).animate({
                             "background-color": "red"
