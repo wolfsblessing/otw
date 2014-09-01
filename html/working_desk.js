@@ -19,6 +19,16 @@
             'padding-top': '5'}, 100);
     });
 
+    $("#add").click(function() {
+        store.set("remember_my_count", 1);
+    });
+
+    $("#subtraction").click(function() {
+        store.set("remember_my_count", 1);
+    });
+
+
+
     $(init);
 
 })();

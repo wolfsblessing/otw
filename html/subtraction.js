@@ -236,6 +236,10 @@
             $("#result").fadeIn(1000);
         });
 
+        $(".back2").click(function() {
+            store.set("remember_my_count", 1);
+        });
+
         $("#previous").click(function() {
             store.set("remember_my_count", 1);
         });
