@@ -48,12 +48,12 @@ body {
 	font-weight: bold;
 }
 
-#toShowFirst1, #toShowSecond1, #toShowResult1{
-	background-image: url("images/a1.png");
+#toShowFirst1, #toShowResult1{
+	background-image: url("images/animal1.png");
 	float: left;
 	margin: 0;
 	margin-left: -15px;
-	margin-top: -30px;
+	margin-top: -10px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -62,103 +62,11 @@ body {
     transform: scale(0.5,0.5); /* Standard syntax */
 }
 
-#toShowFirst2, #toShowSecond2, #toShowResult2 {
-	background-image:url("images/a2.png");
-	float: left;
-	margin-left: -40px;
-	margin-top: -30px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-#toShowFirst3, #toShowSecond3, #toShowResult3 {
-	background-image:url("images/a3.png");
-	float: left;
-	margin-left: -47px;
-	margin-top: -30px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-#toShowFirst4, #toShowSecond4, #toShowResult4 {
-	background-image:url("images/a4.png");
-	float: left;
-	margin-left: -15px;
-	margin-top: -50px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-#toShowFirst5, #toShowSecond5, #toShowResult5 {
-	background-image:url("images/a5.png");
-	float: left;
-	margin-left: -45px;
-	margin-top: -50px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-#toShowFirst6, #toShowSecond6, #toShowResult6 {
-	background-image:url("images/a6.png");
-	float: left;
-	margin-left: -45px;
-	margin-top: -50px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-
-#toShowFirst7, #toShowSecond7, #toShowResult7 {
-	background-image:url("images/a7.png");
-	float: left;
-	margin-left: -20px;
-	margin-top: -50px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-#toShowFirst8, #toShowSecond8, #toShowResult8 {
-	background-image:url("images/animal1.png");
-	float: left;
-	margin-left: -40px;
-	margin-top: -50px;
-	padding: 0;
-	width: 104px;
-	height: 100px;
-	-ms-transform: scale(0.5,0.5); /* IE 9 */
-    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
-    transform: scale(0.5,0.5); /* Standard syntax */
-}
-
-#toShowFirst9, #toShowSecond9, #toShowResult9 {
+#toShowFirst2, #toShowResult2 {
 	background-image:url("images/animal2.png");
 	float: left;
-	margin-left: -50px;
-	margin-top: -50px;
+	margin-left: -40px;
+	margin-top: -10px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -167,11 +75,11 @@ body {
     transform: scale(0.5,0.5); /* Standard syntax */
 }
 
-#toShowFirst10, #toShowSecond10, #toShowResult10 {
+#toShowFirst3, #toShowResult3 {
 	background-image:url("images/animal3.png");
 	float: left;
-	margin-left: -15px;
-	margin-top: -50px;
+	margin-left: -47px;
+	margin-top: -10px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -180,13 +88,246 @@ body {
     transform: scale(0.5,0.5); /* Standard syntax */
 }
 
-#toShowFirst2:hover{
-	background-image:url("images/a2_hover.png");
+#toShowFirst4, #toShowResult4 {
+	background-image:url("images/animal4.png");
+	float: left;
+	margin-left: -15px;
+	margin-top: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
-#toShowFirst2:active{
-	background-image:url("images/a2_active.png");
+#toShowFirst5, #toShowResult5 {
+	background-image:url("images/animal6.png");
+	float: left;
+	margin-left: -45px;
+	margin-top: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
 
+#toShowFirst6, #toShowResult6 {
+	background-image:url("images/animal7.png");
+	float: left;
+	margin-left: -45px;
+	margin-top: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+
+#toShowFirst7, #toShowResult7 {
+	background-image:url("images/animal8.png");
+	float: left;
+	margin-left: -15px;
+	margin-top: -45px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowFirst8, #toShowResult8 {
+	background-image:url("images/animal9.png");
+	float: left;
+	margin-left: -40px;
+	margin-top: -45px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowFirst9, #toShowResult9 {
+	background-image:url("images/animal10.png");
+	float: left;
+	margin-left: -50px;
+	margin-top: -45px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowFirst10, #toShowResult10 {
+	background-image:url("images/animal11.png");
+	float: left;
+	margin-left: -20px;
+	margin-top: -45px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+/*================================================================================*/
+#toShowSecond1{
+	background-image: url("images/animal1.png");
+	float: left;
+	margin: 0px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	margin-top: -10px;
+	margin: 0;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond2{
+	background-image:url("images/animal2.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond3{
+	background-image:url("images/animal3.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond4{
+	background-image:url("images/animal4.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond5{
+	background-image:url("images/animal6.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond6{
+	background-image:url("images/animal7.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond7 {
+	background-image:url("images/animal8.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond8{
+	background-image:url("images/animal9.png");
+	float: left;
+	margin: 0px;
+	margin-top: -10px;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond9{
+	background-image:url("images/animal10.png");
+	float: left;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	margin-top: -10px;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+}
+
+#toShowSecond10{
+	background-image:url("images/animal11.png");
+	float: left;
+	margin-right: -52px;
+	margin-bottom: -40px;
+	padding: 0;
+	margin-top: -10px;
+	width: 104px;
+	height: 100px;
+	-ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
 }
 
 #the_Plus {
@@ -310,7 +451,7 @@ body {
 	top: 280px;
 	left: 20px;
 	width: 210px;
-	height: 210px;
+	height: 250px;
 	background: #eaeaea;
 	border: 2px solid #333;
 	border-radius: 10px;
@@ -331,8 +472,9 @@ body {
 	position: absolute;
 	top: 280px;
 	left: 300px;
-	width: 210px;
-	height: 210px;
+	padding-right: 40px;
+	width: 170px;
+	height: 250px;
 	background: #eaeaea;
 	border: 2px solid #333;
 	border-radius: 10px;
@@ -355,7 +497,7 @@ body {
 	top: 280px;
 	left: 580px;
 	width: 210px;
-	height: 210px;
+	height: 250px;
 	background: #eaeaea;
 	border: 2px solid #333;
 	border-radius: 10px;

@@ -173,7 +173,7 @@
                         };
                     //creating the objects for the second number
                         for (k = 1; k <= second_random; k++) {
-                            $("#toShowSecond" + k).show();
+                            $("#toShowSecond" + (first_random + k)).show();
                         };
 
                         var currentCount = store.get("remember_my_count");
