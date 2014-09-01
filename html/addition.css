@@ -11,13 +11,12 @@ body {
 	padding: 0px;
 }
 
-
 #wholeRoom {
 	position: absolute;
 	top: 20px;
 	left: 30px;
 	width: 815px;
-	height: 550px;
+	height: 570px;
 	background: #b53131;
 
 	border: 2px solid #000;
@@ -592,7 +591,7 @@ button{
 
 #previous{
 	position: absolute;
-	top: 520px;
+	top: 540px;
 	left: 20px;
 
 	margin: 0;

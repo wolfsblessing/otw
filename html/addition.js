@@ -76,7 +76,7 @@
 
     function init() {
 
-        $("#showCheckMe").text(store.get("remember_my_count"));
+//        $("#showCheckMe").text(store.get("remember_my_count"));
 
         for (k = 1; k <= 10; k++) {
             $("<div>" + k + "</div>").attr("id", "number" + k).appendTo("#choseNumbers");
