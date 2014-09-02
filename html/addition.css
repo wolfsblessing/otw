@@ -541,7 +541,7 @@ body {
 #score {
 	position: absolute;
 	top: 170px;
-	left: 795px;
+	left: 820px;
 	width: 270px;
 	height: 60px;
 	font-size: 1.3em;
@@ -566,15 +566,61 @@ body {
 	width: 120px;
 }
 
-
-#starMe{
+#starMe1{
 	background-image:url("images/star.png");
-	position: relative;
-	top: 60px;
-	left: 70px;
+	position: absolute;
+	top: 210px;
+	left: 260px;
 	width: 58px;
 	height: 56px;
 }
+
+#starMe2{
+	background-image:url("images/star.png");
+	position: absolute;
+	top: 210px;
+	left: 365px;
+	width: 58px;
+	height: 56px;
+}
+
+#starMe3{
+	background-image:url("images/star.png");
+	position: absolute;
+	top: 210px;
+	left: 470px;
+	width: 58px;
+	height: 56px;
+}
+
+#starMe4{
+	background-image:url("images/star.png");
+	position: absolute;
+	top: 210px;
+	left: 290px;
+	width: 58px;
+	height: 56px;
+}
+
+#starMe5{
+	background-image:url("images/star.png");
+	position: absolute;
+	top: 210px;
+	left: 435px;
+	width: 58px;
+	height: 56px;
+}
+
+#starMe6{
+	background-image:url("images/star.png");
+	position: absolute;
+	top: 210px;
+	left: 365px;
+	width: 58px;
+	height: 56px;
+}
+
+
 
 button{
 	font-size: 0.8em;
