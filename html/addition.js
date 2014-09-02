@@ -185,7 +185,7 @@
                             };
 
                             if(store.get("check_success") >= 6){
-                                $("#text_me").text("Браво за добро извршената задача. Си доби две ѕвезди!");
+                                $("#text_me").text("Браво. Успешно заврши " + store.get("check_success") + " задачи. Си доби две ѕвезди!");
                                 $("#starMe4").fadeIn();
                                 $("#starMe5").fadeIn();
                             };
@@ -237,6 +237,7 @@
                             $("#result").fadeOut(1000);
                             $("#popUp").hide();
                             $("#popUp2").show();
+                            $("#previous").hide();
 
                             if(store.get("check_success") <= 5){
                                 $("#text_me").text("Задачата е завршена. Си доби 1 ѕвезда!");

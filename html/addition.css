@@ -532,7 +532,7 @@ body {
 #text_me {
 	position: absolute;
 	width: 320px;
-	top: 30px;
+	top: 0px;
 	left: 10px;
 	text-align: center;
 }
@@ -569,7 +569,7 @@ body {
 #starMe1{
 	background-image:url("images/star.png");
 	position: absolute;
-	top: 210px;
+	top: 180px;
 	left: 260px;
 	width: 58px;
 	height: 56px;
@@ -578,7 +578,7 @@ body {
 #starMe2{
 	background-image:url("images/star.png");
 	position: absolute;
-	top: 210px;
+	top: 180px;
 	left: 365px;
 	width: 58px;
 	height: 56px;
@@ -587,7 +587,7 @@ body {
 #starMe3{
 	background-image:url("images/star.png");
 	position: absolute;
-	top: 210px;
+	top: 180px;
 	left: 470px;
 	width: 58px;
 	height: 56px;
@@ -596,7 +596,7 @@ body {
 #starMe4{
 	background-image:url("images/star.png");
 	position: absolute;
-	top: 210px;
+	top: 180px;
 	left: 290px;
 	width: 58px;
 	height: 56px;
@@ -605,7 +605,7 @@ body {
 #starMe5{
 	background-image:url("images/star.png");
 	position: absolute;
-	top: 210px;
+	top: 180px;
 	left: 435px;
 	width: 58px;
 	height: 56px;
@@ -614,7 +614,7 @@ body {
 #starMe6{
 	background-image:url("images/star.png");
 	position: absolute;
-	top: 210px;
+	top: 180px;
 	left: 365px;
 	width: 58px;
 	height: 56px;
@@ -645,14 +645,14 @@ button{
 
 .back2{
 	position: absolute;
-	top: -30px;
+	top: 70px;
 	left: -55px;
 	width: 120px;
 }
 
 .reset2 {
 	position: absolute;
-	top: -30px;
+	top: 70px;
 	left: 145px;
 	width: 120px;
 }
