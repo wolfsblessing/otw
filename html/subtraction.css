@@ -189,16 +189,14 @@ body {
 }
 
 
-
-
-
-
-
+/*==========================================================================*/
 #toShowResult1{
+	position: relative;
 	background-image: url("images/animal1.png");
 	float: left;
-	margin: 0;
-	padding: 0;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	width: 104px;
 	height: 100px;
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -207,9 +205,12 @@ body {
 }
 
 #toShowResult2 {
+	position: relative;
 	background-image:url("images/animal2.png");
 	float: left;
-	padding: 0;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	width: 104px;
 	height: 100px;
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -218,9 +219,12 @@ body {
 }
 
 #toShowResult3 {
+	position: relative;
 	background-image:url("images/animal3.png");
 	float: left;
-	padding: 0;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	width: 104px;
 	height: 100px;
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -229,9 +233,12 @@ body {
 }
 
 #toShowResult4 {
+	position: relative;
 	background-image:url("images/animal4.png");
 	float: left;
-	padding: 0;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	width: 104px;
 	height: 100px;
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -240,8 +247,12 @@ body {
 }
 
 #toShowResult5 {
+	position: relative;
 	background-image:url("images/animal6.png");
 	float: left;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -251,8 +262,12 @@ body {
 }
 
 #toShowResult6 {
+	position: relative;
 	background-image:url("images/animal7.png");
 	float: left;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -263,9 +278,12 @@ body {
 
 
 #toShowResult7 {
+	position: relative;
 	background-image:url("images/animal8.png");
 	float: left;
-	padding: 0;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	width: 104px;
 	height: 100px;
 	-ms-transform: scale(0.5,0.5); /* IE 9 */
@@ -274,8 +292,12 @@ body {
 }
 
 #toShowResult8 {
+	position: relative;
 	background-image:url("images/animal9.png");
 	float: left;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -285,8 +307,12 @@ body {
 }
 
 #toShowResult9 {
+	position: relative;
 	background-image:url("images/animal10.png");
 	float: left;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -296,8 +322,12 @@ body {
 }
 
 #toShowResult10 {
+	position: relative;
 	background-image:url("images/animal11.png");
 	float: left;
+	margin-top: -10px;
+	margin-right: -40px;
+	margin-bottom: -40px;
 	padding: 0;
 	width: 104px;
 	height: 100px;
@@ -305,27 +335,6 @@ body {
     -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
     transform: scale(0.5,0.5); /* Standard syntax */
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 #the_Minus{
 	position: absolute;
@@ -446,8 +455,9 @@ body {
 	position: absolute;
 	top: 280px;
 	left: 20px;
+	padding-top: 20px;
 	width: 210px;
-	height: 210px;
+	height: 230px;
 	background: #eaeaea;
 	border: 2px solid #333;
 	border-radius: 10px;
@@ -467,9 +477,10 @@ body {
 #showSecond{
 	position: absolute;
 	top: 280px;
+	padding-top: 20px;
 	left: 300px;
 	width: 210px;
-	height: 210px;
+	height: 230px;
 	background: #eaeaea;
 	border: 2px solid #333;
 	border-radius: 10px;
@@ -491,8 +502,9 @@ body {
 	position: absolute;
 	top: 280px;
 	left: 580px;
+	padding-right: 20px;
 	width: 210px;
-	height: 210px;
+	height: 250px;
 	background: #eaeaea;
 	border: 2px solid #333;
 	border-radius: 10px;

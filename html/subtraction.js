@@ -188,7 +188,7 @@
                             $("#popUp2").show();
                         };
 
-                        $("#showCheckMe").text(store.get("remember_my_count"));
+//                        $("#showCheckMe").text(store.get("remember_my_count"));
 
                         $("#showFirst").fadeIn();
                         $("#the_Plus_2").fadeIn();
