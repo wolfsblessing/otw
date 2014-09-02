@@ -537,6 +537,14 @@ body {
 	text-align: center;
 }
 
+#text_me_sq {
+	position: absolute;
+	width: 320px;
+	top: 0px;
+	left: 10px;
+	text-align: center;
+}
+
 
 #score {
 	position: absolute;

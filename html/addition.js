@@ -181,17 +181,20 @@
 
                             if(store.get("check_success") <= 5){
                                 $("#text_me").text("Задачата е завршена. Си доби 1 ѕвезда!");
+                                $("#text_me_sq").text("Detyra ka mbaruar. Ke fituar 1 Yll!");
                                 $("#starMe6").fadeIn();
                             };
 
                             if(store.get("check_success") >= 6){
                                 $("#text_me").text("Браво. Успешно заврши " + store.get("check_success") + " задачи. Си доби две ѕвезди!");
+                                $("#text_me_sq").text("Bravo. Me sukses ke mbaruar " + store.get("check_success") + " detyra. Ke fituar dy Yje!");
                                 $("#starMe4").fadeIn();
                                 $("#starMe5").fadeIn();
                             };
 
                             if(store.get("check_success") >= 8){
                                 $("#text_me").text("Браво за добро извршената задача. Си доби три ѕвезди!");
+                                $("#text_me_sq").text("Bravo për detyrën e mbaruar me sukses. Ke fituar tre yje!");
                                 $("#starMe1").fadeIn();
                                 $("#starMe2").fadeIn();
                                 $("#starMe3").fadeIn();
@@ -241,17 +244,20 @@
 
                             if(store.get("check_success") <= 5){
                                 $("#text_me").text("Задачата е завршена. Си доби 1 ѕвезда!");
+                                $("#text_me_sq").text("Detyra ka mbaruar. Ke fituar 1 Yll!");
                                 $("#starMe6").fadeIn();
                             };
 
                             if(store.get("check_success") >= 6){
                                 $("#text_me").text("Браво. Успешно заврши " + store.get("check_success") + " задачи. Си доби две ѕвезди!");
+                                $("#text_me_sq").text("Bravo. Me sukses ke mbaruar " + store.get("check_success") + " detyra. Ke fituar dy Yje!");
                                 $("#starMe4").fadeIn();
                                 $("#starMe5").fadeIn();
                             };
 
                             if(store.get("check_success") >= 8){
                                 $("#text_me").text("Браво за добро извршената задача. Си доби три ѕвезди!");
+                                $("#text_me_sq").text("Bravo për detyrën e mbaruar me sukses. Ke fituar tre yje!");
                                 $("#starMe1").fadeIn();
                                 $("#starMe2").fadeIn();
                                 $("#starMe3").fadeIn();

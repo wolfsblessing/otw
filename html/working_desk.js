@@ -28,6 +28,11 @@
     });
 
 
+    $("#add").click(function() {
+        store.set("check_success", 0);
+    });
+
+
 
     $(init);
 
