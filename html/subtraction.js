@@ -156,8 +156,9 @@
                         $("#popUp").fadeIn(3000);
 //                        $("#score").fadeIn(3000);
 
-                        for (m = 0; m <= result_random; m++) {
-                            $("#toShowResult" + m).show();
+                        for (m = 1; m <= result_random; m++) {
+                            $("#toShowResult" +(second_random + m)).show();
+//                            $("#toShowResult" + m).show();
                         };
 
                 //Checking the amount of times it's dropped on correct place so it increases the number
