@@ -115,6 +115,12 @@
         $("#inResult").hide();
         $("#popUp").hide();
         $("#score").hide();
+        $("#starMe1").hide();
+        $("#starMe2").hide();
+        $("#starMe3").hide();
+        $("#starMe4").hide();
+        $("#starMe5").hide();
+        $("#starMe6").hide();
 
         for (k = 0; k <= length_random; k++) {
             checkNumber = checkNumber + 1;
@@ -140,18 +146,61 @@
                         }, 2000);
                     };
                     if (guessResult == 3) {
+                        $("#previous").hide();
                         $("#wholeRoom").animate({
                             "width":"1000px"
                         });
                         $("#inResult").show().text(result_random);
                         $("#result").droppable("disable");
 //                        $("#choseNumbers").fadeOut(500);
-//                        $("#toShowResult0").fadeIn(3000).text(the_result);
                         $("#popUp").fadeIn(3000);
-                        $("#score").fadeIn(3000);
+//                        $("#score").fadeIn(3000);
+
                         for (m = 0; m <= result_random; m++) {
                             $("#toShowResult" + m).show();
                         };
+
+                //Checking the amount of times it's dropped on correct place so it increases the number
+                //numbers to calculate, i.e. from 5 numbers to 7, and then lastly to 10
+                        var currentCount = store.get("remember_my_count");
+                        var newCount = currentCount + 1
+                        store.set("remember_my_count", newCount);
+                        if (store.get("remember_my_count") > 10){
+                            $("#firstNumber").fadeOut(1000);
+                            $("#the_Plus").fadeOut(1000);
+                            $("#secondNumber").fadeOut(1000);
+                            $("#the_equal").fadeOut(1000);
+                            $("#result").fadeOut(1000);
+                            $("#popUp").hide();
+                            $("#popUp2").show();
+                            $("#previous").hide();
+
+                            if(store.get("check_success") <= 5){
+                                $("#text_me").text("Задачата е завршена. Си доби 1 ѕвезда!");
+                                $("#text_me_sq").text("Detyra ka mbaruar. Ke fituar 1 Yll!");
+                                $("#starMe6").fadeIn();
+                            };
+
+                            if(store.get("check_success") >= 6){
+                                $("#text_me").text("Браво. Успешно заврши " + store.get("check_success") + " задачи. Си доби две ѕвезди!");
+                                $("#text_me_sq").text("Bravo. Me sukses ke mbaruar " + store.get("check_success") + " detyra. Ke fituar dy Yje!");
+                                $("#starMe4").fadeIn();
+                                $("#starMe5").fadeIn();
+                            };
+
+                            if(store.get("check_success") >= 8){
+                                $("#text_me").text("Браво за добро извршената задача. Си доби три ѕвезди!");
+                                $("#text_me_sq").text("Bravo për detyrën e mbaruar me sukses. Ke fituar tre yje!");
+                                $("#starMe1").fadeIn();
+                                $("#starMe2").fadeIn();
+                                $("#starMe3").fadeIn();
+                                $("#starMe4").hide();
+                                $("#starMe5").hide();
+                                $("#starMe6").hide();
+                            };
+
+                        };
+
                     }
                 }
             });
@@ -160,6 +209,7 @@
                 $("#result").droppable({
                     accept: "#number" + k,
                     drop: function(ev, ui) {
+                        $("#previous").hide();
                         $("#showFirst").fadeIn();
                         $("#the_Plus_2").fadeIn();
                         $("#showSecond").fadeIn();
@@ -173,19 +223,50 @@
                             $("#toShowSecond" + k).show();
                         };
 
+                //Checking the successfull score so the price at the end will be accordingly to 
+                        var current_check_success = store.get("check_success");
+                        var new_check = current_check_success + 1;
+                        store.set("check_success", new_check);
+                //Checking the amount of times it's dropped on correct place so it increases the number
+                //numbers to calculate, i.e. from 5 numbers to 7, and then lastly to 10 
                         var currentCount = store.get("remember_my_count");
                         var newCount = currentCount + 1
                         store.set("remember_my_count", newCount);
 
                         if (store.get("remember_my_count") > 10){
+                            $("#previous").hide();
                             $("#firstNumber").fadeOut(1000);
                             $("#the_Plus").fadeOut(1000);
                             $("#secondNumber").fadeOut(1000);
                             $("#the_equal").fadeOut(1000);
                             $("#result").fadeOut(1000);
                             $("#popUp").hide();
-                            $("#previous").hide();
                             $("#popUp2").show();
+
+                            if(store.get("check_success") <= 5){
+                                $("#text_me").text("Задачата е завршена. Си доби 1 ѕвезда!");
+                                $("#text_me_sq").text("Detyra ka mbaruar. Ke fituar 1 Yll!");
+                                $("#starMe6").fadeIn();
+                            };
+
+                            if(store.get("check_success") >= 6){
+                                $("#text_me").text("Браво. Успешно заврши " + store.get("check_success") + " задачи. Си доби две ѕвезди!");
+                                $("#text_me_sq").text("Bravo. Me sukses ke mbaruar " + store.get("check_success") + " detyra. Ke fituar dy Yje!");
+                                $("#starMe4").fadeIn();
+                                $("#starMe5").fadeIn();
+                            };
+
+                            if(store.get("check_success") >= 8){
+                                $("#text_me").text("Браво за добро извршената задача. Си доби три ѕвезди!");
+                                $("#text_me_sq").text("Bravo për detyrën e mbaruar me sukses. Ke fituar tre yje!");
+                                $("#starMe1").fadeIn();
+                                $("#starMe2").fadeIn();
+                                $("#starMe3").fadeIn();
+                                $("#starMe4").hide();
+                                $("#starMe5").hide();
+                                $("#starMe6").hide();
+                            };
+
                         };
 
 //                        $("#showCheckMe").text(store.get("remember_my_count"));
@@ -229,6 +310,7 @@
 
         $(".reset2").click(function() {
             store.set("remember_my_count", 1);
+            store.set("check_success", 0);
             $("#firstNumber").fadeIn(1000);
             $("#the_Plus").fadeIn(1000);
             $("#secondNumber").fadeIn(1000);
@@ -238,14 +320,17 @@
 
         $(".back2").click(function() {
             store.set("remember_my_count", 1);
+            store.set("check_success", 0);
         });
 
         $("#previous").click(function() {
             store.set("remember_my_count", 1);
+            store.set("check_success", 0);
         });
 
         $(".back").click(function() {
             store.set("remember_my_count", 1);
+            store.set("check_success", 0);
         });
 
     };
