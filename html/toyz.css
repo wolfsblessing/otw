@@ -1310,7 +1310,7 @@ body {
 #ball_BG {
 	position: absolute;
 	width: 104px;
-	height: 100px;
+	height: 110px;
 	background:url("images/ball_outline.png") no-repeat;
 	opacity: 0.5;
 
