@@ -104,6 +104,7 @@ body {
 	position: absolute;
 	width: 60px;
 	height: 60px;
+    z-index: 9999;
 }
 
 #object11:hover{
@@ -119,6 +120,7 @@ body {
 	position: absolute;
 	width: 60px;
 	height: 60px;
+    z-index: 9999;
 }
 
 #object12:hover{
@@ -134,6 +136,7 @@ body {
 	position: absolute;
 	width: 60px;
 	height: 60px;
+    z-index: 9999;
 }
 
 #object13:hover{
@@ -149,6 +152,7 @@ body {
 	position: absolute;
 	width: 60px;
 	height: 60px;
+    z-index: 9999;
 }
 
 #object14:hover{

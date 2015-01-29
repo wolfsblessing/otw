@@ -58,6 +58,7 @@ body {
 	position: absolute;
 	left: 120px;
 	top: 80px;
+	background:url("images/my_room.png") repeat-x;
 	background:url("images/my_room_big_white.jpg") repeat-x;
 	background-position: 0 -50px;
 	width: 1310px;
@@ -89,8 +90,10 @@ body {
 	position: absolute;
 	width: 480px;
 	height: 110px;
-	top: 60px;
+	top: 0px;
 	left: 200px;
+	left: 400px;
+	left: 600px;
 	margin: 0px;
 	padding: 0px;
 
@@ -357,8 +360,10 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 110px;
-	top: 80px;
-	left: 790px;
+	top: 0px;
+	left: 200px;
+	left: 400px;
+	left: 600px;
 	margin: 0px;
 	padding: 0px;
 }	
@@ -729,8 +734,10 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 110px;
-	top: 220px;
+	top: 0px;
 	left: 200px;
+	left: 400px;
+	left: 600px;
 	margin: 0px;
 	padding: 0px;
 }	
@@ -981,8 +988,10 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 110px;
-	top: 250px;
-	left: 700px;
+	top: 0px;
+	left: 200px;
+	left: 400px;
+	left: 600px;
 	margin: 0px;
 	padding: 0px;
 }	
@@ -1493,7 +1502,7 @@ body {
 
 #pop_up_text_sq {
 	padding-top: 30px;
-	padding-left: 130px;
+	padding-left: 110px;
 	padding-bottom: 10px;
 }
 
@@ -1507,9 +1516,10 @@ body {
 }
 
 #stars{
-	float: left;
+	float: right;
     font-size: 0.9em;
     margin-top: 35px;
+    margin-right: 55px;
 }
 
 #starMe{

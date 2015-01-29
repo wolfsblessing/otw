@@ -1,4 +1,4 @@
-﻿(function() {
+(function() {
     function init() {
 	    $("#girly").hide();
 	    $("#boyish").hide();
@@ -64,7 +64,8 @@
                 	"top": "60px"
                 });
                 $("#help_text_sq").text("Do të më ndihmosh të i rregulloj librat?").css({
-                    "top": "60px"
+                    "top": "60px",
+                    "left": "870px"
                 });
 
             }

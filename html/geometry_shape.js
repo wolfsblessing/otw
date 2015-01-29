@@ -202,6 +202,7 @@
                         position: "absolute",
                         left: leftblueFix + "px",
                         top: myobject_bluePosition + "px",
+                        "z-index": 9999
                     }).appendTo("#object_blue_transparent");
 //making sure that there will be only 2 items in one line since I can't controll the position 
 //with CSS for some reason.                     
@@ -253,6 +254,7 @@
                         position: "absolute",
                         left: leftgreenFix + "px",
                         top: myobject_greenPosition + "px",
+                        "z-index": 9999
                     }).appendTo("#object_green_transparent");
 //making sure that there will be only 2 items in one line since I can't controll the position 
 //with CSS for some reason.                     
@@ -303,6 +305,7 @@
                         position: "absolute",
                         left: leftyellowFix + "px",
                         top: myobject_yellowPosition + "px",
+                        "z-index": 9999
                     }).appendTo("#object_yellow_transparent");
 //making sure that there will be only 2 items in one line since I can't controll the position 
 //with CSS for some reason.                     
@@ -354,6 +357,7 @@
                         position: "absolute",
                         left: leftredFix + "px",
                         top: myobject_redPosition + "px",
+                        "z-index": 9999
                     }).appendTo("#object_red_transparent");
 //making sure that there will be only 2 items in one line since I can't controll the position 
 //with CSS for some reason.                     

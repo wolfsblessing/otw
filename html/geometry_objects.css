@@ -48,7 +48,7 @@ body {
 #colorize_text {
 	position: absolute;
 	top: 53px;
-	left: 510px;
+	left: 480px;
 	font-size: 1.2em;
 }
 
@@ -87,7 +87,7 @@ body {
 #size_text {
 	position: absolute;
 	top: 53px;
-	left: 220px;
+	left: 195px;
 	font-size: 1.2em;
 }
 
@@ -125,7 +125,7 @@ body {
 #geometric_text {
 	position: absolute;
 	top: 270px;
-	left: 355px;
+	left: 330px;
 	font-size: 1.2em;
 }
 

@@ -156,6 +156,7 @@
                         position: "absolute",
                         left: left1Fix + "px",
                         top: myobject1Position + "px",
+                        "z-index": 9999
                     }).appendTo("#object1_transparent");
 //making sure that there will be only 2 items in one line since I can't controll the position 
 //with CSS for some reason.                     
@@ -206,6 +207,7 @@
                         position: "absolute",
                         left: left2Fix + "px",
                         top: myobject2Position + "px",
+                        "z-index": 9999
                     }).appendTo("#object2_transparent");
 //making sure that there will be only 2 items in one line since I can't controll the position 
 //with CSS for some reason.                     

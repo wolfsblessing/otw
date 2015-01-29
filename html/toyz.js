@@ -179,6 +179,20 @@
         //creating a for loop so i decide to show random elements that are hiden.
         //Making them draggable and droppable at the same time while the loop is checking
         //need to ask why i had to use '-1' at the array so the droppable objects are shown in order
+        
+        
+        var top_position = [
+            [300, -350],[300, -150], [300, 150], [300, 350], 
+            [380, -350],[380, -150], [380, 150], [380, 350], 
+            [460, -350],[460, -150], [460, 150], [460, 350], 
+            [540, -350],[540, -150], [540, 150], [540, 350]
+        ]; 
+
+        top_position.sort(function() {
+         return Math.random() - .3
+        });
+
+
 
         //--------------------------------------------------------------------------------
         //Airplanes
@@ -189,11 +203,17 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "280px",
-                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
+                
+                //top: "280px",
+                //left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });
+            
+            top_position.splice(i-1, 1);
+            
             $("#airplane_transparent").droppable({
                 accept: "#airplane > li",
                 drop: function(ev, ui) {
@@ -223,11 +243,18 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "270px",
-                left: dacopy[i - 1] + "px"
+                
+               top: top_position[i-1][0] + "px",
+               left: top_position[i-1][1] + "px"
+                
+                //top: "270px",
+                //left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });
+            
+            top_position.splice(i-1, 1);
+            
             $("#animal_transparent").droppable({
                 accept: "#animal > li",
                 drop: function(ev, ui) {
@@ -257,11 +284,18 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "220px",
-                left: dacopy[i - 1] + "px"
+                                
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
+                
+                //top: "220px",
+                //left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });
+            
+            top_position.splice(i-1, 1);
+            
             $("#ball_transparent").droppable({
                 accept: "#ball > li",
                 drop: function(ev, ui) {
@@ -291,8 +325,12 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "190px",
-                left: dacopy[i - 1] + "px"
+                                                
+               top: top_position[i-1][0] + "px",
+               left: top_position[i-1][1] + "px"
+                
+                //top: "190px",
+                //left: dacopy[i - 1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });

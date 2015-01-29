@@ -49,7 +49,7 @@ body {
 #help_text_sq {
 	position: absolute;
 	top: 80px;
-	left: 660px;
+	left: 670px;
 	width: 300px;
 }
 
@@ -1305,7 +1305,7 @@ position: absolute;
 
 #pop_up_text_sq {
 	padding-top: 30px;
-	padding-left: 130px;
+	padding-left: 110px;
 	padding-bottom: 10px;
 }
 
@@ -1320,7 +1320,7 @@ position: absolute;
 
 #stars{
 	float: left;
-    margin-left: -20px;
+    margin-left: 10px;
 }
 
 #starMe{
