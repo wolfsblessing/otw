@@ -1,4 +1,38 @@
-﻿(function() {
+(function() {
+    
+//Creating the audio variables     
+        var dir_sq_profile, playlist_sq, ext, stop_audio, audio;
+        
+        dir_sq_profile = "sq_sounds/profile/";
+        playlist_sq = ["profil_alb", "izbor_alb", "devojce_alb", "momce_alb", "prethodno_alb", "sledno_alb"];
+        
+        ext = ".ogg";
+    
+        var my_path = $(location).attr('pathname');
+        if(my_path == "/profile_sq.html"){
+            stop_audio = false;
+            
+            audio = new Audio();
+            audio.src = dir_sq_profile+playlist_sq[0]+ext;
+            audio.play();
+        
+            audio.addEventListener("ended", function(){chose(); });
+
+            function chose(){
+                if(stop_audio == true){
+                    audio.pause();
+                }else{
+                    audio.src = dir_sq_profile+playlist_sq[1]+ext;
+                    setTimeout(function(){audio.play();}, 2000);
+                    stop_audio = true;
+                };
+            };
+        }else{
+            stop_audio = true;
+        }
+    
+   //End of audio 
+    
     
     storage = $.localStorage;
 
@@ -128,6 +162,11 @@
 
         var showTheForm = 1;
         $("#1").click(function() {
+ //   chosing the girl audio file         
+            audio.src = dir_sq_profile+playlist_sq[2]+ext;
+            audio.play();
+            stop_audio = true;
+                 
             shakeMe = 2;
             $("#2").hide(2000);
             $("#1").unbind();
@@ -147,6 +186,11 @@
 
         //the boy
         $("#2").click(function() {
+ //   chosing the girl audio file         
+            audio.src = dir_sq_profile+playlist_sq[3]+ext;
+            audio.play();
+            stop_audio = true;
+       
             $("#1").hide(2000);
             $("#2").unbind();
             //if this image was clicked once, don't show the form again

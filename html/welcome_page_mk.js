@@ -1,19 +1,19 @@
-﻿(function() {
+(function() {
+    
     function init() {
-
-        //Show the Welcome page
-        $("#second").hide();
-        $("#second").fadeIn(2000);
-
-        $("#third").hide();
-        $("#third").fadeIn(2000);
-
-        $("#second_slide").hide();
-        $("#second_slide").fadeIn(2000);
-
-        $("#previous_slide").hide();
-        $("#previous_slide").fadeIn(2000);
-
+        var dir_mk_welcome, playlist_mk, ext, audio;
+        
+        dir_mk_welcome = "mk_sounds/welcome_page/";
+        playlist_mk = ["prethodno", "sledno", "ucime"];
+        
+        ext = ".ogg";
+        
+        audio = new Audio();
+        audio.src = dir_mk_welcome+playlist_mk[2]+ext;
+        audio.play();
+        
+    };
+    
     $(init);
 
 })();

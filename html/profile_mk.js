@@ -1,4 +1,38 @@
-﻿(function() {
+(function() {
+    
+//Creating the audio variables     
+        var dir_mk_profile, playlist_mk, ext, stop_audio, audio;
+        
+        dir_mk_profile = "mk_sounds/profile/";
+        playlist_mk = ["profil", "izbor", "devojce", "momce", "prethodno", "sledno"];
+        
+        ext = ".ogg";
+        
+        var my_path = $(location).attr('pathname');
+        if(my_path == "/profile_mk.html"){
+            stop_audio = false;
+            
+            audio = new Audio();
+            audio.src = dir_mk_profile+playlist_mk[0]+ext;
+            audio.play();
+        
+            audio.addEventListener("ended", function(){chose(); });
+
+            function chose(){
+                if(stop_audio == true){
+                    audio.pause();
+                }else{
+                    audio.src = dir_mk_profile+playlist_mk[1]+ext;
+                    setTimeout(function(){audio.play();}, 2000);
+                    stop_audio = true;
+                };
+            };           
+        }else{
+            stop_audio = true;
+        }
+    
+   //End of audio 
+    
 
     storage = $.localStorage;
 
@@ -15,6 +49,8 @@
         for (var k = 0; k <= 30; k++) {
             $("<li>" + alphabet[k] + "</li>").attr("id", "alphDrag" + k).appendTo("#theAlphaDrag");
         };
+        
+        $("#nim").text(my_path);
 
         for (var k = 0; k <= 30; k++) {
             $("#alphDrag" + k).hide();
@@ -134,6 +170,11 @@
 
         var showTheForm = 1;
         $("#1").click(function() {
+//   chosing the girl audio file         
+            audio.src = dir_mk_profile+playlist_mk[2]+ext;
+            audio.play();
+            stop_audio = true;
+            
             shakeMe = 2;
             $("#2").hide(2000);
             $("#1").unbind();
@@ -154,6 +195,11 @@
 
         //the boy
         $("#2").click(function() {
+//   chosing the boy audio file         
+            audio.src = dir_mk_profile+playlist_mk[3]+ext;
+            audio.play();
+            stop_audio = true;
+            
             $("#1").hide(2000);
             $("#2").unbind();
             //if this image was clicked once, don't show the form again

@@ -1,17 +1,23 @@
-﻿(function() {
+(function() {
+    
     function init() {
-
-        //Show the Welcome page
-        $("#second").hide();
-        $("#third").hide();
-        $("#second_slide").hide();
-        $("#previous_slide").hide();
-
-        $("#second").fadeIn(2000);
-        $("#third").fadeIn(2000);
-        $("#second_slide").fadeIn(2000);
-        $("#previous_slide").fadeIn(2000);
-
+        var dir_sq_welcome, playlist_sq, ext;
+        
+        dir_sq_welcome = "sq_sounds/welcome_page/";
+        playlist_sq = ["prethodno_alb", "sledno_alb", "ucime_alb"];
+        
+        ext = ".ogg";
+        
+        audio = new Audio();
+        audio.src = dir_sq_welcome+playlist_sq[2]+ext;
+        audio.play();
+        
+        
+        
+        
+        
+    };
+    
     $(init);
 
 })();
