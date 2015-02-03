@@ -7,7 +7,7 @@
         playlist_sq = ["profil_alb", "izbor_alb", "devojce_alb", "momce_alb", "prethodno_alb", "sledno_alb"];
         
         ext = ".ogg";
-    
+  //Checking which page is it so the audio file plays only on the right page
         var my_path = $(location).attr('pathname');
         if(my_path == "/profile_sq.html"){
             stop_audio = false;
