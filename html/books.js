@@ -91,6 +91,13 @@
 
     function init() {
 
+        var audio, dir_mk_books, ext, playlist;
+        
+        dir_mk_books = "mk_sounds/books/";
+        ext = ".ogg";
+        playlist = [];
+        
+        
         $("#girly").hide();
         $("#boyish").hide();
         
@@ -102,12 +109,17 @@
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
+            playlist = ["knigi_sredi_F"];
         };
 
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
+            playlist = ["knigi_sredi_M"];
         };
 
+        audio = new Audio();
+        audio.src = dir_mk_books+playlist[0]+ext;
+        audio.play();
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 7; k++) {

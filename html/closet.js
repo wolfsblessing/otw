@@ -108,6 +108,13 @@
 
     function init() {
 
+        var audio, dir_mk_closet, ext, playlist;
+        
+        dir_mk_closet = "mk_sounds/closet/";
+        ext = ".ogg";
+        playlist = [];
+        
+        
 
         $("#girly").hide();
         $("#boyish").hide();
@@ -120,11 +127,17 @@
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
+            playlist = ["plakar_sredi_F"];
         };
 
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
+            playlist = ["plakar_sredi_M"];
         };
+        
+        audio = new Audio();
+        audio.src = dir_mk_closet+playlist[0]+ext;
+        audio.play();
 
 
 

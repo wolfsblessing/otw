@@ -91,6 +91,14 @@
 
     function init() {
 
+        
+        var audio, dir_mk_toyz, ext, playlist;
+        
+        dir_mk_toyz = "mk_sounds/toyz/";
+        ext = ".ogg";
+        playlist = [];
+        
+        
         $("#girly").hide();
         $("#boyish").hide();
         
@@ -102,13 +110,19 @@
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
+            playlist = ["igracki_sredi_F"];
         };
 
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
+            playlist = ["igracki_sredi_M"];
         };
-
-
+        
+        audio = new Audio();
+        audio.src = dir_mk_toyz+playlist[0]+ext;
+        audio.play();
+        
+        
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 7; k++) {
             $("<li>" + "</li>").attr("id", "airplane" + k).appendTo("#airplane");

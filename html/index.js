@@ -8,7 +8,7 @@
         dir_sq_index = "sq_sounds/index/";
         playlist_mk = ["welcome", "jazik", "makedonski", "shqip", "continue"];
         playlist_sq = ["welcome_alb", "jazik_alb", "makedonski_alb", "shqip_alb", "continue_alb"];
-        audio_order = [dir_mk_index+"jazik", dir_sq_index+"jazik_alb", dir_mk_index+"makedonski", dir_sq_index+"shqip_alb"];
+        audio_order = [dir_mk_index+"jazik", dir_sq_index+"jazik_alb", dir_mk_index+"makedonski", dir_sq_index+"shqip_alb", ""];
         ext = ".ogg";
         
         continue_mk = audio_order[0]+ext;
@@ -31,6 +31,23 @@
             } else {
                 if(stop_sound == true){
                     number_me();
+                }
+                if(playlist_index == 1){
+                    $("#goToIndexMK").css({
+                       "box-shadow": "0px 0px 41px 0px #d4d428" 
+                    });
+                }
+                if(playlist_index == 2){
+                    $("#goToIndexMK").css({
+                       "box-shadow": "0px 0px 0px 0px #fff" 
+                    });
+                    $("#goToIndexSQ").css({
+                       "box-shadow": "0px 0px 41px 0px #d4d428" 
+                    });
+                }else{
+                     $("#goToIndexSQ").css({
+                       "box-shadow": "0px 0px 0px 0px #fff" 
+                    });                   
                 }
                 audio.src = audio_order[playlist_index+1] + ext;
                 setTimeout(function(){audio.play();}, 2000);
