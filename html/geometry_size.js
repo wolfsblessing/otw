@@ -62,6 +62,31 @@
     //working with them outside the function
 
     function init() {
+        
+
+        var audio, dir_mk_working_size, ext, playlist;
+
+        dir_mk_working_size = "mk_sounds/geometry_size/";
+        ext = ".ogg";
+        playlist = [];
+
+        storage.get('girly');
+        storage.get('boyish');
+
+        console.log(storage.get('girly'));
+        console.log(storage.get('girly'));
+
+        if((storage.get("girly")) == true){
+            playlist = ["golemina_rasporedi_F"];
+        }
+        if((storage.get("boyish")) == true){
+            playlist = ["golemina_rasporedi_M"];
+        }
+
+        audio = new Audio();
+        audio.src = dir_mk_working_size+playlist[0]+ext;
+        audio.play();
+
 
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 4; k++) {

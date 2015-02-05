@@ -94,6 +94,31 @@
 
     function init() {
 
+    
+        var audio, dir_mk_geometry_shape, ext, playlist;
+
+        dir_mk_geometry_shape = "mk_sounds/geometry_shape/";
+        ext = ".ogg";
+        playlist = [];
+
+        storage.get('girly');
+        storage.get('boyish');
+
+        console.log(storage.get('girly'));
+        console.log(storage.get('girly'));
+
+        if((storage.get("girly")) == true){
+            playlist = ["forma_rasporedi_F"];
+        }
+        if((storage.get("boyish")) == true){
+            playlist = ["forma_rasporedi_M"];
+        }
+
+        audio = new Audio();
+        audio.src = dir_mk_geometry_shape+playlist[0]+ext;
+        audio.play();
+            
+        
         //create the divs with the cap name and with the attr. add id's to all divs, and add them to main one
         for (var k = 1; k <= 4; k++) {
             $("<li>" + "</li>").attr("id", "object_blue" + ran_color[0] + k).appendTo("#object_blue");
