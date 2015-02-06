@@ -94,7 +94,6 @@
         
         var audio, dir_mk_toyz, ext, playlist;
         
-        dir_mk_toyz = "mk_sounds/toyz/";
         ext = ".ogg";
         playlist = [];
         
@@ -110,12 +109,28 @@
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
-            playlist = ["igracki_sredi_F"];
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/Toyz.html"){
+                dir_mk_toyz = "mk_sounds/toyz/";
+                playlist = ["igracki_sredi_F"];
+            }else{
+                dir_mk_toyz = "sq_sounds/toyz/";
+                playlist = ["igracki_sredi_alb_F"];
+            }
         };
 
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
-            playlist = ["igracki_sredi_M"];
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/Toyz.html"){
+                dir_mk_toyz = "mk_sounds/toyz/";
+                playlist = ["igracki_sredi_M"];
+            }else{
+                dir_mk_toyz = "sq_sounds/toyz/";
+                playlist = ["igracki_sredi_alb_M"];
+            }
         };
         
         audio = new Audio();

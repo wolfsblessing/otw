@@ -1,6 +1,8 @@
 (function() {
     
     function init() {
+        
+        
         var dir_mk_welcome, playlist_mk, ext, audio;
         
         dir_mk_welcome = "mk_sounds/welcome_page/";

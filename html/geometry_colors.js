@@ -92,7 +92,6 @@
    
         var audio, dir_mk_geometry_colors, ext, playlist;
 
-        dir_mk_geometry_colors = "mk_sounds/geometry_colors/";
         ext = ".ogg";
         playlist = [];
 
@@ -103,10 +102,24 @@
         console.log(storage.get('girly'));
 
         if((storage.get("girly")) == true){
-            playlist = ["boja_rasporedi_F"];
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/geometry_colors.html"){
+                dir_mk_geometry_colors = "mk_sounds/geometry_colors/";
+                playlist = ["boja_rasporedi_F"];
+            }else{
+                dir_mk_geometry_colors = "sq_sounds/geometry_colors/";
+                playlist = ["boja_rasporedi_alb_F"];
+            }
         }
         if((storage.get("boyish")) == true){
-            playlist = ["boja_rasporedi_M"];
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/geometry_colors.html"){
+                dir_mk_geometry_colors = "mk_sounds/geometry_colors/";
+                playlist = ["boja_rasporedi_M"];
+            }else{
+                dir_mk_geometry_colors = "sq_sounds/geometry_colors/";
+                playlist = ["boja_rasporedi_alb_M"];
+            }
         }
 
         audio = new Audio();

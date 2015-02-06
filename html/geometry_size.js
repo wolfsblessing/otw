@@ -66,7 +66,6 @@
 
         var audio, dir_mk_working_size, ext, playlist;
 
-        dir_mk_working_size = "mk_sounds/geometry_size/";
         ext = ".ogg";
         playlist = [];
 
@@ -77,11 +76,27 @@
         console.log(storage.get('girly'));
 
         if((storage.get("girly")) == true){
-            playlist = ["golemina_rasporedi_F"];
-        }
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/geometry_size.html"){
+                dir_mk_working_size = "mk_sounds/geometry_size/";
+                playlist = ["golemina_rasporedi_F"];
+            }else{
+                dir_mk_working_size = "sq_sounds/geometry_size/";
+                playlist = ["golemina_rasporedi_alb_F"];
+            }
+        };
+        
         if((storage.get("boyish")) == true){
-            playlist = ["golemina_rasporedi_M"];
-        }
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/geometry_size.html"){
+                dir_mk_working_size = "mk_sounds/geometry_size/";
+                playlist = ["golemina_rasporedi_M"];
+            }else{
+                dir_mk_working_size = "sq_sounds/geometry_size/";
+                playlist = ["golemina_rasporedi_alb_M"];
+            }
+        };
 
         audio = new Audio();
         audio.src = dir_mk_working_size+playlist[0]+ext;

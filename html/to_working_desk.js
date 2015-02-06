@@ -4,7 +4,6 @@
         
         var audio, dir_mk_to_working_desk, ext, playlist;
         
-        dir_mk_to_working_desk = "mk_sounds/to_working_desk/";
         ext = ".ogg";
         playlist = [];
         
@@ -20,12 +19,28 @@
 
 		if((storage.get("girly")) == true ){
 		     $("#girly").show();
-            playlist = ["domasno_F"];
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/to_working_desk.html"){
+                dir_mk_to_working_desk = "mk_sounds/to_working_desk/";
+                playlist = ["domasno_F"];
+            }else{
+                dir_mk_to_working_desk = "sq_sounds/to_working_desk/";
+                playlist = ["domasno_alb_F"];
+            }
 		};
 
 		if((storage.get("boyish")) == true ){
 		     $("#boyish").show();
-            playlist = ["domasno_M"];
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/to_working_desk.html"){
+                dir_mk_to_working_desk = "mk_sounds/to_working_desk/";
+                playlist = ["domasno_M"];
+            }else{
+                dir_mk_to_working_desk = "sq_sounds/to_working_desk/";
+                playlist = ["domasno_alb_M"];
+            }
 		};
         
         audio = new Audio();

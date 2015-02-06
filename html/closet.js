@@ -110,7 +110,6 @@
 
         var audio, dir_mk_closet, ext, playlist;
         
-        dir_mk_closet = "mk_sounds/closet/";
         ext = ".ogg";
         playlist = [];
         
@@ -127,12 +126,28 @@
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
-            playlist = ["plakar_sredi_F"];
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/closet.html"){
+                dir_mk_closet = "mk_sounds/closet/";
+                playlist = ["plakar_sredi_F"];
+            }else{
+                dir_mk_closet = "sq_sounds/closet/";
+                playlist = ["plakar_sredi_alb_F"];
+            }
         };
 
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
-            playlist = ["plakar_sredi_M"];
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/closet.html"){
+                dir_mk_closet = "mk_sounds/closet/";
+                playlist = ["plakar_sredi_M"];
+            }else{
+                dir_mk_closet = "sq_sounds/closet/";
+                playlist = ["plakar_sredi_alb_M"];
+            }
         };
         
         audio = new Audio();

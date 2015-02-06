@@ -4,7 +4,6 @@
             
             var audio, dir_mk_working_desk, ext, playlist;
             
-            dir_mk_working_desk = "mk_sounds/working_desk/";
             ext = ".ogg";
             playlist = [];
             playlist_index = 0;
@@ -17,10 +16,26 @@
             console.log(storage.get('girly'));
             
             if((storage.get("girly")) == true){
-                playlist = ["sobiranje_F", "odzemanje_F", "figuri_F"];
+                
+                var my_path = $(location).attr('pathname');
+                if(my_path == "/working_desk.html"){
+                    dir_mk_working_desk = "mk_sounds/working_desk/";
+                    playlist = ["sobiranje_F", "odzemanje_F", "figuri_F"];
+                }else{
+                    dir_mk_working_desk = "sq_sounds/working_desk/";
+                    playlist = ["sobiranje_alb_F", "odzemanje_alb_F", "figuri_alb_F"];
+                }
             }
             if((storage.get("boyish")) == true){
-                playlist = ["sobiranje_M", "odzemanje_M", "figuri_M"];
+                
+                var my_path = $(location).attr('pathname');
+                if(my_path == "/working_desk.html"){
+                    dir_mk_working_desk = "mk_sounds/working_desk/";
+                    playlist = ["sobiranje_M", "odzemanje_M", "figuri_M"];
+                }else{
+                    dir_mk_working_desk = "sq_sounds/working_desk/";
+                    playlist = ["sobiranje_alb_M", "odzemanje_alb_M", "figuri_alb_M"];
+                }
             }
             
             audio = new Audio();

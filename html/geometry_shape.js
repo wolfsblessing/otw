@@ -97,7 +97,6 @@
     
         var audio, dir_mk_geometry_shape, ext, playlist;
 
-        dir_mk_geometry_shape = "mk_sounds/geometry_shape/";
         ext = ".ogg";
         playlist = [];
 
@@ -108,11 +107,27 @@
         console.log(storage.get('girly'));
 
         if((storage.get("girly")) == true){
-            playlist = ["forma_rasporedi_F"];
-        }
+            
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/geometry_shape.html"){
+                dir_mk_geometry_shape = "mk_sounds/geometry_shape/";
+                playlist = ["forma_rasporedi_F"];
+            }else{
+                dir_mk_geometry_shape = "sq_sounds/geometry_shape/";
+                playlist = ["forma_rasporedi_alb_F"];
+            }
+        };
+        
         if((storage.get("boyish")) == true){
-            playlist = ["forma_rasporedi_M"];
-        }
+            var my_path = $(location).attr('pathname');
+            if(my_path == "/geometry_shape.html"){
+                dir_mk_geometry_shape = "mk_sounds/geometry_shape/";
+                playlist = ["forma_rasporedi_M"];
+            }else{
+                dir_mk_geometry_shape = "sq_sounds/geometry_shape/";
+                playlist = ["forma_rasporedi_alb_M"];
+            }
+        };
 
         audio = new Audio();
         audio.src = dir_mk_geometry_shape+playlist[0]+ext;
