@@ -1,15 +1,20 @@
 (function() {
     
 //Creating the audio variables     
-        var dir_sq_profile, playlist_sq, ext, stop_audio, audio;
+        var dir_sq_profile, playlist_sq, ext, stop_audio, audio, language;
+    
+        storage = $.localStorage;
         
         dir_sq_profile = "sq_sounds/profile/";
         playlist_sq = ["profil_alb", "izbor_alb", "devojce_alb", "momce_alb", "prethodno_alb", "sledno_alb"];
         
         ext = ".ogg";
   //Checking which page is it so the audio file plays only on the right page
-        var my_path = $(location).attr('pathname');
-        if(my_path == "/profile_sq.html"){
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
+    
+        if(language = "sq"){
             stop_audio = false;
             
             audio = new Audio();
@@ -34,7 +39,6 @@
    //End of audio 
     
     
-    storage = $.localStorage;
 
     var alphabet = [
     "A", "B", "C", "Ç", "D", "DH", "E", "Ë", "F", "G", 

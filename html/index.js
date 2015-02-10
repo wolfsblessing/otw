@@ -3,6 +3,7 @@
     function init() {
         var audio, dir_mk_index, playlist_mk, playlist_sq, playlist_index, ext, audio_order, stop_sound, stop_continue;
         
+        storage = $.localStorage;
         
         dir_mk_index = "mk_sounds/index/";
         dir_sq_index = "sq_sounds/index/";
@@ -68,7 +69,10 @@
        $("#chose_mk_page").fadeIn(3000);
        $("#chose_sq_page").fadeIn(3000);
 
-        $("#goToIndexMK").click(function() {
+       $("#goToIndexMK").click(function() {
+           //setting up the mk language 
+            storage.set('language', 'mk');            
+            
             stop_sound = true;
             $("#front_page").fadeIn(2000);
             $("#welcome").fadeIn(2000);
@@ -96,6 +100,8 @@
         
 
         $("#goToIndexSQ").click(function() {
+           //setting up the sq language 
+            storage.set('language', 'sq');            
             stop_sound = true;
             $("#front_page_sq").fadeIn(2000);
             $("#welcome_sq").fadeIn(2000);

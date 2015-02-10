@@ -2,7 +2,9 @@
 
         function init() {
             
-            var audio, dir_mk_working_desk, ext, playlist;
+            var audio, dir_mk_working_desk, ext, playlist, language;
+            
+            storage = $.localStorage;
             
             ext = ".ogg";
             playlist = [];
@@ -15,24 +17,25 @@
             console.log(storage.get('girly'));
             console.log(storage.get('girly'));
             
+            language = storage.get('language');
+            console.log(storage.get('language'));
+            
             if((storage.get("girly")) == true){
                 
-                var my_path = $(location).attr('pathname');
-                if(my_path == "/working_desk.html"){
+                if(language == "mk"){
                     dir_mk_working_desk = "mk_sounds/working_desk/";
                     playlist = ["sobiranje_F", "odzemanje_F", "figuri_F"];
-                }else{
+                }else if(language == "sq"){
                     dir_mk_working_desk = "sq_sounds/working_desk/";
                     playlist = ["sobiranje_alb_F", "odzemanje_alb_F", "figuri_alb_F"];
                 }
             }
             if((storage.get("boyish")) == true){
                 
-                var my_path = $(location).attr('pathname');
-                if(my_path == "/working_desk.html"){
+                if(language == "mk"){
                     dir_mk_working_desk = "mk_sounds/working_desk/";
                     playlist = ["sobiranje_M", "odzemanje_M", "figuri_M"];
-                }else{
+                }else if(language == "sq"){
                     dir_mk_working_desk = "sq_sounds/working_desk/";
                     playlist = ["sobiranje_alb_M", "odzemanje_alb_M", "figuri_alb_M"];
                 }

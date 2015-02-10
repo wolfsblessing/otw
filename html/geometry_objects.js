@@ -1,12 +1,13 @@
 (function() {
 
         function init() {
-             var audio, dir_mk_geometry_objects, ext, playlist;
+             var audio, dir_geometry_objects, ext, playlist, language;
+            
+            storage = $.localStorage;
             
             ext = ".ogg";
             playlist = [];
             playlist_index = 0;
-            
             
     	    storage.get('girly');
     	    storage.get('boyish');
@@ -14,31 +15,32 @@
             console.log(storage.get('girly'));
             console.log(storage.get('girly'));
             
+            language = storage.get('language');
+            console.log(storage.get('language'));
+            
             if((storage.get("girly")) == true){
                 
-                var my_path = $(location).attr('pathname');
-                if(my_path == "/geometry_objects.html"){
-                    dir_mk_geometry_objects = "mk_sounds/geometry_objects/";
+                if(language == "mk"){
+                    dir_geometry_objects = "mk_sounds/geometry_objects/";
                     playlist = ["golemina_redi_F", "boja_redi_F", "forma_redi_F"];
-                }else{
-                    dir_mk_geometry_objects = "sq_sounds/geometry_objects/";
+                }else if(language == "sq"){
+                    dir_geometry_objects = "sq_sounds/geometry_objects/";
                     playlist = ["golemina_redi_alb_F", "boja_redi_alb_F", "forma_redi_alb_F"];
                 }
             }
             if((storage.get("boyish")) == true){
                 
-                var my_path = $(location).attr('pathname');
-                if(my_path == "/geometry_objects.html"){
-                    dir_mk_geometry_objects = "mk_sounds/geometry_objects/";
+                if(language == "mk"){
+                    dir_geometry_objects = "mk_sounds/geometry_objects/";
                     playlist = ["golemina_redi_M", "boja_redi_M", "forma_redi_M"];
-                }else{
-                    dir_mk_geometry_objects = "sq_sounds/geometry_objects/";
+                }else if(language == "sq"){
+                    dir_geometry_objects = "sq_sounds/geometry_objects/";
                     playlist = ["golemina_redi_alb_M", "boja_redi_alb_M", "forma_redi_alb_M"];
                 }
             }
             
             audio = new Audio();
-            audio.src = dir_mk_geometry_objects+playlist[0]+ext;
+            audio.src = dir_geometry_objects+playlist[0]+ext;
             audio.play();
             
             audio.addEventListener("ended", function(){ switch_me(); });
@@ -47,7 +49,7 @@
                 if(playlist_index == (playlist.length)){
                     audio.pause();
                 }else{
-                    audio.src = dir_mk_geometry_objects+playlist[playlist_index+1]+ext;
+                    audio.src = dir_geometry_objects+playlist[playlist_index+1]+ext;
                     setTimeout(function(){audio.play();}, 2000);
                     playlist_index++;
                 }

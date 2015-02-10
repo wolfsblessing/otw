@@ -1,16 +1,44 @@
 (function() {
     
 //Creating the audio variables     
-        var dir_mk_profile, playlist_mk, ext, stop_audio, audio;
+        var dir_mk_profile, playlist_mk, ext, stop_audio, audio, language, storage;
+        
+        storage = $.localStorage;
         
         dir_mk_profile = "mk_sounds/profile/";
         playlist_mk = ["profil", "izbor", "devojce", "momce", "prethodno", "sledno"];
         
         ext = ".ogg";
-  //Checking which page is it so the audio file plays only on the right page
-        var my_path = $(location).attr('pathname');
-        if(my_path == "/profile_mk.html"){
+    
+        audio = new Audio();
+        
+        language = storage.get('language');
+    
+
+
+
+    var alphabet = ["A", "Б", "В", "Г", "Д", "Ѓ", "Е", "Ж",
+        "З", "Ѕ", "И", "Ј", "К", "Л", "Љ", "М",
+        "Н", "Њ", "О", "П", "Р", "С", "Т", "Ќ",
+        "У", "Ф", "Х", "Ц", "Ч", "Џ", "Ш"
+    ];
+
+    var myAlphPosition = 0;
+
+    function init() {
+        //creating the new divs and adding an attribute, also asigning a letter from the Alphabet array.
+        for (var k = 0; k <= 30; k++) {
+            $("<li>" + alphabet[k] + "</li>").attr("id", "alphDrag" + k).appendTo("#theAlphaDrag");
+        };
+        
+        for (var k = 0; k <= 30; k++) {
+            $("#alphDrag" + k).hide();
+        };
+        
+    //Checking which page is it so the audio file plays only on the right page
+        if(language == "mk"){
             stop_audio = false;
+//            $("#debug").text(language);
             
             audio = new Audio();
             audio.src = dir_mk_profile+playlist_mk[0]+ext;
@@ -27,34 +55,17 @@
                     stop_audio = true;
                 };
             };           
-        }else{
+        }else if(language == "sq"){
             stop_audio = true;
+        }else{
+            $("#debug").text("I can't speak Klingon");
         }
     
    //End of audio 
     
-
-    storage = $.localStorage;
-
-    var alphabet = ["A", "Б", "В", "Г", "Д", "Ѓ", "Е", "Ж",
-        "З", "Ѕ", "И", "Ј", "К", "Л", "Љ", "М",
-        "Н", "Њ", "О", "П", "Р", "С", "Т", "Ќ",
-        "У", "Ф", "Х", "Ц", "Ч", "Џ", "Ш"
-    ];
-
-    var myAlphPosition = 0;
-
-    function init() {
-        //creating the new divs and adding an attribute, also asigning a letter from the Alphabet array.
-        for (var k = 0; k <= 30; k++) {
-            $("<li>" + alphabet[k] + "</li>").attr("id", "alphDrag" + k).appendTo("#theAlphaDrag");
-        };
         
-        $("#nim").text(my_path);
-
-        for (var k = 0; k <= 30; k++) {
-            $("#alphDrag" + k).hide();
-        };
+        
+        
 
         //Hiding all the objectst that are not needed on the landing page
         //Show the Welcome page

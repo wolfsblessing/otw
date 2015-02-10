@@ -95,7 +95,9 @@
     function init() {
 
     
-        var audio, dir_mk_geometry_shape, ext, playlist;
+        var audio, dir_geometry_shape, ext, playlist, language;
+        
+        storage = $.localStorage;
 
         ext = ".ogg";
         playlist = [];
@@ -105,32 +107,34 @@
 
         console.log(storage.get('girly'));
         console.log(storage.get('girly'));
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
 
         if((storage.get("girly")) == true){
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/geometry_shape.html"){
-                dir_mk_geometry_shape = "mk_sounds/geometry_shape/";
+            if(language == "mk"){
+                dir_geometry_shape = "mk_sounds/geometry_shape/";
                 playlist = ["forma_rasporedi_F"];
-            }else{
-                dir_mk_geometry_shape = "sq_sounds/geometry_shape/";
+            }else if(language == "sq"){
+                dir_geometry_shape = "sq_sounds/geometry_shape/";
                 playlist = ["forma_rasporedi_alb_F"];
             }
         };
         
         if((storage.get("boyish")) == true){
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/geometry_shape.html"){
-                dir_mk_geometry_shape = "mk_sounds/geometry_shape/";
+            
+            if(language == "mk"){
+                dir_geometry_shape = "mk_sounds/geometry_shape/";
                 playlist = ["forma_rasporedi_M"];
-            }else{
-                dir_mk_geometry_shape = "sq_sounds/geometry_shape/";
+            }else if(language == "sq"){
+                dir_geometry_shape = "sq_sounds/geometry_shape/";
                 playlist = ["forma_rasporedi_alb_M"];
             }
         };
 
         audio = new Audio();
-        audio.src = dir_mk_geometry_shape+playlist[0]+ext;
+        audio.src = dir_geometry_shape+playlist[0]+ext;
         audio.play();
             
         

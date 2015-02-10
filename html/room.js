@@ -1,8 +1,8 @@
 (function() {
     function init() {
         
-        var audio, dir_mk_room, playlist_room_m, playlist_room_f, ext, masko, zensko, gender;
-        var dir_sq_room, playlist_room_sq;
+        var audio, dir_room, playlist_room_m, playlist_room_f, ext, masko, zensko, gender;
+        var dir_sq_room, playlist_room_sq, language;
         
         playlist_room = [];
         ext = ".ogg";
@@ -15,25 +15,30 @@
         zensko = false;
         
         
+        storage = $.localStorage;
         
 	    $("#girly").hide();
 	    $("#boyish").hide();
 	    
     	storage.get('girly');
     	storage.get('boyish');
-
+        
         console.log(storage.get('girly'));
         console.log(storage.get('boyish'));
+        
+       //the language 
+    	language = storage.get('language');
+        console.log(storage.get('language'));
+        
 
 		if((storage.get("girly")) == true ){
 		    $("#girly").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/room.html"){
-                dir_mk_room = "mk_sounds/room/";
+            if(language == "mk"){
+                dir_room = "mk_sounds/room/";
                 playlist_room = ["soba_F", "plakar_F", "knigi_F", "igracki_F", "domasno_F"];
-            }else{
-                dir_mk_room = "sq_sounds/room/";
+            }else if(language == "sq"){
+                dir_room = "sq_sounds/room/";
                 playlist_room = ["soba_alb_F", "plakar_alb_F", "knigi_alb_F", "igracki_alb_F", "domasno_alb_F"];
             }
             
@@ -42,18 +47,17 @@
 		if((storage.get("boyish")) == true ){
 		     $("#boyish").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/room.html"){
-                dir_mk_room = "mk_sounds/room/";
+		    if(language == "mk"){
+                dir_room = "mk_sounds/room/";
                 playlist_room = ["soba_M", "plakar_M", "knigi_M", "igracki_M", "domasno"];
-            }else{
-                dir_mk_room = "sq_sounds/room/";
+            }else if(language == "sq"){
+                dir_room = "sq_sounds/room/";
                 playlist_room = ["soba_alb_M", "plakar_alb_M", "knigi_alb_M", "igracki_alb_M", "domasno_alb_M"];
             }
 		};
         
         
-        audio.src = dir_mk_room+playlist_room[0] + ext;
+        audio.src = dir_room+playlist_room[0] + ext;
         audio.play();     
         
 
@@ -61,7 +65,7 @@
             if (!$(this).hasClass('animated')) {
                 $(this).addClass('animated');
 //audio                
-                audio.src = dir_mk_room+playlist_room[1] + ext;
+                audio.src = dir_room+playlist_room[1] + ext;
                 audio.play();     
 //end audio                
                 $("#help_text").text("Ќе ми помогнеш ли да го средам плакарот?").css({
@@ -88,7 +92,7 @@
             if (!$(this).hasClass('animated')) {
                 $(this).addClass('animated');
 //audio                
-                audio.src = dir_mk_room+playlist_room[3] + ext;
+                audio.src = dir_room+playlist_room[3] + ext;
                 audio.play();
 //end audio                
                 $("#help_text").text("Ќе ми помогнеш ли да ги средам играчките?").css({
@@ -112,7 +116,7 @@
             if (!$(this).hasClass('animated')) {
                 $(this).addClass('animated');
 //audio                
-                audio.src = dir_mk_room+playlist_room[2] + ext;
+                audio.src = dir_room+playlist_room[2] + ext;
                 audio.play();
 //end audio                
                 $("#help_text").text("Ќе ми помогнеш ли да ги средам книгите?").css({
@@ -138,7 +142,7 @@
             if (!$(this).hasClass('animated')) {
                 $(this).addClass('animated');
 //audio                
-                audio.src = dir_mk_room+playlist_room[4] + ext;
+                audio.src = dir_room+playlist_room[4] + ext;
                 audio.play();
 //end audio
                 $("#help_text").text("Ќе ми помогнеш ли да напишам домашно?").css({

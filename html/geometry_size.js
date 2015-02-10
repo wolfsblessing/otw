@@ -64,7 +64,9 @@
     function init() {
         
 
-        var audio, dir_mk_working_size, ext, playlist;
+        var audio, dir_mk_working_size, ext, playlist, language;
+        
+        storage = $.localStorage;
 
         ext = ".ogg";
         playlist = [];
@@ -74,25 +76,27 @@
 
         console.log(storage.get('girly'));
         console.log(storage.get('girly'));
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
 
         if((storage.get("girly")) == true){
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/geometry_size.html"){
+            if(language == "mk"){
                 dir_mk_working_size = "mk_sounds/geometry_size/";
                 playlist = ["golemina_rasporedi_F"];
-            }else{
+            }else if(language == "sq"){
                 dir_mk_working_size = "sq_sounds/geometry_size/";
                 playlist = ["golemina_rasporedi_alb_F"];
             }
         };
         
         if((storage.get("boyish")) == true){
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/geometry_size.html"){
+            
+            if(language == "mk"){
                 dir_mk_working_size = "mk_sounds/geometry_size/";
                 playlist = ["golemina_rasporedi_M"];
-            }else{
+            }else if(language == "sq"){
                 dir_mk_working_size = "sq_sounds/geometry_size/";
                 playlist = ["golemina_rasporedi_alb_M"];
             }

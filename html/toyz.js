@@ -92,7 +92,9 @@
     function init() {
 
         
-        var audio, dir_mk_toyz, ext, playlist;
+        var audio, dir_toyz, ext, playlist, language;
+        
+        storage = $.localStorage;
         
         ext = ".ogg";
         playlist = [];
@@ -106,16 +108,18 @@
 
         console.log(storage.get('girly'));
         console.log(storage.get('boyish'));
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/Toyz.html"){
-                dir_mk_toyz = "mk_sounds/toyz/";
+            if(language == "mk"){
+                dir_toyz = "mk_sounds/toyz/";
                 playlist = ["igracki_sredi_F"];
-            }else{
-                dir_mk_toyz = "sq_sounds/toyz/";
+            }else if(language == "sq"){
+                dir_toyz = "sq_sounds/toyz/";
                 playlist = ["igracki_sredi_alb_F"];
             }
         };
@@ -123,18 +127,17 @@
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/Toyz.html"){
-                dir_mk_toyz = "mk_sounds/toyz/";
+            if(language == "mk"){
+                dir_toyz = "mk_sounds/toyz/";
                 playlist = ["igracki_sredi_M"];
-            }else{
-                dir_mk_toyz = "sq_sounds/toyz/";
+            }else if(language == "sq"){
+                dir_toyz = "sq_sounds/toyz/";
                 playlist = ["igracki_sredi_alb_M"];
             }
         };
         
         audio = new Audio();
-        audio.src = dir_mk_toyz+playlist[0]+ext;
+        audio.src = dir_toyz+playlist[0]+ext;
         audio.play();
         
         

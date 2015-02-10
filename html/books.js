@@ -91,11 +91,12 @@
 
     function init() {
 
-        var audio, dir_mk_books, ext, playlist;
+        var audio, dir_mk_books, ext, playlist, language;
         
         ext = ".ogg";
         playlist = [];
         
+        storage = $.localStorage;
         
         $("#girly").hide();
         $("#boyish").hide();
@@ -105,15 +106,17 @@
 
         console.log(storage.get('girly'));
         console.log(storage.get('boyish'));
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
 
         if((storage.get("girly")) == true ){
              $("#girly").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/books.html"){
+            if(language == "mk"){
                 dir_mk_books = "mk_sounds/books/";
                 playlist = ["knigi_sredi_F"];
-            }else{
+            }else if(language == "sq"){
                 dir_mk_books = "sq_sounds/books/";
                 playlist = ["knigi_sredi_alb_F"];
             }
@@ -122,11 +125,10 @@
         if((storage.get("boyish")) == true ){
              $("#boyish").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/books.html"){
+            if(language == "mk"){
                 dir_mk_books = "mk_sounds/books/";
                 playlist = ["knigi_sredi_M"];
-            }else{
+            }else if(language == "sq"){
                 dir_mk_books = "sq_sounds/books/";
                 playlist = ["knigi_sredi_alb_M"];
             }

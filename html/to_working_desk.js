@@ -2,7 +2,9 @@
     function init() {
         
         
-        var audio, dir_mk_to_working_desk, ext, playlist;
+        var audio, dir_to_working_desk, ext, playlist, language;
+        
+        storage = $.localStorage;
         
         ext = ".ogg";
         playlist = [];
@@ -16,16 +18,19 @@
 
         console.log(storage.get('girly'));
         console.log(storage.get('boyish'));
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
+        
 
 		if((storage.get("girly")) == true ){
 		     $("#girly").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/to_working_desk.html"){
-                dir_mk_to_working_desk = "mk_sounds/to_working_desk/";
+            if(language == "mk"){
+                dir_to_working_desk = "mk_sounds/to_working_desk/";
                 playlist = ["domasno_F"];
-            }else{
-                dir_mk_to_working_desk = "sq_sounds/to_working_desk/";
+            }else if(language == "sq"){
+                dir_to_working_desk = "sq_sounds/to_working_desk/";
                 playlist = ["domasno_alb_F"];
             }
 		};
@@ -33,18 +38,17 @@
 		if((storage.get("boyish")) == true ){
 		     $("#boyish").show();
             
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/to_working_desk.html"){
-                dir_mk_to_working_desk = "mk_sounds/to_working_desk/";
+            if(language == "mk"){
+                dir_to_working_desk = "mk_sounds/to_working_desk/";
                 playlist = ["domasno_M"];
-            }else{
-                dir_mk_to_working_desk = "sq_sounds/to_working_desk/";
+            }else if(language == "sq"){
+                dir_to_working_desk = "sq_sounds/to_working_desk/";
                 playlist = ["domasno_alb_M"];
             }
 		};
         
         audio = new Audio();
-        audio.src = dir_mk_to_working_desk+playlist[0]+ext;
+        audio.src = dir_to_working_desk+playlist[0]+ext;
         audio.play();
 
 	};

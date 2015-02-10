@@ -90,7 +90,9 @@
 
     function init() {
    
-        var audio, dir_mk_geometry_colors, ext, playlist;
+        var audio, dir_geometry_colors, ext, playlist, language;
+        
+        storage = $.localStorage;
 
         ext = ".ogg";
         playlist = [];
@@ -100,30 +102,33 @@
 
         console.log(storage.get('girly'));
         console.log(storage.get('girly'));
+        
+        language = storage.get('language');
+        console.log(storage.get('language'));
 
         if((storage.get("girly")) == true){
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/geometry_colors.html"){
-                dir_mk_geometry_colors = "mk_sounds/geometry_colors/";
+            
+            if(language == "mk"){
+                dir_geometry_colors = "mk_sounds/geometry_colors/";
                 playlist = ["boja_rasporedi_F"];
-            }else{
-                dir_mk_geometry_colors = "sq_sounds/geometry_colors/";
+            }else if(language == "sq"){
+                dir_geometry_colors = "sq_sounds/geometry_colors/";
                 playlist = ["boja_rasporedi_alb_F"];
             }
         }
         if((storage.get("boyish")) == true){
-            var my_path = $(location).attr('pathname');
-            if(my_path == "/geometry_colors.html"){
-                dir_mk_geometry_colors = "mk_sounds/geometry_colors/";
+            
+            if(language == "mk"){
+                dir_geometry_colors = "mk_sounds/geometry_colors/";
                 playlist = ["boja_rasporedi_M"];
-            }else{
-                dir_mk_geometry_colors = "sq_sounds/geometry_colors/";
+            }else if(language == "sq"){
+                dir_geometry_colors = "sq_sounds/geometry_colors/";
                 playlist = ["boja_rasporedi_alb_M"];
             }
         }
 
         audio = new Audio();
-        audio.src = dir_mk_geometry_colors+playlist[0]+ext;
+        audio.src = dir_geometry_colors+playlist[0]+ext;
         audio.play();
      
 
