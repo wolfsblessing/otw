@@ -1327,12 +1327,14 @@ position: absolute;
 	background-image:url("images/star.png");
 	width: 58px;
 	height: 56px;
-	float: right;
+	float: left;
+    margin-left: 90px;
+    margin-top: -20px;;
 }
 
 .back{
 	position: absolute;
-	top: 70px;
+	top: 50px;
 	left: 180px;
 	width: 120px;
 	height: 30px;
@@ -1370,7 +1372,7 @@ position: absolute;
 
 .reset {
 	position: absolute;
-	top: 150px;
+	top: 130px;
 	left: 180px;
 	width: 120px;
 	height: 30px;

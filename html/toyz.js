@@ -405,8 +405,12 @@
                 $("#animal_BG").fadeIn(3000);
                 $("#ball_BG").fadeIn(3000);
                 $("#car_BG").fadeIn(3000);
-                $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
-                $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
+                $("#text_blob").hide();
+                $("#help_text").hide();
+                $("#help_text_sq").hide();
+                
+//                $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
+//                $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
 
                 for (var i = 1; i <= 4; i++) {
                     $("#da_airplan" + i).fadeIn(3000);
@@ -661,6 +665,7 @@
                 $("#help_text").hide();
                 $("#help_text_sq").hide();
 
+                $("#text_blob").fadeIn();
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);
             };

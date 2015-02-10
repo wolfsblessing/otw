@@ -386,8 +386,11 @@
                     $("#shoesNumGuess").fadeIn(3000);
                     $("#soxNumGuess").fadeIn(3000);
                     $("#hatNumGuess").fadeIn(3000);
-                    $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
-                    $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
+                    $("#help_text").hide();
+                    $("#help_text_sq").hide();
+                    $("#text_blob").hide();
+//                    $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
+//                    $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
                 };
 
                 for (var i = 1; i <= 4; i++) {
@@ -660,6 +663,7 @@
                     $("#boyish").fadeIn(2000);
                 };
 
+                $("#text_blob").fadeIn();
                 $("#popUp").fadeIn(3000);
                 $("#score").fadeIn(3000);
             };

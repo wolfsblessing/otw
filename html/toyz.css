@@ -1517,9 +1517,10 @@ body {
 
 #stars{
 	float: right;
+    width: 250px;
     font-size: 0.9em;
     margin-top: 35px;
-    margin-right: 55px;
+    margin-right: 15px;
 }
 
 #starMe{
@@ -1534,7 +1535,7 @@ body {
 
 .back{
 	position: absolute;
-	top: 70px;
+	top: 50px;
 	left: 180px;
 	width: 120px;
 	height: 30px;
@@ -1572,7 +1573,7 @@ body {
 
 .reset {
 	position: absolute;
-	top: 150px;
+	top: 130px;
 	left: 180px;
 	width: 120px;
 	height: 30px;

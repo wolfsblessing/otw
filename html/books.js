@@ -347,9 +347,13 @@
                     //            $("#howMany").fadeIn(3000);
                     $("#numbers" + i).fadeIn(3000);
                 };
+                
+                $("#help_text").hide();
+                $("#help_text_sq").hide();
+                $("#text_blob").hide();
 
-                $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
-                $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
+//                $("#help_text").text("Ти благодарам за помошта. Ќе ми помогнеш ли сега да ги изброиме?");
+//                $("#help_text_sq").text("Faleminderit për ndihmën. A do të më ndihmosh të i numërojmë?");
 
                 $("#b_books_guess").fadeIn(3000);
                 $("#g_books_guess").fadeIn(3000);
@@ -606,6 +610,7 @@
 
                 $("#text_blob").fadeIn(2000);
 
+                $("#text_blob").fadeIn();
                 $("#popUp").fadeIn(2000);
                 $("#score").fadeIn(2000);
             };

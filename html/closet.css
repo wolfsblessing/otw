@@ -1529,12 +1529,14 @@ body {
 	background-image:url("images/star.png");
 	width: 58px;
 	height: 56px;
-	float: right;
+	float: left;
+    margin-left: 100px;
+    margin-top: -20px;
 }
 
 .back{
 	position: absolute;
-	top: 70px;
+	top: 40px;
 	left: 180px;
 	width: 120px;
 	height: 30px;
@@ -1572,7 +1574,7 @@ body {
 
 .reset {
 	position: absolute;
-	top: 150px;
+	top: 130px;
 	left: 180px;
 	width: 120px;
 	height: 30px;
