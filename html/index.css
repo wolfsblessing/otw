@@ -34,6 +34,21 @@ body {
 h1 {
 	text-align: center;
 }
+#usaid {
+    background: url(images/usaid.jpg) no-repeat;
+    width: 200px;
+    height: 66px;
+    float: left;
+    margin-left: 40px;
+}
+
+#otw {
+    background: url(images/otw.jpg) no-repeat;
+    width: 200px;
+    height: 77px;
+    float: right;
+    margin-right: 40px;
+}
 
 #front_page {
 	margin: 0 auto;

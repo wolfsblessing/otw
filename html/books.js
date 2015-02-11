@@ -201,7 +201,19 @@
         //creating a for loop so i decide to show random elements that are hiden.
         //Making them draggable and droppable at the same time while the loop is checking
         //need to ask why i had to use '-1' at the array so the droppable objects are shown in order
+        
+        var top_position = [
+            [460, 30],[460, 170], [460, 310], [460, 450], 
+            [540, 30],[540, 170], [540, 310], [540, 450], 
+            [620, 30],[620, 170], [620, 310], [620, 450], 
+            [700, 30],[700, 170], [700, 310], [700, 450]
+        ]; 
 
+        top_position.sort(function() {
+         return Math.random() - .3
+        });
+
+        
         //--------------------------------------------------------------------------------
         //Blue Books
         myBlueBookPosition = 0;
@@ -211,11 +223,14 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "450px",
-                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });
+            
+            top_position.splice(i-1, 1);
+            
             $("#b_books_transparent").droppable({
                 accept: "#b_books > li",
                 drop: function(ev, ui) {
@@ -245,11 +260,14 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "390px",
-                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });
+            
+            top_position.splice(i-1, 1);
+            
             $("#g_books_transparent").droppable({
                 accept: "#g_books > li",
                 drop: function(ev, ui) {
@@ -279,11 +297,14 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "330px",
-                left: dacopy[i - 1] + "px"
+                top: top_position[i-1][0] + "px",
+                left: top_position[i-1][1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });
+            
+            top_position.splice(i-1, 1);
+            
             $("#r_books_transparent").droppable({
                 accept: "#r_books > li",
                 drop: function(ev, ui) {
@@ -313,8 +334,8 @@
                 cursor: "move",
                 revert: true
             }).animate({
-                top: "280px",
-                left: dacopy[i - 1] + "px"
+               top: top_position[i-1][0] + "px",
+               left: top_position[i-1][1] + "px"
             }, 2000).css({
                 "position": "absolute"
             });

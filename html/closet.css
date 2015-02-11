@@ -96,8 +96,8 @@ body {
 	position: absolute;
 	width: 480px;
 	height: 110px;
-	top: 235px;
-	left: 320px;
+	top: 0px;
+	left: 240px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -395,8 +395,8 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 110px;
-	top: 330px;
-	left: 320px;
+	top: 0px;
+	left: 240px;
 	margin: 0px;
 	padding: 0px;
 
@@ -642,8 +642,8 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 88px;
-	top: 140px;
-	left: 320px;
+	top: 0px;
+	left: 240px;
 	margin: 0px;
 	padding: 0px;
 }
@@ -899,8 +899,8 @@ body {
 	position: absolute;
 	width: 430px;
 	height: 89px;
-	top: 43px;
-	left: 320px;
+	top: 0px;
+	left: 240px;
 	margin: 0px;
 	padding: 0px;
 }
