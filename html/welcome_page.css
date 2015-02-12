@@ -36,39 +36,52 @@ h1 {
 }
 
 #usaid {
-    background: url(images/usaid.jpg) no-repeat;
-    width: 200px;
-    height: 66px;
-    margin-right: 40px;
-    margin-top: 100px;
-    float: left;
+    background: url(images/usaid_e_read.jpg) no-repeat;
+    -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+    width: 352px;
+    height: 208px;
+    position: absolute;
+    top: 80px;
+    left: -40px;
 }
 
 #otw {
     background: url(images/otw.jpg) no-repeat;
     width: 200px;
     height: 77px;
-    float: right;
-    margin-right: 40px;
-    margin-top: 95px;
+    position: absolute;
+    top: 140px;
+    left: 300px;
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
 }
 
 #usaid_sq{
-    background: url(images/usaid.jpg) no-repeat;
-    width: 200px;
-    height: 66px;
-    float: left;
-    margin-top: 200px;
-    margin-left: 140px;
+     background: url(images/usaid_e_read.jpg) no-repeat;
+    -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+    width: 352px;
+    height: 208px;
+    position: absolute;
+    top: 170px;
+    left: 60px;   
 }
 
 #otw_sq {
     background: url(images/otw.jpg) no-repeat;
     width: 200px;
     height: 77px;
-    float: left;
-    margin-top: 200px;
-    margin-left: 50px;
+    position: absolute;
+    top: 240px;
+    left: 400px;
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
+   
 }
 
 #second_slide {

@@ -35,11 +35,15 @@ h1 {
 	text-align: center;
 }
 #usaid {
-    background: url(images/usaid.jpg) no-repeat;
-    width: 200px;
-    height: 66px;
-    float: left;
-    margin-left: 40px;
+    background: url(images/usaid_e_read.jpg) no-repeat;
+    -ms-transform: scale(0.5,0.5); /* IE 9 */
+    -webkit-transform: scale(0.5,0.5); /* Chrome, Safari, Opera */
+    transform: scale(0.5,0.5); /* Standard syntax */
+    width: 352px;
+    height: 208px;
+    position: absolute;
+    top: 80px;
+    left: -40px;
 }
 
 #otw {
@@ -48,6 +52,11 @@ h1 {
     height: 77px;
     float: right;
     margin-right: 40px;
+    -ms-transform: scale(0.8,0.8); /* IE 9 */
+    -webkit-transform: scale(0.8,0.8); /* Chrome, Safari, Opera */
+    transform: scale(0.8,0.8); /* Standard syntax */
+    
+    
 }
 
 #front_page {
